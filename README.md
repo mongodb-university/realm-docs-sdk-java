@@ -19,3 +19,5 @@ node path/to/yokedox/cli/build/main run \
 - `javadoc`: tells Yokedox which generator to use - or in this case, tells Yokedox which generator was used to generate the result at `debugGeneratorResultPath`
 
 >Remember to rebuild Yokedox whenever you made a change to it.
+
+THIS IS A TEST PLS IGNORE
