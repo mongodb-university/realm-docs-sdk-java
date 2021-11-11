@@ -33,8 +33,7 @@ Class encapsulating information needed for handling a Client Reset event.
 
 
    
-   - :ref:`SyncSession.ErrorHandler.onError(SyncSession, AppException) for more information
-       about when and why Client Reset occurs and how to deal with it. <io_realm_mongodb_sync_SyncSession_ErrorHandler_onError_SyncSession__AppException_>` 
+   - :ref:`SyncSession.ErrorHandler.onError(SyncSession, AppException) for more information about when and why Client Reset occurs and how to deal with it. <io_realm_mongodb_sync_SyncSession_ErrorHandler_onError_SyncSession__AppException_>` 
       
       
       
