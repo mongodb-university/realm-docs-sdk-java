@@ -20,7 +20,7 @@ node path/to/yokedox/cli/build/main run \
 - `-- `: stop accepting Yokedox args and pass the subsequent arguments directly to javadoc.
 - `-overview ./javadoc/overview.html`: Javadoc option to specify the overview page, which gets added to the main index file.
 
->Remember to rebuild Yokedox whenever you make a change to it.
+> 💡 Remember to rebuild Yokedox whenever you make a change to it.
 
 ## Run Doclet on Realm
 
