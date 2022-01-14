@@ -72,6 +72,8 @@ Method Summary
        | 
        
        
+       Creates a snapshot from this :ref:`OrderedRealmCollection <io_realm_OrderedRealmCollection>` .
+       
        
        
        
@@ -147,14 +149,10 @@ Method Summary
        
        
        
-       
-       
    
    * - public **boolean**
      - | :ref:`load <io_realm_OrderedRealmCollectionSnapshot_load>` ()
        | 
-       
-       
        
        
        
@@ -286,11 +284,18 @@ createSnapshot
        
        
    
-   * - 
+   * - Creates a snapshot from this :ref:`OrderedRealmCollection <io_realm_OrderedRealmCollection>` .
        
        
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       the snapshot of this collection.
        
        
        
@@ -690,8 +695,6 @@ isLoaded
        
        
        
-       
-       
    
    
 
@@ -723,8 +726,6 @@ load
        
    
    * - 
-       
-       
        
        
        
@@ -934,6 +935,13 @@ sort
        
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -1171,6 +1179,13 @@ sort
        
        
        
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
+       
+       
+       
+       
        
        
        **Throws**
@@ -1258,6 +1273,13 @@ sort
        
        
        
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
+       
+       
+       
+       
        
        
        **Throws**
@@ -1304,6 +1326,13 @@ sort
        
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        

@@ -196,8 +196,6 @@ Method Summary
        
        
        
-       
-       
    
    * - public **void**
      - | :ref:`clear <io_realm_RealmList_clear>` ()
@@ -227,7 +225,7 @@ Method Summary
        | 
        
        
-       
+       Creates a snapshot from this :ref:`OrderedRealmCollection <io_realm_OrderedRealmCollection>` .
        
        
        
@@ -243,17 +241,13 @@ Method Summary
        
        
        
-       
-       
    
    * - public **boolean**
      - | :ref:`deleteFirstFromRealm <io_realm_RealmList_deleteFirstFromRealm>` ()
        | 
        
        
-       
-       
-       
+       Deletes the first object from the Realm.
        
        
        
@@ -264,9 +258,7 @@ Method Summary
        | )
        
        
-       
-       
-       
+       Deletes the object at the given index from the Realm.
        
        
        
@@ -276,9 +268,7 @@ Method Summary
        | 
        
        
-       
-       
-       
+       Deletes the last object from the Realm.
        
        
        
@@ -289,9 +279,7 @@ Method Summary
        | )
        
        
-       
-       
-       
+       Gets the first object from the collection.
        
        
        
@@ -301,9 +289,7 @@ Method Summary
        | 
        
        
-       
-       
-       
+       Gets the first object from the collection.
        
        
        
@@ -311,8 +297,6 @@ Method Summary
    * - public :ref:`RealmList <io_realm_RealmList>` 
      - | :ref:`freeze <io_realm_RealmList_freeze>` ()
        | 
-       
-       
        
        
        
@@ -352,14 +336,10 @@ Method Summary
        
        
        
-       
-       
    
    * - public **boolean**
      - | :ref:`isLoaded <io_realm_RealmList_isLoaded>` ()
        | 
-       
-       
        
        
        
@@ -376,14 +356,10 @@ Method Summary
        
        
        
-       
-       
    
    * - public **boolean**
      - | :ref:`isValid <io_realm_RealmList_isValid>` ()
        | 
-       
-       
        
        
        
@@ -407,9 +383,7 @@ Method Summary
        | )
        
        
-       
-       
-       
+       Gets the last object from the collection.
        
        
        
@@ -419,9 +393,7 @@ Method Summary
        | 
        
        
-       
-       
-       
+       Gets the last object from the collection.
        
        
        
@@ -456,15 +428,11 @@ Method Summary
        
        
        
-       
-       
    
    * - public `Number <https://docs.oracle.com/javase/7/docs/api/java/lang/Number.html>`__ 
      - | :ref:`max <io_realm_RealmList_max>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
        | )
-       
-       
        
        
        
@@ -482,8 +450,6 @@ Method Summary
        
        
        
-       
-       
    
    * - public `Number <https://docs.oracle.com/javase/7/docs/api/java/lang/Number.html>`__ 
      - | :ref:`min <io_realm_RealmList_min>` (
@@ -495,15 +461,11 @@ Method Summary
        
        
        
-       
-       
    
    * - public `Date <https://docs.oracle.com/javase/7/docs/api/java/util/Date.html>`__ 
      - | :ref:`minDate <io_realm_RealmList_minDate>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
        | )
-       
-       
        
        
        
@@ -623,9 +585,7 @@ Method Summary
        | )
        
        
-       
-       
-       
+       Sorts a collection based on the provided fields and sort orders.
        
        
        
@@ -639,9 +599,7 @@ Method Summary
        | )
        
        
-       
-       
-       
+       Sorts a collection based on the provided fields and sort orders.
        
        
        
@@ -653,9 +611,7 @@ Method Summary
        | )
        
        
-       
-       
-       
+       Sorts a collection based on the provided field and sort order.
        
        
        
@@ -666,9 +622,7 @@ Method Summary
        | )
        
        
-       
-       
-       
+       Sorts a collection based on the provided field in ascending order.
        
        
        
@@ -677,8 +631,6 @@ Method Summary
      - | :ref:`sum <io_realm_RealmList_sum>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
        | )
-       
-       
        
        
        
@@ -1467,8 +1419,6 @@ average
        
        
        
-       
-       
    
    
 
@@ -1655,13 +1605,18 @@ createSnapshot
        
        
    
-   * - 
+   * - Creates a snapshot from this :ref:`OrderedRealmCollection <io_realm_OrderedRealmCollection>` .
        
        
        
        
        
        
+       
+       
+       **Returns**
+       
+       the snapshot of this collection.
        
        
        
@@ -1711,8 +1666,6 @@ deleteAllFromRealm
        
        
        
-       
-       
    
    
 
@@ -1743,11 +1696,16 @@ deleteFirstFromRealm
        
        
    
-   * - 
+   * - Deletes the first object from the Realm. This also removes it from this collection.
        
        
        
        
+       
+       
+       **Returns**
+       
+       ``true``  if an object was deleted, ``false``  otherwise.
        
        
        
@@ -1794,9 +1752,7 @@ deleteFromRealm
        
        
    
-   * - 
-       
-       
+   * - Deletes the object at the given index from the Realm. This also removes it from the collection.
        
        
        
@@ -1838,11 +1794,16 @@ deleteLastFromRealm
        
        
    
-   * - 
+   * - Deletes the last object from the Realm. This also removes it from this collection.
        
        
        
        
+       
+       
+       **Returns**
+       
+       ``true``  if an object was deleted, ``false``  otherwise.
        
        
        
@@ -1889,13 +1850,16 @@ first
        
        
    
-   * - 
+   * - Gets the first object from the collection. If the collection is empty, the provided default will be used instead.
        
        
        
        
        
        
+       **Returns**
+       
+       the first object or the provided default.
        
        
        
@@ -1914,13 +1878,16 @@ first
        
        
    
-   * - 
+   * - Gets the first object from the collection.
        
        
        
        
        
        
+       **Returns**
+       
+       the first object.
        
        
        
@@ -1959,8 +1926,6 @@ freeze
        
    
    * - 
-       
-       
        
        
        
@@ -2159,8 +2124,6 @@ isFrozen
        
        
        
-       
-       
    
    
 
@@ -2192,8 +2155,6 @@ isLoaded
        
    
    * - 
-       
-       
        
        
        
@@ -2247,8 +2208,6 @@ isManaged
        
        
        
-       
-       
    
    
 
@@ -2280,8 +2239,6 @@ isValid
        
    
    * - 
-       
-       
        
        
        
@@ -2376,13 +2333,16 @@ last
        
        
    
-   * - 
+   * - Gets the last object from the collection. If the collection is empty, the provided default will be used instead.
        
        
        
        
        
        
+       **Returns**
+       
+       the last object or the provided default.
        
        
        
@@ -2401,13 +2361,16 @@ last
        
        
    
-   * - 
+   * - Gets the last object from the collection.
        
        
        
        
        
        
+       **Returns**
+       
+       the last object.
        
        
        
@@ -2537,8 +2500,6 @@ load
        
        
        
-       
-       
    
    
 
@@ -2583,8 +2544,6 @@ max
        
    
    * - 
-       
-       
        
        
        
@@ -2651,8 +2610,6 @@ maxDate
        
        
        
-       
-       
    
    
 
@@ -2708,8 +2665,6 @@ min
        
        
        
-       
-       
    
    
 
@@ -2754,8 +2709,6 @@ minDate
        
    
    * - 
-       
-       
        
        
        
@@ -3639,11 +3592,16 @@ sort
        
        
    
-   * - 
+   * - Sorts a collection based on the provided fields and sort orders.
        
        
        
        
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -3860,11 +3818,16 @@ sort
        
        
    
-   * - 
+   * - Sorts a collection based on the provided fields and sort orders.
        
        
        
        
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -3935,11 +3898,16 @@ sort
        
        
    
-   * - 
+   * - Sorts a collection based on the provided field and sort order.
        
        
        
        
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -3973,11 +3941,16 @@ sort
        
        
    
-   * - 
+   * - Sorts a collection based on the provided field in ascending order.
        
        
        
        
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -4031,8 +4004,6 @@ sum
        
    
    * - 
-       
-       
        
        
        

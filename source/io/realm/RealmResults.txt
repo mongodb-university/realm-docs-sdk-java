@@ -144,14 +144,10 @@ Method Summary
        
        
        
-       
-       
    
    * - public **boolean**
      - | :ref:`isFrozen <io_realm_RealmResults_isFrozen>` ()
        | 
-       
-       
        
        
        
@@ -453,9 +449,7 @@ Method Summary
        | )
        
        
-       
-       
-       
+       Sorts a collection based on the provided fields and sort orders.
        
        
        
@@ -463,8 +457,6 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`where <io_realm_RealmResults_where>` ()
        | 
-       
-       
        
        
        
@@ -1003,8 +995,6 @@ freeze
        
        
        
-       
-       
    
    
 
@@ -1036,8 +1026,6 @@ isFrozen
        
    
    * - 
-       
-       
        
        
        
@@ -3309,11 +3297,16 @@ sort
        
        
    
-   * - 
+   * - Sorts a collection based on the provided fields and sort orders.
        
        
        
        
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -3358,8 +3351,6 @@ where
        
    
    * - 
-       
-       
        
        
        
