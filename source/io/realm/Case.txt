@@ -87,7 +87,9 @@ Method Summary
      - Method and Description
    
    * - public **boolean**
-     - |   :ref:`getValue <io_realm_Case_getValue__>`  ()
+     - | :ref:`getValue <io_realm_Case_getValue>` ()
+       | 
+       
        
        Returns the value for this setting that is used by the underlying query engine.
        
@@ -95,9 +97,10 @@ Method Summary
        
    
    * - public static :ref:`Case <io_realm_Case>` 
-     - |   :ref:`valueOf <io_realm_Case_valueOf_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+     - | :ref:`valueOf <io_realm_Case_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
        
        
        
@@ -105,7 +108,9 @@ Method Summary
        
    
    * - public static :ref:`Case <io_realm_Case>` 
-     - |   :ref:`values <io_realm_Case_values__>`  ()
+     - | :ref:`values <io_realm_Case_values>` ()
+       | 
+       
        
        
        
@@ -184,13 +189,22 @@ getValue
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** getValue ()
+   * - | public **boolean** :ref:`getValue <io_realm_Case_getValue>` ()
+       | 
+       
+       
+       
    
    * - Returns the value for this setting that is used by the underlying query engine.
        
        
        
        
+       
+       
+       **Returns**
+       
+       The value used by the underlying query engine to indicate this value.
        
        
        
@@ -234,9 +248,12 @@ valueOf
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`Case <io_realm_Case>`  valueOf (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+   * - | public static :ref:`Case <io_realm_Case>`  :ref:`valueOf <io_realm_Case_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
+       
+       
    
    * - 
        
@@ -274,7 +291,11 @@ values
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`Case <io_realm_Case>`  values ()
+   * - | public static :ref:`Case <io_realm_Case>`  :ref:`values <io_realm_Case_values>` ()
+       | 
+       
+       
+       
    
    * - 
        

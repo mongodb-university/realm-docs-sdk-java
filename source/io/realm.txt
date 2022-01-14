@@ -11,7 +11,6 @@
 
 
    Case <io/realm/Case>
-   CollectionUtils <io/realm/CollectionUtils>
    CompactOnLaunchCallback <io/realm/CompactOnLaunchCallback>
    DefaultCompactOnLaunchCallback <io/realm/DefaultCompactOnLaunchCallback>
    DynamicRealm <io/realm/DynamicRealm>
@@ -24,8 +23,6 @@
    FieldAttribute <io/realm/FieldAttribute>
    FrozenPendingRow <io/realm/FrozenPendingRow>
    ImportFlag <io/realm/ImportFlag>
-   MapChangeListener <io/realm/MapChangeListener>
-   MapChangeSet <io/realm/MapChangeSet>
    MutableRealmInteger <io/realm/MutableRealmInteger>
    ObjectChangeSet <io/realm/ObjectChangeSet>
    OrderedCollectionChangeSet <io/realm/OrderedCollectionChangeSet>
@@ -41,19 +38,13 @@
    Realm.Transaction.Callback <io/realm/Realm/Transaction/Callback>
    Realm.Transaction.OnError <io/realm/Realm/Transaction/OnError>
    Realm.Transaction.OnSuccess <io/realm/Realm/Transaction/OnSuccess>
-   RealmAny <io/realm/RealmAny>
-   RealmAny.Type <io/realm/RealmAny/Type>
-   RealmAnyNativeFunctionsImpl <io/realm/RealmAnyNativeFunctionsImpl>
-   RealmAnyOperator <io/realm/RealmAnyOperator>
    RealmAsyncTask <io/realm/RealmAsyncTask>
    RealmChangeListener <io/realm/RealmChangeListener>
    RealmCollection <io/realm/RealmCollection>
    RealmConfiguration <io/realm/RealmConfiguration>
    RealmConfiguration.Builder <io/realm/RealmConfiguration/Builder>
-   RealmDictionary <io/realm/RealmDictionary>
    RealmFieldType <io/realm/RealmFieldType>
    RealmList <io/realm/RealmList>
-   RealmMap <io/realm/RealmMap>
    RealmMigration <io/realm/RealmMigration>
    RealmModel <io/realm/RealmModel>
    RealmObject <io/realm/RealmObject>
@@ -63,9 +54,6 @@
    RealmQuery <io/realm/RealmQuery>
    RealmResults <io/realm/RealmResults>
    RealmSchema <io/realm/RealmSchema>
-   RealmSet <io/realm/RealmSet>
-   SetChangeListener <io/realm/SetChangeListener>
-   SetChangeSet <io/realm/SetChangeSet>
    Sort <io/realm/Sort>
    
 
@@ -73,7 +61,6 @@
 | 
 
 - :ref:`io.realm.Case <io_realm_Case>` 
-- :ref:`io.realm.CollectionUtils <io_realm_CollectionUtils>` 
 - :ref:`io.realm.CompactOnLaunchCallback <io_realm_CompactOnLaunchCallback>` 
 - :ref:`io.realm.DefaultCompactOnLaunchCallback <io_realm_DefaultCompactOnLaunchCallback>` 
 - :ref:`io.realm.DynamicRealm <io_realm_DynamicRealm>` 
@@ -86,8 +73,6 @@
 - :ref:`io.realm.FieldAttribute <io_realm_FieldAttribute>` 
 - :ref:`io.realm.FrozenPendingRow <io_realm_FrozenPendingRow>` 
 - :ref:`io.realm.ImportFlag <io_realm_ImportFlag>` 
-- :ref:`io.realm.MapChangeListener <io_realm_MapChangeListener>` 
-- :ref:`io.realm.MapChangeSet <io_realm_MapChangeSet>` 
 - :ref:`io.realm.MutableRealmInteger <io_realm_MutableRealmInteger>` 
 - :ref:`io.realm.ObjectChangeSet <io_realm_ObjectChangeSet>` 
 - :ref:`io.realm.OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>` 
@@ -103,19 +88,13 @@
 - :ref:`io.realm.Realm.Transaction.Callback <io_realm_Realm_Transaction_Callback>` 
 - :ref:`io.realm.Realm.Transaction.OnError <io_realm_Realm_Transaction_OnError>` 
 - :ref:`io.realm.Realm.Transaction.OnSuccess <io_realm_Realm_Transaction_OnSuccess>` 
-- :ref:`io.realm.RealmAny <io_realm_RealmAny>` 
-- :ref:`io.realm.RealmAny.Type <io_realm_RealmAny_Type>` 
-- :ref:`io.realm.RealmAnyNativeFunctionsImpl <io_realm_RealmAnyNativeFunctionsImpl>` 
-- :ref:`io.realm.RealmAnyOperator <io_realm_RealmAnyOperator>` 
 - :ref:`io.realm.RealmAsyncTask <io_realm_RealmAsyncTask>` 
 - :ref:`io.realm.RealmChangeListener <io_realm_RealmChangeListener>` 
 - :ref:`io.realm.RealmCollection <io_realm_RealmCollection>` 
 - :ref:`io.realm.RealmConfiguration <io_realm_RealmConfiguration>` 
 - :ref:`io.realm.RealmConfiguration.Builder <io_realm_RealmConfiguration_Builder>` 
-- :ref:`io.realm.RealmDictionary <io_realm_RealmDictionary>` 
 - :ref:`io.realm.RealmFieldType <io_realm_RealmFieldType>` 
 - :ref:`io.realm.RealmList <io_realm_RealmList>` 
-- :ref:`io.realm.RealmMap <io_realm_RealmMap>` 
 - :ref:`io.realm.RealmMigration <io_realm_RealmMigration>` 
 - :ref:`io.realm.RealmModel <io_realm_RealmModel>` 
 - :ref:`io.realm.RealmObject <io_realm_RealmObject>` 
@@ -125,9 +104,6 @@
 - :ref:`io.realm.RealmQuery <io_realm_RealmQuery>` 
 - :ref:`io.realm.RealmResults <io_realm_RealmResults>` 
 - :ref:`io.realm.RealmSchema <io_realm_RealmSchema>` 
-- :ref:`io.realm.RealmSet <io_realm_RealmSet>` 
-- :ref:`io.realm.SetChangeListener <io_realm_SetChangeListener>` 
-- :ref:`io.realm.SetChangeSet <io_realm_SetChangeSet>` 
 - :ref:`io.realm.Sort <io_realm_Sort>` 
 
 

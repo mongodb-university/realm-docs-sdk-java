@@ -401,9 +401,10 @@ Method Summary
      - Method and Description
    
    * - public static :ref:`RealmFieldType <io_realm_RealmFieldType>` 
-     - |   :ref:`fromNativeValue <io_realm_RealmFieldType_fromNativeValue_int_>`  (
-       |      **int** value
-       |   )
+     - | :ref:`fromNativeValue <io_realm_RealmFieldType_fromNativeValue>` (
+       |  **int** value
+       | )
+       
        
        Converts the underlying value used by the storage engine to the proper Realm type.
        
@@ -411,7 +412,9 @@ Method Summary
        
    
    * - public **int**
-     - |   :ref:`getNativeValue <io_realm_RealmFieldType_getNativeValue__>`  ()
+     - | :ref:`getNativeValue <io_realm_RealmFieldType_getNativeValue>` ()
+       | 
+       
        
        Returns the native value representing this type.
        
@@ -419,9 +422,10 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`isValid <io_realm_RealmFieldType_isValid_Object_>`  (
-       |      `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  obj
-       |   )
+     - | :ref:`isValid <io_realm_RealmFieldType_isValid>` (
+       |  `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  obj
+       | )
+       
        
        Checks if the given Java object can be converted to the underlying Realm type.
        
@@ -429,9 +433,10 @@ Method Summary
        
    
    * - public static :ref:`RealmFieldType <io_realm_RealmFieldType>` 
-     - |   :ref:`valueOf <io_realm_RealmFieldType_valueOf_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+     - | :ref:`valueOf <io_realm_RealmFieldType_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
        
        
        
@@ -439,7 +444,9 @@ Method Summary
        
    
    * - public static :ref:`RealmFieldType <io_realm_RealmFieldType>` 
-     - |   :ref:`values <io_realm_RealmFieldType_values__>`  ()
+     - | :ref:`values <io_realm_RealmFieldType_values>` ()
+       | 
+       
        
        
        
@@ -1244,9 +1251,12 @@ fromNativeValue
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`RealmFieldType <io_realm_RealmFieldType>`  fromNativeValue (
-       |      **int** value
-       |   )
+   * - | public static :ref:`RealmFieldType <io_realm_RealmFieldType>`  :ref:`fromNativeValue <io_realm_RealmFieldType_fromNativeValue>` (
+       |  **int** value
+       | )
+       
+       
+       
    
    * - Converts the underlying value used by the storage engine to the proper Realm type.
        
@@ -1261,6 +1271,11 @@ fromNativeValue
           
        
        
+       
+       
+       **Returns**
+       
+       the corresponding Realm type.
        
        
        
@@ -1300,13 +1315,22 @@ getNativeValue
 .. list-table::
    :header-rows: 1
    
-   * - |   public **int** getNativeValue ()
+   * - | public **int** :ref:`getNativeValue <io_realm_RealmFieldType_getNativeValue>` ()
+       | 
+       
+       
+       
    
    * - Returns the native value representing this type.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the value used by the underlying storage engine to represent this type.
        
        
        
@@ -1350,9 +1374,12 @@ isValid
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** isValid (
-       |      `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  obj
-       |   )
+   * - | public **boolean** :ref:`isValid <io_realm_RealmFieldType_isValid>` (
+       |  `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  obj
+       | )
+       
+       
+       
    
    * - Checks if the given Java object can be converted to the underlying Realm type.
        
@@ -1365,6 +1392,13 @@ isValid
           
           
           
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if object can be converted to the Realm type, ``false``  otherwise.
        
        
        
@@ -1410,9 +1444,12 @@ valueOf
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`RealmFieldType <io_realm_RealmFieldType>`  valueOf (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+   * - | public static :ref:`RealmFieldType <io_realm_RealmFieldType>`  :ref:`valueOf <io_realm_RealmFieldType_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
+       
+       
    
    * - 
        
@@ -1450,7 +1487,11 @@ values
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`RealmFieldType <io_realm_RealmFieldType>`  values ()
+   * - | public static :ref:`RealmFieldType <io_realm_RealmFieldType>`  :ref:`values <io_realm_RealmFieldType_values>` ()
+       | 
+       
+       
+       
    
    * - 
        

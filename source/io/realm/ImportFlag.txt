@@ -68,9 +68,10 @@ Method Summary
      - Method and Description
    
    * - public static :ref:`ImportFlag <io_realm_ImportFlag>` 
-     - |   :ref:`valueOf <io_realm_ImportFlag_valueOf_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+     - | :ref:`valueOf <io_realm_ImportFlag_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
        
        
        
@@ -78,7 +79,9 @@ Method Summary
        
    
    * - public static :ref:`ImportFlag <io_realm_ImportFlag>` 
-     - |   :ref:`values <io_realm_ImportFlag_values__>`  ()
+     - | :ref:`values <io_realm_ImportFlag_values>` ()
+       | 
+       
        
        
        
@@ -178,9 +181,12 @@ valueOf
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`ImportFlag <io_realm_ImportFlag>`  valueOf (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+   * - | public static :ref:`ImportFlag <io_realm_ImportFlag>`  :ref:`valueOf <io_realm_ImportFlag_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
+       
+       
    
    * - 
        
@@ -218,7 +224,11 @@ values
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`ImportFlag <io_realm_ImportFlag>`  values ()
+   * - | public static :ref:`ImportFlag <io_realm_ImportFlag>`  :ref:`values <io_realm_ImportFlag_values>` ()
+       | 
+       
+       
+       
    
    * - 
        

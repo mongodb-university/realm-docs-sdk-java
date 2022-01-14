@@ -33,9 +33,10 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`InsertManyResult <io_realm_mongodb_mongo_options_InsertManyResult>`  (
-       |      `java.util.Map\<java.lang.Long, BsonValue> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  insertedIds
-       |   )
+   * - | :ref:`InsertManyResult <io_realm_mongodb_mongo_options_InsertManyResult>` (
+       |  `java.util.Map\<java.lang.Long, BsonValue> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  insertedIds
+       | )
+       
        
        Constructs a result.
        
@@ -55,7 +56,9 @@ Method Summary
      - Method and Description
    
    * - public `Map <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__ 
-     - |   :ref:`getInsertedIds <io_realm_mongodb_mongo_options_InsertManyResult_getInsertedIds__>`  ()
+     - | :ref:`getInsertedIds <io_realm_mongodb_mongo_options_InsertManyResult_getInsertedIds>` ()
+       | 
+       
        
        Returns the _ids of the inserted documents arranged by the index of the document from the operation and its corresponding id.
        
@@ -89,9 +92,12 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  InsertManyResult (
-       |      `java.util.Map\<java.lang.Long, BsonValue> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  insertedIds
-       |   )
+   * - | public :ref:`InsertManyResult <io_realm_mongodb_mongo_options_InsertManyResult>` (
+       |  `java.util.Map\<java.lang.Long, BsonValue> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  insertedIds
+       | )
+       
+       
+       
    
    * - Constructs a result.
        
@@ -138,13 +144,22 @@ getInsertedIds
 .. list-table::
    :header-rows: 1
    
-   * - |   public `Map <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  getInsertedIds ()
+   * - | public `Map <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  :ref:`getInsertedIds <io_realm_mongodb_mongo_options_InsertManyResult_getInsertedIds>` ()
+       | 
+       
+       
+       
    
    * - Returns the _ids of the inserted documents arranged by the index of the document from the operation and its corresponding id.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the _ids of the inserted documents arranged by the index of the document from the operation and its corresponding id.
        
        
        

@@ -60,10 +60,11 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`onChange <io_realm_RealmObjectChangeListener_onChange_T__ObjectChangeSet_>`  (
-       |      **T (?)** t, 
-       |      :ref:`ObjectChangeSet <io_realm_ObjectChangeSet>`  changeSet
-       |   )
+     - | :ref:`onChange <io_realm_RealmObjectChangeListener_onChange>` (
+       |  **T (?)** t, 
+       |  :ref:`ObjectChangeSet <io_realm_ObjectChangeSet>`  changeSet
+       | )
+       
        
        When this gets called to return the results of an asynchronous query made by :ref:`RealmQuery.findFirstAsync() <io_realm_RealmQuery_findFirstAsync__>` , ``changeSet``  will be ``null`` .
        
@@ -146,10 +147,13 @@ onChange
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** onChange (
-       |      **T (?)** t, 
-       |      :ref:`ObjectChangeSet <io_realm_ObjectChangeSet>`  changeSet
-       |   )
+   * - | public **void** :ref:`onChange <io_realm_RealmObjectChangeListener_onChange>` (
+       |  **T (?)** t, 
+       |  :ref:`ObjectChangeSet <io_realm_ObjectChangeSet>`  changeSet
+       | )
+       
+       
+       
    
    * - When this gets called to return the results of an asynchronous query made by :ref:`RealmQuery.findFirstAsync() <io_realm_RealmQuery_findFirstAsync__>` , ``changeSet``  will be ``null`` .
        

@@ -40,7 +40,9 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`DefaultCompactOnLaunchCallback <io_realm_DefaultCompactOnLaunchCallback>`  ()
+   * - | :ref:`DefaultCompactOnLaunchCallback <io_realm_DefaultCompactOnLaunchCallback>` ()
+       | 
+       
        
        
        
@@ -60,10 +62,11 @@ Method Summary
      - Method and Description
    
    * - public **boolean**
-     - |   :ref:`shouldCompact <io_realm_DefaultCompactOnLaunchCallback_shouldCompact_long__long_>`  (
-       |      **long** totalBytes, 
-       |      **long** usedBytes
-       |   )
+     - | :ref:`shouldCompact <io_realm_DefaultCompactOnLaunchCallback_shouldCompact>` (
+       |  **long** totalBytes, 
+       |  **long** usedBytes
+       | )
+       
        
        
        
@@ -97,7 +100,11 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  DefaultCompactOnLaunchCallback ()
+   * - | public :ref:`DefaultCompactOnLaunchCallback <io_realm_DefaultCompactOnLaunchCallback>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -148,10 +155,13 @@ shouldCompact
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** shouldCompact (
-       |      **long** totalBytes, 
-       |      **long** usedBytes
-       |   )
+   * - | public **boolean** :ref:`shouldCompact <io_realm_DefaultCompactOnLaunchCallback_shouldCompact>` (
+       |  **long** totalBytes, 
+       |  **long** usedBytes
+       | )
+       
+       
+       
    
    * - 
        

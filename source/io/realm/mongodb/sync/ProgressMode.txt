@@ -65,9 +65,10 @@ Method Summary
      - Method and Description
    
    * - public static :ref:`ProgressMode <io_realm_mongodb_sync_ProgressMode>` 
-     - |   :ref:`valueOf <io_realm_mongodb_sync_ProgressMode_valueOf_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+     - | :ref:`valueOf <io_realm_mongodb_sync_ProgressMode_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
        
        
        
@@ -75,7 +76,9 @@ Method Summary
        
    
    * - public static :ref:`ProgressMode <io_realm_mongodb_sync_ProgressMode>` 
-     - |   :ref:`values <io_realm_mongodb_sync_ProgressMode_values__>`  ()
+     - | :ref:`values <io_realm_mongodb_sync_ProgressMode_values>` ()
+       | 
+       
        
        
        
@@ -180,9 +183,12 @@ valueOf
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`ProgressMode <io_realm_mongodb_sync_ProgressMode>`  valueOf (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+   * - | public static :ref:`ProgressMode <io_realm_mongodb_sync_ProgressMode>`  :ref:`valueOf <io_realm_mongodb_sync_ProgressMode_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
+       
+       
    
    * - 
        
@@ -220,7 +226,11 @@ values
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`ProgressMode <io_realm_mongodb_sync_ProgressMode>`  values ()
+   * - | public static :ref:`ProgressMode <io_realm_mongodb_sync_ProgressMode>`  :ref:`values <io_realm_mongodb_sync_ProgressMode_values>` ()
+       | 
+       
+       
+       
    
    * - 
        

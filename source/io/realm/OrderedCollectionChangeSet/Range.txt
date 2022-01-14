@@ -41,10 +41,11 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`Range <io_realm_OrderedCollectionChangeSet_Range>`  (
-       |      **int** startIndex, 
-       |      **int** length
-       |   )
+   * - | :ref:`Range <io_realm_OrderedCollectionChangeSet_Range>` (
+       |  **int** startIndex, 
+       |  **int** length
+       | )
+       
        
        Creates a :ref:`Range <io_realm_OrderedCollectionChangeSet_Range>`  with given start index and length.
        
@@ -94,7 +95,9 @@ Method Summary
      - Method and Description
    
    * - public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__ 
-     - |   :ref:`toString <io_realm_OrderedCollectionChangeSet_Range_toString__>`  ()
+     - | :ref:`toString <io_realm_OrderedCollectionChangeSet_Range_toString>` ()
+       | 
+       
        
        
        
@@ -153,10 +156,13 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  Range (
-       |      **int** startIndex, 
-       |      **int** length
-       |   )
+   * - | public :ref:`Range <io_realm_OrderedCollectionChangeSet_Range>` (
+       |  **int** startIndex, 
+       |  **int** length
+       | )
+       
+       
+       
    
    * - Creates a :ref:`Range <io_realm_OrderedCollectionChangeSet_Range>`  with given start index and length.
        
@@ -197,6 +203,10 @@ Method Detail
 
 .. _Range_toString__:
 
+.. _OrderedCollectionChangeSet_Range_toString:
+
+.. _OrderedCollectionChangeSet_Range_toString__:
+
 .. _io_realm_OrderedCollectionChangeSet_Range_toString:
 
 .. _io_realm_OrderedCollectionChangeSet_Range_toString__:
@@ -209,7 +219,11 @@ toString
 .. list-table::
    :header-rows: 1
    
-   * - |   public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  toString ()
+   * - | public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  :ref:`toString <io_realm_OrderedCollectionChangeSet_Range_toString>` ()
+       | 
+       
+       
+       
    
    * - 
        

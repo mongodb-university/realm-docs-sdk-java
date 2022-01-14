@@ -119,9 +119,10 @@ Method Summary
      - Method and Description
    
    * - public **boolean**
-     - |   :ref:`equals <io_realm_mongodb_AppConfiguration_equals_Object_>`  (
-       |      `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  o
-       |   )
+     - | :ref:`equals <io_realm_mongodb_AppConfiguration_equals>` (
+       |  `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  o
+       | )
+       
        
        
        
@@ -129,7 +130,9 @@ Method Summary
        
    
    * - public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__ 
-     - |   :ref:`getAppId <io_realm_mongodb_AppConfiguration_getAppId__>`  ()
+     - | :ref:`getAppId <io_realm_mongodb_AppConfiguration_getAppId>` ()
+       | 
+       
        
        Returns the unique app id that identities the Realm application.
        
@@ -137,7 +140,9 @@ Method Summary
        
    
    * - public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__ 
-     - |   :ref:`getAppName <io_realm_mongodb_AppConfiguration_getAppName__>`  ()
+     - | :ref:`getAppName <io_realm_mongodb_AppConfiguration_getAppName>` ()
+       | 
+       
        
        Returns the name used to describe the Realm application.
        
@@ -145,7 +150,9 @@ Method Summary
        
    
    * - public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__ 
-     - |   :ref:`getAppVersion <io_realm_mongodb_AppConfiguration_getAppVersion__>`  ()
+     - | :ref:`getAppVersion <io_realm_mongodb_AppConfiguration_getAppVersion>` ()
+       | 
+       
        
        Returns the version of this Realm application.
        
@@ -153,7 +160,9 @@ Method Summary
        
    
    * - public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__ 
-     - |   :ref:`getAuthorizationHeaderName <io_realm_mongodb_AppConfiguration_getAuthorizationHeaderName__>`  ()
+     - | :ref:`getAuthorizationHeaderName <io_realm_mongodb_AppConfiguration_getAuthorizationHeaderName>` ()
+       | 
+       
        
        Returns the name of the header used to carry authentication data when making network requests towards MongoDB Realm.
        
@@ -161,7 +170,9 @@ Method Summary
        
    
    * - public `URL <https://docs.oracle.com/javase/7/docs/api/java/net/URL.html>`__ 
-     - |   :ref:`getBaseUrl <io_realm_mongodb_AppConfiguration_getBaseUrl__>`  ()
+     - | :ref:`getBaseUrl <io_realm_mongodb_AppConfiguration_getBaseUrl>` ()
+       | 
+       
        
        Returns the base url for this Realm application.
        
@@ -169,7 +180,9 @@ Method Summary
        
    
    * - public `Map <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__ 
-     - |   :ref:`getCustomRequestHeaders <io_realm_mongodb_AppConfiguration_getCustomRequestHeaders__>`  ()
+     - | :ref:`getCustomRequestHeaders <io_realm_mongodb_AppConfiguration_getCustomRequestHeaders>` ()
+       | 
+       
        
        Returns any custom configured headers that will be sent alongside other headers when making network requests towards MongoDB Realm.
        
@@ -177,7 +190,9 @@ Method Summary
        
    
    * - public :ref:`SyncSession.ClientResetHandler <io_realm_mongodb_sync_SyncSession_ClientResetHandler>` 
-     - |   :ref:`getDefaultClientResetHandler <io_realm_mongodb_AppConfiguration_getDefaultClientResetHandler__>`  ()
+     - | :ref:`getDefaultClientResetHandler <io_realm_mongodb_AppConfiguration_getDefaultClientResetHandler>` ()
+       | 
+       
        
        Returns the default Client Reset handler used by synced Realms if there are problems with their :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>` .
        
@@ -187,7 +202,9 @@ Method Summary
        
    
    * - public **CodecRegistry (?)**
-     - |   :ref:`getDefaultCodecRegistry <io_realm_mongodb_AppConfiguration_getDefaultCodecRegistry__>`  ()
+     - | :ref:`getDefaultCodecRegistry <io_realm_mongodb_AppConfiguration_getDefaultCodecRegistry>` ()
+       | 
+       
        
        Returns the default codec registry used to encode and decode BSON arguments and results when calling remote Realm :ref:`io.realm.mongodb.functions.Functions <io_realm_mongodb_functions_Functions>`  and accessing a remote :ref:`io.realm.mongodb.mongo.MongoDatabase <io_realm_mongodb_mongo_MongoDatabase>` .
        
@@ -197,7 +214,9 @@ Method Summary
        
    
    * - public :ref:`SyncSession.ErrorHandler <io_realm_mongodb_sync_SyncSession_ErrorHandler>` 
-     - |   :ref:`getDefaultErrorHandler <io_realm_mongodb_AppConfiguration_getDefaultErrorHandler__>`  ()
+     - | :ref:`getDefaultErrorHandler <io_realm_mongodb_AppConfiguration_getDefaultErrorHandler>` ()
+       | 
+       
        
        Returns the default error handler used by synced Realms if there are problems with their :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>` .
        
@@ -207,7 +226,9 @@ Method Summary
        
    
    * - public **byte**
-     - |   :ref:`getEncryptionKey <io_realm_mongodb_AppConfiguration_getEncryptionKey__>`  ()
+     - | :ref:`getEncryptionKey <io_realm_mongodb_AppConfiguration_getEncryptionKey>` ()
+       | 
+       
        
        Returns the encryption key, if any, that is used to encrypt Realm users meta data on this device.
        
@@ -215,7 +236,9 @@ Method Summary
        
    
    * - public :ref:`HttpLogObfuscator <io_realm_mongodb_log_obfuscator_HttpLogObfuscator>` 
-     - |   :ref:`getHttpLogObfuscator <io_realm_mongodb_AppConfiguration_getHttpLogObfuscator__>`  ()
+     - | :ref:`getHttpLogObfuscator <io_realm_mongodb_AppConfiguration_getHttpLogObfuscator>` ()
+       | 
+       
        
        Returns the :ref:`HttpLogObfuscator <io_realm_mongodb_log_obfuscator_HttpLogObfuscator>`  used in the app, which keeps sensitive information in HTTP requests from being displayed in the logcat.
        
@@ -225,7 +248,9 @@ Method Summary
        
    
    * - public **long**
-     - |   :ref:`getRequestTimeoutMs <io_realm_mongodb_AppConfiguration_getRequestTimeoutMs__>`  ()
+     - | :ref:`getRequestTimeoutMs <io_realm_mongodb_AppConfiguration_getRequestTimeoutMs>` ()
+       | 
+       
        
        Returns the default timeout for network requests against the Realm application in milliseconds.
        
@@ -233,7 +258,9 @@ Method Summary
        
    
    * - public `File <https://docs.oracle.com/javase/7/docs/api/java/io/File.html>`__ 
-     - |   :ref:`getSyncRootDirectory <io_realm_mongodb_AppConfiguration_getSyncRootDirectory__>`  ()
+     - | :ref:`getSyncRootDirectory <io_realm_mongodb_AppConfiguration_getSyncRootDirectory>` ()
+       | 
+       
        
        Returns the root folder containing all files and Realms used when synchronizing data between the device and MongoDB Realm.
        
@@ -241,7 +268,9 @@ Method Summary
        
    
    * - public **int**
-     - |   :ref:`hashCode <io_realm_mongodb_AppConfiguration_hashCode__>`  ()
+     - | :ref:`hashCode <io_realm_mongodb_AppConfiguration_hashCode>` ()
+       | 
+       
        
        
        
@@ -463,9 +492,12 @@ equals
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** equals (
-       |      `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  o
-       |   )
+   * - | public **boolean** :ref:`equals <io_realm_mongodb_AppConfiguration_equals>` (
+       |  `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  o
+       | )
+       
+       
+       
    
    * - 
        
@@ -507,13 +539,22 @@ getAppId
 .. list-table::
    :header-rows: 1
    
-   * - |   public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  getAppId ()
+   * - | public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  :ref:`getAppId <io_realm_mongodb_AppConfiguration_getAppId>` ()
+       | 
+       
+       
+       
    
    * - Returns the unique app id that identities the Realm application.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the app unique identifier.
        
        
        
@@ -545,13 +586,22 @@ getAppName
 .. list-table::
    :header-rows: 1
    
-   * - |   public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  getAppName ()
+   * - | public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  :ref:`getAppName <io_realm_mongodb_AppConfiguration_getAppName>` ()
+       | 
+       
+       
+       
    
    * - Returns the name used to describe the Realm application. This is only used as debug information.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the app name.
        
        
        
@@ -583,13 +633,22 @@ getAppVersion
 .. list-table::
    :header-rows: 1
    
-   * - |   public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  getAppVersion ()
+   * - | public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  :ref:`getAppVersion <io_realm_mongodb_AppConfiguration_getAppVersion>` ()
+       | 
+       
+       
+       
    
    * - Returns the version of this Realm application. This is only used as debug information.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the app version.
        
        
        
@@ -621,13 +680,22 @@ getAuthorizationHeaderName
 .. list-table::
    :header-rows: 1
    
-   * - |   public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  getAuthorizationHeaderName ()
+   * - | public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  :ref:`getAuthorizationHeaderName <io_realm_mongodb_AppConfiguration_getAuthorizationHeaderName>` ()
+       | 
+       
+       
+       
    
    * - Returns the name of the header used to carry authentication data when making network requests towards MongoDB Realm.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the authentication header name.
        
        
        
@@ -659,13 +727,22 @@ getBaseUrl
 .. list-table::
    :header-rows: 1
    
-   * - |   public `URL <https://docs.oracle.com/javase/7/docs/api/java/net/URL.html>`__  getBaseUrl ()
+   * - | public `URL <https://docs.oracle.com/javase/7/docs/api/java/net/URL.html>`__  :ref:`getBaseUrl <io_realm_mongodb_AppConfiguration_getBaseUrl>` ()
+       | 
+       
+       
+       
    
    * - Returns the base url for this Realm application.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the app base url.
        
        
        
@@ -697,11 +774,22 @@ getCustomRequestHeaders
 .. list-table::
    :header-rows: 1
    
-   * - |   public `Map <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  getCustomRequestHeaders ()
+   * - | public `Map <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  :ref:`getCustomRequestHeaders <io_realm_mongodb_AppConfiguration_getCustomRequestHeaders>` ()
+       | 
+       
+       
+       
    
    * - Returns any custom configured headers that will be sent alongside other headers when making network requests towards MongoDB Realm.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       a ``Map``  of custom configured headers.
        
        
        
@@ -735,7 +823,11 @@ getDefaultClientResetHandler
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`SyncSession.ClientResetHandler <io_realm_mongodb_sync_SyncSession_ClientResetHandler>`  getDefaultClientResetHandler ()
+   * - | public :ref:`SyncSession.ClientResetHandler <io_realm_mongodb_sync_SyncSession_ClientResetHandler>`  :ref:`getDefaultClientResetHandler <io_realm_mongodb_AppConfiguration_getDefaultClientResetHandler>` ()
+       | 
+       
+       
+       
    
    * - Returns the default Client Reset handler used by synced Realms if there are problems with their :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>` .
        
@@ -744,6 +836,11 @@ getDefaultClientResetHandler
        
        
        
+       
+       
+       **Returns**
+       
+       the app default error handler.
        
        
        
@@ -775,7 +872,11 @@ getDefaultCodecRegistry
 .. list-table::
    :header-rows: 1
    
-   * - |   public **CodecRegistry (?)** getDefaultCodecRegistry ()
+   * - | public **CodecRegistry (?)** :ref:`getDefaultCodecRegistry <io_realm_mongodb_AppConfiguration_getDefaultCodecRegistry>` ()
+       | 
+       
+       
+       
    
    * - Returns the default codec registry used to encode and decode BSON arguments and results when calling remote Realm :ref:`io.realm.mongodb.functions.Functions <io_realm_mongodb_functions_Functions>`  and accessing a remote :ref:`io.realm.mongodb.mongo.MongoDatabase <io_realm_mongodb_mongo_MongoDatabase>` .
        
@@ -784,6 +885,11 @@ getDefaultCodecRegistry
        
        
        
+       
+       
+       **Returns**
+       
+       The default codec registry for the App.
        
        
        
@@ -833,7 +939,11 @@ getDefaultErrorHandler
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`SyncSession.ErrorHandler <io_realm_mongodb_sync_SyncSession_ErrorHandler>`  getDefaultErrorHandler ()
+   * - | public :ref:`SyncSession.ErrorHandler <io_realm_mongodb_sync_SyncSession_ErrorHandler>`  :ref:`getDefaultErrorHandler <io_realm_mongodb_AppConfiguration_getDefaultErrorHandler>` ()
+       | 
+       
+       
+       
    
    * - Returns the default error handler used by synced Realms if there are problems with their :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>` .
        
@@ -842,6 +952,11 @@ getDefaultErrorHandler
        
        
        
+       
+       
+       **Returns**
+       
+       the app default error handler.
        
        
        
@@ -873,11 +988,22 @@ getEncryptionKey
 .. list-table::
    :header-rows: 1
    
-   * - |   public **byte** getEncryptionKey ()
+   * - | public **byte** :ref:`getEncryptionKey <io_realm_mongodb_AppConfiguration_getEncryptionKey>` ()
+       | 
+       
+       
+       
    
    * - Returns the encryption key, if any, that is used to encrypt Realm users meta data on this device. If no key is returned, the data is not encrypted.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       the encryption key if exists, or ``null``  otherwise.
        
        
        
@@ -911,7 +1037,11 @@ getHttpLogObfuscator
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`HttpLogObfuscator <io_realm_mongodb_log_obfuscator_HttpLogObfuscator>`  getHttpLogObfuscator ()
+   * - | public :ref:`HttpLogObfuscator <io_realm_mongodb_log_obfuscator_HttpLogObfuscator>`  :ref:`getHttpLogObfuscator <io_realm_mongodb_AppConfiguration_getHttpLogObfuscator>` ()
+       | 
+       
+       
+       
    
    * - Returns the :ref:`HttpLogObfuscator <io_realm_mongodb_log_obfuscator_HttpLogObfuscator>`  used in the app, which keeps sensitive information in HTTP requests from being displayed in the logcat.
        
@@ -920,6 +1050,11 @@ getHttpLogObfuscator
        
        
        
+       
+       
+       **Returns**
+       
+       the HTTP log obfuscator.
        
        
        
@@ -951,13 +1086,22 @@ getRequestTimeoutMs
 .. list-table::
    :header-rows: 1
    
-   * - |   public **long** getRequestTimeoutMs ()
+   * - | public **long** :ref:`getRequestTimeoutMs <io_realm_mongodb_AppConfiguration_getRequestTimeoutMs>` ()
+       | 
+       
+       
+       
    
    * - Returns the default timeout for network requests against the Realm application in milliseconds.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the default timeout for network requests in milliseconds.
        
        
        
@@ -989,13 +1133,22 @@ getSyncRootDirectory
 .. list-table::
    :header-rows: 1
    
-   * - |   public `File <https://docs.oracle.com/javase/7/docs/api/java/io/File.html>`__  getSyncRootDirectory ()
+   * - | public `File <https://docs.oracle.com/javase/7/docs/api/java/io/File.html>`__  :ref:`getSyncRootDirectory <io_realm_mongodb_AppConfiguration_getSyncRootDirectory>` ()
+       | 
+       
+       
+       
    
    * - Returns the root folder containing all files and Realms used when synchronizing data between the device and MongoDB Realm.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the sync root directory.
        
        
        
@@ -1027,7 +1180,11 @@ hashCode
 .. list-table::
    :header-rows: 1
    
-   * - |   public **int** hashCode ()
+   * - | public **int** :ref:`hashCode <io_realm_mongodb_AppConfiguration_hashCode>` ()
+       | 
+       
+       
+       
    
    * - 
        

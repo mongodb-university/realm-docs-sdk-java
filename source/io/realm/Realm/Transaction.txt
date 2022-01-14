@@ -66,9 +66,10 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`execute <io_realm_Realm_Transaction_execute_Realm_>`  (
-       |      :ref:`Realm <io_realm_Realm>`  realm
-       |   )
+     - | :ref:`execute <io_realm_Realm_Transaction_execute>` (
+       |  :ref:`Realm <io_realm_Realm>`  realm
+       | )
+       
        
        
        
@@ -88,6 +89,10 @@ Method Detail
 .. _Transaction_execute:
 
 .. _Transaction_execute__:
+
+.. _Realm_Transaction_execute:
+
+.. _Realm_Transaction_execute__:
 
 .. _io_realm_Realm_Transaction_execute:
 
@@ -113,9 +118,12 @@ execute
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** execute (
-       |      :ref:`Realm <io_realm_Realm>`  realm
-       |   )
+   * - | public **void** :ref:`execute <io_realm_Realm_Transaction_execute>` (
+       |  :ref:`Realm <io_realm_Realm>`  realm
+       | )
+       
+       
+       
    
    * - 
        

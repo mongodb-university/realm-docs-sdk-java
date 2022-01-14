@@ -22,13 +22,6 @@ io.realm
  | 		io.realm.ProxyState
 
 
-**Implemented interfaces:**
-
-
-
-- **io.realm.internal.PendingRow.FrontEnd (?)**
-
-
 This implements ``RealmObjectProxy``  interface, to eliminate copying logic between :ref:`RealmObject <io_realm_RealmObject>`  and :ref:`DynamicRealmObject <io_realm_DynamicRealmObject>` .
 
 
@@ -42,16 +35,19 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`ProxyState <io_realm_ProxyState>`  ()
+   * - | :ref:`ProxyState <io_realm_ProxyState>` ()
+       | 
+       
        
        
        
        
        
    
-   * - |   :ref:`ProxyState <io_realm_ProxyState>`  (
-       |      **E (?)** model
-       |   )
+   * - | :ref:`ProxyState <io_realm_ProxyState>` (
+       |  **E (?)** model
+       | )
+       
        
        
        
@@ -71,9 +67,10 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`addChangeListener <io_realm_ProxyState_addChangeListener_RealmObjectChangeListener_E__>`  (
-       |      :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
-       |   )
+     - | :ref:`addChangeListener <io_realm_ProxyState_addChangeListener>` (
+       |  :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
+       | )
+       
        
        
        
@@ -81,9 +78,10 @@ Method Summary
        
    
    * - public **void**
-     - |   :ref:`checkValidObject <io_realm_ProxyState_checkValidObject_RealmModel_>`  (
-       |      :ref:`RealmModel <io_realm_RealmModel>`  value
-       |   )
+     - | :ref:`checkValidObject <io_realm_ProxyState_checkValidObject>` (
+       |  :ref:`RealmModel <io_realm_RealmModel>`  value
+       | )
+       
        
        Check that object is a valid and managed object by this Realm.
        
@@ -91,7 +89,9 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`getAcceptDefaultValue$realm <io_realm_ProxyState_getAcceptDefaultValue_realm__>`  ()
+     - | :ref:`getAcceptDefaultValue$realm <io_realm_ProxyState_getAcceptDefaultValue_realm>` ()
+       | 
+       
        
        
        
@@ -99,7 +99,9 @@ Method Summary
        
    
    * - public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__ 
-     - |   :ref:`getExcludeFields$realm <io_realm_ProxyState_getExcludeFields_realm__>`  ()
+     - | :ref:`getExcludeFields$realm <io_realm_ProxyState_getExcludeFields_realm>` ()
+       | 
+       
        
        
        
@@ -107,7 +109,9 @@ Method Summary
        
    
    * - public **BaseRealm (?)**
-     - |   :ref:`getRealm$realm <io_realm_ProxyState_getRealm_realm__>`  ()
+     - | :ref:`getRealm$realm <io_realm_ProxyState_getRealm_realm>` ()
+       | 
+       
        
        
        
@@ -115,15 +119,9 @@ Method Summary
        
    
    * - public **Row (?)**
-     - |   :ref:`getRow$realm <io_realm_ProxyState_getRow_realm__>`  ()
+     - | :ref:`getRow$realm <io_realm_ProxyState_getRow_realm>` ()
+       | 
        
-       
-       
-       
-       
-   
-   * - public **boolean**
-     - |   :ref:`isLoaded <io_realm_ProxyState_isLoaded__>`  ()
        
        
        
@@ -131,7 +129,19 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`isUnderConstruction <io_realm_ProxyState_isUnderConstruction__>`  ()
+     - | :ref:`isLoaded <io_realm_ProxyState_isLoaded>` ()
+       | 
+       
+       
+       
+       
+       
+       
+   
+   * - public **boolean**
+     - | :ref:`isUnderConstruction <io_realm_ProxyState_isUnderConstruction>` ()
+       | 
+       
        
        
        
@@ -139,17 +149,9 @@ Method Summary
        
    
    * - public **void**
-     - |   :ref:`load <io_realm_ProxyState_load__>`  ()
+     - | :ref:`load <io_realm_ProxyState_load>` ()
+       | 
        
-       
-       
-       
-       
-   
-   * - public **void**
-     - |   :ref:`onQueryFinished <io_realm_ProxyState_onQueryFinished_Row_>`  (
-       |      **Row (?)** row
-       |   )
        
        
        
@@ -157,17 +159,10 @@ Method Summary
        
    
    * - public **void**
-     - |   :ref:`removeAllChangeListeners <io_realm_ProxyState_removeAllChangeListeners__>`  ()
+     - | :ref:`onQueryFinished <io_realm_ProxyState_onQueryFinished>` (
+       |  **Row (?)** row
+       | )
        
-       
-       
-       
-       
-   
-   * - public **void**
-     - |   :ref:`removeChangeListener <io_realm_ProxyState_removeChangeListener_RealmObjectChangeListener_E__>`  (
-       |      :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
-       |   )
        
        
        
@@ -175,17 +170,9 @@ Method Summary
        
    
    * - public **void**
-     - |   :ref:`setAcceptDefaultValue$realm <io_realm_ProxyState_setAcceptDefaultValue_realm_boolean_>`  (
-       |      **boolean** acceptDefaultValue
-       |   )
+     - | :ref:`removeAllChangeListeners <io_realm_ProxyState_removeAllChangeListeners>` ()
+       | 
        
-       
-       
-       
-       
-   
-   * - public **void**
-     - |   :ref:`setConstructionFinished <io_realm_ProxyState_setConstructionFinished__>`  ()
        
        
        
@@ -193,19 +180,10 @@ Method Summary
        
    
    * - public **void**
-     - |   :ref:`setExcludeFields$realm <io_realm_ProxyState_setExcludeFields_realm_List_String__>`  (
-       |      `java.util.List\<java.lang.String> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  excludeFields
-       |   )
+     - | :ref:`removeChangeListener <io_realm_ProxyState_removeChangeListener>` (
+       |  :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
+       | )
        
-       
-       
-       
-       
-   
-   * - public **void**
-     - |   :ref:`setRealm$realm <io_realm_ProxyState_setRealm_realm_BaseRealm_>`  (
-       |      **BaseRealm (?)** realm
-       |   )
        
        
        
@@ -213,9 +191,53 @@ Method Summary
        
    
    * - public **void**
-     - |   :ref:`setRow$realm <io_realm_ProxyState_setRow_realm_Row_>`  (
-       |      **Row (?)** row
-       |   )
+     - | :ref:`setAcceptDefaultValue$realm <io_realm_ProxyState_setAcceptDefaultValue_realm>` (
+       |  **boolean** acceptDefaultValue
+       | )
+       
+       
+       
+       
+       
+       
+   
+   * - public **void**
+     - | :ref:`setConstructionFinished <io_realm_ProxyState_setConstructionFinished>` ()
+       | 
+       
+       
+       
+       
+       
+       
+   
+   * - public **void**
+     - | :ref:`setExcludeFields$realm <io_realm_ProxyState_setExcludeFields_realm>` (
+       |  `java.util.List\<java.lang.String> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  excludeFields
+       | )
+       
+       
+       
+       
+       
+       
+   
+   * - public **void**
+     - | :ref:`setRealm$realm <io_realm_ProxyState_setRealm_realm>` (
+       |  **BaseRealm (?)** realm
+       | )
+       
+       
+       
+       
+       
+       
+   
+   * - public **void**
+     - | :ref:`setRow$realm <io_realm_ProxyState_setRow_realm>` (
+       |  **Row (?)** row
+       | )
+       
        
        
        
@@ -249,7 +271,11 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  ProxyState ()
+   * - | public :ref:`ProxyState <io_realm_ProxyState>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -274,9 +300,12 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  ProxyState (
-       |      **E (?)** model
-       |   )
+   * - | public :ref:`ProxyState <io_realm_ProxyState>` (
+       |  **E (?)** model
+       | )
+       
+       
+       
    
    * - 
        
@@ -329,9 +358,12 @@ addChangeListener
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** addChangeListener (
-       |      :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
-       |   )
+   * - | public **void** :ref:`addChangeListener <io_realm_ProxyState_addChangeListener>` (
+       |  :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
+       | )
+       
+       
+       
    
    * - 
        
@@ -381,9 +413,12 @@ checkValidObject
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** checkValidObject (
-       |      :ref:`RealmModel <io_realm_RealmModel>`  value
-       |   )
+   * - | public **void** :ref:`checkValidObject <io_realm_ProxyState_checkValidObject>` (
+       |  :ref:`RealmModel <io_realm_RealmModel>`  value
+       | )
+       
+       
+       
    
    * - Check that object is a valid and managed object by this Realm. Used by proxy classes to verify input.
        
@@ -429,7 +464,11 @@ getAcceptDefaultValue$realm
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** getAcceptDefaultValue$realm ()
+   * - | public **boolean** :ref:`getAcceptDefaultValue$realm <io_realm_ProxyState_getAcceptDefaultValue_realm>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -467,7 +506,11 @@ getExcludeFields$realm
 .. list-table::
    :header-rows: 1
    
-   * - |   public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  getExcludeFields$realm ()
+   * - | public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  :ref:`getExcludeFields$realm <io_realm_ProxyState_getExcludeFields_realm>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -505,7 +548,11 @@ getRealm$realm
 .. list-table::
    :header-rows: 1
    
-   * - |   public **BaseRealm (?)** getRealm$realm ()
+   * - | public **BaseRealm (?)** :ref:`getRealm$realm <io_realm_ProxyState_getRealm_realm>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -543,7 +590,11 @@ getRow$realm
 .. list-table::
    :header-rows: 1
    
-   * - |   public **Row (?)** getRow$realm ()
+   * - | public **Row (?)** :ref:`getRow$realm <io_realm_ProxyState_getRow_realm>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -581,7 +632,11 @@ isLoaded
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** isLoaded ()
+   * - | public **boolean** :ref:`isLoaded <io_realm_ProxyState_isLoaded>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -619,7 +674,11 @@ isUnderConstruction
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** isUnderConstruction ()
+   * - | public **boolean** :ref:`isUnderConstruction <io_realm_ProxyState_isUnderConstruction>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -657,7 +716,11 @@ load
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** load ()
+   * - | public **void** :ref:`load <io_realm_ProxyState_load>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -692,24 +755,21 @@ load
 onQueryFinished
 ---------------
 
-.. _io_realm_ProxyState_onQueryFinished_io_realm_internal_Row_:
-
 .. _io_realm_ProxyState_onQueryFinished_Row_:
 
-.. _onQueryFinished_io_realm_internal_Row_:
-
 .. _onQueryFinished_Row_:
-
-.. _ProxyState_onQueryFinished_io_realm_internal_Row_:
 
 .. _ProxyState_onQueryFinished_Row_:
 
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** onQueryFinished (
-       |      **Row (?)** row
-       |   )
+   * - | public **void** :ref:`onQueryFinished <io_realm_ProxyState_onQueryFinished>` (
+       |  **Row (?)** row
+       | )
+       
+       
+       
    
    * - 
        
@@ -747,7 +807,11 @@ removeAllChangeListeners
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** removeAllChangeListeners ()
+   * - | public **void** :ref:`removeAllChangeListeners <io_realm_ProxyState_removeAllChangeListeners>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -799,9 +863,12 @@ removeChangeListener
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** removeChangeListener (
-       |      :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
-       |   )
+   * - | public **void** :ref:`removeChangeListener <io_realm_ProxyState_removeChangeListener>` (
+       |  :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
+       | )
+       
+       
+       
    
    * - 
        
@@ -845,9 +912,12 @@ setAcceptDefaultValue$realm
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** setAcceptDefaultValue$realm (
-       |      **boolean** acceptDefaultValue
-       |   )
+   * - | public **void** :ref:`setAcceptDefaultValue$realm <io_realm_ProxyState_setAcceptDefaultValue_realm>` (
+       |  **boolean** acceptDefaultValue
+       | )
+       
+       
+       
    
    * - 
        
@@ -885,7 +955,11 @@ setConstructionFinished
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** setConstructionFinished ()
+   * - | public **void** :ref:`setConstructionFinished <io_realm_ProxyState_setConstructionFinished>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -937,9 +1011,12 @@ setExcludeFields$realm
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** setExcludeFields$realm (
-       |      `java.util.List\<java.lang.String> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  excludeFields
-       |   )
+   * - | public **void** :ref:`setExcludeFields$realm <io_realm_ProxyState_setExcludeFields_realm>` (
+       |  `java.util.List\<java.lang.String> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  excludeFields
+       | )
+       
+       
+       
    
    * - 
        
@@ -989,9 +1066,12 @@ setRealm$realm
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** setRealm$realm (
-       |      **BaseRealm (?)** realm
-       |   )
+   * - | public **void** :ref:`setRealm$realm <io_realm_ProxyState_setRealm_realm>` (
+       |  **BaseRealm (?)** realm
+       | )
+       
+       
+       
    
    * - 
        
@@ -1026,24 +1106,21 @@ setRealm$realm
 setRow$realm
 ------------
 
-.. _io_realm_ProxyState_setRow_realm_io_realm_internal_Row_:
-
 .. _io_realm_ProxyState_setRow_realm_Row_:
 
-.. _setRow_realm_io_realm_internal_Row_:
-
 .. _setRow_realm_Row_:
-
-.. _ProxyState_setRow_realm_io_realm_internal_Row_:
 
 .. _ProxyState_setRow_realm_Row_:
 
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** setRow$realm (
-       |      **Row (?)** row
-       |   )
+   * - | public **void** :ref:`setRow$realm <io_realm_ProxyState_setRow_realm>` (
+       |  **Row (?)** row
+       | )
+       
+       
+       
    
    * - 
        

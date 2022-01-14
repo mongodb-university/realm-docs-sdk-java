@@ -39,9 +39,10 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`get <io_realm_mongodb_RealmEventStreamAsyncTask_get_App_Callback_BaseChangeEvent_T___>`  (
-       |      :ref:`io.realm.mongodb.App.Callback\<io.realm.mongodb.mongo.events.BaseChangeEvent\<T>> <io_realm_mongodb_App_Callback>`  callback
-       |   )
+     - | :ref:`get <io_realm_mongodb_RealmEventStreamAsyncTask_get>` (
+       |  :ref:`io.realm.mongodb.App.Callback\<io.realm.mongodb.mongo.events.BaseChangeEvent\<T>> <io_realm_mongodb_App_Callback>`  callback
+       | )
+       
        
        Provides a way to subscribe to asynchronous operations via a callback, which handles both results and errors.
        
@@ -49,7 +50,9 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`isOpen <io_realm_mongodb_RealmEventStreamAsyncTask_isOpen__>`  ()
+     - | :ref:`isOpen <io_realm_mongodb_RealmEventStreamAsyncTask_isOpen>` ()
+       | 
+       
        
        Whether or not the stream is currently open.
        
@@ -107,9 +110,12 @@ get
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** get (
-       |      :ref:`io.realm.mongodb.App.Callback\<io.realm.mongodb.mongo.events.BaseChangeEvent\<T>> <io_realm_mongodb_App_Callback>`  callback
-       |   )
+   * - | public **void** :ref:`get <io_realm_mongodb_RealmEventStreamAsyncTask_get>` (
+       |  :ref:`io.realm.mongodb.App.Callback\<io.realm.mongodb.mongo.events.BaseChangeEvent\<T>> <io_realm_mongodb_App_Callback>`  callback
+       | )
+       
+       
+       
    
    * - Provides a way to subscribe to asynchronous operations via a callback, which handles both results and errors.
        
@@ -165,13 +171,22 @@ isOpen
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** isOpen ()
+   * - | public **boolean** :ref:`isOpen <io_realm_mongodb_RealmEventStreamAsyncTask_isOpen>` ()
+       | 
+       
+       
+       
    
    * - Whether or not the stream is currently open.
        
        
        
        
+       
+       
+       **Returns**
+       
+       true if open, false if not.
        
        
        

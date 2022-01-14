@@ -34,10 +34,11 @@ Method Summary
      - Method and Description
    
    * - public **boolean**
-     - |   :ref:`shouldCompact <io_realm_CompactOnLaunchCallback_shouldCompact_long__long_>`  (
-       |      **long** totalBytes, 
-       |      **long** usedBytes
-       |   )
+     - | :ref:`shouldCompact <io_realm_CompactOnLaunchCallback_shouldCompact>` (
+       |  **long** totalBytes, 
+       |  **long** usedBytes
+       | )
+       
        
        This method determines if the Realm file should be compacted before opened and returned to the user.
        
@@ -82,10 +83,13 @@ shouldCompact
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** shouldCompact (
-       |      **long** totalBytes, 
-       |      **long** usedBytes
-       |   )
+   * - | public **boolean** :ref:`shouldCompact <io_realm_CompactOnLaunchCallback_shouldCompact>` (
+       |  **long** totalBytes, 
+       |  **long** usedBytes
+       | )
+       
+       
+       
    
    * - This method determines if the Realm file should be compacted before opened and returned to the user. It is passed the total file size (data + free space) and the bytes used by data in the file.
        
@@ -104,6 +108,11 @@ shouldCompact
           
        
        
+       
+       
+       **Returns**
+       
+       {code true} to indicate an attempt to compact the file should be made. Otherwise, the compaction will be skipped.
        
        
        

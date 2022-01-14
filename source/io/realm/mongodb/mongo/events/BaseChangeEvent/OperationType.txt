@@ -90,9 +90,10 @@ Method Summary
      - Method and Description
    
    * - public static :ref:`BaseChangeEvent.OperationType <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType>` 
-     - |   :ref:`valueOf <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType_valueOf_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+     - | :ref:`valueOf <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
        
        
        
@@ -100,7 +101,9 @@ Method Summary
        
    
    * - public static :ref:`BaseChangeEvent.OperationType <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType>` 
-     - |   :ref:`values <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType_values__>`  ()
+     - | :ref:`values <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType_values>` ()
+       | 
+       
        
        
        
@@ -212,6 +215,10 @@ Method Detail
 
 .. _OperationType_valueOf__:
 
+.. _BaseChangeEvent_OperationType_valueOf:
+
+.. _BaseChangeEvent_OperationType_valueOf__:
+
 .. _io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType_valueOf:
 
 .. _io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType_valueOf__:
@@ -236,9 +243,12 @@ valueOf
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`BaseChangeEvent.OperationType <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType>`  valueOf (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+   * - | public static :ref:`BaseChangeEvent.OperationType <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType>`  :ref:`valueOf <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
+       
+       
    
    * - 
        
@@ -264,6 +274,10 @@ valueOf
 
 .. _OperationType_values__:
 
+.. _BaseChangeEvent_OperationType_values:
+
+.. _BaseChangeEvent_OperationType_values__:
+
 .. _io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType_values:
 
 .. _io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType_values__:
@@ -276,7 +290,11 @@ values
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`BaseChangeEvent.OperationType <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType>`  values ()
+   * - | public static :ref:`BaseChangeEvent.OperationType <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType>`  :ref:`values <io_realm_mongodb_mongo_events_BaseChangeEvent_OperationType_values>` ()
+       | 
+       
+       
+       
    
    * - 
        

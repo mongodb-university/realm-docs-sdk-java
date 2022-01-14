@@ -52,10 +52,11 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`onError <io_realm_mongodb_sync_SyncSession_ErrorHandler_onError_SyncSession__AppException_>`  (
-       |      :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>`  session, 
-       |      :ref:`AppException <io_realm_mongodb_AppException>`  error
-       |   )
+     - | :ref:`onError <io_realm_mongodb_sync_SyncSession_ErrorHandler_onError>` (
+       |  :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>`  session, 
+       |  :ref:`AppException <io_realm_mongodb_AppException>`  error
+       | )
+       
        
        Callback for errors on a session object.
        
@@ -75,6 +76,10 @@ Method Detail
 .. _ErrorHandler_onError:
 
 .. _ErrorHandler_onError__:
+
+.. _SyncSession_ErrorHandler_onError:
+
+.. _SyncSession_ErrorHandler_onError__:
 
 .. _io_realm_mongodb_sync_SyncSession_ErrorHandler_onError:
 
@@ -136,10 +141,13 @@ onError
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** onError (
-       |      :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>`  session, 
-       |      :ref:`AppException <io_realm_mongodb_AppException>`  error
-       |   )
+   * - | public **void** :ref:`onError <io_realm_mongodb_sync_SyncSession_ErrorHandler_onError>` (
+       |  :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>`  session, 
+       |  :ref:`AppException <io_realm_mongodb_AppException>`  error
+       | )
+       
+       
+       
    
    * - Callback for errors on a session object. It is not allowed to throw an exception inside an error handler. If the operations in an error handler can throw, it is safer to catch any exception in the error handler. When an exception is thrown in the error handler, the occurrence will be logged and the exception will be ignored.
        

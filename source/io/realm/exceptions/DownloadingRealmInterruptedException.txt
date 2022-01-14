@@ -25,7 +25,7 @@ io.realm.exceptions
  | 											io.realm.exceptions.DownloadingRealmInterruptedException
 
 
-Exception class used when a Realm was interrupted while downloading the initial data set. This can only happen if **SyncConfiguration.Builder.waitForInitialRemoteData() (?)** is set.
+Exception class used when a Realm was interrupted while downloading the initial data set. This can only happen if :ref:`SyncConfiguration.Builder.waitForInitialRemoteData() <SyncConfiguration_Builder_waitForInitialRemoteData__>`  is set.
 
 
 
@@ -38,20 +38,22 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`DownloadingRealmInterruptedException <io_realm_exceptions_DownloadingRealmInterruptedException>`  (
-       |      :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>`  syncConfig, 
-       |      `Throwable <https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html>`__  exception
-       |   )
+   * - | :ref:`DownloadingRealmInterruptedException <io_realm_exceptions_DownloadingRealmInterruptedException>` (
+       |  :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>`  syncConfig, 
+       |  `Throwable <https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html>`__  exception
+       | )
+       
        
        
        
        
        
    
-   * - |   :ref:`DownloadingRealmInterruptedException <io_realm_exceptions_DownloadingRealmInterruptedException>`  (
-       |      :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>`  syncConfig, 
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  message
-       |   )
+   * - | :ref:`DownloadingRealmInterruptedException <io_realm_exceptions_DownloadingRealmInterruptedException>` (
+       |  :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>`  syncConfig, 
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  message
+       | )
+       
        
        
        
@@ -86,10 +88,13 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  DownloadingRealmInterruptedException (
-       |      :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>`  syncConfig, 
-       |      `Throwable <https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html>`__  exception
-       |   )
+   * - | public :ref:`DownloadingRealmInterruptedException <io_realm_exceptions_DownloadingRealmInterruptedException>` (
+       |  :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>`  syncConfig, 
+       |  `Throwable <https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html>`__  exception
+       | )
+       
+       
+       
    
    * - 
        
@@ -114,10 +119,13 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  DownloadingRealmInterruptedException (
-       |      :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>`  syncConfig, 
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  message
-       |   )
+   * - | public :ref:`DownloadingRealmInterruptedException <io_realm_exceptions_DownloadingRealmInterruptedException>` (
+       |  :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>`  syncConfig, 
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  message
+       | )
+       
+       
+       
    
    * - 
        

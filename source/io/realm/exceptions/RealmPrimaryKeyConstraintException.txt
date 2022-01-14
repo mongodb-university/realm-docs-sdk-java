@@ -50,9 +50,10 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`RealmPrimaryKeyConstraintException <io_realm_exceptions_RealmPrimaryKeyConstraintException>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  message
-       |   )
+   * - | :ref:`RealmPrimaryKeyConstraintException <io_realm_exceptions_RealmPrimaryKeyConstraintException>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  message
+       | )
+       
        
        
        
@@ -87,9 +88,12 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  RealmPrimaryKeyConstraintException (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  message
-       |   )
+   * - | public :ref:`RealmPrimaryKeyConstraintException <io_realm_exceptions_RealmPrimaryKeyConstraintException>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  message
+       | )
+       
+       
+       
    
    * - 
        

@@ -41,7 +41,9 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`Type <io_realm_mongodb_ErrorCode_Type>`  ()
+   * - | :ref:`Type <io_realm_mongodb_ErrorCode_Type>` ()
+       | 
+       
        
        
        
@@ -290,7 +292,11 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  Type ()
+   * - | public :ref:`Type <io_realm_mongodb_ErrorCode_Type>` ()
+       | 
+       
+       
+       
    
    * - 
        

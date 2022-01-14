@@ -40,9 +40,10 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`onResult <io_realm_mongodb_App_Callback_onResult_App_Result_T__>`  (
-       |      :ref:`io.realm.mongodb.App.Result\<T> <io_realm_mongodb_App_Result>`  result
-       |   )
+     - | :ref:`onResult <io_realm_mongodb_App_Callback_onResult>` (
+       |  :ref:`io.realm.mongodb.App.Result\<T> <io_realm_mongodb_App_Result>`  result
+       | )
+       
        
        Returns the result of the request when available.
        
@@ -62,6 +63,10 @@ Method Detail
 .. _Callback_onResult:
 
 .. _Callback_onResult__:
+
+.. _App_Callback_onResult:
+
+.. _App_Callback_onResult__:
 
 .. _io_realm_mongodb_App_Callback_onResult:
 
@@ -95,9 +100,12 @@ onResult
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** onResult (
-       |      :ref:`io.realm.mongodb.App.Result\<T> <io_realm_mongodb_App_Result>`  result
-       |   )
+   * - | public **void** :ref:`onResult <io_realm_mongodb_App_Callback_onResult>` (
+       |  :ref:`io.realm.mongodb.App.Result\<T> <io_realm_mongodb_App_Result>`  result
+       | )
+       
+       
+       
    
    * - Returns the result of the request when available.
        

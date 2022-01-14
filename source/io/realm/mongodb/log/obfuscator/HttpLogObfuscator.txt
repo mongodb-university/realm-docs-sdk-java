@@ -33,10 +33,11 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`HttpLogObfuscator <io_realm_mongodb_log_obfuscator_HttpLogObfuscator>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  feature, 
-       |      `java.util.Map\<java.lang.String, io.realm.internal.log.obfuscator.RegexPatternObfuscator> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  patternObfuscatorMap
-       |   )
+   * - | :ref:`HttpLogObfuscator <io_realm_mongodb_log_obfuscator_HttpLogObfuscator>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  feature, 
+       |  `java.util.Map\<java.lang.String, RegexPatternObfuscator> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  patternObfuscatorMap
+       | )
+       
        
        Constructor for creating an HTTP log obfuscator.
        
@@ -56,9 +57,10 @@ Method Summary
      - Method and Description
    
    * - public **boolean**
-     - |   :ref:`equals <io_realm_mongodb_log_obfuscator_HttpLogObfuscator_equals_Object_>`  (
-       |      `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  o
-       |   )
+     - | :ref:`equals <io_realm_mongodb_log_obfuscator_HttpLogObfuscator_equals>` (
+       |  `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  o
+       | )
+       
        
        
        
@@ -66,7 +68,9 @@ Method Summary
        
    
    * - public **int**
-     - |   :ref:`hashCode <io_realm_mongodb_log_obfuscator_HttpLogObfuscator_hashCode__>`  ()
+     - | :ref:`hashCode <io_realm_mongodb_log_obfuscator_HttpLogObfuscator_hashCode>` ()
+       | 
+       
        
        
        
@@ -74,10 +78,11 @@ Method Summary
        
    
    * - public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__ 
-     - |   :ref:`obfuscate <io_realm_mongodb_log_obfuscator_HttpLogObfuscator_obfuscate_List_String___String_>`  (
-       |      `java.util.List\<java.lang.String> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  urlSegments, 
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  input
-       |   )
+     - | :ref:`obfuscate <io_realm_mongodb_log_obfuscator_HttpLogObfuscator_obfuscate>` (
+       |  `java.util.List\<java.lang.String> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  urlSegments, 
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  input
+       | )
+       
        
        Obfuscates a logcat entry or not depending on whether the request being sent matches the specified feature.
        
@@ -111,10 +116,13 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  HttpLogObfuscator (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  feature, 
-       |      `java.util.Map\<java.lang.String, io.realm.internal.log.obfuscator.RegexPatternObfuscator> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  patternObfuscatorMap
-       |   )
+   * - | public :ref:`HttpLogObfuscator <io_realm_mongodb_log_obfuscator_HttpLogObfuscator>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  feature, 
+       |  `java.util.Map\<java.lang.String, RegexPatternObfuscator> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  patternObfuscatorMap
+       | )
+       
+       
+       
    
    * - Constructor for creating an HTTP log obfuscator.
        
@@ -181,9 +189,12 @@ equals
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** equals (
-       |      `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  o
-       |   )
+   * - | public **boolean** :ref:`equals <io_realm_mongodb_log_obfuscator_HttpLogObfuscator_equals>` (
+       |  `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  o
+       | )
+       
+       
+       
    
    * - 
        
@@ -225,7 +236,11 @@ hashCode
 .. list-table::
    :header-rows: 1
    
-   * - |   public **int** hashCode ()
+   * - | public **int** :ref:`hashCode <io_realm_mongodb_log_obfuscator_HttpLogObfuscator_hashCode>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -317,10 +332,13 @@ obfuscate
 .. list-table::
    :header-rows: 1
    
-   * - |   public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  obfuscate (
-       |      `java.util.List\<java.lang.String> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  urlSegments, 
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  input
-       |   )
+   * - | public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  :ref:`obfuscate <io_realm_mongodb_log_obfuscator_HttpLogObfuscator_obfuscate>` (
+       |  `java.util.List\<java.lang.String> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  urlSegments, 
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  input
+       | )
+       
+       
+       
    
    * - Obfuscates a logcat entry or not depending on whether the request being sent matches the specified feature. If it doesn't, the logcat entry will be returned unmodified.
        
@@ -339,6 +357,11 @@ obfuscate
           
        
        
+       
+       
+       **Returns**
+       
+       the logcat entry to be shown in the logcat.
        
        
        

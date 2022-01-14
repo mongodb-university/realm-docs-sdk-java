@@ -31,34 +31,6 @@ This class somewhat mimics the behavior of an `Iterable <https://docs.oracle.com
 
 
 
-Field Summary
-=============
-
-.. list-table::
-   :header-rows: 1
-   
-   * - Modifier and Type
-     - Field and Description
-   
-   * - protected final **CodecRegistry (?)**
-       
-       
-     - :ref:`codecRegistry <io_realm_mongodb_mongo_iterable_MongoIterable_codecRegistry>` 
-       
-       
-       
-   
-   * - protected final **OsMongoCollection (?)**
-       
-       
-     - :ref:`osMongoCollection <io_realm_mongodb_mongo_iterable_MongoIterable_osMongoCollection>` 
-       
-       
-       
-   
-   
-
-
 Method Summary
 ==============
 
@@ -69,7 +41,9 @@ Method Summary
      - Method and Description
    
    * - public :ref:`RealmResultTask <io_realm_mongodb_RealmResultTask>` 
-     - |   :ref:`first <io_realm_mongodb_mongo_iterable_MongoIterable_first__>`  ()
+     - | :ref:`first <io_realm_mongodb_mongo_iterable_MongoIterable_first>` ()
+       | 
+       
        
        Helper to return the first item in the iterator or null.
        
@@ -77,7 +51,9 @@ Method Summary
        
    
    * - public :ref:`RealmResultTask <io_realm_mongodb_RealmResultTask>` 
-     - |   :ref:`iterator <io_realm_mongodb_mongo_iterable_MongoIterable_iterator__>`  ()
+     - | :ref:`iterator <io_realm_mongodb_mongo_iterable_MongoIterable_iterator>` ()
+       | 
+       
        
        Returns a cursor of the operation represented by this iterable.
        
@@ -93,31 +69,6 @@ Inherited Methods
 
 
 - Methods inherited from class `java.lang.Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__ : ``getClass`` , ``hashCode`` , ``equals`` , ``clone`` , ``toString`` , ``notify`` , ``notifyAll`` , ``wait`` , ``wait`` , ``wait`` , ``finalize`` 
-
-
-
-
-Field Detail
-============
-
-.. _io_realm_mongodb_mongo_iterable_MongoIterable_codecRegistry:
-
-
-
-``codecRegistry`` 
-------------------
-
-
-
-
-.. _io_realm_mongodb_mongo_iterable_MongoIterable_osMongoCollection:
-
-
-
-``osMongoCollection`` 
-----------------------
-
-
 
 
 
@@ -145,7 +96,11 @@ first
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`RealmResultTask <io_realm_mongodb_RealmResultTask>`  first ()
+   * - | public :ref:`RealmResultTask <io_realm_mongodb_RealmResultTask>`  :ref:`first <io_realm_mongodb_mongo_iterable_MongoIterable_first>` ()
+       | 
+       
+       
+       
    
    * - Helper to return the first item in the iterator or null.The result is wrapped in a ``Task``  since the iterator should be capable of asynchronously retrieve documents from the server.
        
@@ -156,6 +111,11 @@ first
        
        
        
+       
+       
+       **Returns**
+       
+       a task containing the first item or null.
        
        
        
@@ -187,7 +147,11 @@ iterator
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`RealmResultTask <io_realm_mongodb_RealmResultTask>`  iterator ()
+   * - | public :ref:`RealmResultTask <io_realm_mongodb_RealmResultTask>`  :ref:`iterator <io_realm_mongodb_mongo_iterable_MongoIterable_iterator>` ()
+       | 
+       
+       
+       
    
    * - Returns a cursor of the operation represented by this iterable.The result is wrapped in a ``Task``  since the iterator should be capable of asynchronously retrieve documents from the server.
        
@@ -198,6 +162,11 @@ iterator
        
        
        
+       
+       
+       **Returns**
+       
+       an asynchronous task with cursor of the operation represented by this iterable.
        
        
        
