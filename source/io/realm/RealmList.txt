@@ -192,7 +192,7 @@ Method Summary
        | )
        
        
-       
+       Returns the average of a given field.
        
        
        
@@ -237,7 +237,7 @@ Method Summary
        | 
        
        
-       
+       This deletes all objects in the collection from the underlying Realm as well as from the collection.
        
        
        
@@ -303,6 +303,8 @@ Method Summary
        
        
        
+       
+       
    
    * - public **E (?)**
      - | :ref:`get <io_realm_RealmList_get>` (
@@ -336,13 +338,15 @@ Method Summary
        
        
        
+       
+       
    
    * - public **boolean**
      - | :ref:`isLoaded <io_realm_RealmList_isLoaded>` ()
        | 
        
        
-       
+       Checks if a collection has finished loading its data yet.
        
        
        
@@ -352,7 +356,7 @@ Method Summary
        | 
        
        
-       
+       Checks if the collection is managed by Realm.
        
        
        
@@ -362,6 +366,8 @@ Method Summary
        | 
        
        
+       Checks if the collection is still valid to use, i.e., the :ref:`io.realm.Realm <io_realm_Realm>`  instance hasn't been closed.
+       
        
        
        
@@ -370,6 +376,8 @@ Method Summary
    * - public `Iterator <https://docs.oracle.com/javase/7/docs/api/java/util/Iterator.html>`__ 
      - | :ref:`iterator <io_realm_RealmList_iterator>` ()
        | 
+       
+       
        
        
        
@@ -408,10 +416,14 @@ Method Summary
        
        
        
+       
+       
    
    * - public `ListIterator <https://docs.oracle.com/javase/7/docs/api/java/util/ListIterator.html>`__ 
      - | :ref:`listIterator <io_realm_RealmList_listIterator>` ()
        | 
+       
+       
        
        
        
@@ -424,7 +436,7 @@ Method Summary
        | 
        
        
-       
+       Blocks the collection until all data are available.
        
        
        
@@ -435,7 +447,7 @@ Method Summary
        | )
        
        
-       
+       Finds the maximum value of a field.
        
        
        
@@ -446,7 +458,7 @@ Method Summary
        | )
        
        
-       
+       Finds the maximum date.
        
        
        
@@ -457,7 +469,7 @@ Method Summary
        | )
        
        
-       
+       Finds the minimum value of a field.
        
        
        
@@ -468,7 +480,7 @@ Method Summary
        | )
        
        
-       
+       Finds the minimum date.
        
        
        
@@ -633,7 +645,7 @@ Method Summary
        | )
        
        
-       
+       Calculates the sum of a given field.
        
        
        
@@ -1407,9 +1419,16 @@ average
        
        
    
-   * - 
+   * - Returns the average of a given field.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       the average for the given field amongst objects in query results. This will be of type double for all types of number fields. If no objects exist or they all have ``null``  as the value for the given field, ``0``  will be returned. When computing the average, objects with ``null``  values are ignored.
        
        
        
@@ -1654,9 +1673,16 @@ deleteAllFromRealm
        
        
    
-   * - 
+   * - This deletes all objects in the collection from the underlying Realm as well as from the collection.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if objects was deleted, ``false``  otherwise.
        
        
        
@@ -1937,6 +1963,8 @@ freeze
        
        
        
+       
+       
    
    
 
@@ -2124,6 +2152,8 @@ isFrozen
        
        
        
+       
+       
    
    
 
@@ -2154,9 +2184,16 @@ isLoaded
        
        
    
-   * - 
+   * - Checks if a collection has finished loading its data yet.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if data has been loaded and is available, ``false``  if data is still being loaded.
        
        
        
@@ -2196,9 +2233,20 @@ isManaged
        
        
    
-   * - 
+   * - Checks if the collection is managed by Realm. A managed collection is just a wrapper around the data in the underlying Realm file. On Looper threads, a managed collection will be live-updated so it always points to the latest data. Managed collections are thread confined so that they cannot be accessed from other threads than the one that created them.If this method returns ``false`` , the collection is unmanaged. An unmanaged collection is just a normal java collection, so it will not be live updated.
        
        
+       
+       
+       
+       
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if this is a managed :ref:`RealmCollection <io_realm_RealmCollection>` , ``false``  otherwise.
        
        
        
@@ -2238,9 +2286,18 @@ isValid
        
        
    
-   * - 
+   * - Checks if the collection is still valid to use, i.e., the :ref:`io.realm.Realm <io_realm_Realm>`  instance hasn't been closed. It will always return ``true``  for an unmanaged collection.
        
        
+       
+       
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if it is still valid to use or an unmanaged collection, ``false``  otherwise.
        
        
        
@@ -2281,6 +2338,8 @@ iterator
        
    
    * - 
+       
+       
        
        
        
@@ -2426,6 +2485,8 @@ listIterator
        
        
        
+       
+       
        **Overrides**
        
        ``listIterator`` in class `AbstractList <https://docs.oracle.com/javase/7/docs/api/java/util/AbstractList.html>`__ 
@@ -2443,6 +2504,8 @@ listIterator
        
    
    * - 
+       
+       
        
        
        
@@ -2488,9 +2551,16 @@ load
        
        
    
-   * - 
+   * - Blocks the collection until all data are available.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if the data could be successfully loaded, ``false``  otherwise.
        
        
        
@@ -2543,9 +2613,16 @@ max
        
        
    
-   * - 
+   * - Finds the maximum value of a field.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       if no objects exist or they all have ``null``  as the value for the given field, ``null``  will be returned. Otherwise the maximum value is returned. When determining the maximum value, objects with ``null``  values are ignored.
        
        
        
@@ -2598,9 +2675,16 @@ maxDate
        
        
    
-   * - 
+   * - Finds the maximum date.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       if no objects exist or they all have ``null``  as the value for the given date field, ``null``  will be returned. Otherwise the maximum date is returned. When determining the maximum date, objects with ``null``  values are ignored.
        
        
        
@@ -2653,9 +2737,16 @@ min
        
        
    
-   * - 
+   * - Finds the minimum value of a field.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       if no objects exist or they all have ``null``  as the value for the given field, ``null``  will be returned. Otherwise the minimum value is returned. When determining the minimum value, objects with ``null``  values are ignored.
        
        
        
@@ -2708,9 +2799,16 @@ minDate
        
        
    
-   * - 
+   * - Finds the minimum date.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       if no objects exist or they all have ``null``  as the value for the given date field, ``null``  will be returned. Otherwise the minimum date is returned. When determining the minimum date, objects with ``null``  values are ignored.
        
        
        
@@ -4003,9 +4101,16 @@ sum
        
        
    
-   * - 
+   * - Calculates the sum of a given field.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       the sum. If no objects exist or they all have ``null``  as the value for the given field, ``0``  will be returned. When computing the sum, objects with ``null``  values are ignored.
        
        
        

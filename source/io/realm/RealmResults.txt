@@ -144,10 +144,14 @@ Method Summary
        
        
        
+       
+       
    
    * - public **boolean**
      - | :ref:`isFrozen <io_realm_RealmResults_isFrozen>` ()
        | 
+       
+       
        
        
        
@@ -458,6 +462,8 @@ Method Summary
      - | :ref:`where <io_realm_RealmResults_where>` ()
        | 
        
+       
+       Returns a :ref:`RealmQuery <io_realm_RealmQuery>` , which can be used to query for specific objects from this collection.
        
        
        
@@ -995,6 +1001,8 @@ freeze
        
        
        
+       
+       
    
    
 
@@ -1026,6 +1034,8 @@ isFrozen
        
    
    * - 
+       
+       
        
        
        
@@ -3350,11 +3360,18 @@ where
        
        
    
-   * - 
+   * - Returns a :ref:`RealmQuery <io_realm_RealmQuery>` , which can be used to query for specific objects from this collection.
        
        
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       a RealmQuery object.
        
        
        

@@ -145,7 +145,7 @@ Method Summary
        | 
        
        
-       
+       Checks if a collection has finished loading its data yet.
        
        
        
@@ -155,7 +155,7 @@ Method Summary
        | 
        
        
-       
+       Blocks the collection until all data are available.
        
        
        
@@ -683,9 +683,16 @@ isLoaded
        
        
    
-   * - 
+   * - Checks if a collection has finished loading its data yet.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if data has been loaded and is available, ``false``  if data is still being loaded.
        
        
        
@@ -725,9 +732,16 @@ load
        
        
    
-   * - 
+   * - Blocks the collection until all data are available.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if the data could be successfully loaded, ``false``  otherwise.
        
        
        
@@ -1391,6 +1405,11 @@ where
        
        
        
+       
+       
+       **Returns**
+       
+       a RealmQuery object.
        
        
        
