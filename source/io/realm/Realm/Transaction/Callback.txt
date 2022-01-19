@@ -41,7 +41,9 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`Callback <io_realm_Realm_Transaction_Callback>`  ()
+   * - | :ref:`Callback <io_realm_Realm_Transaction_Callback>` ()
+       | 
+       
        
        
        
@@ -61,9 +63,10 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`onError <io_realm_Realm_Transaction_Callback_onError_Exception_>`  (
-       |      `Exception <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html>`__  ignore
-       |   )
+     - | :ref:`onError <io_realm_Realm_Transaction_Callback_onError>` (
+       |  `Exception <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html>`__  ignore
+       | )
+       
        
        
        
@@ -71,7 +74,9 @@ Method Summary
        
    
    * - public **void**
-     - |   :ref:`onSuccess <io_realm_Realm_Transaction_Callback_onSuccess__>`  ()
+     - | :ref:`onSuccess <io_realm_Realm_Transaction_Callback_onSuccess>` ()
+       | 
+       
        
        
        
@@ -105,7 +110,11 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  Callback ()
+   * - | public :ref:`Callback <io_realm_Realm_Transaction_Callback>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -132,6 +141,10 @@ Method Detail
 
 .. _Callback_onError__:
 
+.. _Realm_Transaction_Callback_onError:
+
+.. _Realm_Transaction_Callback_onError__:
+
 .. _io_realm_Realm_Transaction_Callback_onError:
 
 .. _io_realm_Realm_Transaction_Callback_onError__:
@@ -156,9 +169,12 @@ onError
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** onError (
-       |      `Exception <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html>`__  ignore
-       |   )
+   * - | public **void** :ref:`onError <io_realm_Realm_Transaction_Callback_onError>` (
+       |  `Exception <https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html>`__  ignore
+       | )
+       
+       
+       
    
    * - 
        
@@ -184,6 +200,10 @@ onError
 
 .. _Callback_onSuccess__:
 
+.. _Realm_Transaction_Callback_onSuccess:
+
+.. _Realm_Transaction_Callback_onSuccess__:
+
 .. _io_realm_Realm_Transaction_Callback_onSuccess:
 
 .. _io_realm_Realm_Transaction_Callback_onSuccess__:
@@ -196,7 +216,11 @@ onSuccess
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** onSuccess ()
+   * - | public **void** :ref:`onSuccess <io_realm_Realm_Transaction_Callback_onSuccess>` ()
+       | 
+       
+       
+       
    
    * - 
        

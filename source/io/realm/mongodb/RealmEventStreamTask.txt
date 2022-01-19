@@ -39,7 +39,9 @@ Method Summary
      - Method and Description
    
    * - public :ref:`BaseChangeEvent <io_realm_mongodb_mongo_events_BaseChangeEvent>` 
-     - |   :ref:`getNext <io_realm_mongodb_RealmEventStreamTask_getNext__>`  ()
+     - | :ref:`getNext <io_realm_mongodb_RealmEventStreamTask_getNext>` ()
+       | 
+       
        
        Blocks the thread on which the call is made until the result of the operation arrives.
        
@@ -47,7 +49,9 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`isOpen <io_realm_mongodb_RealmEventStreamTask_isOpen__>`  ()
+     - | :ref:`isOpen <io_realm_mongodb_RealmEventStreamTask_isOpen>` ()
+       | 
+       
        
        Whether or not the stream is currently open.
        
@@ -85,13 +89,22 @@ getNext
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`BaseChangeEvent <io_realm_mongodb_mongo_events_BaseChangeEvent>`  getNext ()
+   * - | public :ref:`BaseChangeEvent <io_realm_mongodb_mongo_events_BaseChangeEvent>`  :ref:`getNext <io_realm_mongodb_RealmEventStreamTask_getNext>` ()
+       | 
+       
+       
+       
    
    * - Blocks the thread on which the call is made until the result of the operation arrives.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the next event in the stream.
        
        
        
@@ -135,13 +148,22 @@ isOpen
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** isOpen ()
+   * - | public **boolean** :ref:`isOpen <io_realm_mongodb_RealmEventStreamTask_isOpen>` ()
+       | 
+       
+       
+       
    
    * - Whether or not the stream is currently open.
        
        
        
        
+       
+       
+       **Returns**
+       
+       true if open, false if not.
        
        
        

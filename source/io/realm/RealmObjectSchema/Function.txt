@@ -52,9 +52,10 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`apply <io_realm_RealmObjectSchema_Function_apply_DynamicRealmObject_>`  (
-       |      :ref:`DynamicRealmObject <io_realm_DynamicRealmObject>`  obj
-       |   )
+     - | :ref:`apply <io_realm_RealmObjectSchema_Function_apply>` (
+       |  :ref:`DynamicRealmObject <io_realm_DynamicRealmObject>`  obj
+       | )
+       
        
        
        
@@ -74,6 +75,10 @@ Method Detail
 .. _Function_apply:
 
 .. _Function_apply__:
+
+.. _RealmObjectSchema_Function_apply:
+
+.. _RealmObjectSchema_Function_apply__:
 
 .. _io_realm_RealmObjectSchema_Function_apply:
 
@@ -99,9 +104,12 @@ apply
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** apply (
-       |      :ref:`DynamicRealmObject <io_realm_DynamicRealmObject>`  obj
-       |   )
+   * - | public **void** :ref:`apply <io_realm_RealmObjectSchema_Function_apply>` (
+       |  :ref:`DynamicRealmObject <io_realm_DynamicRealmObject>`  obj
+       | )
+       
+       
+       
    
    * - 
        

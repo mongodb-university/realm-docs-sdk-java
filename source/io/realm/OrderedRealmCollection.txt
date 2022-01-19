@@ -26,8 +26,6 @@ io.realm
 - `java.util.Collection <https://docs.oracle.com/javase/7/docs/api/java/util/Collection.html>`__ 
 - `java.lang.Iterable <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__ 
 - `java.util.Collection <https://docs.oracle.com/javase/7/docs/api/java/util/Collection.html>`__ 
-- **io.realm.internal.ManageableObject (?)**
-- **io.realm.internal.Freezable (?)**
 - `java.lang.Iterable <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__ 
 
 
@@ -120,7 +118,9 @@ Method Summary
      - Method and Description
    
    * - public :ref:`OrderedRealmCollectionSnapshot <io_realm_OrderedRealmCollectionSnapshot>` 
-     - |   :ref:`createSnapshot <io_realm_OrderedRealmCollection_createSnapshot__>`  ()
+     - | :ref:`createSnapshot <io_realm_OrderedRealmCollection_createSnapshot>` ()
+       | 
+       
        
        Creates a snapshot from this :ref:`OrderedRealmCollection <io_realm_OrderedRealmCollection>` .
        
@@ -130,7 +130,9 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`deleteFirstFromRealm <io_realm_OrderedRealmCollection_deleteFirstFromRealm__>`  ()
+     - | :ref:`deleteFirstFromRealm <io_realm_OrderedRealmCollection_deleteFirstFromRealm>` ()
+       | 
+       
        
        Deletes the first object from the Realm.
        
@@ -138,9 +140,10 @@ Method Summary
        
    
    * - public **void**
-     - |   :ref:`deleteFromRealm <io_realm_OrderedRealmCollection_deleteFromRealm_int_>`  (
-       |      **int** location
-       |   )
+     - | :ref:`deleteFromRealm <io_realm_OrderedRealmCollection_deleteFromRealm>` (
+       |  **int** location
+       | )
+       
        
        Deletes the object at the given index from the Realm.
        
@@ -148,7 +151,9 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`deleteLastFromRealm <io_realm_OrderedRealmCollection_deleteLastFromRealm__>`  ()
+     - | :ref:`deleteLastFromRealm <io_realm_OrderedRealmCollection_deleteLastFromRealm>` ()
+       | 
+       
        
        Deletes the last object from the Realm.
        
@@ -156,9 +161,10 @@ Method Summary
        
    
    * - public **E (?)**
-     - |   :ref:`first <io_realm_OrderedRealmCollection_first_E_>`  (
-       |      **E (?)** defaultValue
-       |   )
+     - | :ref:`first <io_realm_OrderedRealmCollection_first>` (
+       |  **E (?)** defaultValue
+       | )
+       
        
        Gets the first object from the collection.
        
@@ -166,7 +172,9 @@ Method Summary
        
    
    * - public **E (?)**
-     - |   :ref:`first <io_realm_OrderedRealmCollection_first__>`  ()
+     - | :ref:`first <io_realm_OrderedRealmCollection_first>` ()
+       | 
+       
        
        Gets the first object from the collection.
        
@@ -174,9 +182,10 @@ Method Summary
        
    
    * - public **E (?)**
-     - |   :ref:`last <io_realm_OrderedRealmCollection_last_E_>`  (
-       |      **E (?)** defaultValue
-       |   )
+     - | :ref:`last <io_realm_OrderedRealmCollection_last>` (
+       |  **E (?)** defaultValue
+       | )
+       
        
        Gets the last object from the collection.
        
@@ -184,7 +193,9 @@ Method Summary
        
    
    * - public **E (?)**
-     - |   :ref:`last <io_realm_OrderedRealmCollection_last__>`  ()
+     - | :ref:`last <io_realm_OrderedRealmCollection_last>` ()
+       | 
+       
        
        Gets the last object from the collection.
        
@@ -192,10 +203,11 @@ Method Summary
        
    
    * - public :ref:`RealmResults <io_realm_RealmResults>` 
-     - |   :ref:`sort <io_realm_OrderedRealmCollection_sort_String[]__Sort[]_>`  (
-       |      `java.lang.String[] <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldNames, 
-       |      :ref:`io.realm.Sort[] <io_realm_Sort>`  sortOrders
-       |   )
+     - | :ref:`sort <io_realm_OrderedRealmCollection_sort>` (
+       |  `java.lang.String[] <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldNames, 
+       |  :ref:`io.realm.Sort[] <io_realm_Sort>`  sortOrders
+       | )
+       
        
        Sorts a collection based on the provided fields and sort orders.
        
@@ -203,12 +215,13 @@ Method Summary
        
    
    * - public :ref:`RealmResults <io_realm_RealmResults>` 
-     - |   :ref:`sort <io_realm_OrderedRealmCollection_sort_String__Sort__String__Sort_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName1, 
-       |      :ref:`Sort <io_realm_Sort>`  sortOrder1, 
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName2, 
-       |      :ref:`Sort <io_realm_Sort>`  sortOrder2
-       |   )
+     - | :ref:`sort <io_realm_OrderedRealmCollection_sort>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName1, 
+       |  :ref:`Sort <io_realm_Sort>`  sortOrder1, 
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName2, 
+       |  :ref:`Sort <io_realm_Sort>`  sortOrder2
+       | )
+       
        
        Sorts a collection based on the provided fields and sort orders.
        
@@ -216,10 +229,11 @@ Method Summary
        
    
    * - public :ref:`RealmResults <io_realm_RealmResults>` 
-     - |   :ref:`sort <io_realm_OrderedRealmCollection_sort_String__Sort_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |      :ref:`Sort <io_realm_Sort>`  sortOrder
-       |   )
+     - | :ref:`sort <io_realm_OrderedRealmCollection_sort>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
+       |  :ref:`Sort <io_realm_Sort>`  sortOrder
+       | )
+       
        
        Sorts a collection based on the provided field and sort order.
        
@@ -227,9 +241,10 @@ Method Summary
        
    
    * - public :ref:`RealmResults <io_realm_RealmResults>` 
-     - |   :ref:`sort <io_realm_OrderedRealmCollection_sort_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
-       |   )
+     - | :ref:`sort <io_realm_OrderedRealmCollection_sort>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
+       | )
+       
        
        Sorts a collection based on the provided field in ascending order.
        
@@ -267,7 +282,11 @@ createSnapshot
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`OrderedRealmCollectionSnapshot <io_realm_OrderedRealmCollectionSnapshot>`  createSnapshot ()
+   * - | public :ref:`OrderedRealmCollectionSnapshot <io_realm_OrderedRealmCollectionSnapshot>`  :ref:`createSnapshot <io_realm_OrderedRealmCollection_createSnapshot>` ()
+       | 
+       
+       
+       
    
    * - Creates a snapshot from this :ref:`OrderedRealmCollection <io_realm_OrderedRealmCollection>` .
        
@@ -276,6 +295,11 @@ createSnapshot
        
        
        
+       
+       
+       **Returns**
+       
+       the snapshot of this collection.
        
        
        
@@ -333,11 +357,22 @@ deleteFirstFromRealm
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** deleteFirstFromRealm ()
+   * - | public **boolean** :ref:`deleteFirstFromRealm <io_realm_OrderedRealmCollection_deleteFirstFromRealm>` ()
+       | 
+       
+       
+       
    
    * - Deletes the first object from the Realm. This also removes it from this collection.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if an object was deleted, ``false``  otherwise.
        
        
        
@@ -389,9 +424,12 @@ deleteFromRealm
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** deleteFromRealm (
-       |      **int** location
-       |   )
+   * - | public **void** :ref:`deleteFromRealm <io_realm_OrderedRealmCollection_deleteFromRealm>` (
+       |  **int** location
+       | )
+       
+       
+       
    
    * - Deletes the object at the given index from the Realm. This also removes it from the collection.
        
@@ -455,11 +493,22 @@ deleteLastFromRealm
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** deleteLastFromRealm ()
+   * - | public **boolean** :ref:`deleteLastFromRealm <io_realm_OrderedRealmCollection_deleteLastFromRealm>` ()
+       | 
+       
+       
+       
    
    * - Deletes the last object from the Realm. This also removes it from this collection.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if an object was deleted, ``false``  otherwise.
        
        
        
@@ -511,15 +560,23 @@ first
 .. list-table::
    :header-rows: 1
    
-   * - |   public **E (?)** first (
-       |      **E (?)** defaultValue
-       |   )
+   * - | public **E (?)** :ref:`first <io_realm_OrderedRealmCollection_first>` (
+       |  **E (?)** defaultValue
+       | )
+       
+       
+       
    
    * - Gets the first object from the collection. If the collection is empty, the provided default will be used instead.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the first object or the provided default.
        
        
        
@@ -532,13 +589,22 @@ first
 .. list-table::
    :header-rows: 1
    
-   * - |   public **E (?)** first ()
+   * - | public **E (?)** :ref:`first <io_realm_OrderedRealmCollection_first>` ()
+       | 
+       
+       
+       
    
    * - Gets the first object from the collection.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the first object.
        
        
        
@@ -584,15 +650,23 @@ last
 .. list-table::
    :header-rows: 1
    
-   * - |   public **E (?)** last (
-       |      **E (?)** defaultValue
-       |   )
+   * - | public **E (?)** :ref:`last <io_realm_OrderedRealmCollection_last>` (
+       |  **E (?)** defaultValue
+       | )
+       
+       
+       
    
    * - Gets the last object from the collection. If the collection is empty, the provided default will be used instead.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the last object or the provided default.
        
        
        
@@ -605,13 +679,22 @@ last
 .. list-table::
    :header-rows: 1
    
-   * - |   public **E (?)** last ()
+   * - | public **E (?)** :ref:`last <io_realm_OrderedRealmCollection_last>` ()
+       | 
+       
+       
+       
    
    * - Gets the last object from the collection.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the last object.
        
        
        
@@ -761,10 +844,13 @@ sort
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`RealmResults <io_realm_RealmResults>`  sort (
-       |      `java.lang.String[] <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldNames, 
-       |      :ref:`io.realm.Sort[] <io_realm_Sort>`  sortOrders
-       |   )
+   * - | public :ref:`RealmResults <io_realm_RealmResults>`  :ref:`sort <io_realm_OrderedRealmCollection_sort>` (
+       |  `java.lang.String[] <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldNames, 
+       |  :ref:`io.realm.Sort[] <io_realm_Sort>`  sortOrders
+       | )
+       
+       
+       
    
    * - Sorts a collection based on the provided fields and sort orders.
        
@@ -781,6 +867,13 @@ sort
           
           
           
+       
+       
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -999,12 +1092,15 @@ sort
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`RealmResults <io_realm_RealmResults>`  sort (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName1, 
-       |      :ref:`Sort <io_realm_Sort>`  sortOrder1, 
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName2, 
-       |      :ref:`Sort <io_realm_Sort>`  sortOrder2
-       |   )
+   * - | public :ref:`RealmResults <io_realm_RealmResults>`  :ref:`sort <io_realm_OrderedRealmCollection_sort>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName1, 
+       |  :ref:`Sort <io_realm_Sort>`  sortOrder1, 
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName2, 
+       |  :ref:`Sort <io_realm_Sort>`  sortOrder2
+       | )
+       
+       
+       
    
    * - Sorts a collection based on the provided fields and sort orders.
        
@@ -1029,6 +1125,13 @@ sort
           
           
           
+       
+       
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -1103,10 +1206,13 @@ sort
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`RealmResults <io_realm_RealmResults>`  sort (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |      :ref:`Sort <io_realm_Sort>`  sortOrder
-       |   )
+   * - | public :ref:`RealmResults <io_realm_RealmResults>`  :ref:`sort <io_realm_OrderedRealmCollection_sort>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
+       |  :ref:`Sort <io_realm_Sort>`  sortOrder
+       | )
+       
+       
+       
    
    * - Sorts a collection based on the provided field and sort order.
        
@@ -1123,6 +1229,13 @@ sort
           
           
           
+       
+       
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -1161,9 +1274,12 @@ sort
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`RealmResults <io_realm_RealmResults>`  sort (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
-       |   )
+   * - | public :ref:`RealmResults <io_realm_RealmResults>`  :ref:`sort <io_realm_OrderedRealmCollection_sort>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
+       | )
+       
+       
+       
    
    * - Sorts a collection based on the provided field in ascending order.
        
@@ -1176,6 +1292,13 @@ sort
           
           
           
+       
+       
+       
+       
+       **Returns**
+       
+       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        

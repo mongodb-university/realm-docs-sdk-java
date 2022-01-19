@@ -48,7 +48,9 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`close <io_realm_mongodb_mongo_iterable_MongoCursor_close__>`  ()
+     - | :ref:`close <io_realm_mongodb_mongo_iterable_MongoCursor_close>` ()
+       | 
+       
        
        
        
@@ -56,15 +58,9 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`hasNext <io_realm_mongodb_mongo_iterable_MongoCursor_hasNext__>`  ()
+     - | :ref:`hasNext <io_realm_mongodb_mongo_iterable_MongoCursor_hasNext>` ()
+       | 
        
-       
-       
-       
-       
-   
-   * - public **ResultT (?)**
-     - |   :ref:`next <io_realm_mongodb_mongo_iterable_MongoCursor_next__>`  ()
        
        
        
@@ -72,7 +68,19 @@ Method Summary
        
    
    * - public **ResultT (?)**
-     - |   :ref:`tryNext <io_realm_mongodb_mongo_iterable_MongoCursor_tryNext__>`  ()
+     - | :ref:`next <io_realm_mongodb_mongo_iterable_MongoCursor_next>` ()
+       | 
+       
+       
+       
+       
+       
+       
+   
+   * - public **ResultT (?)**
+     - | :ref:`tryNext <io_realm_mongodb_mongo_iterable_MongoCursor_tryNext>` ()
+       | 
+       
        
        A special ``next()``  case that returns the next document if available or null.
        
@@ -117,7 +125,11 @@ close
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** close ()
+   * - | public **void** :ref:`close <io_realm_mongodb_mongo_iterable_MongoCursor_close>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -155,7 +167,11 @@ hasNext
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** hasNext ()
+   * - | public **boolean** :ref:`hasNext <io_realm_mongodb_mongo_iterable_MongoCursor_hasNext>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -193,7 +209,11 @@ next
 .. list-table::
    :header-rows: 1
    
-   * - |   public **ResultT (?)** next ()
+   * - | public **ResultT (?)** :ref:`next <io_realm_mongodb_mongo_iterable_MongoCursor_next>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -231,13 +251,24 @@ tryNext
 .. list-table::
    :header-rows: 1
    
-   * - |   public **ResultT (?)** tryNext ()
+   * - | public **ResultT (?)** :ref:`tryNext <io_realm_mongodb_mongo_iterable_MongoCursor_tryNext>` ()
+       | 
+       
+       
+       
    
    * - A special ``next()``  case that returns the next document if available or null.
        
        
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       A ``Task``  containing the next document if available or null.
        
        
        

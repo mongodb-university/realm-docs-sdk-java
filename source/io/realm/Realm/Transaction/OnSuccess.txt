@@ -38,7 +38,9 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`onSuccess <io_realm_Realm_Transaction_OnSuccess_onSuccess__>`  ()
+     - | :ref:`onSuccess <io_realm_Realm_Transaction_OnSuccess_onSuccess>` ()
+       | 
+       
        
        
        
@@ -59,6 +61,10 @@ Method Detail
 
 .. _OnSuccess_onSuccess__:
 
+.. _Realm_Transaction_OnSuccess_onSuccess:
+
+.. _Realm_Transaction_OnSuccess_onSuccess__:
+
 .. _io_realm_Realm_Transaction_OnSuccess_onSuccess:
 
 .. _io_realm_Realm_Transaction_OnSuccess_onSuccess__:
@@ -71,7 +77,11 @@ onSuccess
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** onSuccess ()
+   * - | public **void** :ref:`onSuccess <io_realm_Realm_Transaction_OnSuccess_onSuccess>` ()
+       | 
+       
+       
+       
    
    * - 
        

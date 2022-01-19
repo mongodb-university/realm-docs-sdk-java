@@ -113,9 +113,10 @@ Method Summary
      - Method and Description
    
    * - public static :ref:`RealmFileException.Kind <io_realm_exceptions_RealmFileException_Kind>` 
-     - |   :ref:`valueOf <io_realm_exceptions_RealmFileException_Kind_valueOf_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+     - | :ref:`valueOf <io_realm_exceptions_RealmFileException_Kind_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
        
        
        
@@ -123,7 +124,9 @@ Method Summary
        
    
    * - public static :ref:`RealmFileException.Kind <io_realm_exceptions_RealmFileException_Kind>` 
-     - |   :ref:`values <io_realm_exceptions_RealmFileException_Kind_values__>`  ()
+     - | :ref:`values <io_realm_exceptions_RealmFileException_Kind_values>` ()
+       | 
+       
        
        
        
@@ -280,6 +283,10 @@ Method Detail
 
 .. _Kind_valueOf__:
 
+.. _RealmFileException_Kind_valueOf:
+
+.. _RealmFileException_Kind_valueOf__:
+
 .. _io_realm_exceptions_RealmFileException_Kind_valueOf:
 
 .. _io_realm_exceptions_RealmFileException_Kind_valueOf__:
@@ -304,9 +311,12 @@ valueOf
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`RealmFileException.Kind <io_realm_exceptions_RealmFileException_Kind>`  valueOf (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+   * - | public static :ref:`RealmFileException.Kind <io_realm_exceptions_RealmFileException_Kind>`  :ref:`valueOf <io_realm_exceptions_RealmFileException_Kind_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
+       
+       
    
    * - 
        
@@ -332,6 +342,10 @@ valueOf
 
 .. _Kind_values__:
 
+.. _RealmFileException_Kind_values:
+
+.. _RealmFileException_Kind_values__:
+
 .. _io_realm_exceptions_RealmFileException_Kind_values:
 
 .. _io_realm_exceptions_RealmFileException_Kind_values__:
@@ -344,7 +358,11 @@ values
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`RealmFileException.Kind <io_realm_exceptions_RealmFileException_Kind>`  values ()
+   * - | public static :ref:`RealmFileException.Kind <io_realm_exceptions_RealmFileException_Kind>`  :ref:`values <io_realm_exceptions_RealmFileException_Kind_values>` ()
+       | 
+       
+       
+       
    
    * - 
        

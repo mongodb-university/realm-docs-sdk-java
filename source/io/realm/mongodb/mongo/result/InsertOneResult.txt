@@ -33,9 +33,10 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`InsertOneResult <io_realm_mongodb_mongo_result_InsertOneResult>`  (
-       |      **BsonValue (?)** insertedId
-       |   )
+   * - | :ref:`InsertOneResult <io_realm_mongodb_mongo_result_InsertOneResult>` (
+       |  **BsonValue (?)** insertedId
+       | )
+       
        
        Constructs a result.
        
@@ -55,7 +56,9 @@ Method Summary
      - Method and Description
    
    * - public **BsonValue (?)**
-     - |   :ref:`getInsertedId <io_realm_mongodb_mongo_result_InsertOneResult_getInsertedId__>`  ()
+     - | :ref:`getInsertedId <io_realm_mongodb_mongo_result_InsertOneResult_getInsertedId>` ()
+       | 
+       
        
        Returns the _id of the inserted document.
        
@@ -89,9 +92,12 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  InsertOneResult (
-       |      **BsonValue (?)** insertedId
-       |   )
+   * - | public :ref:`InsertOneResult <io_realm_mongodb_mongo_result_InsertOneResult>` (
+       |  **BsonValue (?)** insertedId
+       | )
+       
+       
+       
    
    * - Constructs a result.
        
@@ -138,13 +144,22 @@ getInsertedId
 .. list-table::
    :header-rows: 1
    
-   * - |   public **BsonValue (?)** getInsertedId ()
+   * - | public **BsonValue (?)** :ref:`getInsertedId <io_realm_mongodb_mongo_result_InsertOneResult_getInsertedId>` ()
+       | 
+       
+       
+       
    
    * - Returns the _id of the inserted document.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the _id of the inserted document.
        
        
        

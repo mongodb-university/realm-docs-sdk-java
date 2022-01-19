@@ -69,9 +69,10 @@ Method Summary
      - Method and Description
    
    * - public static :ref:`ErrorCode.Category <io_realm_mongodb_ErrorCode_Category>` 
-     - |   :ref:`valueOf <io_realm_mongodb_ErrorCode_Category_valueOf_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+     - | :ref:`valueOf <io_realm_mongodb_ErrorCode_Category_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
        
        
        
@@ -79,7 +80,9 @@ Method Summary
        
    
    * - public static :ref:`ErrorCode.Category <io_realm_mongodb_ErrorCode_Category>` 
-     - |   :ref:`values <io_realm_mongodb_ErrorCode_Category_values__>`  ()
+     - | :ref:`values <io_realm_mongodb_ErrorCode_Category_values>` ()
+       | 
+       
        
        
        
@@ -146,6 +149,10 @@ Method Detail
 
 .. _Category_valueOf__:
 
+.. _ErrorCode_Category_valueOf:
+
+.. _ErrorCode_Category_valueOf__:
+
 .. _io_realm_mongodb_ErrorCode_Category_valueOf:
 
 .. _io_realm_mongodb_ErrorCode_Category_valueOf__:
@@ -170,9 +177,12 @@ valueOf
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`ErrorCode.Category <io_realm_mongodb_ErrorCode_Category>`  valueOf (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+   * - | public static :ref:`ErrorCode.Category <io_realm_mongodb_ErrorCode_Category>`  :ref:`valueOf <io_realm_mongodb_ErrorCode_Category_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
+       
+       
    
    * - 
        
@@ -198,6 +208,10 @@ valueOf
 
 .. _Category_values__:
 
+.. _ErrorCode_Category_values:
+
+.. _ErrorCode_Category_values__:
+
 .. _io_realm_mongodb_ErrorCode_Category_values:
 
 .. _io_realm_mongodb_ErrorCode_Category_values__:
@@ -210,7 +224,11 @@ values
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`ErrorCode.Category <io_realm_mongodb_ErrorCode_Category>`  values ()
+   * - | public static :ref:`ErrorCode.Category <io_realm_mongodb_ErrorCode_Category>`  :ref:`values <io_realm_mongodb_ErrorCode_Category_values>` ()
+       | 
+       
+       
+       
    
    * - 
        

@@ -50,10 +50,11 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`onChange <io_realm_OrderedRealmCollectionChangeListener_onChange_T__OrderedCollectionChangeSet_>`  (
-       |      **T (?)** t, 
-       |      :ref:`OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>`  changeSet
-       |   )
+     - | :ref:`onChange <io_realm_OrderedRealmCollectionChangeListener_onChange>` (
+       |  **T (?)** t, 
+       |  :ref:`OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>`  changeSet
+       | )
+       
        
        This will be called when the async query is finished the first time or the collection of objects has changed.
        
@@ -110,10 +111,13 @@ onChange
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** onChange (
-       |      **T (?)** t, 
-       |      :ref:`OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>`  changeSet
-       |   )
+   * - | public **void** :ref:`onChange <io_realm_OrderedRealmCollectionChangeListener_onChange>` (
+       |  **T (?)** t, 
+       |  :ref:`OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>`  changeSet
+       | )
+       
+       
+       
    
    * - This will be called when the async query is finished the first time or the collection of objects has changed.
        

@@ -66,9 +66,10 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`onChange <io_realm_RealmChangeListener_onChange_T_>`  (
-       |      **T (?)** t
-       |   )
+     - | :ref:`onChange <io_realm_RealmChangeListener_onChange>` (
+       |  **T (?)** t
+       | )
+       
        
        Called when a transaction is committed.
        
@@ -107,9 +108,12 @@ onChange
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** onChange (
-       |      **T (?)** t
-       |   )
+   * - | public **void** :ref:`onChange <io_realm_RealmChangeListener_onChange>` (
+       |  **T (?)** t
+       | )
+       
+       
+       
    
    * - Called when a transaction is committed.
        

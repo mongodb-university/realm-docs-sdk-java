@@ -70,9 +70,10 @@ Method Summary
      - Method and Description
    
    * - public static :ref:`ConnectionState <io_realm_mongodb_sync_ConnectionState>` 
-     - |   :ref:`valueOf <io_realm_mongodb_sync_ConnectionState_valueOf_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+     - | :ref:`valueOf <io_realm_mongodb_sync_ConnectionState_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
        
        
        
@@ -80,7 +81,9 @@ Method Summary
        
    
    * - public static :ref:`ConnectionState <io_realm_mongodb_sync_ConnectionState>` 
-     - |   :ref:`values <io_realm_mongodb_sync_ConnectionState_values__>`  ()
+     - | :ref:`values <io_realm_mongodb_sync_ConnectionState_values>` ()
+       | 
+       
        
        
        
@@ -192,9 +195,12 @@ valueOf
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`ConnectionState <io_realm_mongodb_sync_ConnectionState>`  valueOf (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+   * - | public static :ref:`ConnectionState <io_realm_mongodb_sync_ConnectionState>`  :ref:`valueOf <io_realm_mongodb_sync_ConnectionState_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
+       
+       
    
    * - 
        
@@ -232,7 +238,11 @@ values
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`ConnectionState <io_realm_mongodb_sync_ConnectionState>`  values ()
+   * - | public static :ref:`ConnectionState <io_realm_mongodb_sync_ConnectionState>`  :ref:`values <io_realm_mongodb_sync_ConnectionState_values>` ()
+       | 
+       
+       
+       
    
    * - 
        

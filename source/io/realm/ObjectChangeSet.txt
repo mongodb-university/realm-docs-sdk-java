@@ -44,15 +44,9 @@ Method Summary
      - Method and Description
    
    * - public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__ 
-     - |   :ref:`getChangedFields <io_realm_ObjectChangeSet_getChangedFields__>`  ()
+     - | :ref:`getChangedFields <io_realm_ObjectChangeSet_getChangedFields>` ()
+       | 
        
-       
-       
-       
-       
-   
-   * - public **boolean**
-     - |   :ref:`isDeleted <io_realm_ObjectChangeSet_isDeleted__>`  ()
        
        
        
@@ -60,9 +54,20 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`isFieldChanged <io_realm_ObjectChangeSet_isFieldChanged_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
-       |   )
+     - | :ref:`isDeleted <io_realm_ObjectChangeSet_isDeleted>` ()
+       | 
+       
+       
+       
+       
+       
+       
+   
+   * - public **boolean**
+     - | :ref:`isFieldChanged <io_realm_ObjectChangeSet_isFieldChanged>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
+       | )
+       
        
        Checks if a given field has been changed.
        
@@ -95,11 +100,22 @@ getChangedFields
 .. list-table::
    :header-rows: 1
    
-   * - |   public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  getChangedFields ()
+   * - | public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  :ref:`getChangedFields <io_realm_ObjectChangeSet_getChangedFields>` ()
+       | 
+       
+       
+       
    
    * - 
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       the names of changed fields if the object still exists and there are field changes. Returns an empty ``String[]``  if the object has been deleted.
        
        
        
@@ -133,13 +149,22 @@ isDeleted
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** isDeleted ()
+   * - | public **boolean** :ref:`isDeleted <io_realm_ObjectChangeSet_isDeleted>` ()
+       | 
+       
+       
+       
    
    * - 
        
        
        
        
+       
+       
+       **Returns**
+       
+       true if the object has been deleted from the Realm.
        
        
        
@@ -183,9 +208,12 @@ isFieldChanged
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** isFieldChanged (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
-       |   )
+   * - | public **boolean** :ref:`isFieldChanged <io_realm_ObjectChangeSet_isFieldChanged>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
+       | )
+       
+       
+       
    
    * - Checks if a given field has been changed.
        
@@ -198,6 +226,13 @@ isFieldChanged
           
           
           
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if the field has been changed. It returns ``false``  if the object is deleted, the field cannot be found or the field hasn't been changed.
        
        
        

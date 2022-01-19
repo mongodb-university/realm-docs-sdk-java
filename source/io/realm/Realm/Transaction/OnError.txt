@@ -40,9 +40,10 @@ Method Summary
      - Method and Description
    
    * - public **void**
-     - |   :ref:`onError <io_realm_Realm_Transaction_OnError_onError_Throwable_>`  (
-       |      `Throwable <https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html>`__  error
-       |   )
+     - | :ref:`onError <io_realm_Realm_Transaction_OnError_onError>` (
+       |  `Throwable <https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html>`__  error
+       | )
+       
        
        
        
@@ -62,6 +63,10 @@ Method Detail
 .. _OnError_onError:
 
 .. _OnError_onError__:
+
+.. _Realm_Transaction_OnError_onError:
+
+.. _Realm_Transaction_OnError_onError__:
 
 .. _io_realm_Realm_Transaction_OnError_onError:
 
@@ -87,9 +92,12 @@ onError
 .. list-table::
    :header-rows: 1
    
-   * - |   public **void** onError (
-       |      `Throwable <https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html>`__  error
-       |   )
+   * - | public **void** :ref:`onError <io_realm_Realm_Transaction_OnError_onError>` (
+       |  `Throwable <https://docs.oracle.com/javase/7/docs/api/java/lang/Throwable.html>`__  error
+       | )
+       
+       
+       
    
    * - 
        

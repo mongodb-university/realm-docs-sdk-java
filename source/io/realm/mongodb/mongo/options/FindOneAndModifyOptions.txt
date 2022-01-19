@@ -33,7 +33,9 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  ()
+   * - | :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>` ()
+       | 
+       
        
        
        
@@ -53,7 +55,9 @@ Method Summary
      - Method and Description
    
    * - public **Bson (?)**
-     - |   :ref:`getProjection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getProjection__>`  ()
+     - | :ref:`getProjection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getProjection>` ()
+       | 
+       
        
        Gets a document describing the fields to return for all matching documents.
        
@@ -61,7 +65,9 @@ Method Summary
        
    
    * - public **Bson (?)**
-     - |   :ref:`getSort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getSort__>`  ()
+     - | :ref:`getSort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getSort>` ()
+       | 
+       
        
        Gets the sort criteria to apply to the query.
        
@@ -69,7 +75,9 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`isReturnNewDocument <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_isReturnNewDocument__>`  ()
+     - | :ref:`isReturnNewDocument <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_isReturnNewDocument>` ()
+       | 
+       
        
        Returns true if the findOneAndModify operation should return the new document.
        
@@ -77,7 +85,9 @@ Method Summary
        
    
    * - public **boolean**
-     - |   :ref:`isUpsert <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_isUpsert__>`  ()
+     - | :ref:`isUpsert <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_isUpsert>` ()
+       | 
+       
        
        Returns true if a new document should be inserted if there are no matches to the query filter.
        
@@ -85,9 +95,10 @@ Method Summary
        
    
    * - public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>` 
-     - |   :ref:`projection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_projection_Bson_>`  (
-       |      **Bson (?)** projection
-       |   )
+     - | :ref:`projection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_projection>` (
+       |  **Bson (?)** projection
+       | )
+       
        
        Sets a document describing the fields to return for all matching documents.
        
@@ -95,9 +106,10 @@ Method Summary
        
    
    * - public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>` 
-     - |   :ref:`returnNewDocument <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_returnNewDocument_boolean_>`  (
-       |      **boolean** returnNewDocument
-       |   )
+     - | :ref:`returnNewDocument <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_returnNewDocument>` (
+       |  **boolean** returnNewDocument
+       | )
+       
        
        Set to true if findOneAndModify operations should return the new updated document.
        
@@ -105,9 +117,10 @@ Method Summary
        
    
    * - public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>` 
-     - |   :ref:`sort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_sort_Bson_>`  (
-       |      **Bson (?)** sort
-       |   )
+     - | :ref:`sort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_sort>` (
+       |  **Bson (?)** sort
+       | )
+       
        
        Sets the sort criteria to apply to the query.
        
@@ -115,7 +128,9 @@ Method Summary
        
    
    * - public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__ 
-     - |   :ref:`toString <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_toString__>`  ()
+     - | :ref:`toString <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_toString>` ()
+       | 
+       
        
        
        
@@ -123,9 +138,10 @@ Method Summary
        
    
    * - public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>` 
-     - |   :ref:`upsert <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_upsert_boolean_>`  (
-       |      **boolean** upsert
-       |   )
+     - | :ref:`upsert <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_upsert>` (
+       |  **boolean** upsert
+       | )
+       
        
        Set to true if a new document should be inserted if there are no matches to the query filter.
        
@@ -159,7 +175,11 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  FindOneAndModifyOptions ()
+   * - | public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -198,13 +218,22 @@ getProjection
 .. list-table::
    :header-rows: 1
    
-   * - |   public **Bson (?)** getProjection ()
+   * - | public **Bson (?)** :ref:`getProjection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getProjection>` ()
+       | 
+       
+       
+       
    
    * - Gets a document describing the fields to return for all matching documents.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the project document, which may be null
        
        
        
@@ -236,13 +265,22 @@ getSort
 .. list-table::
    :header-rows: 1
    
-   * - |   public **Bson (?)** getSort ()
+   * - | public **Bson (?)** :ref:`getSort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getSort>` ()
+       | 
+       
+       
+       
    
    * - Gets the sort criteria to apply to the query. The default is null, which means that the documents will be returned in an undefined order.
        
        
        
        
+       
+       
+       **Returns**
+       
+       a document describing the sort criteria
        
        
        
@@ -274,13 +312,22 @@ isReturnNewDocument
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** isReturnNewDocument ()
+   * - | public **boolean** :ref:`isReturnNewDocument <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_isReturnNewDocument>` ()
+       | 
+       
+       
+       
    
    * - Returns true if the findOneAndModify operation should return the new document. The default is false Note: Only findOneAndUpdate and findOneAndReplace take this options findOneAndDelete will always return the old document
        
        
        
        
+       
+       
+       **Returns**
+       
+       true if findOneAndModify operation should return the new document
        
        
        
@@ -312,13 +359,22 @@ isUpsert
 .. list-table::
    :header-rows: 1
    
-   * - |   public **boolean** isUpsert ()
+   * - | public **boolean** :ref:`isUpsert <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_isUpsert>` ()
+       | 
+       
+       
+       
    
    * - Returns true if a new document should be inserted if there are no matches to the query filter. The default is false. Note: Only findOneAndUpdate and findOneAndReplace take this option
        
        
        
        
+       
+       
+       **Returns**
+       
+       true if a new document should be inserted if there are no matches to the query filter
        
        
        
@@ -356,9 +412,12 @@ projection
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  projection (
-       |      **Bson (?)** projection
-       |   )
+   * - | public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  :ref:`projection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_projection>` (
+       |  **Bson (?)** projection
+       | )
+       
+       
+       
    
    * - Sets a document describing the fields to return for all matching documents.
        
@@ -373,6 +432,11 @@ projection
           
        
        
+       
+       
+       **Returns**
+       
+       this
        
        
        
@@ -410,9 +474,12 @@ returnNewDocument
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  returnNewDocument (
-       |      **boolean** returnNewDocument
-       |   )
+   * - | public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  :ref:`returnNewDocument <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_returnNewDocument>` (
+       |  **boolean** returnNewDocument
+       | )
+       
+       
+       
    
    * - Set to true if findOneAndModify operations should return the new updated document. Set to false / leave blank to have these operation return the document before the update. Note: Only findOneAndUpdate and findOneAndReplace take this options findOneAndDelete will always return the old document
        
@@ -427,6 +494,11 @@ returnNewDocument
           
        
        
+       
+       
+       **Returns**
+       
+       this
        
        
        
@@ -464,9 +536,12 @@ sort
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  sort (
-       |      **Bson (?)** sort
-       |   )
+   * - | public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  :ref:`sort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_sort>` (
+       |  **Bson (?)** sort
+       | )
+       
+       
+       
    
    * - Sets the sort criteria to apply to the query.
        
@@ -481,6 +556,11 @@ sort
           
        
        
+       
+       
+       **Returns**
+       
+       this
        
        
        
@@ -512,7 +592,11 @@ toString
 .. list-table::
    :header-rows: 1
    
-   * - |   public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  toString ()
+   * - | public `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  :ref:`toString <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_toString>` ()
+       | 
+       
+       
+       
    
    * - 
        
@@ -560,9 +644,12 @@ upsert
 .. list-table::
    :header-rows: 1
    
-   * - |   public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  upsert (
-       |      **boolean** upsert
-       |   )
+   * - | public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  :ref:`upsert <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_upsert>` (
+       |  **boolean** upsert
+       | )
+       
+       
+       
    
    * - Set to true if a new document should be inserted if there are no matches to the query filter.
        
@@ -577,6 +664,11 @@ upsert
           
        
        
+       
+       
+       **Returns**
+       
+       this
        
        
        

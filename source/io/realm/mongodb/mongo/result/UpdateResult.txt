@@ -33,11 +33,12 @@ Constructors
    
    * - Constructor and Description
    
-   * - |   :ref:`UpdateResult <io_realm_mongodb_mongo_result_UpdateResult>`  (
-       |      **long** matchedCount, 
-       |      **long** modifiedCount, 
-       |      **BsonValue (?)** upsertedId
-       |   )
+   * - | :ref:`UpdateResult <io_realm_mongodb_mongo_result_UpdateResult>` (
+       |  **long** matchedCount, 
+       |  **long** modifiedCount, 
+       |  **BsonValue (?)** upsertedId
+       | )
+       
        
        Constructs a result.
        
@@ -57,7 +58,9 @@ Method Summary
      - Method and Description
    
    * - public **long**
-     - |   :ref:`getMatchedCount <io_realm_mongodb_mongo_result_UpdateResult_getMatchedCount__>`  ()
+     - | :ref:`getMatchedCount <io_realm_mongodb_mongo_result_UpdateResult_getMatchedCount>` ()
+       | 
+       
        
        Returns the number of documents matched by the query.
        
@@ -65,7 +68,9 @@ Method Summary
        
    
    * - public **long**
-     - |   :ref:`getModifiedCount <io_realm_mongodb_mongo_result_UpdateResult_getModifiedCount__>`  ()
+     - | :ref:`getModifiedCount <io_realm_mongodb_mongo_result_UpdateResult_getModifiedCount>` ()
+       | 
+       
        
        Returns the number of documents modified.
        
@@ -73,7 +78,9 @@ Method Summary
        
    
    * - public **BsonValue (?)**
-     - |   :ref:`getUpsertedId <io_realm_mongodb_mongo_result_UpdateResult_getUpsertedId__>`  ()
+     - | :ref:`getUpsertedId <io_realm_mongodb_mongo_result_UpdateResult_getUpsertedId>` ()
+       | 
+       
        
        If the replace resulted in an inserted document, gets the _id of the inserted document, otherwise null.
        
@@ -107,11 +114,14 @@ Constructor Detail
 .. list-table::
    :header-rows: 1
    
-   * -  |   public  UpdateResult (
-       |      **long** matchedCount, 
-       |      **long** modifiedCount, 
-       |      **BsonValue (?)** upsertedId
-       |   )
+   * - | public :ref:`UpdateResult <io_realm_mongodb_mongo_result_UpdateResult>` (
+       |  **long** matchedCount, 
+       |  **long** modifiedCount, 
+       |  **BsonValue (?)** upsertedId
+       | )
+       
+       
+       
    
    * - Constructs a result.
        
@@ -166,13 +176,22 @@ getMatchedCount
 .. list-table::
    :header-rows: 1
    
-   * - |   public **long** getMatchedCount ()
+   * - | public **long** :ref:`getMatchedCount <io_realm_mongodb_mongo_result_UpdateResult_getMatchedCount>` ()
+       | 
+       
+       
+       
    
    * - Returns the number of documents matched by the query.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the number of documents matched.
        
        
        
@@ -204,13 +223,22 @@ getModifiedCount
 .. list-table::
    :header-rows: 1
    
-   * - |   public **long** getModifiedCount ()
+   * - | public **long** :ref:`getModifiedCount <io_realm_mongodb_mongo_result_UpdateResult_getModifiedCount>` ()
+       | 
+       
+       
+       
    
    * - Returns the number of documents modified.
        
        
        
        
+       
+       
+       **Returns**
+       
+       the number of documents modified.
        
        
        
@@ -242,13 +270,22 @@ getUpsertedId
 .. list-table::
    :header-rows: 1
    
-   * - |   public **BsonValue (?)** getUpsertedId ()
+   * - | public **BsonValue (?)** :ref:`getUpsertedId <io_realm_mongodb_mongo_result_UpdateResult_getUpsertedId>` ()
+       | 
+       
+       
+       
    
    * - If the replace resulted in an inserted document, gets the _id of the inserted document, otherwise null.
        
        
        
        
+       
+       
+       **Returns**
+       
+       if the replace resulted in an inserted document, the _id of the inserted document, otherwise null.
        
        
        

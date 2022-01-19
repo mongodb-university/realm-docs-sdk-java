@@ -76,9 +76,10 @@ Method Summary
      - Method and Description
    
    * - public static :ref:`User.State <io_realm_mongodb_User_State>` 
-     - |   :ref:`valueOf <io_realm_mongodb_User_State_valueOf_String_>`  (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+     - | :ref:`valueOf <io_realm_mongodb_User_State_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
        
        
        
@@ -86,7 +87,9 @@ Method Summary
        
    
    * - public static :ref:`User.State <io_realm_mongodb_User_State>` 
-     - |   :ref:`values <io_realm_mongodb_User_State_values__>`  ()
+     - | :ref:`values <io_realm_mongodb_User_State_values>` ()
+       | 
+       
        
        
        
@@ -168,6 +171,10 @@ Method Detail
 
 .. _State_valueOf__:
 
+.. _User_State_valueOf:
+
+.. _User_State_valueOf__:
+
 .. _io_realm_mongodb_User_State_valueOf:
 
 .. _io_realm_mongodb_User_State_valueOf__:
@@ -192,9 +199,12 @@ valueOf
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`User.State <io_realm_mongodb_User_State>`  valueOf (
-       |      `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
-       |   )
+   * - | public static :ref:`User.State <io_realm_mongodb_User_State>`  :ref:`valueOf <io_realm_mongodb_User_State_valueOf>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name
+       | )
+       
+       
+       
    
    * - 
        
@@ -220,6 +230,10 @@ valueOf
 
 .. _State_values__:
 
+.. _User_State_values:
+
+.. _User_State_values__:
+
 .. _io_realm_mongodb_User_State_values:
 
 .. _io_realm_mongodb_User_State_values__:
@@ -232,7 +246,11 @@ values
 .. list-table::
    :header-rows: 1
    
-   * - |   public static :ref:`User.State <io_realm_mongodb_User_State>`  values ()
+   * - | public static :ref:`User.State <io_realm_mongodb_User_State>`  :ref:`values <io_realm_mongodb_User_State_values>` ()
+       | 
+       
+       
+       
    
    * - 
        
