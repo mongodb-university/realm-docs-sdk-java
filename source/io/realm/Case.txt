@@ -202,11 +202,6 @@ getValue
        
        
        
-       **Returns**
-       
-       The value used by the underlying query engine to indicate this value.
-       
-       
        
        
        

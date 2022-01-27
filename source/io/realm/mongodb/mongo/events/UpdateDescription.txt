@@ -220,11 +220,6 @@ diff
        
        
        
-       **Returns**
-       
-       a description of the updated fields and removed keys between the documents.
-       
-       
        
        
        
@@ -341,11 +336,6 @@ fromBsonDocument
        
        
        
-       **Returns**
-       
-       the converted UpdateDescription
-       
-       
        
        
        
@@ -390,11 +380,6 @@ getRemovedFields
        
        
        
-       **Returns**
-       
-       the removed fields names.
-       
-       
        
        
        
@@ -437,11 +422,6 @@ getUpdatedFields
        
        
        
-       
-       
-       **Returns**
-       
-       the updated field names and their new values.
        
        
        
@@ -532,11 +512,6 @@ isEmpty
        
        
        
-       **Returns**
-       
-       true if the update description is empty, false otherwise
-       
-       
        
        
        
@@ -600,11 +575,6 @@ merge
        
        
        
-       **Returns**
-       
-       this merged update description
-       
-       
        
        
        
@@ -647,11 +617,6 @@ toBsonDocument
        
        
        
-       **Returns**
-       
-       the update description document as it would appear in a change event
-       
-       
        
        
        
@@ -692,11 +657,6 @@ toUpdateDocument
        
        
        
-       
-       
-       **Returns**
-       
-       an update document with the appropriate $set and $unset documents.
        
        
        

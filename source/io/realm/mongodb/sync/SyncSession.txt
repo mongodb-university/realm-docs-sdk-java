@@ -657,13 +657,6 @@ downloadAllServerChanges
        
        
        
-       **Returns**
-       
-       ``true``  if the data was downloaded before the timeout. ``false``  if the operation timed out or otherwise failed.
-       
-       
-       
-       
        
        
        **Throws**
@@ -765,11 +758,6 @@ getConfiguration
        
        
        
-       **Returns**
-       
-       SyncConfiguration that defines and controls this session.
-       
-       
        
        
        
@@ -812,11 +800,6 @@ getConnectionState
        
        
        
-       
-       
-       **Returns**
-       
-       the state of connection used by the session.
        
        
        
@@ -877,13 +860,6 @@ getServerUrl
        
        
        
-       **Returns**
-       
-       `URI <https://docs.oracle.com/javase/7/docs/api/java/net/URI.html>`__  describing the remote Realm.
-       
-       
-       
-       
        
        
        
@@ -928,11 +904,6 @@ getState
        
        
        
-       
-       
-       **Returns**
-       
-       the state of the session.
        
        
        
@@ -993,13 +964,6 @@ getUser
        
        
        
-       **Returns**
-       
-       :ref:`User <io_realm_mongodb_User>`  used to authenticate the session on MongoDB Realm.
-       
-       
-       
-       
        
        
        
@@ -1040,13 +1004,6 @@ isConnected
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the session is connected and ready to synchronize data, ``false``  if not or if it is in the process of connecting.
        
        
        
@@ -1373,13 +1330,6 @@ uploadAllLocalChanges
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the data was uploaded before the timeout. ``false``  if the operation timed out or otherwise failed.
        
        
        

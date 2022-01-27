@@ -752,13 +752,6 @@ asChangesetObservable
        
        
        
-       **Returns**
-       
-       RxJava Observable that only calls ``onNext`` . It will never call ``onComplete``  or ``OnError`` .
-       
-       
-       
-       
        
        
        **Throws**
@@ -869,13 +862,6 @@ asFlowable
        
        
        
-       **Returns**
-       
-       RxJava Observable that only calls ``onNext`` . It will never call ``onComplete``  or ``OnError`` .
-       
-       
-       
-       
        
        
        **Throws**
@@ -943,13 +929,6 @@ asJSON
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       string representation of a JSON array containing entries of the resulting :ref:`RealmQuery <io_realm_RealmQuery>` .
        
        
        
@@ -1086,13 +1065,6 @@ isLoaded
        
        
        
-       **Returns**
-       
-       ``true``  if the query has completed and the data is available, ``false``  if the query is still running in the background.
-       
-       
-       
-       
        
        
        
@@ -1133,13 +1105,6 @@ load
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if it successfully completed the query, ``false``  otherwise.
        
        
        
@@ -3314,13 +3279,6 @@ sort
        
        
        
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
-       
-       
-       
-       
        
        
        
@@ -3367,11 +3325,6 @@ where
        
        
        
-       
-       
-       **Returns**
-       
-       a RealmQuery object.
        
        
        

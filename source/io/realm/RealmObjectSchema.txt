@@ -650,11 +650,6 @@ addField
        
        
        
-       **Returns**
-       
-       the updated schema.
-       
-       
        
        
        **Throws**
@@ -734,11 +729,6 @@ addIndex
        
        
        
-       **Returns**
-       
-       the updated schema.
-       
-       
        
        
        **Throws**
@@ -816,11 +806,6 @@ addPrimaryKey
           
        
        
-       
-       
-       **Returns**
-       
-       the updated schema.
        
        
        
@@ -967,11 +952,6 @@ addRealmDictionaryField
        
        
        
-       **Returns**
-       
-       the updated schema.
-       
-       
        
        
        **Throws**
@@ -1075,11 +1055,6 @@ addRealmDictionaryField
           
        
        
-       
-       
-       **Returns**
-       
-       the updated schema.
        
        
        
@@ -1226,11 +1201,6 @@ addRealmListField
        
        
        
-       **Returns**
-       
-       the updated schema.
-       
-       
        
        
        **Throws**
@@ -1334,11 +1304,6 @@ addRealmListField
           
        
        
-       
-       
-       **Returns**
-       
-       the updated schema.
        
        
        
@@ -1459,11 +1424,6 @@ addRealmObjectField
           
        
        
-       
-       
-       **Returns**
-       
-       the updated schema.
        
        
        
@@ -1610,11 +1570,6 @@ addRealmSetField
        
        
        
-       **Returns**
-       
-       the updated schema.
-       
-       
        
        
        **Throws**
@@ -1720,11 +1675,6 @@ addRealmSetField
        
        
        
-       **Returns**
-       
-       the updated schema.
-       
-       
        
        
        **Throws**
@@ -1795,11 +1745,6 @@ getClassName
        
        
        
-       **Returns**
-       
-       the name of the RealmObject class represented by this schema.
-       
-       
        
        
        **Throws**
@@ -1848,11 +1793,6 @@ getFieldNames
        
        
        
-       
-       
-       **Returns**
-       
-       a list of all the fields in this class.
        
        
        
@@ -1918,11 +1858,6 @@ getFieldType
        
        
        
-       **Returns**
-       
-       the underlying type used by Realm to represent this field.
-       
-       
        
        
        
@@ -1963,11 +1898,6 @@ getPrimaryKey
        
        
        
-       
-       
-       **Returns**
-       
-       the name of the primary key field.
        
        
        
@@ -2041,13 +1971,6 @@ hasField
        
        
        
-       **Returns**
-       
-       ``true``  if the field exists, ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -2107,13 +2030,6 @@ hasIndex
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if field is indexed, ``false``  otherwise.
        
        
        
@@ -2182,13 +2098,6 @@ hasPrimaryKey
        
        
        
-       **Returns**
-       
-       ``true``  if a primary key is defined, ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -2243,13 +2152,6 @@ isEmbedded
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if objects of this type are embedded. ``false``  if not.
        
        
        
@@ -2315,13 +2217,6 @@ isNullable
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if it is required, ``false``  otherwise.
        
        
        
@@ -2407,13 +2302,6 @@ isPrimaryKey
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if it is the primary key field, ``false``  otherwise.
        
        
        
@@ -2505,13 +2393,6 @@ isRequired
        
        
        
-       **Returns**
-       
-       ``true``  if it is required, ``false``  otherwise.
-       
-       
-       
-       
        
        
        **Throws**
@@ -2597,11 +2478,6 @@ removeField
        
        
        
-       **Returns**
-       
-       the updated schema.
-       
-       
        
        
        **Throws**
@@ -2681,11 +2557,6 @@ removeIndex
        
        
        
-       **Returns**
-       
-       the updated schema.
-       
-       
        
        
        **Throws**
@@ -2742,11 +2613,6 @@ removePrimaryKey
        
        
        
-       
-       
-       **Returns**
-       
-       the updated schema.
        
        
        
@@ -2865,11 +2731,6 @@ renameField
           
        
        
-       
-       
-       **Returns**
-       
-       the updated schema.
        
        
        
@@ -3152,11 +3013,6 @@ setNullable
        
        
        
-       **Returns**
-       
-       the updated schema.
-       
-       
        
        
        **Throws**
@@ -3257,11 +3113,6 @@ setRequired
           
        
        
-       
-       
-       **Returns**
-       
-       the updated schema.
        
        
        
@@ -3365,11 +3216,6 @@ transform
           
        
        
-       
-       
-       **Returns**
-       
-       this schema.
        
        
        

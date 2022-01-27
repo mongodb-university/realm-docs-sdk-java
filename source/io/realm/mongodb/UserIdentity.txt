@@ -195,11 +195,6 @@ getId
        
        
        
-       **Returns**
-       
-       a unique identifier for this identifier.
-       
-       
        
        
        
@@ -238,11 +233,6 @@ getProvider
    * - Returns the provider defining this identity.
        
        
-       
-       
-       
-       
-       **Returns**
        
        
        

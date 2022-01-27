@@ -157,11 +157,6 @@ getInsertedId
        
        
        
-       **Returns**
-       
-       the _id of the inserted document.
-       
-       
        
        
        

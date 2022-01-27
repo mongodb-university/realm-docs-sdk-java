@@ -189,11 +189,6 @@ getMatchedCount
        
        
        
-       **Returns**
-       
-       the number of documents matched.
-       
-       
        
        
        
@@ -236,11 +231,6 @@ getModifiedCount
        
        
        
-       **Returns**
-       
-       the number of documents modified.
-       
-       
        
        
        
@@ -281,11 +271,6 @@ getUpsertedId
        
        
        
-       
-       
-       **Returns**
-       
-       if the replace resulted in an inserted document, the _id of the inserted document, otherwise null.
        
        
        

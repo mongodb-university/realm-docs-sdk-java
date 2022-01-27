@@ -168,11 +168,6 @@ getLimit
        
        
        
-       **Returns**
-       
-       the limit
-       
-       
        
        
        
@@ -228,11 +223,6 @@ limit
           
        
        
-       
-       
-       **Returns**
-       
-       this
        
        
        

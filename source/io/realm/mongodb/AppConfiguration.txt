@@ -552,11 +552,6 @@ getAppId
        
        
        
-       **Returns**
-       
-       the app unique identifier.
-       
-       
        
        
        
@@ -597,11 +592,6 @@ getAppName
        
        
        
-       
-       
-       **Returns**
-       
-       the app name.
        
        
        
@@ -646,11 +636,6 @@ getAppVersion
        
        
        
-       **Returns**
-       
-       the app version.
-       
-       
        
        
        
@@ -691,11 +676,6 @@ getAuthorizationHeaderName
        
        
        
-       
-       
-       **Returns**
-       
-       the authentication header name.
        
        
        
@@ -740,11 +720,6 @@ getBaseUrl
        
        
        
-       **Returns**
-       
-       the app base url.
-       
-       
        
        
        
@@ -783,13 +758,6 @@ getCustomRequestHeaders
    * - Returns any custom configured headers that will be sent alongside other headers when making network requests towards MongoDB Realm.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       a ``Map``  of custom configured headers.
        
        
        
@@ -838,11 +806,6 @@ getDefaultClientResetHandler
        
        
        
-       **Returns**
-       
-       the app default error handler.
-       
-       
        
        
        
@@ -885,11 +848,6 @@ getDefaultCodecRegistry
        
        
        
-       
-       
-       **Returns**
-       
-       The default codec registry for the App.
        
        
        
@@ -954,11 +912,6 @@ getDefaultErrorHandler
        
        
        
-       **Returns**
-       
-       the app default error handler.
-       
-       
        
        
        
@@ -997,13 +950,6 @@ getEncryptionKey
    * - Returns the encryption key, if any, that is used to encrypt Realm users meta data on this device. If no key is returned, the data is not encrypted.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the encryption key if exists, or ``null``  otherwise.
        
        
        
@@ -1052,11 +998,6 @@ getHttpLogObfuscator
        
        
        
-       **Returns**
-       
-       the HTTP log obfuscator.
-       
-       
        
        
        
@@ -1099,11 +1040,6 @@ getRequestTimeoutMs
        
        
        
-       **Returns**
-       
-       the default timeout for network requests in milliseconds.
-       
-       
        
        
        
@@ -1144,11 +1080,6 @@ getSyncRootDirectory
        
        
        
-       
-       
-       **Returns**
-       
-       the sync root directory.
        
        
        

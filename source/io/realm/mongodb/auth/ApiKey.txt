@@ -223,11 +223,6 @@ getId
        
        
        
-       **Returns**
-       
-       the id, uniquely identifying the key.
-       
-       
        
        
        
@@ -270,11 +265,6 @@ getName
        
        
        
-       **Returns**
-       
-       the name of the key.
-       
-       
        
        
        
@@ -315,11 +305,6 @@ getValue
        
        
        
-       
-       
-       **Returns**
-       
-       the value of this key. Is only returned when the key is created.
        
        
        
@@ -408,11 +393,6 @@ isEnabled
        
        
        
-       
-       
-       **Returns**
-       
-       if the key is enabled or not.
        
        
        

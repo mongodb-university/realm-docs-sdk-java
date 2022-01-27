@@ -297,11 +297,6 @@ createSnapshot
        
        
        
-       **Returns**
-       
-       the snapshot of this collection.
-       
-       
        
        
        **Throws**
@@ -366,13 +361,6 @@ deleteFirstFromRealm
    * - Deletes the first object from the Realm. This also removes it from this collection.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if an object was deleted, ``false``  otherwise.
        
        
        
@@ -506,13 +494,6 @@ deleteLastFromRealm
        
        
        
-       **Returns**
-       
-       ``true``  if an object was deleted, ``false``  otherwise.
-       
-       
-       
-       
        
        
        **Throws**
@@ -574,11 +555,6 @@ first
        
        
        
-       **Returns**
-       
-       the first object or the provided default.
-       
-       
        
        
        
@@ -600,11 +576,6 @@ first
        
        
        
-       
-       
-       **Returns**
-       
-       the first object.
        
        
        
@@ -664,11 +635,6 @@ last
        
        
        
-       **Returns**
-       
-       the last object or the provided default.
-       
-       
        
        
        
@@ -690,11 +656,6 @@ last
        
        
        
-       
-       
-       **Returns**
-       
-       the last object.
        
        
        
@@ -867,13 +828,6 @@ sort
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -1129,13 +1083,6 @@ sort
        
        
        
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1233,13 +1180,6 @@ sort
        
        
        
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1292,13 +1232,6 @@ sort
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        

@@ -313,13 +313,6 @@ getKind
        
        
        
-       **Returns**
-       
-       the **kind (?)** of this exception.
-       
-       
-       
-       
        
        
        

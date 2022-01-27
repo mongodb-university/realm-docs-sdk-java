@@ -157,11 +157,6 @@ getPath
        
        
        
-       **Returns**
-       
-       Canonical path to the Realm file.
-       
-       
        
        
        

@@ -229,13 +229,6 @@ contains
        
        
        
-       **Returns**
-       
-       ``true``  if the class already exists. ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -297,11 +290,6 @@ create
           
        
        
-       
-       
-       **Returns**
-       
-       a Realm schema object for that class.
        
        
        
@@ -716,11 +704,6 @@ createWithPrimaryKeyField
        
        
        
-       **Returns**
-       
-       a Realm schema object for that class.
-       
-       
        
        
        **Throws**
@@ -796,13 +779,6 @@ get
        
        
        
-       **Returns**
-       
-       schema object for that class or ``null``  if the class doesn't exists.
-       
-       
-       
-       
        
        
        
@@ -845,11 +821,6 @@ getAll
        
        
        
-       
-       
-       **Returns**
-       
-       the set of all classes in this Realm or no RealmObject classes can be saved in the Realm.
        
        
        
@@ -1084,11 +1055,6 @@ rename
           
        
        
-       
-       
-       **Returns**
-       
-       a schema object for renamed class.
        
        
        

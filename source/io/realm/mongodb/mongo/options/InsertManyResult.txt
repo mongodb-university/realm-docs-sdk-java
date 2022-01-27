@@ -157,11 +157,6 @@ getInsertedIds
        
        
        
-       **Returns**
-       
-       the _ids of the inserted documents arranged by the index of the document from the operation and its corresponding id.
-       
-       
        
        
        

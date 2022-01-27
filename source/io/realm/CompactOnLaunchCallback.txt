@@ -110,11 +110,6 @@ shouldCompact
        
        
        
-       **Returns**
-       
-       {code true} to indicate an attempt to compact the file should be made. Otherwise, the compaction will be skipped.
-       
-       
        
        
        

@@ -251,13 +251,6 @@ average
        
        
        
-       **Returns**
-       
-       the average for the given field amongst objects in query results. This will be of type double for all types of number fields. If no objects exist or they all have ``null``  as the value for the given field, ``0``  will be returned. When computing the average, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        **Throws**
@@ -335,13 +328,6 @@ contains
        
        
        
-       **Returns**
-       
-       ``true``  if object is an element of this ``Collection`` , ``false``  otherwise.
-       
-       
-       
-       
        
        
        **Throws**
@@ -390,13 +376,6 @@ deleteAllFromRealm
    * - This deletes all objects in the collection from the underlying Realm as well as from the collection.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if objects was deleted, ``false``  otherwise.
        
        
        
@@ -455,13 +434,6 @@ isLoaded
        
        
        
-       **Returns**
-       
-       ``true``  if data has been loaded and is available, ``false``  if data is still being loaded.
-       
-       
-       
-       
        
        
        
@@ -504,13 +476,6 @@ isManaged
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if this is a managed :ref:`RealmCollection <io_realm_RealmCollection>` , ``false``  otherwise.
        
        
        
@@ -559,13 +524,6 @@ isValid
        
        
        
-       **Returns**
-       
-       ``true``  if it is still valid to use or an unmanaged collection, ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -604,13 +562,6 @@ load
    * - Blocks the collection until all data are available.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the data could be successfully loaded, ``false``  otherwise.
        
        
        
@@ -674,13 +625,6 @@ max
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given field, ``null``  will be returned. Otherwise the maximum value is returned. When determining the maximum value, objects with ``null``  values are ignored.
        
        
        
@@ -760,13 +704,6 @@ maxDate
        
        
        
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given date field, ``null``  will be returned. Otherwise the maximum date is returned. When determining the maximum date, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        **Throws**
@@ -838,13 +775,6 @@ min
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given field, ``null``  will be returned. Otherwise the minimum value is returned. When determining the minimum value, objects with ``null``  values are ignored.
        
        
        
@@ -924,13 +854,6 @@ minDate
        
        
        
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given date field, ``null``  will be returned. Otherwise the minimum date is returned. When determining the minimum date, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1006,13 +929,6 @@ sum
        
        
        
-       **Returns**
-       
-       the sum. If no objects exist or they all have ``null``  as the value for the given field, ``0``  will be returned. When computing the sum, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1067,11 +983,6 @@ where
        
        
        
-       
-       
-       **Returns**
-       
-       a RealmQuery object.
        
        
        

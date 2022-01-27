@@ -176,13 +176,6 @@ getChangeRanges
        
        
        
-       **Returns**
-       
-       the :ref:`Range <io_realm_OrderedCollectionChangeSet_Range>`  array. A zero-sized array will be returned if no objects were modified.
-       
-       
-       
-       
        
        
        
@@ -229,11 +222,6 @@ getChanges
        
        
        
-       **Returns**
-       
-       the indices array. A zero-sized array will be returned if objects were modified.
-       
-       
        
        
        
@@ -272,13 +260,6 @@ getDeletionRanges
    * - The deleted ranges of objects in the previous version of the collection.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the :ref:`Range <io_realm_OrderedCollectionChangeSet_Range>`  array. A zero-sized array will be returned if no objects were deleted.
        
        
        
@@ -325,11 +306,6 @@ getDeletions
        
        
        
-       **Returns**
-       
-       the indices array. A zero-sized array will be returned if no objects were deleted.
-       
-       
        
        
        
@@ -372,11 +348,6 @@ getError
        
        
        
-       **Returns**
-       
-       the error that happened.
-       
-       
        
        
        
@@ -415,13 +386,6 @@ getInsertionRanges
    * - The inserted ranges of objects in the new version of the collection.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the :ref:`Range <io_realm_OrderedCollectionChangeSet_Range>`  array. A zero-sized array will be returned if no objects were inserted.
        
        
        
@@ -468,11 +432,6 @@ getInsertions
        
        
        
-       **Returns**
-       
-       the indices array. A zero-sized array will be returned if no objects were inserted.
-       
-       
        
        
        
@@ -515,11 +474,6 @@ getState
        
        
        
-       
-       
-       **Returns**
-       
-       what kind of state is represented by this changeset.
        
        
        

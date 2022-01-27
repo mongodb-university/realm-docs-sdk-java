@@ -812,13 +812,6 @@ build
        
        
        
-       **Returns**
-       
-       the AppConfiguration that can be used to create a :ref:`App <io_realm_mongodb_App>` .
-       
-       
-       
-       
        
        
        

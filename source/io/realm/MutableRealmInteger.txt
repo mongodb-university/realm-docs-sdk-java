@@ -361,11 +361,6 @@ compareTo
        
        
        
-       **Returns**
-       
-       -1, 0, or 1, depending on whether this object's value is <, =, or > the target's.
-       
-       
        
        
        
@@ -492,11 +487,6 @@ equals
        
        
        
-       **Returns**
-       
-       true if the target has the same value.
-       
-       
        
        
        
@@ -545,11 +535,6 @@ get
        
        
        
-       **Returns**
-       
-       the value.
-       
-       
        
        
        
@@ -592,11 +577,6 @@ hashCode
        
        
        
-       
-       
-       **Returns**
-       
-       true if the target has the same value.
        
        
        
@@ -702,13 +682,6 @@ isNull
    * - 
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       true if and only if :ref:`get <io_realm_MutableRealmInteger_get>`  will return ``null`` .
        
        
        

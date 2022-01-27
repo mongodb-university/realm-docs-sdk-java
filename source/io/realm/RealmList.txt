@@ -853,13 +853,6 @@ add
        
        
        
-       **Returns**
-       
-       always ``true`` .
-       
-       
-       
-       
        
        
        **Throws**
@@ -1225,13 +1218,6 @@ asChangesetObservable
        
        
        
-       **Returns**
-       
-       RxJava Observable that only calls ``onNext`` . It will never call ``onComplete``  or ``OnError`` .
-       
-       
-       
-       
        
        
        **Throws**
@@ -1341,13 +1327,6 @@ asFlowable
        
        
        
-       **Returns**
-       
-       RxJava Observable that only calls ``onNext`` . It will never call ``onComplete``  or ``OnError`` .
-       
-       
-       
-       
        
        
        **Throws**
@@ -1422,13 +1401,6 @@ average
    * - Returns the average of a given field.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the average for the given field amongst objects in query results. This will be of type double for all types of number fields. If no objects exist or they all have ``null``  as the value for the given field, ``0``  will be returned. When computing the average, objects with ``null``  values are ignored.
        
        
        
@@ -1578,13 +1550,6 @@ contains
        
        
        
-       **Returns**
-       
-       ``true``  if this list contains the specified element otherwise ``false`` .
-       
-       
-       
-       
        
        
        
@@ -1633,11 +1598,6 @@ createSnapshot
        
        
        
-       **Returns**
-       
-       the snapshot of this collection.
-       
-       
        
        
        
@@ -1680,13 +1640,6 @@ deleteAllFromRealm
        
        
        
-       **Returns**
-       
-       ``true``  if objects was deleted, ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -1725,13 +1678,6 @@ deleteFirstFromRealm
    * - Deletes the first object from the Realm. This also removes it from this collection.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if an object was deleted, ``false``  otherwise.
        
        
        
@@ -1827,13 +1773,6 @@ deleteLastFromRealm
        
        
        
-       **Returns**
-       
-       ``true``  if an object was deleted, ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -1883,11 +1822,6 @@ first
        
        
        
-       **Returns**
-       
-       the first object or the provided default.
-       
-       
        
        
        
@@ -1909,11 +1843,6 @@ first
        
        
        
-       
-       
-       **Returns**
-       
-       the first object.
        
        
        
@@ -2017,11 +1946,6 @@ get
        
        
        
-       **Returns**
-       
-       the element at the specified index.
-       
-       
        
        
        **Throws**
@@ -2084,13 +2008,6 @@ getRealm
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       :ref:`Realm <io_realm_Realm>`  instance this collection belongs to or ``null``  if the collection is unmanaged.
        
        
        
@@ -2191,13 +2108,6 @@ isLoaded
        
        
        
-       **Returns**
-       
-       ``true``  if data has been loaded and is available, ``false``  if data is still being loaded.
-       
-       
-       
-       
        
        
        
@@ -2244,13 +2154,6 @@ isManaged
        
        
        
-       **Returns**
-       
-       ``true``  if this is a managed :ref:`RealmCollection <io_realm_RealmCollection>` , ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -2291,13 +2194,6 @@ isValid
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if it is still valid to use or an unmanaged collection, ``false``  otherwise.
        
        
        
@@ -2399,11 +2295,6 @@ last
        
        
        
-       **Returns**
-       
-       the last object or the provided default.
-       
-       
        
        
        
@@ -2425,11 +2316,6 @@ last
        
        
        
-       
-       
-       **Returns**
-       
-       the last object.
        
        
        
@@ -2558,13 +2444,6 @@ load
        
        
        
-       **Returns**
-       
-       ``true``  if the data could be successfully loaded, ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -2616,13 +2495,6 @@ max
    * - Finds the maximum value of a field.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given field, ``null``  will be returned. Otherwise the maximum value is returned. When determining the maximum value, objects with ``null``  values are ignored.
        
        
        
@@ -2682,13 +2554,6 @@ maxDate
        
        
        
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given date field, ``null``  will be returned. Otherwise the maximum date is returned. When determining the maximum date, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        
@@ -2744,13 +2609,6 @@ min
        
        
        
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given field, ``null``  will be returned. Otherwise the minimum value is returned. When determining the minimum value, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        
@@ -2802,13 +2660,6 @@ minDate
    * - Finds the minimum date.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given date field, ``null``  will be returned. Otherwise the minimum date is returned. When determining the minimum date, objects with ``null``  values are ignored.
        
        
        
@@ -2960,13 +2811,6 @@ remove
        
        
        
-       **Returns**
-       
-       ``true``  if this ``Collection``  is modified, ``false``  otherwise.
-       
-       
-       
-       
        
        
        **Throws**
@@ -3021,11 +2865,6 @@ remove
           
        
        
-       
-       
-       **Returns**
-       
-       the removed object.
        
        
        
@@ -3113,13 +2952,6 @@ removeAll
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if this ``Collection``  is modified, ``false``  otherwise.
        
        
        
@@ -3457,11 +3289,6 @@ set
        
        
        
-       **Returns**
-       
-       the previous element at the index.
-       
-       
        
        
        **Throws**
@@ -3520,13 +3347,6 @@ size
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the number of elements in this ``List`` .
        
        
        
@@ -3693,13 +3513,6 @@ sort
    * - Sorts a collection based on the provided fields and sort orders.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -3923,13 +3736,6 @@ sort
        
        
        
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
-       
-       
-       
-       
        
        
        
@@ -4003,13 +3809,6 @@ sort
        
        
        
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
-       
-       
-       
-       
        
        
        
@@ -4042,13 +3841,6 @@ sort
    * - Sorts a collection based on the provided field in ascending order.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -4104,13 +3896,6 @@ sum
    * - Calculates the sum of a given field.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the sum. If no objects exist or they all have ``null``  as the value for the given field, ``0``  will be returned. When computing the sum, objects with ``null``  values are ignored.
        
        
        
@@ -4201,11 +3986,6 @@ where
        
        
        
-       
-       
-       **Returns**
-       
-       a RealmQuery object.
        
        
        

@@ -649,13 +649,6 @@ build
        
        
        
-       **Returns**
-       
-       the created :ref:`RealmConfiguration <io_realm_RealmConfiguration>` .
-       
-       
-       
-       
        
        
        

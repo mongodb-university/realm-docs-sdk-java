@@ -1722,11 +1722,6 @@ and
        
        
        
-       **Returns**
-       
-       the query object
-       
-       
        
        
        
@@ -1786,13 +1781,6 @@ average
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       the average for the given field amongst objects in query results. This will be of type double for all types of number fields. If no objects exist or they all have ``null``  as the value for the given field, ``0``  will be returned. When computing the average, objects with ``null``  values are ignored.
        
        
        
@@ -1876,13 +1864,6 @@ averageDecimal128
        
        
        
-       **Returns**
-       
-       the average for the given field amongst objects in query results. This will be of type Decimal128. If no objects exist or they all have ``null``  as the value for the given field ``0``  will be returned. When computing the average, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1962,13 +1943,6 @@ averageRealmAny
        
        
        
-       **Returns**
-       
-       the average for the given field amongst objects in query results. This will be of type Decimal128. If no objects exist or they all have ``null``  as the value for the given field ``0``  will be returned. When computing the average, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        **Throws**
@@ -2025,11 +1999,6 @@ beginGroup
        
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -2155,11 +2124,6 @@ beginsWith
           
        
        
-       
-       
-       **Returns**
-       
-       the query object
        
        
        
@@ -2310,11 +2274,6 @@ beginsWith
        
        
        
-       **Returns**
-       
-       the query object
-       
-       
        
        
        **Throws**
@@ -2382,11 +2341,6 @@ beginsWith
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -2482,11 +2436,6 @@ beginsWith
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -2580,11 +2529,6 @@ between
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -2657,11 +2601,6 @@ between
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -2810,11 +2749,6 @@ between
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -2887,11 +2821,6 @@ between
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -2968,11 +2897,6 @@ between
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -3047,11 +2971,6 @@ between
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -3124,11 +3043,6 @@ between
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -3248,11 +3162,6 @@ contains
           
        
        
-       
-       
-       **Returns**
-       
-       The query object.
        
        
        
@@ -3403,11 +3312,6 @@ contains
        
        
        
-       **Returns**
-       
-       The query object.
-       
-       
        
        
        **Throws**
@@ -3475,11 +3379,6 @@ contains
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -3573,11 +3472,6 @@ contains
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -3718,11 +3612,6 @@ containsEntry
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -3835,11 +3724,6 @@ containsKey
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -3928,11 +3812,6 @@ containsValue
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -4002,11 +3881,6 @@ containsValue
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -4074,11 +3948,6 @@ containsValue
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -4172,11 +4041,6 @@ containsValue
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -4274,11 +4138,6 @@ containsValue
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -4370,11 +4229,6 @@ containsValue
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -4470,11 +4324,6 @@ containsValue
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -4566,11 +4415,6 @@ containsValue
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -4666,11 +4510,6 @@ containsValue
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -4762,11 +4601,6 @@ containsValue
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -4862,11 +4696,6 @@ containsValue
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -4958,11 +4787,6 @@ containsValue
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -5058,11 +4882,6 @@ containsValue
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -5111,11 +4930,6 @@ count
        
        
        
-       
-       
-       **Returns**
-       
-       the number of matching objects.
        
        
        
@@ -5318,11 +5132,6 @@ endGroup
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        
@@ -5446,11 +5255,6 @@ endsWith
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -5601,11 +5405,6 @@ endsWith
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -5673,11 +5472,6 @@ endsWith
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -5773,11 +5567,6 @@ endsWith
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -5866,11 +5655,6 @@ equalTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -5940,11 +5724,6 @@ equalTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -6012,11 +5791,6 @@ equalTo
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -6117,11 +5891,6 @@ equalTo
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -6272,11 +6041,6 @@ equalTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -6370,11 +6134,6 @@ equalTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -6425,13 +6184,6 @@ findAll
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       a :ref:`io.realm.RealmResults <io_realm_RealmResults>`  containing objects. If no objects match the condition, a list with zero objects is returned.
        
        
        
@@ -6502,13 +6254,6 @@ findAllAsync
        
        
        
-       **Returns**
-       
-       immediately an empty :ref:`RealmResults <io_realm_RealmResults>` . Users need to register a listener :ref:`io.realm.RealmResults.addChangeListener(RealmChangeListener) <io_realm_RealmResults_addChangeListener_RealmChangeListener_>`  to be notified when the query completes.
-       
-       
-       
-       
        
        
        
@@ -6565,13 +6310,6 @@ findFirst
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the object found or ``null``  if no object matches the query conditions.
        
        
        
@@ -6644,13 +6382,6 @@ findFirstAsync
        
        
        
-       **Returns**
-       
-       immediately an empty :ref:`RealmObject <io_realm_RealmObject>`  with ``isLoaded() == false`` . Trying to access any field on the returned object before it is loaded will throw an ``IllegalStateException`` .
-       
-       
-       
-       
        
        
        **Throws**
@@ -6701,11 +6432,6 @@ getDescription
        
        
        
-       **Returns**
-       
-       the textual description of the query.
-       
-       
        
        
        
@@ -6750,13 +6476,6 @@ getRealm
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       :ref:`Realm <io_realm_Realm>`  instance this query belongs to.
        
        
        
@@ -6811,11 +6530,6 @@ getTypeQueried
        
        
        
-       
-       
-       **Returns**
-       
-       the internal name of the Realm model class being queried.
        
        
        
@@ -6898,11 +6612,6 @@ greaterThan
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -6972,11 +6681,6 @@ greaterThan
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -7044,11 +6748,6 @@ greaterThan
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -7144,11 +6843,6 @@ greaterThan
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -7216,11 +6910,6 @@ greaterThan
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -7292,11 +6981,6 @@ greaterThan
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -7366,11 +7050,6 @@ greaterThan
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -7438,11 +7117,6 @@ greaterThan
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -7533,11 +7207,6 @@ greaterThanOrEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -7607,11 +7276,6 @@ greaterThanOrEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -7679,11 +7343,6 @@ greaterThanOrEqualTo
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -7779,11 +7438,6 @@ greaterThanOrEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -7851,11 +7505,6 @@ greaterThanOrEqualTo
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -7927,11 +7576,6 @@ greaterThanOrEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -8001,11 +7645,6 @@ greaterThanOrEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -8073,11 +7712,6 @@ greaterThanOrEqualTo
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -8194,11 +7828,6 @@ in
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -8322,11 +7951,6 @@ in
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -8446,11 +8070,6 @@ in
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -8574,11 +8193,6 @@ in
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -8698,11 +8312,6 @@ in
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -8826,11 +8435,6 @@ in
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -8950,11 +8554,6 @@ in
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -9078,11 +8677,6 @@ in
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -9202,11 +8796,6 @@ in
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -9409,11 +8998,6 @@ in
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -9535,11 +9119,6 @@ in
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -9609,11 +9188,6 @@ isEmpty
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -9687,11 +9261,6 @@ isNotEmpty
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -9763,11 +9332,6 @@ isNotNull
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -9861,11 +9425,6 @@ isNull
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -9928,13 +9487,6 @@ isValid
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if still valid to use, ``false``  otherwise.
        
        
        
@@ -10019,11 +9571,6 @@ lessThan
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -10091,11 +9638,6 @@ lessThan
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -10167,11 +9709,6 @@ lessThan
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -10241,11 +9778,6 @@ lessThan
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -10313,11 +9845,6 @@ lessThan
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -10408,11 +9935,6 @@ lessThanOrEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -10480,11 +10002,6 @@ lessThanOrEqualTo
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -10556,11 +10073,6 @@ lessThanOrEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -10630,11 +10142,6 @@ lessThanOrEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -10702,11 +10209,6 @@ lessThanOrEqualTo
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -10836,11 +10338,6 @@ like
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -11001,11 +10498,6 @@ like
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -11083,11 +10575,6 @@ like
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -11191,11 +10678,6 @@ like
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -11342,13 +10824,6 @@ max
        
        
        
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given field, ``null``  will be returned. Otherwise the maximum value is returned. When determining the maximum value, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        **Throws**
@@ -11428,13 +10903,6 @@ maxRealmAny
        
        
        
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given RealmAny field, **RealmAny.Type.NULL (?)** will be returned. Otherwise the maximum RealmAny is returned. When determining the maximum RealmAny, objects with ``null``  values are ignored. See the **RealmAny (?)** documentation for more details on how RealmAny values are compared.
-       
-       
-       
-       
        
        
        **Throws**
@@ -11506,13 +10974,6 @@ maximumDate
        
        
        
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given date field, ``null``  will be returned. Otherwise the maximum date is returned. When determining the maximum date, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        **Throws**
@@ -11580,13 +11041,6 @@ min
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given field, ``null``  will be returned. Otherwise the minimum value is returned. When determining the minimum value, objects with ``null``  values are ignored.
        
        
        
@@ -11670,13 +11124,6 @@ minRealmAny
        
        
        
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given RealmAny field, **RealmAny.Type.NULL (?)** will be returned. Otherwise the minimum RealmAny is returned. When determining the minimum RealmAny, objects with ``null``  values are ignored. See the **RealmAny (?)** documentation for more details on how RealmAny values are compared.
-       
-       
-       
-       
        
        
        **Throws**
@@ -11754,13 +11201,6 @@ minimumDate
        
        
        
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given date field, ``null``  will be returned. Otherwise the minimum date is returned. When determining the minimum date, objects with ``null``  values are ignored.
-       
-       
-       
-       
        
        
        **Throws**
@@ -11815,11 +11255,6 @@ not
        
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -11902,11 +11337,6 @@ notEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -11976,11 +11406,6 @@ notEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -12048,11 +11473,6 @@ notEqualTo
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -12153,11 +11573,6 @@ notEqualTo
           
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -12308,11 +11723,6 @@ notEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -12406,11 +11816,6 @@ notEqualTo
        
        
        
-       **Returns**
-       
-       the query object.
-       
-       
        
        
        **Throws**
@@ -12459,11 +11864,6 @@ or
        
        
        
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -13293,13 +12693,6 @@ sum
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       the sum of fields of the matching objects. If no objects exist or they all have ``null``  as the value for the given field, ``0``  will be returned. When computing the sum, objects with ``null``  values are ignored. When applied to a RealmAny field, only numeric values will be summed up (Byte/Integer/Integer/Long/Float/Double/Decimal128) and the returning type will be ``Decimal128`` .
        
        
        

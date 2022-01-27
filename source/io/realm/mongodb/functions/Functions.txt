@@ -335,11 +335,6 @@ callFunction
        
        
        
-       **Returns**
-       
-       Result of the Realm function.
-       
-       
        
        
        **Throws**
@@ -512,11 +507,6 @@ callFunction
           
        
        
-       
-       
-       **Returns**
-       
-       Result of the Realm function.
        
        
        
@@ -698,11 +688,6 @@ callFunction
           
        
        
-       
-       
-       **Returns**
-       
-       Result of the Realm function.
        
        
        
@@ -955,11 +940,6 @@ callFunctionAsync
           
        
        
-       
-       
-       **Returns**
-       
-       The task representing the ongoing operation.
        
        
        
@@ -1339,11 +1319,6 @@ callFunctionAsync
           
        
        
-       
-       
-       **Returns**
-       
-       The task representing the ongoing operation.
        
        
        
@@ -1730,11 +1705,6 @@ callFunctionAsync
        
        
        
-       **Returns**
-       
-       The task representing the ongoing operation.
-       
-       
        
        
        **Throws**
@@ -1809,13 +1779,6 @@ getApp
        
        
        
-       **Returns**
-       
-       The :ref:`App <io_realm_mongodb_App>`  that this instance in associated with.
-       
-       
-       
-       
        
        
        
@@ -1858,11 +1821,6 @@ getDefaultCodecRegistry
        
        
        
-       **Returns**
-       
-       The default codec registry.
-       
-       
        
        
        
@@ -1903,13 +1861,6 @@ getUser
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       The :ref:`User <io_realm_mongodb_User>`  that this instance in associated with.
        
        
        

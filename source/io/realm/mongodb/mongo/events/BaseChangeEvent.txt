@@ -159,11 +159,6 @@ getDocumentKey
        
        
        
-       **Returns**
-       
-       the document key.
-       
-       
        
        
        
@@ -204,11 +199,6 @@ getFullDocument
        
        
        
-       
-       
-       **Returns**
-       
-       the full document.
        
        
        
@@ -253,11 +243,6 @@ getOperationType
        
        
        
-       **Returns**
-       
-       the operation type of this change event.
-       
-       
        
        
        
@@ -298,11 +283,6 @@ getUpdateDescription
        
        
        
-       
-       
-       **Returns**
-       
-       the update description.
        
        
        
@@ -347,11 +327,6 @@ hasUncommittedWrites
        
        
        
-       **Returns**
-       
-       whether or not this change event represents uncommitted writes.
-       
-       
        
        
        
@@ -392,11 +367,6 @@ toBsonDocument
        
        
        
-       
-       
-       **Returns**
-       
-       The BSON document representation of the change event.
        
        
        

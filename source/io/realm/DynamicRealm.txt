@@ -508,13 +508,6 @@ asFlowable
        
        
        
-       **Returns**
-       
-       RxJava Observable that only calls ``onNext`` . It will never call ``onComplete``  or ``OnError`` .
-       
-       
-       
-       
        
        
        
@@ -678,11 +671,6 @@ createEmbeddedObject
        
        
        
-       **Returns**
-       
-       the newly created embedded object.
-       
-       
        
        
        **Throws**
@@ -801,11 +789,6 @@ createObject
        
        
        
-       **Returns**
-       
-       the new object. All fields will have default values for their type, except for the primary key field which will have the provided value.
-       
-       
        
        
        **Throws**
@@ -866,11 +849,6 @@ createObject
           
        
        
-       
-       
-       **Returns**
-       
-       the new object.
        
        
        
@@ -1434,13 +1412,6 @@ executeTransactionAsync
        
        
        
-       **Returns**
-       
-       a :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  representing a cancellable task.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1596,13 +1567,6 @@ executeTransactionAsync
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       a :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  representing a cancellable task.
        
        
        
@@ -1766,13 +1730,6 @@ executeTransactionAsync
        
        
        
-       **Returns**
-       
-       a :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  representing a cancellable task.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1833,13 +1790,6 @@ executeTransactionAsync
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       a :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  representing a cancellable task.
        
        
        
@@ -1906,11 +1856,6 @@ freeze
        
        
        
-       **Returns**
-       
-       a frozen copy of this Realm.
-       
-       
        
        
        
@@ -1970,11 +1915,6 @@ getInstance
        
        
        
-       
-       
-       **Returns**
-       
-       the DynamicRealm defined by the configuration.
        
        
        
@@ -2137,13 +2077,6 @@ getInstanceAsync
        
        
        
-       **Returns**
-       
-       a :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  representing a cancellable task.
-       
-       
-       
-       
        
        
        **Throws**
@@ -2216,13 +2149,6 @@ getSchema
        
        
        
-       **Returns**
-       
-       The :ref:`RealmSchema <io_realm_RealmSchema>`  for this Realm.
-       
-       
-       
-       
        
        
        
@@ -2267,13 +2193,6 @@ isEmpty
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if empty, @{code false} otherwise.
        
        
        
@@ -2500,11 +2419,6 @@ where
           
        
        
-       
-       
-       **Returns**
-       
-       a RealmQuery, which can be used to query for specific objects of provided type.
        
        
        

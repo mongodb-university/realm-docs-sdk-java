@@ -460,11 +460,6 @@ getAccessToken
        
        
        
-       **Returns**
-       
-       the current access token.
-       
-       
        
        
        
@@ -505,11 +500,6 @@ getApiKeys
        
        
        
-       
-       
-       **Returns**
-       
-       wrapper for managing API keys controlled by the current user.
        
        
        
@@ -564,13 +554,6 @@ getApp
        
        
        
-       **Returns**
-       
-       the :ref:`App <io_realm_mongodb_App>`  this user is associated with.
-       
-       
-       
-       
        
        
        
@@ -617,11 +600,6 @@ getCustomData
        
        
        
-       **Returns**
-       
-       The custom user data associated with the user.
-       
-       
        
        
        
@@ -662,11 +640,6 @@ getDeviceId
        
        
        
-       
-       
-       **Returns**
-       
-       a unique device identifier for the user.
        
        
        
@@ -821,11 +794,6 @@ getId
        
        
        
-       **Returns**
-       
-       the server id of the user.
-       
-       
        
        
        
@@ -866,11 +834,6 @@ getIdentities
        
        
        
-       
-       
-       **Returns**
-       
-       the list of identities.
        
        
        
@@ -994,11 +957,6 @@ getProfile
        
        
        
-       **Returns**
-       
-       the profile for this user
-       
-       
        
        
        
@@ -1039,11 +997,6 @@ getProviderType
        
        
        
-       
-       
-       **Returns**
-       
-       the provider type of the user
        
        
        
@@ -1153,11 +1106,6 @@ getRefreshToken
        
        
        
-       **Returns**
-       
-       the current refresh token.
-       
-       
        
        
        
@@ -1198,13 +1146,6 @@ getState
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the :ref:`State <io_realm_mongodb_User_State>`  of the user.
        
        
        
@@ -1297,13 +1238,6 @@ isLoggedIn
        
        
        
-       **Returns**
-       
-       ``true``  if still logged in, ``false``  if not.
-       
-       
-       
-       
        
        
        
@@ -1381,13 +1315,6 @@ linkCredentials
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       the :ref:`User <io_realm_mongodb_User>`  the credentials were linked to.
        
        
        
@@ -1788,11 +1715,6 @@ refreshCustomData
        
        
        
-       **Returns**
-       
-       The task representing the ongoing operation.
-       
-       
        
        
        **Throws**
@@ -1822,11 +1744,6 @@ refreshCustomData
        
        
        
-       
-       
-       **Returns**
-       
-       The updated custom user data associated with the user.
        
        
        
@@ -1877,11 +1794,6 @@ remove
        
        
        
-       
-       
-       **Returns**
-       
-       the user that was removed.
        
        
        

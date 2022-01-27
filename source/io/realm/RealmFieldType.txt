@@ -1273,11 +1273,6 @@ fromNativeValue
        
        
        
-       **Returns**
-       
-       the corresponding Realm type.
-       
-       
        
        
        **Throws**
@@ -1326,11 +1321,6 @@ getNativeValue
        
        
        
-       
-       
-       **Returns**
-       
-       the value used by the underlying storage engine to represent this type.
        
        
        
@@ -1392,13 +1382,6 @@ isValid
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if object can be converted to the Realm type, ``false``  otherwise.
        
        
        

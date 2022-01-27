@@ -713,11 +713,6 @@ getCompactOnLaunchCallback
        
        
        
-       **Returns**
-       
-       a callback called when opening a Realm for the first time during the life of a process to determine if it should be compacted before being returned to the user. It is passed the total file size (data + free space) and the total bytes used by data in the file.
-       
-       
        
        
        
@@ -846,11 +841,6 @@ getFlowFactory
        
        
        
-       **Returns**
-       
-       the factory instance used to create Flows.
-       
-       
        
        
        **Throws**
@@ -901,11 +891,6 @@ getInitialDataTransaction
        
        
        
-       **Returns**
-       
-       the initial data transaction.
-       
-       
        
        
        
@@ -946,11 +931,6 @@ getMaxNumberOfActiveVersions
        
        
        
-       
-       
-       **Returns**
-       
-       the maximum number of active versions allowed before an exception is thrown.
        
        
        
@@ -1035,11 +1015,6 @@ getPath
        
        
        
-       
-       
-       **Returns**
-       
-       the absolute path to the Realm file defined by this configuration.
        
        
        
@@ -1170,13 +1145,6 @@ getRealmObjectClasses
        
        
        
-       **Returns**
-       
-       unmodifiable `Set <https://docs.oracle.com/javase/7/docs/api/java/util/Set.html>`__  of model classes.
-       
-       
-       
-       
        
        
        
@@ -1219,11 +1187,6 @@ getRxFactory
        
        
        
-       
-       
-       **Returns**
-       
-       the factory instance used to create Rx Observables.
        
        
        
@@ -1274,11 +1237,6 @@ getSchemaMediator
        
        
        
-       
-       
-       **Returns**
-       
-       the mediator of the schema.
        
        
        
@@ -1417,11 +1375,6 @@ isAllowQueriesOnUiThread
        
        
        
-       **Returns**
-       
-       whether or not queries are allowed to be run from the UI thread.
-       
-       
        
        
        
@@ -1470,11 +1423,6 @@ isAllowWritesOnUiThread
        
        
        
-       **Returns**
-       
-       whether or not write operations are allowed to be run from the UI thread.
-       
-       
        
        
        
@@ -1519,13 +1467,6 @@ isReadOnly
        
        
        
-       **Returns**
-       
-       ``true``  if this Realm is read only, ``false``  if not.
-       
-       
-       
-       
        
        
        
@@ -1564,13 +1505,6 @@ isRecoveryConfiguration
    * - 
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if this configuration is intended to open a backup Realm (as a result of a client reset).
        
        
        
@@ -1672,13 +1606,6 @@ realmExists
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the Realm file exists, ``false``  otherwise.
        
        
        

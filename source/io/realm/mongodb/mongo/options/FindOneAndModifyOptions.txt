@@ -231,11 +231,6 @@ getProjection
        
        
        
-       **Returns**
-       
-       the project document, which may be null
-       
-       
        
        
        
@@ -276,11 +271,6 @@ getSort
        
        
        
-       
-       
-       **Returns**
-       
-       a document describing the sort criteria
        
        
        
@@ -325,11 +315,6 @@ isReturnNewDocument
        
        
        
-       **Returns**
-       
-       true if findOneAndModify operation should return the new document
-       
-       
        
        
        
@@ -370,11 +355,6 @@ isUpsert
        
        
        
-       
-       
-       **Returns**
-       
-       true if a new document should be inserted if there are no matches to the query filter
        
        
        
@@ -434,11 +414,6 @@ projection
        
        
        
-       **Returns**
-       
-       this
-       
-       
        
        
        
@@ -496,11 +471,6 @@ returnNewDocument
        
        
        
-       **Returns**
-       
-       this
-       
-       
        
        
        
@@ -556,11 +526,6 @@ sort
           
        
        
-       
-       
-       **Returns**
-       
-       this
        
        
        
@@ -664,11 +629,6 @@ upsert
           
        
        
-       
-       
-       **Returns**
-       
-       this
        
        
        

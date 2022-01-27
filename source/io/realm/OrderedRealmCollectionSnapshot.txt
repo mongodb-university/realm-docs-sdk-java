@@ -293,11 +293,6 @@ createSnapshot
        
        
        
-       **Returns**
-       
-       the snapshot of this collection.
-       
-       
        
        
        
@@ -340,13 +335,6 @@ deleteAllFromRealm
    * - This deletes all objects in the collection from the underlying Realm. All objects in the collection snapshot will become invalid.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if objects was deleted, ``false``  otherwise.
        
        
        
@@ -405,13 +393,6 @@ deleteFirstFromRealm
    * - Deletes the first object from the Realm. The first object will become invalid.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if an object was deleted, ``false``  otherwise.
        
        
        
@@ -541,13 +522,6 @@ deleteLastFromRealm
    * - Deletes the last object from the Realm. The last object will become invalid.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if an object was deleted, ``false``  otherwise.
        
        
        
@@ -690,13 +664,6 @@ isLoaded
        
        
        
-       **Returns**
-       
-       ``true``  if data has been loaded and is available, ``false``  if data is still being loaded.
-       
-       
-       
-       
        
        
        
@@ -735,13 +702,6 @@ load
    * - Blocks the collection until all data are available.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the data could be successfully loaded, ``false``  otherwise.
        
        
        
@@ -786,11 +746,6 @@ size
        
        
        
-       
-       
-       **Returns**
-       
-       the number of elements in this query result.
        
        
        
@@ -949,13 +904,6 @@ sort
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -1193,13 +1141,6 @@ sort
        
        
        
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1287,13 +1228,6 @@ sort
        
        
        
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1340,13 +1274,6 @@ sort
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       a new sorted :ref:`RealmResults <io_realm_RealmResults>`  will be created and returned. The original collection stays unchanged.
        
        
        
@@ -1405,11 +1332,6 @@ where
        
        
        
-       
-       
-       **Returns**
-       
-       a RealmQuery object.
        
        
        

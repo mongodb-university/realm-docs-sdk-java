@@ -129,13 +129,6 @@ getDatabase
        
        
        
-       **Returns**
-       
-       a ``RemoteMongoDatabase``  representing the specified database
-       
-       
-       
-       
        
        
        
@@ -176,11 +169,6 @@ getServiceName
        
        
        
-       
-       
-       **Returns**
-       
-       the service name.
        
        
        

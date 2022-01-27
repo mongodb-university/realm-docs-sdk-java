@@ -383,11 +383,6 @@ create
        
        
        
-       **Returns**
-       
-       the new API key for the user.
-       
-       
        
        
        **Throws**
@@ -1421,13 +1416,6 @@ getApp
        
        
        
-       **Returns**
-       
-       The :ref:`App <io_realm_mongodb_App>`  that this instance in associated with.
-       
-       
-       
-       
        
        
        
@@ -1468,13 +1456,6 @@ getUser
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       The :ref:`User <io_realm_mongodb_User>`  that this instance in associated with.
        
        
        

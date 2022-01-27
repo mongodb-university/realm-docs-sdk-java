@@ -291,11 +291,6 @@ getChangeset
        
        
        
-       **Returns**
-       
-       the changeset describing how the object was updated.
-       
-       
        
        
        

@@ -113,11 +113,6 @@ first
        
        
        
-       **Returns**
-       
-       a task containing the first item or null.
-       
-       
        
        
        
@@ -162,11 +157,6 @@ iterator
        
        
        
-       
-       
-       **Returns**
-       
-       an asynchronous task with cursor of the operation represented by this iterable.
        
        
        

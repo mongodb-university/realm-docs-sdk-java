@@ -1673,13 +1673,6 @@ getLevel
        
        
        
-       **Returns**
-       
-       the current :ref:`LogLevel <io_realm_log_LogLevel>` .
-       
-       
-       
-       
        
        
        
@@ -2141,13 +2134,6 @@ remove
    * - Removes the given logger if it is currently added.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the logger was removed, ``false``  otherwise.
        
        
        

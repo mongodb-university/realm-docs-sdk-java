@@ -1059,13 +1059,6 @@ asFlowable
        
        
        
-       **Returns**
-       
-       RxJava Observable that only calls ``onNext`` . It will never call ``onComplete``  or ``OnError`` .
-       
-       
-       
-       
        
        
        
@@ -1138,13 +1131,6 @@ compactRealm
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if successful, ``false``  if any file operation failed.
        
        
        
@@ -1249,13 +1235,6 @@ copyFromRealm
        
        
        
-       **Returns**
-       
-       an in-memory detached copy of the managed :ref:`RealmObject <io_realm_RealmObject>` .
-       
-       
-       
-       
        
        
        **Throws**
@@ -1338,13 +1317,6 @@ copyFromRealm
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       an in-memory detached copy of the managed :ref:`RealmObject <io_realm_RealmObject>` .
        
        
        
@@ -1452,11 +1424,6 @@ copyFromRealm
        
        
        
-       **Returns**
-       
-       an in-memory detached copy of the RealmObjects.
-       
-       
        
        
        **Throws**
@@ -1539,11 +1506,6 @@ copyFromRealm
           
        
        
-       
-       
-       **Returns**
-       
-       an in-memory detached copy of managed RealmObjects.
        
        
        
@@ -1702,11 +1664,6 @@ copyToRealm
        
        
        
-       **Returns**
-       
-       a list of the the converted RealmObjects that all has their properties managed by the Realm.
-       
-       
        
        
        **Throws**
@@ -1832,11 +1789,6 @@ copyToRealm
           
        
        
-       
-       
-       **Returns**
-       
-       a managed RealmObject with its properties backed by the Realm.
        
        
        
@@ -1983,11 +1935,6 @@ copyToRealmOrUpdate
        
        
        
-       **Returns**
-       
-       a list of all the new or updated RealmObjects.
-       
-       
        
        
        **Throws**
@@ -2125,11 +2072,6 @@ copyToRealmOrUpdate
           
        
        
-       
-       
-       **Returns**
-       
-       the new or updated RealmObject with all its properties backed by the Realm.
        
        
        
@@ -2745,11 +2687,6 @@ createEmbeddedObject
        
        
        
-       **Returns**
-       
-       the newly created embedded object.
-       
-       
        
        
        **Throws**
@@ -2884,11 +2821,6 @@ createObject
        
        
        
-       **Returns**
-       
-       the new object.
-       
-       
        
        
        **Throws**
@@ -2955,11 +2887,6 @@ createObject
           
        
        
-       
-       
-       **Returns**
-       
-       the new object.
        
        
        
@@ -3092,13 +3019,6 @@ createObjectFromJson
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       created object or ``null``  if JSON string was empty or null.
        
        
        
@@ -3240,13 +3160,6 @@ createObjectFromJson
        
        
        
-       **Returns**
-       
-       created object or ``null``  if JSON string was empty or null.
-       
-       
-       
-       
        
        
        **Throws**
@@ -3376,13 +3289,6 @@ createObjectFromJson
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       created object or ``null``  if no JSON data was provided.
        
        
        
@@ -4005,13 +3911,6 @@ createOrUpdateObjectFromJson
        
        
        
-       **Returns**
-       
-       created or updated :ref:`io.realm.RealmObject <io_realm_RealmObject>` .
-       
-       
-       
-       
        
        
        **Throws**
@@ -4153,13 +4052,6 @@ createOrUpdateObjectFromJson
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       created or updated :ref:`io.realm.RealmObject <io_realm_RealmObject>` .
        
        
        
@@ -4307,13 +4199,6 @@ createOrUpdateObjectFromJson
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       created or updated :ref:`io.realm.RealmObject <io_realm_RealmObject>` .
        
        
        
@@ -4518,13 +4403,6 @@ deleteRealm
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       ``false``  if the Realm file could not be deleted. Temporary files deletion failure won't impact the return value. All of the failing file deletions will be logged.
        
        
        
@@ -5023,13 +4901,6 @@ executeTransactionAsync
        
        
        
-       **Returns**
-       
-       a :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  representing a cancellable task.
-       
-       
-       
-       
        
        
        **Throws**
@@ -5185,13 +5056,6 @@ executeTransactionAsync
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       a :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  representing a cancellable task.
        
        
        
@@ -5355,13 +5219,6 @@ executeTransactionAsync
        
        
        
-       **Returns**
-       
-       a :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  representing a cancellable task.
-       
-       
-       
-       
        
        
        **Throws**
@@ -5422,13 +5279,6 @@ executeTransactionAsync
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       a :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  representing a cancellable task.
        
        
        
@@ -5495,11 +5345,6 @@ freeze
        
        
        
-       **Returns**
-       
-       a frozen copy of this Realm.
-       
-       
        
        
        
@@ -5548,13 +5393,6 @@ getApplicationContext
        
        
        
-       **Returns**
-       
-       the application context used when initializing Realm with :ref:`Realm.init(Context) <io_realm_Realm_init_Context_>`  or :ref:`Realm.init(Context, String) <io_realm_Realm_init_Context__String_>` , or null if Realm has not been initialized yet.
-       
-       
-       
-       
        
        
        
@@ -5595,13 +5433,6 @@ getDefaultConfiguration
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       default configuration object or ``null``  if no default configuration is specified.
        
        
        
@@ -5648,11 +5479,6 @@ getDefaultInstance
        
        
        
-       
-       
-       **Returns**
-       
-       an instance of the Realm class.
        
        
        
@@ -5709,13 +5535,6 @@ getDefaultModule
    * - Returns the default Realm module. This module contains all Realm classes in the current project, but not those from library or project dependencies. Realm classes in these should be exposed using their own module.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the default Realm module or ``null``  if no default module exists.
        
        
        
@@ -5807,11 +5626,6 @@ getGlobalInstanceCount
        
        
        
-       **Returns**
-       
-       number of open Realm instances across all threads.
-       
-       
        
        
        
@@ -5877,11 +5691,6 @@ getInstance
           
        
        
-       
-       
-       **Returns**
-       
-       an instance of the Realm class
        
        
        
@@ -6048,13 +5857,6 @@ getInstanceAsync
        
        
        
-       **Returns**
-       
-       a :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  representing a cancellable task.
-       
-       
-       
-       
        
        
        **Throws**
@@ -6150,11 +5952,6 @@ getLocalInstanceCount
        
        
        
-       **Returns**
-       
-       number of open Realm instances on the caller thread.
-       
-       
        
        
        
@@ -6199,13 +5996,6 @@ getSchema
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       The :ref:`RealmSchema <io_realm_RealmSchema>`  for this Realm.
        
        
        
@@ -6912,13 +6702,6 @@ isEmpty
        
        
        
-       **Returns**
-       
-       ``true``  if empty, @{code false} otherwise.
-       
-       
-       
-       
        
        
        
@@ -7448,11 +7231,6 @@ where
           
        
        
-       
-       
-       **Returns**
-       
-       a typed RealmQuery, which can be used to query for specific objects of this type.
        
        
        

@@ -210,11 +210,6 @@ getLimit
        
        
        
-       **Returns**
-       
-       the limit
-       
-       
        
        
        
@@ -257,11 +252,6 @@ getProjection
        
        
        
-       **Returns**
-       
-       the project document, which may be null
-       
-       
        
        
        
@@ -302,11 +292,6 @@ getSort
        
        
        
-       
-       
-       **Returns**
-       
-       a document describing the sort criteria
        
        
        
@@ -366,11 +351,6 @@ limit
        
        
        
-       **Returns**
-       
-       this
-       
-       
        
        
        
@@ -428,11 +408,6 @@ projection
        
        
        
-       **Returns**
-       
-       this
-       
-       
        
        
        
@@ -488,11 +463,6 @@ sort
           
        
        
-       
-       
-       **Returns**
-       
-       this
        
        
        

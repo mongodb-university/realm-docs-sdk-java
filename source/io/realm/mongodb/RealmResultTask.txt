@@ -107,11 +107,6 @@ get
        
        
        
-       **Returns**
-       
-       the result of the operation executed by this task.
-       
-       
        
        
        

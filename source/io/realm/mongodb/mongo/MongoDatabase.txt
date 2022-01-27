@@ -192,11 +192,6 @@ getCollection
        
        
        
-       **Returns**
-       
-       the collection
-       
-       
        
        
        
@@ -241,11 +236,6 @@ getCollection
        
        
        
-       **Returns**
-       
-       the collection
-       
-       
        
        
        
@@ -286,11 +276,6 @@ getName
        
        
        
-       
-       
-       **Returns**
-       
-       the database name
        
        
        

@@ -184,11 +184,6 @@ isOpen
        
        
        
-       **Returns**
-       
-       true if open, false if not.
-       
-       
        
        
        

@@ -134,13 +134,6 @@ isCancelled
        
        
        
-       **Returns**
-       
-       ``true``  if :ref:`cancel() <io_realm_RealmAsyncTask_cancel__>`  has already been called, ``false``  otherwise.
-       
-       
-       
-       
        
        
        

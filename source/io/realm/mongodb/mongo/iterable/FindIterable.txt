@@ -208,11 +208,6 @@ filter
        
        
        
-       **Returns**
-       
-       this
-       
-       
        
        
        
@@ -268,11 +263,6 @@ limit
           
        
        
-       
-       
-       **Returns**
-       
-       this
        
        
        
@@ -332,11 +322,6 @@ projection
        
        
        
-       **Returns**
-       
-       this
-       
-       
        
        
        
@@ -392,11 +377,6 @@ sort
           
        
        
-       
-       
-       **Returns**
-       
-       this
        
        
        

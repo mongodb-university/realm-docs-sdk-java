@@ -266,13 +266,6 @@ tryNext
        
        
        
-       **Returns**
-       
-       A ``Task``  containing the next document if available or null.
-       
-       
-       
-       
        
        
        

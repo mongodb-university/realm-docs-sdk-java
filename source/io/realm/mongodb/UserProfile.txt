@@ -275,11 +275,6 @@ getBirthday
        
        
        
-       **Returns**
-       
-       the birthday of the user or null if there is no birthday associated with the user.
-       
-       
        
        
        
@@ -320,11 +315,6 @@ getEmail
        
        
        
-       
-       
-       **Returns**
-       
-       the email address of the user or null if there is no email address associated with the user. address.
        
        
        
@@ -369,11 +359,6 @@ getFirstName
        
        
        
-       **Returns**
-       
-       the first name of the user or null if there is no first name associated with the user.
-       
-       
        
        
        
@@ -414,11 +399,6 @@ getGender
        
        
        
-       
-       
-       **Returns**
-       
-       the gender of the user or null if there is no gender associated with the user.
        
        
        
@@ -463,11 +443,6 @@ getLastName
        
        
        
-       **Returns**
-       
-       the last name of the user or null if there is no last name associated with the user.
-       
-       
        
        
        
@@ -508,11 +483,6 @@ getMaxAge
        
        
        
-       
-       
-       **Returns**
-       
-       the maximum age of the user or null if there is no maximum age associated with the user.
        
        
        
@@ -557,11 +527,6 @@ getMinAge
        
        
        
-       **Returns**
-       
-       the minimum age of the user or null if there is no minimum age associated with the user.
-       
-       
        
        
        
@@ -602,11 +567,6 @@ getName
        
        
        
-       
-       
-       **Returns**
-       
-       the name of the user.
        
        
        
@@ -651,11 +611,6 @@ getPictureUrl
        
        
        
-       **Returns**
-       
-       the picture URL of the user or null if there is no picture URL associated with the user.
-       
-       
        
        
        
@@ -696,13 +651,6 @@ getUser
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       The :ref:`User <io_realm_mongodb_User>`  that this instance in associated with.
        
        
        

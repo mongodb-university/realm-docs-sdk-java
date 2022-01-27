@@ -359,11 +359,6 @@ obfuscate
        
        
        
-       **Returns**
-       
-       the logcat entry to be shown in the logcat.
-       
-       
        
        
        

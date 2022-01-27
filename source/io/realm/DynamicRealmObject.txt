@@ -923,11 +923,6 @@ get
        
        
        
-       **Returns**
-       
-       the field value.
-       
-       
        
        
        **Throws**
@@ -999,11 +994,6 @@ getBlob
           
        
        
-       
-       
-       **Returns**
-       
-       the byte[] value.
        
        
        
@@ -1081,11 +1071,6 @@ getBoolean
           
        
        
-       
-       
-       **Returns**
-       
-       the boolean value.
        
        
        
@@ -1171,11 +1156,6 @@ getByte
        
        
        
-       **Returns**
-       
-       the byte value.
-       
-       
        
        
        **Throws**
@@ -1255,11 +1235,6 @@ getDate
        
        
        
-       **Returns**
-       
-       the Date value.
-       
-       
        
        
        **Throws**
@@ -1331,11 +1306,6 @@ getDecimal128
           
        
        
-       
-       
-       **Returns**
-       
-       the Decimal128 value.
        
        
        
@@ -1458,13 +1428,6 @@ getDictionary
        
        
        
-       **Returns**
-       
-       the **RealmDictionary (?)** data for this field.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1519,13 +1482,6 @@ getDictionary
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       the **RealmDictionary (?)** data for this field.
        
        
        
@@ -1607,11 +1563,6 @@ getDouble
        
        
        
-       **Returns**
-       
-       the double value.
-       
-       
        
        
        **Throws**
@@ -1674,13 +1625,6 @@ getDynamicRealm
        
        
        
-       **Returns**
-       
-       :ref:`DynamicRealm <io_realm_DynamicRealm>`  instance where this object belongs.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1731,11 +1675,6 @@ getFieldNames
        
        
        
-       
-       
-       **Returns**
-       
-       list of field names on this objects or the empty list if the object doesn't have any fields.
        
        
        
@@ -1791,11 +1730,6 @@ getFieldType
        
        
        
-       
-       
-       **Returns**
-       
-       the underlying type used by Realm to represent this field.
        
        
        
@@ -1865,11 +1799,6 @@ getFloat
           
        
        
-       
-       
-       **Returns**
-       
-       the float value.
        
        
        
@@ -1951,13 +1880,6 @@ getInt
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       the int value. Integer values exceeding ``Integer.MAX_VALUE``  will wrap.
        
        
        
@@ -2088,13 +2010,6 @@ getList
        
        
        
-       **Returns**
-       
-       the :ref:`RealmList <io_realm_RealmList>`  data for this field.
-       
-       
-       
-       
        
        
        **Throws**
@@ -2149,13 +2064,6 @@ getList
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       the :ref:`RealmList <io_realm_RealmList>`  data for this field.
        
        
        
@@ -2237,13 +2145,6 @@ getLong
        
        
        
-       **Returns**
-       
-       the long value. Integer values exceeding ``Long.MAX_VALUE``  will wrap.
-       
-       
-       
-       
        
        
        **Throws**
@@ -2321,13 +2222,6 @@ getObject
        
        
        
-       **Returns**
-       
-       the :ref:`DynamicRealmObject <io_realm_DynamicRealmObject>`  representation of the linked object or ``null``  if no object is linked.
-       
-       
-       
-       
        
        
        **Throws**
@@ -2401,11 +2295,6 @@ getObjectId
        
        
        
-       **Returns**
-       
-       the ObjectId value.
-       
-       
        
        
        **Throws**
@@ -2477,11 +2366,6 @@ getRealmAny
           
        
        
-       
-       
-       **Returns**
-       
-       the RealmAny value.
        
        
        
@@ -2604,13 +2488,6 @@ getRealmSet
        
        
        
-       **Returns**
-       
-       the **RealmSet (?)** data for this field.
-       
-       
-       
-       
        
        
        **Throws**
@@ -2665,13 +2542,6 @@ getRealmSet
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       the **RealmSet (?)** data for this field.
        
        
        
@@ -2749,13 +2619,6 @@ getShort
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       the short value. Integer values exceeding ``Short.MAX_VALUE``  will wrap.
        
        
        
@@ -2839,11 +2702,6 @@ getString
        
        
        
-       **Returns**
-       
-       the String value.
-       
-       
        
        
        **Throws**
@@ -2894,11 +2752,6 @@ getType
        
        
        
-       
-       
-       **Returns**
-       
-       this objects type.
        
        
        
@@ -2964,11 +2817,6 @@ getUUID
           
        
        
-       
-       
-       **Returns**
-       
-       the UUID value.
        
        
        
@@ -3042,13 +2890,6 @@ hasField
        
        
        
-       **Returns**
-       
-       ``true``  if the object has a field with the given name, ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -3099,11 +2940,6 @@ hashCode
        
        
        
-       
-       
-       **Returns**
-       
-       a hash code value for the object.
        
        
        
@@ -3185,13 +3021,6 @@ isNull
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if field value is null, ``false``  otherwise.
        
        
        
@@ -3312,11 +3141,6 @@ linkingObjects
           
        
        
-       
-       
-       **Returns**
-       
-       the result.
        
        
        

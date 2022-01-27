@@ -157,11 +157,6 @@ getDeletedCount
        
        
        
-       **Returns**
-       
-       the number of documents deleted
-       
-       
        
        
        

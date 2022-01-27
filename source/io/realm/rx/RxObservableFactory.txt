@@ -552,11 +552,6 @@ changesetsFrom
        
        
        
-       **Returns**
-       
-       Rx observable that emit all updates + their changeset.
-       
-       
        
        
        
@@ -660,11 +655,6 @@ changesetsFrom
        
        
        
-       **Returns**
-       
-       Rx observable that emit all updates + their changeset.
-       
-       
        
        
        
@@ -758,11 +748,6 @@ changesetsFrom
           
        
        
-       
-       
-       **Returns**
-       
-       Rx observable that emit all updates + their changeset.
        
        
        
@@ -866,11 +851,6 @@ changesetsFrom
           
        
        
-       
-       
-       **Returns**
-       
-       Rx observable that emit all updates + their changeset.
        
        
        
@@ -1573,11 +1553,6 @@ from
        
        
        
-       **Returns**
-       
-       Rx observable that emit all updates to the RealmResults.
-       
-       
        
        
        
@@ -1681,11 +1656,6 @@ from
        
        
        
-       **Returns**
-       
-       Rx observable that emit all updates to the RealmObject.
-       
-       
        
        
        
@@ -1736,11 +1706,6 @@ from
        
        
        
-       **Returns**
-       
-       Rx observable that emit all updates to the DynamicRealm.
-       
-       
        
        
        
@@ -1789,11 +1754,6 @@ from
           
        
        
-       
-       
-       **Returns**
-       
-       Rx observable that emit all updates to the Realm.
        
        
        

@@ -644,13 +644,6 @@ build
        
        
        
-       **Returns**
-       
-       the created :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>` .
-       
-       
-       
-       
        
        
        **Throws**

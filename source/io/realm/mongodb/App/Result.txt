@@ -192,11 +192,6 @@ get
        
        
        
-       **Returns**
-       
-       the response value in case of a successful request.
-       
-       
        
        
        
@@ -239,13 +234,6 @@ getError
    * - Returns the error in case of a failed request.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the :ref:`AppException <io_realm_mongodb_AppException>`  in case of a failed request.
        
        
        
@@ -303,11 +291,6 @@ getOrDefault
        
        
        
-       **Returns**
-       
-       the response value in case of a successful request. If the request failed, the default value is returned instead.
-       
-       
        
        
        
@@ -352,11 +335,6 @@ getOrThrow
        
        
        
-       
-       
-       **Returns**
-       
-       the response object in case the request was a success.
        
        
        
@@ -409,13 +387,6 @@ isSuccess
    * - Returns whether or not request was successful
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the request was a success, ``false``  if not.
        
        
        

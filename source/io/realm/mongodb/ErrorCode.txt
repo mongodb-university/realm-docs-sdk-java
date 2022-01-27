@@ -4302,13 +4302,6 @@ fromNativeError
        
        
        
-       **Returns**
-       
-       the Java error representing the native error. This method will never throw, so in case a Java error does not exists. :ref:`UNKNOWN <io_realm_mongodb_ErrorCode_UNKNOWN>`  will be returned.
-       
-       
-       
-       
        
        
        
@@ -4359,11 +4352,6 @@ getCategory
        
        
        
-       **Returns**
-       
-       the severity of the error.
-       
-       
        
        
        
@@ -4408,11 +4396,6 @@ getType
        
        
        
-       **Returns**
-       
-       the type of error.
-       
-       
        
        
        
@@ -4453,13 +4436,6 @@ intValue
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the error code as an unique ``int``  value.
        
        
        

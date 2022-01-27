@@ -531,11 +531,6 @@ getCategory
        
        
        
-       **Returns**
-       
-       the error category.
-       
-       
        
        
        
@@ -582,11 +577,6 @@ getErrorCode
        
        
        
-       
-       
-       **Returns**
-       
-       the error code identifying the type of error.
        
        
        
@@ -647,11 +637,6 @@ getErrorIntValue
        
        
        
-       **Returns**
-       
-       the integer value representing this type of error.
-       
-       
        
        
        
@@ -690,13 +675,6 @@ getErrorMessage
    * - Returns a more detailed error message about the cause of this error.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       a detailed error message or ``null``  if one was not available.
        
        
        
@@ -743,11 +721,6 @@ getErrorType
        
        
        
-       **Returns**
-       
-       
-       
-       
        
        
        
@@ -786,13 +759,6 @@ getException
    * - Returns the underlying exception causing this error, if any.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the underlying exception causing this error, or ``null``  if not caused by an exception.
        
        
        

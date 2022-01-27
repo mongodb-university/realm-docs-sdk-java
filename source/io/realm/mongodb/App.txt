@@ -656,11 +656,6 @@ allUsers
        
        
        
-       **Returns**
-       
-       a map of user identifiers and users known locally.
-       
-       
        
        
        
@@ -703,13 +698,6 @@ currentUser
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       current :ref:`User <io_realm_mongodb_User>`  that has logged in and is still valid. ``null``  if no user is logged in or the user has expired.
        
        
        
@@ -817,11 +805,6 @@ getConfiguration
        
        
        
-       **Returns**
-       
-       the configuration for this app.
-       
-       
        
        
        
@@ -862,13 +845,6 @@ getEmailPassword
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       wrapper for interacting with the :ref:`Credentials.Provider.EMAIL_PASSWORD <io_realm_mongodb_Credentials_Provider_EMAIL_PASSWORD>`  identity provider.
        
        
        
@@ -1053,11 +1029,6 @@ getSync
        
        
        
-       **Returns**
-       
-       the *Sync* instance associated with this *App*.
-       
-       
        
        
        
@@ -1173,13 +1144,6 @@ login
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       a :ref:`User <io_realm_mongodb_User>`  representing the logged in user.
        
        
        
@@ -1464,11 +1428,6 @@ removeUser
           
        
        
-       
-       
-       **Returns**
-       
-       user that was removed.
        
        
        

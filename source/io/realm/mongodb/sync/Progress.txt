@@ -245,13 +245,6 @@ getFractionTransferred
        
        
        
-       **Returns**
-       
-       a number between ``0.0``  and ``1.0`` , where ``0.0``  represents that no data has been transferred yet, and ``1.0``  that all data has been transferred.
-       
-       
-       
-       
        
        
        
@@ -302,11 +295,6 @@ getTransferableBytes
        
        
        
-       **Returns**
-       
-       the total number of bytes that has been transferred + number of bytes still pending transfer.
-       
-       
        
        
        
@@ -347,13 +335,6 @@ getTransferredBytes
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       the total number of bytes transferred since the :ref:`ProgressListener <io_realm_mongodb_sync_ProgressListener>`  was added.
        
        
        
@@ -452,13 +433,6 @@ isTransferComplete
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if all changes have been transferred, ``false``  otherwise.
        
        
        

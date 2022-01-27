@@ -189,13 +189,6 @@ getAllSessions
        
        
        
-       **Returns**
-       
-       a collection of :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>` .
-       
-       
-       
-       
        
        
        
@@ -257,13 +250,6 @@ getOrCreateSession
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       the :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>`  for the specified Realm.
        
        
        
@@ -339,13 +325,6 @@ getSession
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       the :ref:`SyncSession <io_realm_mongodb_sync_SyncSession>`  for the specified Realm.
        
        
        

@@ -113,13 +113,6 @@ getChangedFields
        
        
        
-       **Returns**
-       
-       the names of changed fields if the object still exists and there are field changes. Returns an empty ``String[]``  if the object has been deleted.
-       
-       
-       
-       
        
        
        
@@ -160,11 +153,6 @@ isDeleted
        
        
        
-       
-       
-       **Returns**
-       
-       true if the object has been deleted from the Realm.
        
        
        
@@ -226,13 +214,6 @@ isFieldChanged
           
           
           
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the field has been changed. It returns ``false``  if the object is deleted, the field cannot be found or the field hasn't been changed.
        
        
        

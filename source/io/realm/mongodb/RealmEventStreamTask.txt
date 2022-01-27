@@ -102,11 +102,6 @@ getNext
        
        
        
-       **Returns**
-       
-       the next event in the stream.
-       
-       
        
        
        **Throws**
@@ -159,11 +154,6 @@ isOpen
        
        
        
-       
-       
-       **Returns**
-       
-       true if open, false if not.
        
        
        

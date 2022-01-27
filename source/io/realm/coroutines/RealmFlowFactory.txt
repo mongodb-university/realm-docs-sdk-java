@@ -408,13 +408,6 @@ changesetFrom
        
        
        
-       **Returns**
-       
-       **Flow (?)** that emits all updates to the DynamicRealmObject.
-       
-       
-       
-       
        
        
        
@@ -488,13 +481,6 @@ changesetFrom
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       **Flow (?)** that emits all updates to the DynamicRealmObject.
        
        
        
@@ -578,13 +564,6 @@ changesetFrom
        
        
        
-       **Returns**
-       
-       **Flow (?)** that emits all updates to the RealmList.
-       
-       
-       
-       
        
        
        
@@ -660,13 +639,6 @@ changesetFrom
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       **Flow (?)** that emits all updates to the RealmList.
        
        
        
@@ -750,13 +722,6 @@ changesetFrom
        
        
        
-       **Returns**
-       
-       **Flow (?)** that emits all updates to the RealmResults.
-       
-       
-       
-       
        
        
        
@@ -832,13 +797,6 @@ changesetFrom
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       **Flow (?)** that emits all updates to the RealmResults.
        
        
        
@@ -937,13 +895,6 @@ from
        
        
        
-       **Returns**
-       
-       **Flow (?)** that emits all updates to the DynamicRealmObject.
-       
-       
-       
-       
        
        
        
@@ -1015,13 +966,6 @@ from
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       **Flow (?)** that emits all updates to the DynamicRealmObject.
        
        
        
@@ -1107,13 +1051,6 @@ from
        
        
        
-       **Returns**
-       
-       **Flow (?)** that emit all updates to the RealmList.
-       
-       
-       
-       
        
        
        
@@ -1195,13 +1132,6 @@ from
        
        
        
-       **Returns**
-       
-       **Flow (?)** that emit all updates to the RealmList.
-       
-       
-       
-       
        
        
        
@@ -1275,13 +1205,6 @@ from
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       **Flow (?)** that emits all updates to the RealmObject.
        
        
        
@@ -1363,13 +1286,6 @@ from
        
        
        
-       **Returns**
-       
-       **Flow (?)** that emits all updates to the RealmObject.
-       
-       
-       
-       
        
        
        
@@ -1408,11 +1324,6 @@ from
        
        
        
-       **Returns**
-       
-       Flow that emits all updates to the Realm.
-       
-       
        
        
        
@@ -1449,11 +1360,6 @@ from
        
        
        
-       
-       
-       **Returns**
-       
-       Flow that emits all updates to the Realm.
        
        
        

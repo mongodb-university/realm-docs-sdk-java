@@ -438,11 +438,6 @@ defaultConfig
        
        
        
-       **Returns**
-       
-       the default configuration for the given user and partition value.
-       
-       
        
        
        
@@ -526,11 +521,6 @@ defaultConfig
           
        
        
-       
-       
-       **Returns**
-       
-       the default configuration for the given user and partition value.
        
        
        
@@ -618,11 +608,6 @@ defaultConfig
        
        
        
-       **Returns**
-       
-       the default configuration for the given user and partition value.
-       
-       
        
        
        
@@ -706,11 +691,6 @@ defaultConfig
           
        
        
-       
-       
-       **Returns**
-       
-       the default configuration for the given user and partition value.
        
        
        
@@ -835,11 +815,6 @@ forRecovery
           
        
        
-       
-       
-       **Returns**
-       
-       RealmConfiguration that can be used offline
        
        
        
@@ -1032,11 +1007,6 @@ forRecovery
        
        
        
-       **Returns**
-       
-       RealmConfiguration that can be used offline
-       
-       
        
        
        
@@ -1077,11 +1047,6 @@ getClientResetHandler
        
        
        
-       
-       
-       **Returns**
-       
-       the Client Reset handler.
        
        
        
@@ -1126,11 +1091,6 @@ getErrorHandler
        
        
        
-       **Returns**
-       
-       the error handler.
-       
-       
        
        
        
@@ -1171,11 +1131,6 @@ getInitialDataTransaction
        
        
        
-       
-       
-       **Returns**
-       
-       the initial data transaction.
        
        
        
@@ -1241,11 +1196,6 @@ getInitialRemoteDataTimeout
        
        
        
-       **Returns**
-       
-       the time Realm will wait for all changes to be downloaded before it is aborted and an exception is thrown.
-       
-       
        
        
        
@@ -1302,11 +1252,6 @@ getPartitionValue
        
        
        
-       **Returns**
-       
-       the value being used by MongoDB Realm to partition the server side MongoDB Database into Realms that can be synchronized independently.
-       
-       
        
        
        
@@ -1345,13 +1290,6 @@ getServerUrl
    * - Returns the server URI for the remote MongoDB Realm the local Realm is synchronizing with.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       `URI <https://docs.oracle.com/javase/7/docs/api/java/net/URI.html>`__  identifying the MongoDB Realm this local Realm is synchronized with.
        
        
        
@@ -1396,11 +1334,6 @@ getSessionStopPolicy
        
        
        
-       
-       
-       **Returns**
-       
-       the stop policy used by the session once the Realm is closed.
        
        
        
@@ -1485,11 +1418,6 @@ getUser
        
        
        
-       
-       
-       **Returns**
-       
-       the user.
        
        
        
@@ -1628,13 +1556,6 @@ realmExists
        
        
        
-       **Returns**
-       
-       ``true``  if the Realm file exists, ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -1683,13 +1604,6 @@ shouldDeleteRealmOnLogout
        
        
        
-       **Returns**
-       
-       ``true``  if the Realm file must be deleted if the :ref:`User <io_realm_mongodb_User>`  logs out. ``false``  if the file is allowed to remain behind.
-       
-       
-       
-       
        
        
        
@@ -1730,13 +1644,6 @@ shouldWaitForInitialRemoteData
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if all remote changes will be downloaded before the Realm can be opened. ``false``  if the Realm can be opened immediately.
        
        
        

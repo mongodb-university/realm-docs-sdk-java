@@ -1085,13 +1085,6 @@ asChangesetObservable
        
        
        
-       **Returns**
-       
-       RxJava Observable that only calls ``onNext`` . It will never call ``onComplete``  or ``OnError`` .
-       
-       
-       
-       
        
        
        **Throws**
@@ -1165,13 +1158,6 @@ asChangesetObservable
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       RxJava Observable that only calls ``onNext`` . It will never call ``onComplete``  or ``OnError`` .
        
        
        
@@ -1311,13 +1297,6 @@ asFlowable
        
        
        
-       **Returns**
-       
-       RxJava Observable that only calls ``onNext`` . It will never call ``onComplete``  or ``OnError`` .
-       
-       
-       
-       
        
        
        **Throws**
@@ -1417,13 +1396,6 @@ asFlowable
           
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       RxJava Observable that only calls ``onNext`` . It will never call ``onComplete``  or ``OnError`` .
        
        
        
@@ -1648,11 +1620,6 @@ freeze
        
        
        
-       **Returns**
-       
-       a frozen copy of this object.
-       
-       
        
        
        **Throws**
@@ -1694,11 +1661,6 @@ freeze
        
        
        
-       
-       
-       **Returns**
-       
-       a frozen copy of this object.
        
        
        
@@ -1780,13 +1742,6 @@ getRealm
        
        
        
-       **Returns**
-       
-       :ref:`Realm <io_realm_Realm>`  instance where the ``model``  belongs or ``null``  if the ``model``  is unmanaged.
-       
-       
-       
-       
        
        
        **Throws**
@@ -1828,13 +1783,6 @@ getRealm
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       :ref:`Realm <io_realm_Realm>`  instance where this object belongs to or ``null``  if this object is unmanaged.
        
        
        
@@ -1904,13 +1852,6 @@ isFrozen
        
        
        
-       **Returns**
-       
-       ``true``  if the RealmObject is frozen, ``false``  if it is not.
-       
-       
-       
-       
        
        
        
@@ -1944,13 +1885,6 @@ isFrozen
    * - Returns whether or not this RealmObject is frozen.
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the RealmObject is frozen, ``false``  if it is not.
        
        
        
@@ -2069,13 +2003,6 @@ isLoaded
        
        
        
-       **Returns**
-       
-       ``true``  if the query has completed, ``false``  if the query is in progress.
-       
-       
-       
-       
        
        
        
@@ -2146,13 +2073,6 @@ isLoaded
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the query has completed, ``false``  if the query is in progress.
        
        
        
@@ -2236,13 +2156,6 @@ isManaged
        
        
        
-       **Returns**
-       
-       ``true``  if the object is managed, ``false``  if it is unmanaged.
-       
-       
-       
-       
        
        
        
@@ -2272,13 +2185,6 @@ isManaged
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the object is managed, ``false``  if it is unmanaged.
        
        
        
@@ -2348,13 +2254,6 @@ isValid
        
        
        
-       **Returns**
-       
-       ``true``  if the object is still accessible or an unmanaged object, ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -2393,13 +2292,6 @@ isValid
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if the object is still accessible or an unmanaged object, ``false``  otherwise.
        
        
        
@@ -2486,13 +2378,6 @@ load
        
        
        
-       **Returns**
-       
-       ``true``  if it successfully completed the query, ``false``  otherwise.
-       
-       
-       
-       
        
        
        
@@ -2516,13 +2401,6 @@ load
        
        
        
-       
-       
-       
-       
-       **Returns**
-       
-       ``true``  if it successfully completed the query, ``false``  otherwise.
        
        
        
