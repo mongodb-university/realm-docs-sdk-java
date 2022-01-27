@@ -23,7 +23,7 @@ When registered against a ``Realm``  you'll get notified when a Realm instance h
 
 
 
-Realm instances on a thread without an **android.os.Looper (?)** cannot register a RealmChangeListener.
+Realm instances on a thread without an `android.os.Looper <https://developer.android.com/reference/android/os/Looper>`__  cannot register a RealmChangeListener.
 
 
 

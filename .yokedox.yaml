@@ -1,0 +1,5 @@
+# @format
+externalEntityPatterns:
+  - from: ^org\.bson\.
+    toPrefix: https://www.javadoc.io/doc/org.mongodb/bson/3.12.1/
+    toSuffix: .html

@@ -37,7 +37,7 @@ Realm instances cannot be used across different threads. This means that you hav
 
 For the UI thread this means that opening and closing Realms should occur in either onCreate/onDestroy or onStart/onStop.
 
-Realm instances coordinate their state across threads using the **android.os.Handler (?)** mechanism. This also means that Realm instances on threads without a **android.os.Looper (?)** cannot receive updates unless **refresh() (?)** is manually called.
+Realm instances coordinate their state across threads using the `android.os.Handler <https://developer.android.com/reference/android/os/Handler>`__  mechanism. This also means that Realm instances on threads without a `android.os.Looper <https://developer.android.com/reference/android/os/Looper>`__  cannot receive updates unless **refresh() (?)** is manually called.
 
 
 
@@ -575,7 +575,7 @@ Method Summary
        
        
    
-   * - public static **Context (?)**
+   * - public static `Context <https://developer.android.com/reference/android/content/Context>`__ 
      - | :ref:`getApplicationContext <io_realm_Realm_getApplicationContext>` ()
        | 
        
@@ -682,7 +682,7 @@ Method Summary
    
    * - public static synchronized **void**
      - | :ref:`init <io_realm_Realm_init>` (
-       |  **Context (?)** context, 
+       |  `Context <https://developer.android.com/reference/android/content/Context>`__  context, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  userAgent
        | )
        
@@ -694,7 +694,7 @@ Method Summary
    
    * - public static synchronized **void**
      - | :ref:`init <io_realm_Realm_init>` (
-       |  **Context (?)** context
+       |  `Context <https://developer.android.com/reference/android/content/Context>`__  context
        | )
        
        
@@ -951,7 +951,7 @@ addChangeListener
           
           
           
-       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if you try to register a listener from a non-Looper or **IntentService (?)** thread.
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if you try to register a listener from a non-Looper or `IntentService <https://developer.android.com/reference/android/app/IntentService>`__  thread.
           
           
           
@@ -5533,7 +5533,7 @@ getApplicationContext
 .. list-table::
    :header-rows: 1
    
-   * - | public static **Context (?)** :ref:`getApplicationContext <io_realm_Realm_getApplicationContext>` ()
+   * - | public static `Context <https://developer.android.com/reference/android/content/Context>`__  :ref:`getApplicationContext <io_realm_Realm_getApplicationContext>` ()
        | 
        
        
@@ -6065,7 +6065,7 @@ getInstanceAsync
           
           
           
-       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if it is called from a non-Looper or **IntentService (?)** thread.
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if it is called from a non-Looper or `IntentService <https://developer.android.com/reference/android/app/IntentService>`__  thread.
           
           
           
@@ -6292,14 +6292,14 @@ init
    :header-rows: 1
    
    * - | public static synchronized **void** :ref:`init <io_realm_Realm_init>` (
-       |  **Context (?)** context, 
+       |  `Context <https://developer.android.com/reference/android/content/Context>`__  context, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  userAgent
        | )
        
        
        
    
-   * - Initializes the Realm library and creates a default configuration that is ready to use. It is required to call this method before interacting with any other of the Realm API's.A good place is in an **android.app.Application (?)** subclass:
+   * - Initializes the Realm library and creates a default configuration that is ready to use. It is required to call this method before interacting with any other of the Realm API's.A good place is in an `android.app.Application <https://developer.android.com/reference/android/app/Application>`__  subclass:
        
        
        
@@ -6371,7 +6371,7 @@ init
           
           
           
-       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if **Context.getFilesDir() (?)** could not be found.
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if `Context.getFilesDir() <https://developer.android.com/reference/android/content/Context/getFilesDir()>`__  could not be found.
           
           
           
@@ -6414,13 +6414,13 @@ init
    :header-rows: 1
    
    * - | public static synchronized **void** :ref:`init <io_realm_Realm_init>` (
-       |  **Context (?)** context
+       |  `Context <https://developer.android.com/reference/android/content/Context>`__  context
        | )
        
        
        
    
-   * - Initializes the Realm library and creates a default configuration that is ready to use. It is required to call this method before interacting with any other of the Realm API's.A good place is in an **android.app.Application (?)** subclass:
+   * - Initializes the Realm library and creates a default configuration that is ready to use. It is required to call this method before interacting with any other of the Realm API's.A good place is in an `android.app.Application <https://developer.android.com/reference/android/app/Application>`__  subclass:
        
        
        
@@ -6486,7 +6486,7 @@ init
           
           
           
-       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if **Context.getFilesDir() (?)** could not be found.
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if `Context.getFilesDir() <https://developer.android.com/reference/android/content/Context/getFilesDir()>`__  could not be found.
           
           
           
