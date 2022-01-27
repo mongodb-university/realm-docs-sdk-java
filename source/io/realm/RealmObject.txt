@@ -662,7 +662,7 @@ addChangeListener
           
           
           
-       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if you try to add a listener from a non-Looper or **IntentService (?)** thread.
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if you try to add a listener from a non-Looper or `IntentService <https://developer.android.com/reference/android/app/IntentService>`__  thread.
           
           
           
@@ -797,7 +797,7 @@ addChangeListener
           
           
           
-       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if you try to add a listener from a non-Looper or **IntentService (?)** thread.
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if you try to add a listener from a non-Looper or `IntentService <https://developer.android.com/reference/android/app/IntentService>`__  thread.
           
           
           
@@ -891,7 +891,7 @@ addChangeListener
           
           
           
-       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if you try to add a listener from a non-Looper or **IntentService (?)** thread.
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if you try to add a listener from a non-Looper or `IntentService <https://developer.android.com/reference/android/app/IntentService>`__  thread.
           
           
           
@@ -985,7 +985,7 @@ addChangeListener
           
           
           
-       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if you try to add a listener from a non-Looper or **IntentService (?)** thread.
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if you try to add a listener from a non-Looper or `IntentService <https://developer.android.com/reference/android/app/IntentService>`__  thread.
           
           
           

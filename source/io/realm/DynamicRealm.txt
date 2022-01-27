@@ -2154,7 +2154,7 @@ getInstanceAsync
           
           
           
-       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if it is called from a non-Looper or **android.app.IntentService (?)** thread.
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if it is called from a non-Looper or `android.app.IntentService <https://developer.android.com/reference/android/app/IntentService>`__  thread.
           
           
           
