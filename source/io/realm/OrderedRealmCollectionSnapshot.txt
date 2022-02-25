@@ -21,7 +21,7 @@ io.realm
  | `java.lang.Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__ 
  | 		`java.util.AbstractCollection <https://docs.oracle.com/javase/7/docs/api/java/util/AbstractCollection.html>`__ 
  | 					`java.util.AbstractList <https://docs.oracle.com/javase/7/docs/api/java/util/AbstractList.html>`__ 
- | 								**io.realm.OrderedRealmCollectionImpl (?)**
+ | 								**io.realm.OrderedRealmCollectionImpl**
  | 											io.realm.OrderedRealmCollectionSnapshot
 
 
@@ -125,7 +125,7 @@ Method Summary
        | 
        
        
-       
+       Returns a frozen snapshot of this collection.
        
        
        
@@ -135,7 +135,7 @@ Method Summary
        | 
        
        
-       
+       Returns whether or not this object is frozen.
        
        
        
@@ -250,7 +250,7 @@ Inherited Methods
 - Methods inherited from class `java.lang.Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__ : ``getClass`` , ``hashCode`` , ``equals`` , ``clone`` , ``toString`` , ``notify`` , ``notifyAll`` , ``wait`` , ``wait`` , ``wait`` , ``finalize`` 
 - Methods inherited from class `java.util.AbstractCollection <https://docs.oracle.com/javase/7/docs/api/java/util/AbstractCollection.html>`__ : ``iterator`` , ``size`` , ``isEmpty`` , ``contains`` , ``toArray`` , ``toArray`` , ``add`` , ``remove`` , ``containsAll`` , ``addAll`` , ``removeAll`` , ``retainAll`` , ``clear`` , ``toString`` 
 - Methods inherited from class `java.util.AbstractList <https://docs.oracle.com/javase/7/docs/api/java/util/AbstractList.html>`__ : ``add`` , ``get`` , ``set`` , ``add`` , ``remove`` , ``indexOf`` , ``lastIndexOf`` , ``clear`` , ``addAll`` , ``iterator`` , ``listIterator`` , ``listIterator`` , ``subList`` , ``equals`` , ``hashCode`` , ``removeRange`` 
-- Methods inherited from class **io.realm.OrderedRealmCollectionImpl (?)**: ``isValid`` , ``isManaged`` , ``contains`` , ``get`` , ``first`` , ``first`` , ``last`` , ``last`` , ``deleteFromRealm`` , ``deleteAllFromRealm`` , ``iterator`` , ``listIterator`` , ``listIterator`` , ``sort`` , ``sort`` , ``sort`` , ``sort`` , ``size`` , ``min`` , ``minDate`` , ``max`` , ``maxDate`` , ``sum`` , ``average`` , ``remove`` , ``remove`` , ``removeAll`` , ``set`` , ``retainAll`` , ``deleteLastFromRealm`` , ``deleteFirstFromRealm`` , ``clear`` , ``add`` , ``add`` , ``addAll`` , ``addAll`` , ``createSnapshot`` , ``getRealm`` , ``getCollectionOperator`` 
+- Methods inherited from class **io.realm.OrderedRealmCollectionImpl**: ``isValid`` , ``isManaged`` , ``contains`` , ``get`` , ``first`` , ``first`` , ``last`` , ``last`` , ``deleteFromRealm`` , ``deleteAllFromRealm`` , ``iterator`` , ``listIterator`` , ``listIterator`` , ``sort`` , ``sort`` , ``sort`` , ``sort`` , ``size`` , ``min`` , ``minDate`` , ``max`` , ``maxDate`` , ``sum`` , ``average`` , ``remove`` , ``remove`` , ``removeAll`` , ``set`` , ``retainAll`` , ``deleteLastFromRealm`` , ``deleteFirstFromRealm`` , ``clear`` , ``add`` , ``add`` , ``addAll`` , ``addAll`` , ``createSnapshot`` , ``getRealm`` 
 
 
 
@@ -304,7 +304,7 @@ createSnapshot
        
        **Overrides**
        
-       ``createSnapshot`` in class **OrderedRealmCollectionImpl (?)**
+       ``createSnapshot`` in class **OrderedRealmCollectionImpl**
        
        
    
@@ -369,7 +369,7 @@ deleteAllFromRealm
        
        **Overrides**
        
-       ``deleteAllFromRealm`` in class **OrderedRealmCollectionImpl (?)**
+       ``deleteAllFromRealm`` in class **OrderedRealmCollectionImpl**
        
        
    
@@ -430,7 +430,7 @@ deleteFirstFromRealm
        
        **Overrides**
        
-       ``deleteFirstFromRealm`` in class **OrderedRealmCollectionImpl (?)**
+       ``deleteFirstFromRealm`` in class **OrderedRealmCollectionImpl**
        
        
    
@@ -505,7 +505,7 @@ deleteFromRealm
        
        **Overrides**
        
-       ``deleteFromRealm`` in class **OrderedRealmCollectionImpl (?)**
+       ``deleteFromRealm`` in class **OrderedRealmCollectionImpl**
        
        
    
@@ -566,7 +566,7 @@ deleteLastFromRealm
        
        **Overrides**
        
-       ``deleteLastFromRealm`` in class **OrderedRealmCollectionImpl (?)**
+       ``deleteLastFromRealm`` in class **OrderedRealmCollectionImpl**
        
        
    
@@ -599,11 +599,28 @@ freeze
        
        
    
-   * - 
+   * - Returns a frozen snapshot of this collection. The frozen copy can be read and queried from any thread without throwing an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ .
+       
+       Freezing a collection also creates a Realm which has its own lifecycle, but if the live Realm that spawned the original collection is fully closed (i.e. all instances across all threads are closed), the frozen Realm and this collection will be closed as well.
+       
+       Frozen collections can be queried as normal, but trying to mutate it in any way or attempting to register a listener will throw an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ .
+       
+       
+       
+       Note: Keeping a large number of frozen collections with different versions alive can have a negative impact on the filesize of the Realm. In order to avoid such a situation, it is possible to set :ref:`RealmConfiguration.Builder.maxNumberOfActiveVersions(long) <io_realm_RealmConfiguration_Builder_maxNumberOfActiveVersions_long_>` .
        
        
        
        
+       
+       
+       
+       
+       
+       
+       **Returns**
+       
+       a frozen copy of this collection.
        
        
        
@@ -641,9 +658,16 @@ isFrozen
        
        
    
-   * - 
+   * - Returns whether or not this object is frozen.
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       ``true``  if the object is frozen, ``false``  if it is not.
        
        
        
@@ -799,7 +823,7 @@ size
        
        **Overrides**
        
-       ``size`` in class **OrderedRealmCollectionImpl (?)**
+       ``size`` in class **OrderedRealmCollectionImpl**
        
        
    
@@ -974,7 +998,7 @@ sort
        
        **Overrides**
        
-       ``sort`` in class **OrderedRealmCollectionImpl (?)**
+       ``sort`` in class **OrderedRealmCollectionImpl**
        
        
    
@@ -1214,7 +1238,7 @@ sort
        
        **Overrides**
        
-       ``sort`` in class **OrderedRealmCollectionImpl (?)**
+       ``sort`` in class **OrderedRealmCollectionImpl**
        
        
    
@@ -1308,7 +1332,7 @@ sort
        
        **Overrides**
        
-       ``sort`` in class **OrderedRealmCollectionImpl (?)**
+       ``sort`` in class **OrderedRealmCollectionImpl**
        
        
    
@@ -1365,7 +1389,7 @@ sort
        
        **Overrides**
        
-       ``sort`` in class **OrderedRealmCollectionImpl (?)**
+       ``sort`` in class **OrderedRealmCollectionImpl**
        
        
    

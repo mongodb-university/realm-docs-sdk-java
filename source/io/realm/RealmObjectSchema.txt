@@ -104,34 +104,6 @@ Method Summary
        
    
    * - public abstract :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>` 
-     - | :ref:`addRealmDictionaryField <io_realm_RealmObjectSchema_addRealmDictionaryField>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `java.lang.Class\<?> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  primitiveType
-       | )
-       
-       
-       Adds a new field that references a **RealmDictionary (?)** with primitive values.
-       
-       
-       
-       
-       
-   
-   * - public abstract :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>` 
-     - | :ref:`addRealmDictionaryField <io_realm_RealmObjectSchema_addRealmDictionaryField>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  objectSchema
-       | )
-       
-       
-       Adds a new field that contains a **RealmDictionary (?)** with references to other Realm model classes.
-       
-       
-       
-       
-       
-   
-   * - public abstract :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>` 
      - | :ref:`addRealmListField <io_realm_RealmObjectSchema_addRealmListField>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
        |  `java.lang.Class\<?> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  primitiveType
@@ -167,34 +139,6 @@ Method Summary
        
        
        Adds a new field that references another :ref:`RealmObject <io_realm_RealmObject>` .
-       
-       
-       
-       
-       
-   
-   * - public abstract :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>` 
-     - | :ref:`addRealmSetField <io_realm_RealmObjectSchema_addRealmSetField>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `java.lang.Class\<?> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  primitiveType
-       | )
-       
-       
-       Adds a new field that references a **RealmSet (?)** with primitive values.
-       
-       
-       
-       
-       
-   
-   * - public abstract :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>` 
-     - | :ref:`addRealmSetField <io_realm_RealmObjectSchema_addRealmSetField>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  objectSchema
-       | )
-       
-       
-       Adds a new field that contains a **RealmSet (?)** with references to other Realm model classes.
        
        
        
@@ -238,6 +182,16 @@ Method Summary
        
        
        Returns the name of the primary key field.
+       
+       
+       
+   
+   * - protected final **SchemaConnector**
+     - | :ref:`getSchemaConnector <io_realm_RealmObjectSchema_getSchemaConnector>` ()
+       | 
+       
+       
+       
        
        
        
@@ -846,265 +800,6 @@ addPrimaryKey
    
 
 
-.. _addRealmDictionaryField:
-
-.. _addRealmDictionaryField__:
-
-.. _RealmObjectSchema_addRealmDictionaryField:
-
-.. _RealmObjectSchema_addRealmDictionaryField__:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField__:
-
-
-
-addRealmDictionaryField
------------------------
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_java_lang_String_java_lang_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_java_lang_String__java_lang_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_java_lang_String_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_java_lang_String__Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_String_java_lang_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_String__java_lang_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_String_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_String__Class_:
-
-.. _addRealmDictionaryField_java_lang_String_java_lang_Class_:
-
-.. _addRealmDictionaryField_java_lang_String__java_lang_Class_:
-
-.. _addRealmDictionaryField_java_lang_String_Class_:
-
-.. _addRealmDictionaryField_java_lang_String__Class_:
-
-.. _addRealmDictionaryField_String_java_lang_Class_:
-
-.. _addRealmDictionaryField_String__java_lang_Class_:
-
-.. _addRealmDictionaryField_String_Class_:
-
-.. _addRealmDictionaryField_String__Class_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_java_lang_String_java_lang_Class_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_java_lang_String__java_lang_Class_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_java_lang_String_Class_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_java_lang_String__Class_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_String_java_lang_Class_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_String__java_lang_Class_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_String_Class_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_String__Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_String__Class____:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public abstract :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  :ref:`addRealmDictionaryField <io_realm_RealmObjectSchema_addRealmDictionaryField>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `java.lang.Class\<?> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  primitiveType
-       | )
-       
-       
-       
-   
-   * - Adds a new field that references a **RealmDictionary (?)** with primitive values. See :ref:`RealmObject <io_realm_RealmObject>`  for the list of supported types.
-       
-       Nullability of elements are defined by using the correct class e.g., ``Integer.class``  instead of ``int.class`` . Alternatively :ref:`setRequired(String, boolean) <io_realm_RealmObjectSchema_setRequired_String__boolean_>`  can be used.
-       
-       
-       
-       Example:
-       
-        
-       
-       .. code-block:: java
-       
-          
-           // Defines the dictionary of Strings as being non null.
-           RealmObjectSchema schema = schema.create("Person")
-               .addRealmDictionaryField("parentAndChild", String.class)
-               .setRequired("parentAndChild", true)
-           
-       
-       
-        
-       
-       If the list contains references to other Realm classes, use :ref:`addRealmDictionaryField(String, RealmObjectSchema) <io_realm_RealmObjectSchema_addRealmDictionaryField_String__RealmObjectSchema_>`  instead.
-       
-       
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - name of the field to add.
-          
-          
-          
-       - ``primitiveType`` - simple type of elements in the array.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the updated schema.
-       
-       
-       
-       
-       **Throws**
-       
-       - `IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name is illegal, a field with that name already exists or the element type isn't supported.
-          
-          
-          
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if this :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  is immutable.
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_java_lang_String_io_realm_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_java_lang_String__io_realm_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_java_lang_String_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_java_lang_String__RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_String_io_realm_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_String__io_realm_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_String_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmDictionaryField_String__RealmObjectSchema_:
-
-.. _addRealmDictionaryField_java_lang_String_io_realm_RealmObjectSchema_:
-
-.. _addRealmDictionaryField_java_lang_String__io_realm_RealmObjectSchema_:
-
-.. _addRealmDictionaryField_java_lang_String_RealmObjectSchema_:
-
-.. _addRealmDictionaryField_java_lang_String__RealmObjectSchema_:
-
-.. _addRealmDictionaryField_String_io_realm_RealmObjectSchema_:
-
-.. _addRealmDictionaryField_String__io_realm_RealmObjectSchema_:
-
-.. _addRealmDictionaryField_String_RealmObjectSchema_:
-
-.. _addRealmDictionaryField_String__RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_java_lang_String_io_realm_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_java_lang_String__io_realm_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_java_lang_String_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_java_lang_String__RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_String_io_realm_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_String__io_realm_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_String_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmDictionaryField_String__RealmObjectSchema_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public abstract :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  :ref:`addRealmDictionaryField <io_realm_RealmObjectSchema_addRealmDictionaryField>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  objectSchema
-       | )
-       
-       
-       
-   
-   * - Adds a new field that contains a **RealmDictionary (?)** with references to other Realm model classes.
-       
-       If the dictionary contains primitive types, use :ref:`addRealmDictionaryField(String, Class) <io_realm_RealmObjectSchema_addRealmDictionaryField_String__Class_>`  instead.
-       
-       
-       
-       
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - name of the field to add.
-          
-          
-          
-       - ``objectSchema`` - schema for the Realm type being referenced.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the updated schema.
-       
-       
-       
-       
-       **Throws**
-       
-       - `IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name is illegal or a field with that name already exists.
-          
-          
-          
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if this :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  is immutable.
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
 .. _addRealmListField:
 
 .. _addRealmListField__:
@@ -1489,265 +1184,6 @@ addRealmObjectField
    
 
 
-.. _addRealmSetField:
-
-.. _addRealmSetField__:
-
-.. _RealmObjectSchema_addRealmSetField:
-
-.. _RealmObjectSchema_addRealmSetField__:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField__:
-
-
-
-addRealmSetField
-----------------
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_java_lang_String_java_lang_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_java_lang_String__java_lang_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_java_lang_String_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_java_lang_String__Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_String_java_lang_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_String__java_lang_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_String_Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_String__Class_:
-
-.. _addRealmSetField_java_lang_String_java_lang_Class_:
-
-.. _addRealmSetField_java_lang_String__java_lang_Class_:
-
-.. _addRealmSetField_java_lang_String_Class_:
-
-.. _addRealmSetField_java_lang_String__Class_:
-
-.. _addRealmSetField_String_java_lang_Class_:
-
-.. _addRealmSetField_String__java_lang_Class_:
-
-.. _addRealmSetField_String_Class_:
-
-.. _addRealmSetField_String__Class_:
-
-.. _RealmObjectSchema_addRealmSetField_java_lang_String_java_lang_Class_:
-
-.. _RealmObjectSchema_addRealmSetField_java_lang_String__java_lang_Class_:
-
-.. _RealmObjectSchema_addRealmSetField_java_lang_String_Class_:
-
-.. _RealmObjectSchema_addRealmSetField_java_lang_String__Class_:
-
-.. _RealmObjectSchema_addRealmSetField_String_java_lang_Class_:
-
-.. _RealmObjectSchema_addRealmSetField_String__java_lang_Class_:
-
-.. _RealmObjectSchema_addRealmSetField_String_Class_:
-
-.. _RealmObjectSchema_addRealmSetField_String__Class_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_String__Class____:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public abstract :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  :ref:`addRealmSetField <io_realm_RealmObjectSchema_addRealmSetField>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `java.lang.Class\<?> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  primitiveType
-       | )
-       
-       
-       
-   
-   * - Adds a new field that references a **RealmSet (?)** with primitive values. See :ref:`RealmObject <io_realm_RealmObject>`  for the list of supported types.
-       
-       Nullability of elements are defined by using the correct class e.g., ``Integer.class``  instead of ``int.class`` . Alternatively :ref:`setRequired(String, boolean) <io_realm_RealmObjectSchema_setRequired_String__boolean_>`  can be used.
-       
-       
-       
-       Example:
-       
-        
-       
-       .. code-block:: java
-       
-          
-           // Defines the set of Strings as being non null.
-           RealmObjectSchema schema = schema.create("Person")
-               .addRealmSetField("children", String.class)
-               .setRequired("children", true)
-           
-       
-       
-        
-       
-       If the list contains references to other Realm classes, use :ref:`addRealmSetField(String, RealmObjectSchema) <io_realm_RealmObjectSchema_addRealmSetField_String__RealmObjectSchema_>`  instead.
-       
-       
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - name of the field to add.
-          
-          
-          
-       - ``primitiveType`` - simple type of elements in the array.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the updated schema.
-       
-       
-       
-       
-       **Throws**
-       
-       - `IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name is illegal, a field with that name already exists or the element type isn't supported.
-          
-          
-          
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if this :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  is immutable.
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmObjectSchema_addRealmSetField_java_lang_String_io_realm_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_java_lang_String__io_realm_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_java_lang_String_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_java_lang_String__RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_String_io_realm_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_String__io_realm_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_String_RealmObjectSchema_:
-
-.. _io_realm_RealmObjectSchema_addRealmSetField_String__RealmObjectSchema_:
-
-.. _addRealmSetField_java_lang_String_io_realm_RealmObjectSchema_:
-
-.. _addRealmSetField_java_lang_String__io_realm_RealmObjectSchema_:
-
-.. _addRealmSetField_java_lang_String_RealmObjectSchema_:
-
-.. _addRealmSetField_java_lang_String__RealmObjectSchema_:
-
-.. _addRealmSetField_String_io_realm_RealmObjectSchema_:
-
-.. _addRealmSetField_String__io_realm_RealmObjectSchema_:
-
-.. _addRealmSetField_String_RealmObjectSchema_:
-
-.. _addRealmSetField_String__RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmSetField_java_lang_String_io_realm_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmSetField_java_lang_String__io_realm_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmSetField_java_lang_String_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmSetField_java_lang_String__RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmSetField_String_io_realm_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmSetField_String__io_realm_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmSetField_String_RealmObjectSchema_:
-
-.. _RealmObjectSchema_addRealmSetField_String__RealmObjectSchema_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public abstract :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  :ref:`addRealmSetField <io_realm_RealmObjectSchema_addRealmSetField>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  objectSchema
-       | )
-       
-       
-       
-   
-   * - Adds a new field that contains a **RealmSet (?)** with references to other Realm model classes.
-       
-       If the set contains primitive types, use :ref:`addRealmSetField(String, Class) <io_realm_RealmObjectSchema_addRealmSetField_String__Class_>`  instead.
-       
-       
-       
-       
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - name of the field to add.
-          
-          
-          
-       - ``objectSchema`` - schema for the Realm type being referenced.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the updated schema.
-       
-       
-       
-       
-       **Throws**
-       
-       - `IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name is illegal or a field with that name already exists.
-          
-          
-          
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if this :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>`  is immutable.
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
 .. _getClassName:
 
 .. _getClassName__:
@@ -1978,6 +1414,48 @@ getPrimaryKey
           
           
           
+       
+       
+       
+       
+       
+   
+   
+
+
+.. _getSchemaConnector:
+
+.. _getSchemaConnector__:
+
+.. _RealmObjectSchema_getSchemaConnector:
+
+.. _RealmObjectSchema_getSchemaConnector__:
+
+.. _io_realm_RealmObjectSchema_getSchemaConnector:
+
+.. _io_realm_RealmObjectSchema_getSchemaConnector__:
+
+
+
+getSchemaConnector
+------------------
+
+.. list-table::
+   :header-rows: 1
+   
+   * - | protected final **SchemaConnector** :ref:`getSchemaConnector <io_realm_RealmObjectSchema_getSchemaConnector>` ()
+       | 
+       
+       
+       
+   
+   * - 
+       
+       
+       
+       
+       
+       
        
        
        

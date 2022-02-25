@@ -67,7 +67,7 @@ Method Summary
        
        
    
-   * - public **ResultT (?)**
+   * - public **ResultT**
      - | :ref:`next <io_realm_mongodb_mongo_iterable_MongoCursor_next>` ()
        | 
        
@@ -77,7 +77,7 @@ Method Summary
        
        
    
-   * - public **ResultT (?)**
+   * - public **ResultT**
      - | :ref:`tryNext <io_realm_mongodb_mongo_iterable_MongoCursor_tryNext>` ()
        | 
        
@@ -209,7 +209,7 @@ next
 .. list-table::
    :header-rows: 1
    
-   * - | public **ResultT (?)** :ref:`next <io_realm_mongodb_mongo_iterable_MongoCursor_next>` ()
+   * - | public **ResultT** :ref:`next <io_realm_mongodb_mongo_iterable_MongoCursor_next>` ()
        | 
        
        
@@ -251,7 +251,7 @@ tryNext
 .. list-table::
    :header-rows: 1
    
-   * - | public **ResultT (?)** :ref:`tryNext <io_realm_mongodb_mongo_iterable_MongoCursor_tryNext>` ()
+   * - | public **ResultT** :ref:`tryNext <io_realm_mongodb_mongo_iterable_MongoCursor_tryNext>` ()
        | 
        
        

@@ -19,7 +19,7 @@ io.realm
 
 
  | `java.lang.Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__ 
- | 		**io.realm.BaseRealm (?)**
+ | 		**io.realm.BaseRealm**
  | 					io.realm.Realm
 
 
@@ -27,7 +27,7 @@ The Realm class is the storage and transactional manager of your object persiste
 
 The transactions ensure that multiple instances (on multiple threads) can access the same objects in a consistent state with full ACID guarantees.
 
-It is important to remember to call the **close() (?)** method when done with a Realm instance. Failing to do so can lead to `java.lang.OutOfMemoryError <https://docs.oracle.com/javase/7/docs/api/java/lang/OutOfMemoryError.html>`__  as the native resources cannot be freed.
+It is important to remember to call the **close()** method when done with a Realm instance. Failing to do so can lead to `java.lang.OutOfMemoryError <https://docs.oracle.com/javase/7/docs/api/java/lang/OutOfMemoryError.html>`__  as the native resources cannot be freed.
 
 
 
@@ -37,7 +37,7 @@ Realm instances cannot be used across different threads. This means that you hav
 
 For the UI thread this means that opening and closing Realms should occur in either onCreate/onDestroy or onStart/onStop.
 
-Realm instances coordinate their state across threads using the `android.os.Handler <https://developer.android.com/reference/android/os/Handler>`__  mechanism. This also means that Realm instances on threads without a `android.os.Looper <https://developer.android.com/reference/android/os/Looper>`__  cannot receive updates unless **refresh() (?)** is manually called.
+Realm instances coordinate their state across threads using the `android.os.Handler <https://developer.android.com/reference/android/os/Handler>`__  mechanism. This also means that Realm instances on threads without a `android.os.Looper <https://developer.android.com/reference/android/os/Looper>`__  cannot receive updates unless **refresh()** is manually called.
 
 
 
@@ -171,7 +171,7 @@ Method Summary
        
        
    
-   * - public **<any> (?)**
+   * - public **<any>**
      - | :ref:`asFlowable <io_realm_Realm_asFlowable>` ()
        | 
        
@@ -192,9 +192,9 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E (?)** >(
-       |  **E (?)** realmObject, 
+   * - public **E**
+     - | :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E** >(
+       |  **E** realmObject, 
        |  **int** maxDepth
        | )
        
@@ -206,9 +206,9 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E (?)** >(
-       |  **E (?)** realmObject
+   * - public **E**
+     - | :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E** >(
+       |  **E** realmObject
        | )
        
        
@@ -220,7 +220,7 @@ Method Summary
        
    
    * - public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__ 
-     - | :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E (?)** >(
+     - | :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E** >(
        |  `java.lang.Iterable\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__  realmObjects, 
        |  **int** maxDepth
        | )
@@ -232,7 +232,7 @@ Method Summary
        
    
    * - public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__ 
-     - | :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E (?)** >(
+     - | :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E** >(
        |  `java.lang.Iterable\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__  realmObjects
        | )
        
@@ -243,7 +243,7 @@ Method Summary
        
    
    * - public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__ 
-     - | :ref:`copyToRealm <io_realm_Realm_copyToRealm>` <**E (?)** >(
+     - | :ref:`copyToRealm <io_realm_Realm_copyToRealm>` <**E** >(
        |  `java.lang.Iterable\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__  objects, 
        |  :ref:`io.realm.ImportFlag[] <io_realm_ImportFlag>`  flags
        | )
@@ -254,9 +254,9 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`copyToRealm <io_realm_Realm_copyToRealm>` <**E (?)** >(
-       |  **E (?)** object, 
+   * - public **E**
+     - | :ref:`copyToRealm <io_realm_Realm_copyToRealm>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.ImportFlag[] <io_realm_ImportFlag>`  flags
        | )
        
@@ -267,7 +267,7 @@ Method Summary
        
    
    * - public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__ 
-     - | :ref:`copyToRealmOrUpdate <io_realm_Realm_copyToRealmOrUpdate>` <**E (?)** >(
+     - | :ref:`copyToRealmOrUpdate <io_realm_Realm_copyToRealmOrUpdate>` <**E** >(
        |  `java.lang.Iterable\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__  objects, 
        |  :ref:`io.realm.ImportFlag[] <io_realm_ImportFlag>`  flags
        | )
@@ -280,9 +280,9 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`copyToRealmOrUpdate <io_realm_Realm_copyToRealmOrUpdate>` <**E (?)** >(
-       |  **E (?)** object, 
+   * - public **E**
+     - | :ref:`copyToRealmOrUpdate <io_realm_Realm_copyToRealmOrUpdate>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.ImportFlag[] <io_realm_ImportFlag>`  flags
        | )
        
@@ -295,7 +295,7 @@ Method Summary
        
    
    * - public **void**
-     - | :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E (?)** >(
+     - | :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `InputStream <https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html>`__  inputStream
        | )
@@ -307,7 +307,7 @@ Method Summary
        
    
    * - public **void**
-     - | :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E (?)** >(
+     - | :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  json
        | )
@@ -319,9 +319,9 @@ Method Summary
        
    
    * - public **void**
-     - | :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E (?)** >(
+     - | :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
-       |  **JSONArray (?)** json
+       |  **JSONArray** json
        | )
        
        
@@ -330,8 +330,8 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`createEmbeddedObject <io_realm_Realm_createEmbeddedObject>` <**E (?)** >(
+   * - public **E**
+     - | :ref:`createEmbeddedObject <io_realm_Realm_createEmbeddedObject>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  :ref:`RealmModel <io_realm_RealmModel>`  parentObject, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  parentProperty
@@ -343,8 +343,8 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`createObject <io_realm_Realm_createObject>` <**E (?)** >(
+   * - public **E**
+     - | :ref:`createObject <io_realm_Realm_createObject>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  primaryKeyValue
        | )
@@ -355,8 +355,8 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`createObject <io_realm_Realm_createObject>` <**E (?)** >(
+   * - public **E**
+     - | :ref:`createObject <io_realm_Realm_createObject>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz
        | )
        
@@ -366,8 +366,8 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E (?)** >(
+   * - public **E**
+     - | :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `InputStream <https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html>`__  inputStream
        | )
@@ -378,8 +378,8 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E (?)** >(
+   * - public **E**
+     - | :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  json
        | )
@@ -390,10 +390,10 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E (?)** >(
+   * - public **E**
+     - | :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
-       |  **JSONObject (?)** json
+       |  **JSONObject** json
        | )
        
        
@@ -403,7 +403,7 @@ Method Summary
        
    
    * - public **void**
-     - | :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E (?)** >(
+     - | :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `InputStream <https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html>`__  in
        | )
@@ -415,7 +415,7 @@ Method Summary
        
    
    * - public **void**
-     - | :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E (?)** >(
+     - | :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  json
        | )
@@ -427,9 +427,9 @@ Method Summary
        
    
    * - public **void**
-     - | :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E (?)** >(
+     - | :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
-       |  **JSONArray (?)** json
+       |  **JSONArray** json
        | )
        
        
@@ -438,8 +438,8 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E (?)** >(
+   * - public **E**
+     - | :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `InputStream <https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html>`__  in
        | )
@@ -450,8 +450,8 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E (?)** >(
+   * - public **E**
+     - | :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  json
        | )
@@ -462,10 +462,10 @@ Method Summary
        
        
    
-   * - public **E (?)**
-     - | :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E (?)** >(
+   * - public **E**
+     - | :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
-       |  **JSONObject (?)** json
+       |  **JSONObject** json
        | )
        
        
@@ -827,7 +827,7 @@ Method Summary
        
    
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`where <io_realm_Realm_where>` <**E (?)** >(
+     - | :ref:`where <io_realm_Realm_where>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz
        | )
        
@@ -846,7 +846,7 @@ Inherited Methods
 
 
 - Methods inherited from class `java.lang.Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__ : ``getClass`` , ``hashCode`` , ``equals`` , ``clone`` , ``toString`` , ``notify`` , ``notifyAll`` , ``wait`` , ``wait`` , ``wait`` , ``finalize`` 
-- Methods inherited from class **io.realm.BaseRealm (?)**: ``setAutoRefresh`` , ``isAutoRefresh`` , ``refresh`` , ``isInTransaction`` , ``addListener`` , ``removeListener`` , ``asFlowable`` , ``removeAllListeners`` , ``writeCopyTo`` , ``writeEncryptedCopyTo`` , ``waitForChange`` , ``stopWaitForChange`` , ``beginTransaction`` , ``commitTransaction`` , ``cancelTransaction`` , ``freeze`` , ``isFrozen`` , ``getNumberOfActiveVersions`` , ``checkIfValid`` , ``checkAllowQueriesOnUiThread`` , ``checkAllowWritesOnUiThread`` , ``checkIfInTransaction`` , ``checkIfValidAndInTransaction`` , ``getPath`` , ``getConfiguration`` , ``getVersion`` , ``close`` , ``isClosed`` , ``isEmpty`` , ``getSchema`` , ``deleteAll`` , ``migrateRealm`` , ``finalize`` 
+- Methods inherited from class **io.realm.BaseRealm**: ``setAutoRefresh`` , ``isAutoRefresh`` , ``refresh`` , ``isInTransaction`` , ``addListener`` , ``removeListener`` , ``asFlowable`` , ``removeAllListeners`` , ``writeCopyTo`` , ``writeEncryptedCopyTo`` , ``waitForChange`` , ``stopWaitForChange`` , ``beginTransaction`` , ``commitTransaction`` , ``cancelTransaction`` , ``freeze`` , ``isFrozen`` , ``getNumberOfActiveVersions`` , ``checkIfValid`` , ``checkAllowQueriesOnUiThread`` , ``checkAllowWritesOnUiThread`` , ``checkIfInTransaction`` , ``checkIfValidAndInTransaction`` , ``getPath`` , ``getConfiguration`` , ``getVersion`` , ``close`` , ``isClosed`` , ``isEmpty`` , ``getSchema`` , ``deleteAll`` , ``migrateRealm`` , ``finalize`` 
 
 
 
@@ -922,7 +922,7 @@ addChangeListener
    
    * - Adds a change listener to the Realm.The listeners will be executed when changes are committed by this or another thread.
        
-       Realm instances are per thread singletons and cached, so listeners should be removed manually even if calling **close() (?)**. Otherwise there is a risk of memory leaks.
+       Realm instances are per thread singletons and cached, so listeners should be removed manually even if calling **close()**. Otherwise there is a risk of memory leaks.
        
        
        
@@ -1008,7 +1008,7 @@ asFlowable
 .. list-table::
    :header-rows: 1
    
-   * - | public **<any> (?)** :ref:`asFlowable <io_realm_Realm_asFlowable>` ()
+   * - | public **<any>** :ref:`asFlowable <io_realm_Realm_asFlowable>` ()
        | 
        
        
@@ -1016,7 +1016,7 @@ asFlowable
    
    * - Returns an RxJava Flowable that monitors changes to this Realm. It will emit the current state when subscribed to. Items will continually be emitted as the Realm is updated - ``onComplete``  will never be called.
        
-       Items emitted from Realm Flowables are frozen (See **freeze() (?)**. This means that they are immutable and can be read on any thread.
+       Items emitted from Realm Flowables are frozen (See **freeze()**. This means that they are immutable and can be read on any thread.
        
        
        
@@ -1072,7 +1072,7 @@ asFlowable
        
        **Overrides**
        
-       ``asFlowable`` in class **BaseRealm (?)**
+       ``asFlowable`` in class **BaseRealm**
        
        
    
@@ -1202,8 +1202,8 @@ copyFromRealm
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E (?)** >(
-       |  **E (?)** realmObject, 
+   * - | public **E** :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E** >(
+       |  **E** realmObject, 
        |  **int** maxDepth
        | )
        
@@ -1302,8 +1302,8 @@ copyFromRealm
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E (?)** >(
-       |  **E (?)** realmObject
+   * - | public **E** :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E** >(
+       |  **E** realmObject
        | )
        
        
@@ -1409,7 +1409,7 @@ copyFromRealm
 .. list-table::
    :header-rows: 1
    
-   * - | public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E (?)** >(
+   * - | public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E** >(
        |  `java.lang.Iterable\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__  realmObjects, 
        |  **int** maxDepth
        | )
@@ -1505,7 +1505,7 @@ copyFromRealm
 .. list-table::
    :header-rows: 1
    
-   * - | public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E (?)** >(
+   * - | public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  :ref:`copyFromRealm <io_realm_Realm_copyFromRealm>` <**E** >(
        |  `java.lang.Iterable\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__  realmObjects
        | )
        
@@ -1673,7 +1673,7 @@ copyToRealm
 .. list-table::
    :header-rows: 1
    
-   * - | public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  :ref:`copyToRealm <io_realm_Realm_copyToRealm>` <**E (?)** >(
+   * - | public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  :ref:`copyToRealm <io_realm_Realm_copyToRealm>` <**E** >(
        |  `java.lang.Iterable\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__  objects, 
        |  :ref:`io.realm.ImportFlag[] <io_realm_ImportFlag>`  flags
        | )
@@ -1803,8 +1803,8 @@ copyToRealm
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`copyToRealm <io_realm_Realm_copyToRealm>` <**E (?)** >(
-       |  **E (?)** object, 
+   * - | public **E** :ref:`copyToRealm <io_realm_Realm_copyToRealm>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.ImportFlag[] <io_realm_ImportFlag>`  flags
        | )
        
@@ -1952,7 +1952,7 @@ copyToRealmOrUpdate
 .. list-table::
    :header-rows: 1
    
-   * - | public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  :ref:`copyToRealmOrUpdate <io_realm_Realm_copyToRealmOrUpdate>` <**E (?)** >(
+   * - | public `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  :ref:`copyToRealmOrUpdate <io_realm_Realm_copyToRealmOrUpdate>` <**E** >(
        |  `java.lang.Iterable\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__  objects, 
        |  :ref:`io.realm.ImportFlag[] <io_realm_ImportFlag>`  flags
        | )
@@ -2094,8 +2094,8 @@ copyToRealmOrUpdate
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`copyToRealmOrUpdate <io_realm_Realm_copyToRealmOrUpdate>` <**E (?)** >(
-       |  **E (?)** object, 
+   * - | public **E** :ref:`copyToRealmOrUpdate <io_realm_Realm_copyToRealmOrUpdate>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.ImportFlag[] <io_realm_ImportFlag>`  flags
        | )
        
@@ -2235,7 +2235,7 @@ createAllFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **void** :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E (?)** >(
+   * - | public **void** :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `InputStream <https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html>`__  inputStream
        | )
@@ -2286,37 +2286,9 @@ createAllFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
-       
-       
-       
-       .. seealso::
-       
-       
-          
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
-             
-             
-             
-          
-          
-          
        
        
    
@@ -2374,7 +2346,7 @@ createAllFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **void** :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E (?)** >(
+   * - | public **void** :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  json
        | )
@@ -2419,37 +2391,9 @@ createAllFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
-       
-       
-       
-       .. seealso::
-       
-       
-          
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
-             
-             
-             
-          
-          
-          
        
        
    
@@ -2507,9 +2451,9 @@ createAllFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **void** :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E (?)** >(
+   * - | public **void** :ref:`createAllFromJson <io_realm_Realm_createAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
-       |  **JSONArray (?)** json
+       |  **JSONArray** json
        | )
        
        
@@ -2554,37 +2498,9 @@ createAllFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
-       
-       
-       
-       .. seealso::
-       
-       
-          
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
-             
-             
-             
-          
-          
-          
        
        
    
@@ -2709,7 +2625,7 @@ createEmbeddedObject
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`createEmbeddedObject <io_realm_Realm_createEmbeddedObject>` <**E (?)** >(
+   * - | public **E** :ref:`createEmbeddedObject <io_realm_Realm_createEmbeddedObject>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  :ref:`RealmModel <io_realm_RealmModel>`  parentObject, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  parentProperty
@@ -2733,11 +2649,11 @@ createEmbeddedObject
           
           
           
-       - ``parentObject`` - The parent object which should hold a reference to the embedded object.
+       - ``parentObject`` - The parent object which should hold a reference to the embedded object. If the parent property is a list the embedded object will be added to the end of that list.
           
           
           
-       - ``parentProperty`` - the property in the parent class which holds the reference. If the parent property is a list the embedded object will be added to the end of that list.
+       - ``parentProperty`` - the property in the parent class which holds the reference.
           
           
           
@@ -2853,7 +2769,7 @@ createObject
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`createObject <io_realm_Realm_createObject>` <**E (?)** >(
+   * - | public **E** :ref:`createObject <io_realm_Realm_createObject>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  primaryKeyValue
        | )
@@ -2931,7 +2847,7 @@ createObject
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`createObject <io_realm_Realm_createObject>` <**E (?)** >(
+   * - | public **E** :ref:`createObject <io_realm_Realm_createObject>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz
        | )
        
@@ -3063,7 +2979,7 @@ createObjectFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E (?)** >(
+   * - | public **E** :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `InputStream <https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html>`__  inputStream
        | )
@@ -3121,37 +3037,9 @@ createObjectFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
-       
-       
-       
-       .. seealso::
-       
-       
-          
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
-             
-             
-             
-          
-          
-          
        
        
    
@@ -3209,7 +3097,7 @@ createObjectFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E (?)** >(
+   * - | public **E** :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  json
        | )
@@ -3261,37 +3149,9 @@ createObjectFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
-       
-       
-       
-       .. seealso::
-       
-       
-          
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
-             
-             
-             
-          
-          
-          
        
        
    
@@ -3349,9 +3209,9 @@ createObjectFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E (?)** >(
+   * - | public **E** :ref:`createObjectFromJson <io_realm_Realm_createObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
-       |  **JSONObject (?)** json
+       |  **JSONObject** json
        | )
        
        
@@ -3401,12 +3261,6 @@ createObjectFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
@@ -3418,18 +3272,6 @@ createObjectFromJson
        
           
           - :ref:`createOrUpdateObjectFromJson(Class, org.json.JSONObject) <io_realm_Realm_createOrUpdateObjectFromJson_Class__org_json_JSONObject_>` 
-             
-             
-             
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
              
              
              
@@ -3512,7 +3354,7 @@ createOrUpdateAllFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **void** :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E (?)** >(
+   * - | public **void** :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `InputStream <https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html>`__  in
        | )
@@ -3567,12 +3409,6 @@ createOrUpdateAllFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
@@ -3584,18 +3420,6 @@ createOrUpdateAllFromJson
        
           
           - :ref:`createOrUpdateAllFromJson(Class, java.io.InputStream) <io_realm_Realm_createOrUpdateAllFromJson_Class__java_io_InputStream_>` 
-             
-             
-             
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
              
              
              
@@ -3659,7 +3483,7 @@ createOrUpdateAllFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **void** :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E (?)** >(
+   * - | public **void** :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  json
        | )
@@ -3712,12 +3536,6 @@ createOrUpdateAllFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
@@ -3729,18 +3547,6 @@ createOrUpdateAllFromJson
        
           
           - :ref:`createAllFromJson(Class, String) <io_realm_Realm_createAllFromJson_Class__String_>` 
-             
-             
-             
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
              
              
              
@@ -3804,9 +3610,9 @@ createOrUpdateAllFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **void** :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E (?)** >(
+   * - | public **void** :ref:`createOrUpdateAllFromJson <io_realm_Realm_createOrUpdateAllFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
-       |  **JSONArray (?)** json
+       |  **JSONArray** json
        | )
        
        
@@ -3857,12 +3663,6 @@ createOrUpdateAllFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
@@ -3874,18 +3674,6 @@ createOrUpdateAllFromJson
        
           
           - :ref:`createAllFromJson(Class, org.json.JSONArray) <io_realm_Realm_createAllFromJson_Class__org_json_JSONArray_>` 
-             
-             
-             
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
              
              
              
@@ -3968,7 +3756,7 @@ createOrUpdateObjectFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E (?)** >(
+   * - | public **E** :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `InputStream <https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html>`__  in
        | )
@@ -4032,12 +3820,6 @@ createOrUpdateObjectFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
@@ -4049,18 +3831,6 @@ createOrUpdateObjectFromJson
        
           
           - :ref:`createObjectFromJson(Class, java.io.InputStream) <io_realm_Realm_createObjectFromJson_Class__java_io_InputStream_>` 
-             
-             
-             
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
              
              
              
@@ -4124,7 +3894,7 @@ createOrUpdateObjectFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E (?)** >(
+   * - | public **E** :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  json
        | )
@@ -4184,12 +3954,6 @@ createOrUpdateObjectFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
@@ -4201,18 +3965,6 @@ createOrUpdateObjectFromJson
        
           
           - :ref:`createObjectFromJson(Class, String) <io_realm_Realm_createObjectFromJson_Class__String_>` 
-             
-             
-             
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
              
              
              
@@ -4276,9 +4028,9 @@ createOrUpdateObjectFromJson
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E (?)** >(
+   * - | public **E** :ref:`createOrUpdateObjectFromJson <io_realm_Realm_createOrUpdateObjectFromJson>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz, 
-       |  **JSONObject (?)** json
+       |  **JSONObject** json
        | )
        
        
@@ -4301,7 +4053,7 @@ createOrUpdateObjectFromJson
           
           
           
-       - ``json`` - **org.json.JSONObject (?)** with object data.
+       - ``json`` - **org.json.JSONObject** with object data.
           
           
           
@@ -4338,12 +4090,6 @@ createOrUpdateObjectFromJson
           
           
           
-       - `UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the object to insert contains a **RealmDictionary (?)** or a **RealmSet (?)**.
-          
-          
-          
-          
-          
        
        
        
@@ -4355,18 +4101,6 @@ createOrUpdateObjectFromJson
        
           
           - :ref:`createObjectFromJson(Class, org.json.JSONObject) <io_realm_Realm_createObjectFromJson_Class__org_json_JSONObject_>` 
-             
-             
-             
-          - **RealmSet (?)**
-             
-             
-             
-          - **RealmDictionary (?)**
-             
-             
-             
-          - **RealmMap (?)**
              
              
              
@@ -4591,7 +4325,7 @@ executeTransaction
        
        
    
-   * - Executes a given transaction on the Realm. **beginTransaction() (?)** and **commitTransaction() (?)** will be called automatically. If any exception is thrown during the transaction **cancelTransaction() (?)** will be called instead of **commitTransaction() (?)**.
+   * - Executes a given transaction on the Realm. **beginTransaction()** and **commitTransaction()** will be called automatically. If any exception is thrown during the transaction **cancelTransaction()** will be called instead of **commitTransaction()**.
        
        Calling this method from the UI thread will throw a :ref:`RealmException <io_realm_exceptions_RealmException>` . Doing so may result in a drop of frames or even ANRs. We recommend calling this method from a non-UI thread or using :ref:`executeTransactionAsync(Transaction) <io_realm_Realm_executeTransactionAsync_Transaction_>`  instead.
        
@@ -5478,7 +5212,7 @@ freeze
        
        
    
-   * - Returns a frozen snapshot of the current Realm. This Realm can be read and queried from any thread without throwing an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ . A frozen Realm has its own lifecycle and can be closed by calling **close() (?)**, but fully closing the Realm that spawned the frozen copy will also close the frozen Realm.
+   * - Returns a frozen snapshot of the current Realm. This Realm can be read and queried from any thread without throwing an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ . A frozen Realm has its own lifecycle and can be closed by calling **close()**, but fully closing the Realm that spawned the frozen copy will also close the frozen Realm.
        
        Frozen data can be queried as normal, but trying to mutate it in any way or attempting to register any listener will throw an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ .
        
@@ -5506,7 +5240,7 @@ freeze
        
        **Overrides**
        
-       ``freeze`` in class **BaseRealm (?)**
+       ``freeze`` in class **BaseRealm**
        
        
    
@@ -6216,7 +5950,7 @@ getSchema
        
        **Overrides**
        
-       ``getSchema`` in class **BaseRealm (?)**
+       ``getSchema`` in class **BaseRealm**
        
        
    
@@ -6609,6 +6343,20 @@ insert
        
        
        
+       
+       .. seealso::
+       
+       
+          
+          - :ref:`copyToRealm(RealmModel, ImportFlag...) <io_realm_Realm_copyToRealm_RealmModel__ImportFlag____>` 
+             
+             
+             
+          
+          
+          
+       
+       
    
    
 .. _io_realm_Realm_insert_java_util_Collection_:
@@ -6690,6 +6438,20 @@ insert
        
        
        
+       
+       
+       
+       .. seealso::
+       
+       
+          
+          - :ref:`copyToRealm(Iterable, ImportFlag...) <io_realm_Realm_copyToRealm_Iterable__ImportFlag____>` 
+             
+             
+             
+          
+          
+          
        
        
    
@@ -6786,6 +6548,20 @@ insertOrUpdate
        
        
        
+       
+       .. seealso::
+       
+       
+          
+          - :ref:`copyToRealmOrUpdate(RealmModel, ImportFlag...) <io_realm_Realm_copyToRealmOrUpdate_RealmModel__ImportFlag____>` 
+             
+             
+             
+          
+          
+          
+       
+       
    
    
 .. _io_realm_Realm_insertOrUpdate_java_util_Collection_:
@@ -6873,6 +6649,20 @@ insertOrUpdate
        
        
        
+       
+       .. seealso::
+       
+       
+          
+          - :ref:`copyToRealmOrUpdate(Iterable, ImportFlag...) <io_realm_Realm_copyToRealmOrUpdate_Iterable__ImportFlag____>` 
+             
+             
+             
+          
+          
+          
+       
+       
    
    
 
@@ -6925,7 +6715,7 @@ isEmpty
        
        **Overrides**
        
-       ``isEmpty`` in class **BaseRealm (?)**
+       ``isEmpty`` in class **BaseRealm**
        
        
    
@@ -7428,7 +7218,7 @@ where
 .. list-table::
    :header-rows: 1
    
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`where <io_realm_Realm_where>` <**E (?)** >(
+   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`where <io_realm_Realm_where>` <**E** >(
        |  `java.lang.Class\<E> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  clazz
        | )
        

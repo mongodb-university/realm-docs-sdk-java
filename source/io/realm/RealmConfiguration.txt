@@ -99,11 +99,10 @@ Method Summary
    * - Modifier and Type
      - Method and Description
    
-   * - protected static **RealmProxyMediator (?)**
+   * - protected static **RealmProxyMediator**
      - | :ref:`createSchemaMediator <io_realm_RealmConfiguration_createSchemaMediator>` (
        |  `java.util.Set\<java.lang.Object> <https://docs.oracle.com/javase/7/docs/api/java/util/Set.html>`__  modules, 
-       |  `java.util.Set\<java.lang.Class\<? extends io.realm.RealmModel>> <https://docs.oracle.com/javase/7/docs/api/java/util/Set.html>`__  debugSchema, 
-       |  **boolean** excludeDebugSchema
+       |  `java.util.Set\<java.lang.Class\<? extends io.realm.RealmModel>> <https://docs.oracle.com/javase/7/docs/api/java/util/Set.html>`__  debugSchema
        | )
        
        
@@ -127,7 +126,7 @@ Method Summary
      - | :ref:`forRecovery <io_realm_RealmConfiguration_forRecovery>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  canonicalPath, 
        |  **byte[]** encryptionKey, 
-       |  **RealmProxyMediator (?)** schemaMediator
+       |  **RealmProxyMediator** schemaMediator
        | )
        
        
@@ -146,7 +145,7 @@ Method Summary
        
        
    
-   * - public **OsRealmConfig.Durability (?)**
+   * - public **OsRealmConfig.Durability**
      - | :ref:`getDurability <io_realm_RealmConfiguration_getDurability>` ()
        | 
        
@@ -262,7 +261,7 @@ Method Summary
        
        
    
-   * - protected **RealmProxyMediator (?)**
+   * - protected **RealmProxyMediator**
      - | :ref:`getSchemaMediator <io_realm_RealmConfiguration_getSchemaMediator>` ()
        | 
        
@@ -424,87 +423,86 @@ Method Detail
 createSchemaMediator
 --------------------
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set_java_util_Set_boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set_java_util_Set_:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set__java_util_Set__boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set__java_util_Set_:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set_Set_boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set_Set_:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set__Set__boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set__Set_:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set_RealmModel___boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set_RealmModel___:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set__RealmModel____boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_java_util_Set__RealmModel___:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_Set_java_util_Set_boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_Set_java_util_Set_:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_Set__java_util_Set__boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_Set__java_util_Set_:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_Set_Set_boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_Set_Set_:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_Set__Set__boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_Set__Set_:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_Set_RealmModel___boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_Set_RealmModel___:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_Set__RealmModel____boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_Set__RealmModel___:
 
-.. _createSchemaMediator_java_util_Set_java_util_Set_boolean_:
+.. _createSchemaMediator_java_util_Set_java_util_Set_:
 
-.. _createSchemaMediator_java_util_Set__java_util_Set__boolean_:
+.. _createSchemaMediator_java_util_Set__java_util_Set_:
 
-.. _createSchemaMediator_java_util_Set_Set_boolean_:
+.. _createSchemaMediator_java_util_Set_Set_:
 
-.. _createSchemaMediator_java_util_Set__Set__boolean_:
+.. _createSchemaMediator_java_util_Set__Set_:
 
-.. _createSchemaMediator_java_util_Set_RealmModel___boolean_:
+.. _createSchemaMediator_java_util_Set_RealmModel___:
 
-.. _createSchemaMediator_java_util_Set__RealmModel____boolean_:
+.. _createSchemaMediator_java_util_Set__RealmModel___:
 
-.. _createSchemaMediator_Set_java_util_Set_boolean_:
+.. _createSchemaMediator_Set_java_util_Set_:
 
-.. _createSchemaMediator_Set__java_util_Set__boolean_:
+.. _createSchemaMediator_Set__java_util_Set_:
 
-.. _createSchemaMediator_Set_Set_boolean_:
+.. _createSchemaMediator_Set_Set_:
 
-.. _createSchemaMediator_Set__Set__boolean_:
+.. _createSchemaMediator_Set__Set_:
 
-.. _createSchemaMediator_Set_RealmModel___boolean_:
+.. _createSchemaMediator_Set_RealmModel___:
 
-.. _createSchemaMediator_Set__RealmModel____boolean_:
+.. _createSchemaMediator_Set__RealmModel___:
 
-.. _RealmConfiguration_createSchemaMediator_java_util_Set_java_util_Set_boolean_:
+.. _RealmConfiguration_createSchemaMediator_java_util_Set_java_util_Set_:
 
-.. _RealmConfiguration_createSchemaMediator_java_util_Set__java_util_Set__boolean_:
+.. _RealmConfiguration_createSchemaMediator_java_util_Set__java_util_Set_:
 
-.. _RealmConfiguration_createSchemaMediator_java_util_Set_Set_boolean_:
+.. _RealmConfiguration_createSchemaMediator_java_util_Set_Set_:
 
-.. _RealmConfiguration_createSchemaMediator_java_util_Set__Set__boolean_:
+.. _RealmConfiguration_createSchemaMediator_java_util_Set__Set_:
 
-.. _RealmConfiguration_createSchemaMediator_java_util_Set_RealmModel___boolean_:
+.. _RealmConfiguration_createSchemaMediator_java_util_Set_RealmModel___:
 
-.. _RealmConfiguration_createSchemaMediator_java_util_Set__RealmModel____boolean_:
+.. _RealmConfiguration_createSchemaMediator_java_util_Set__RealmModel___:
 
-.. _RealmConfiguration_createSchemaMediator_Set_java_util_Set_boolean_:
+.. _RealmConfiguration_createSchemaMediator_Set_java_util_Set_:
 
-.. _RealmConfiguration_createSchemaMediator_Set__java_util_Set__boolean_:
+.. _RealmConfiguration_createSchemaMediator_Set__java_util_Set_:
 
-.. _RealmConfiguration_createSchemaMediator_Set_Set_boolean_:
+.. _RealmConfiguration_createSchemaMediator_Set_Set_:
 
-.. _RealmConfiguration_createSchemaMediator_Set__Set__boolean_:
+.. _RealmConfiguration_createSchemaMediator_Set__Set_:
 
-.. _RealmConfiguration_createSchemaMediator_Set_RealmModel___boolean_:
+.. _RealmConfiguration_createSchemaMediator_Set_RealmModel___:
 
-.. _RealmConfiguration_createSchemaMediator_Set__RealmModel____boolean_:
+.. _RealmConfiguration_createSchemaMediator_Set__RealmModel___:
 
-.. _io_realm_RealmConfiguration_createSchemaMediator_Set_Object___Set_Class___extends_RealmModel____boolean_:
+.. _io_realm_RealmConfiguration_createSchemaMediator_Set_Object___Set_Class___extends_RealmModel___:
 
 .. list-table::
    :header-rows: 1
    
-   * - | protected static **RealmProxyMediator (?)** :ref:`createSchemaMediator <io_realm_RealmConfiguration_createSchemaMediator>` (
+   * - | protected static **RealmProxyMediator** :ref:`createSchemaMediator <io_realm_RealmConfiguration_createSchemaMediator>` (
        |  `java.util.Set\<java.lang.Object> <https://docs.oracle.com/javase/7/docs/api/java/util/Set.html>`__  modules, 
-       |  `java.util.Set\<java.lang.Class\<? extends io.realm.RealmModel>> <https://docs.oracle.com/javase/7/docs/api/java/util/Set.html>`__  debugSchema, 
-       |  **boolean** excludeDebugSchema
+       |  `java.util.Set\<java.lang.Class\<? extends io.realm.RealmModel>> <https://docs.oracle.com/javase/7/docs/api/java/util/Set.html>`__  debugSchema
        | )
        
        
@@ -602,49 +600,97 @@ equals
 forRecovery
 -----------
 
+.. _io_realm_RealmConfiguration_forRecovery_java_lang_String_byte_io_realm_internal_RealmProxyMediator_:
+
+.. _io_realm_RealmConfiguration_forRecovery_java_lang_String__byte__io_realm_internal_RealmProxyMediator_:
+
 .. _io_realm_RealmConfiguration_forRecovery_java_lang_String_byte_RealmProxyMediator_:
 
 .. _io_realm_RealmConfiguration_forRecovery_java_lang_String__byte__RealmProxyMediator_:
+
+.. _io_realm_RealmConfiguration_forRecovery_java_lang_String_byte____io_realm_internal_RealmProxyMediator_:
+
+.. _io_realm_RealmConfiguration_forRecovery_java_lang_String__byte_____io_realm_internal_RealmProxyMediator_:
 
 .. _io_realm_RealmConfiguration_forRecovery_java_lang_String_byte____RealmProxyMediator_:
 
 .. _io_realm_RealmConfiguration_forRecovery_java_lang_String__byte_____RealmProxyMediator_:
 
+.. _io_realm_RealmConfiguration_forRecovery_String_byte_io_realm_internal_RealmProxyMediator_:
+
+.. _io_realm_RealmConfiguration_forRecovery_String__byte__io_realm_internal_RealmProxyMediator_:
+
 .. _io_realm_RealmConfiguration_forRecovery_String_byte_RealmProxyMediator_:
 
 .. _io_realm_RealmConfiguration_forRecovery_String__byte__RealmProxyMediator_:
+
+.. _io_realm_RealmConfiguration_forRecovery_String_byte____io_realm_internal_RealmProxyMediator_:
+
+.. _io_realm_RealmConfiguration_forRecovery_String__byte_____io_realm_internal_RealmProxyMediator_:
 
 .. _io_realm_RealmConfiguration_forRecovery_String_byte____RealmProxyMediator_:
 
 .. _io_realm_RealmConfiguration_forRecovery_String__byte_____RealmProxyMediator_:
 
+.. _forRecovery_java_lang_String_byte_io_realm_internal_RealmProxyMediator_:
+
+.. _forRecovery_java_lang_String__byte__io_realm_internal_RealmProxyMediator_:
+
 .. _forRecovery_java_lang_String_byte_RealmProxyMediator_:
 
 .. _forRecovery_java_lang_String__byte__RealmProxyMediator_:
+
+.. _forRecovery_java_lang_String_byte____io_realm_internal_RealmProxyMediator_:
+
+.. _forRecovery_java_lang_String__byte_____io_realm_internal_RealmProxyMediator_:
 
 .. _forRecovery_java_lang_String_byte____RealmProxyMediator_:
 
 .. _forRecovery_java_lang_String__byte_____RealmProxyMediator_:
 
+.. _forRecovery_String_byte_io_realm_internal_RealmProxyMediator_:
+
+.. _forRecovery_String__byte__io_realm_internal_RealmProxyMediator_:
+
 .. _forRecovery_String_byte_RealmProxyMediator_:
 
 .. _forRecovery_String__byte__RealmProxyMediator_:
+
+.. _forRecovery_String_byte____io_realm_internal_RealmProxyMediator_:
+
+.. _forRecovery_String__byte_____io_realm_internal_RealmProxyMediator_:
 
 .. _forRecovery_String_byte____RealmProxyMediator_:
 
 .. _forRecovery_String__byte_____RealmProxyMediator_:
 
+.. _RealmConfiguration_forRecovery_java_lang_String_byte_io_realm_internal_RealmProxyMediator_:
+
+.. _RealmConfiguration_forRecovery_java_lang_String__byte__io_realm_internal_RealmProxyMediator_:
+
 .. _RealmConfiguration_forRecovery_java_lang_String_byte_RealmProxyMediator_:
 
 .. _RealmConfiguration_forRecovery_java_lang_String__byte__RealmProxyMediator_:
+
+.. _RealmConfiguration_forRecovery_java_lang_String_byte____io_realm_internal_RealmProxyMediator_:
+
+.. _RealmConfiguration_forRecovery_java_lang_String__byte_____io_realm_internal_RealmProxyMediator_:
 
 .. _RealmConfiguration_forRecovery_java_lang_String_byte____RealmProxyMediator_:
 
 .. _RealmConfiguration_forRecovery_java_lang_String__byte_____RealmProxyMediator_:
 
+.. _RealmConfiguration_forRecovery_String_byte_io_realm_internal_RealmProxyMediator_:
+
+.. _RealmConfiguration_forRecovery_String__byte__io_realm_internal_RealmProxyMediator_:
+
 .. _RealmConfiguration_forRecovery_String_byte_RealmProxyMediator_:
 
 .. _RealmConfiguration_forRecovery_String__byte__RealmProxyMediator_:
+
+.. _RealmConfiguration_forRecovery_String_byte____io_realm_internal_RealmProxyMediator_:
+
+.. _RealmConfiguration_forRecovery_String__byte_____io_realm_internal_RealmProxyMediator_:
 
 .. _RealmConfiguration_forRecovery_String_byte____RealmProxyMediator_:
 
@@ -658,7 +704,7 @@ forRecovery
    * - | protected static :ref:`RealmConfiguration <io_realm_RealmConfiguration>`  :ref:`forRecovery <io_realm_RealmConfiguration_forRecovery>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  canonicalPath, 
        |  **byte[]** encryptionKey, 
-       |  **RealmProxyMediator (?)** schemaMediator
+       |  **RealmProxyMediator** schemaMediator
        | )
        
        
@@ -747,7 +793,7 @@ getDurability
 .. list-table::
    :header-rows: 1
    
-   * - | public **OsRealmConfig.Durability (?)** :ref:`getDurability <io_realm_RealmConfiguration_getDurability>` ()
+   * - | public **OsRealmConfig.Durability** :ref:`getDurability <io_realm_RealmConfiguration_getDurability>` ()
        | 
        
        
@@ -1263,7 +1309,7 @@ getSchemaMediator
 .. list-table::
    :header-rows: 1
    
-   * - | protected **RealmProxyMediator (?)** :ref:`getSchemaMediator <io_realm_RealmConfiguration_getSchemaMediator>` ()
+   * - | protected **RealmProxyMediator** :ref:`getSchemaMediator <io_realm_RealmConfiguration_getSchemaMediator>` ()
        | 
        
        
@@ -1510,7 +1556,7 @@ isReadOnly
        
        
    
-   * - Returns whether this Realm is read-only or not. Read-only Realms cannot be modified and will throw an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  if **Realm.beginTransaction() (?)** is called on it.
+   * - Returns whether this Realm is read-only or not. Read-only Realms cannot be modified and will throw an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  if **Realm.beginTransaction()** is called on it.
        
        
        

@@ -36,7 +36,7 @@ Constructors
    * - | :ref:`UpdateResult <io_realm_mongodb_mongo_result_UpdateResult>` (
        |  **long** matchedCount, 
        |  **long** modifiedCount, 
-       |  **BsonValue (?)** upsertedId
+       |  **BsonValue** upsertedId
        | )
        
        
@@ -77,7 +77,7 @@ Method Summary
        
        
    
-   * - public **BsonValue (?)**
+   * - public **BsonValue**
      - | :ref:`getUpsertedId <io_realm_mongodb_mongo_result_UpdateResult_getUpsertedId>` ()
        | 
        
@@ -117,7 +117,7 @@ Constructor Detail
    * - | public :ref:`UpdateResult <io_realm_mongodb_mongo_result_UpdateResult>` (
        |  **long** matchedCount, 
        |  **long** modifiedCount, 
-       |  **BsonValue (?)** upsertedId
+       |  **BsonValue** upsertedId
        | )
        
        
@@ -270,7 +270,7 @@ getUpsertedId
 .. list-table::
    :header-rows: 1
    
-   * - | public **BsonValue (?)** :ref:`getUpsertedId <io_realm_mongodb_mongo_result_UpdateResult_getUpsertedId>` ()
+   * - | public **BsonValue** :ref:`getUpsertedId <io_realm_mongodb_mongo_result_UpdateResult_getUpsertedId>` ()
        | 
        
        

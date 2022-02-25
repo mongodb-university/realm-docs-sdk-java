@@ -26,6 +26,7 @@ io.realm
 - `java.util.Collection <https://docs.oracle.com/javase/7/docs/api/java/util/Collection.html>`__ 
 - `java.lang.Iterable <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__ 
 - `java.util.Collection <https://docs.oracle.com/javase/7/docs/api/java/util/Collection.html>`__ 
+- **io.realm.internal.ManageableObject**
 - `java.lang.Iterable <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__ 
 
 
@@ -160,9 +161,9 @@ Method Summary
        
        
    
-   * - public **E (?)**
+   * - public **E**
      - | :ref:`first <io_realm_OrderedRealmCollection_first>` (
-       |  **E (?)** defaultValue
+       |  **E** defaultValue
        | )
        
        
@@ -171,7 +172,7 @@ Method Summary
        
        
    
-   * - public **E (?)**
+   * - public **E**
      - | :ref:`first <io_realm_OrderedRealmCollection_first>` ()
        | 
        
@@ -181,9 +182,9 @@ Method Summary
        
        
    
-   * - public **E (?)**
+   * - public **E**
      - | :ref:`last <io_realm_OrderedRealmCollection_last>` (
-       |  **E (?)** defaultValue
+       |  **E** defaultValue
        | )
        
        
@@ -192,7 +193,7 @@ Method Summary
        
        
    
-   * - public **E (?)**
+   * - public **E**
      - | :ref:`last <io_realm_OrderedRealmCollection_last>` ()
        | 
        
@@ -560,8 +561,8 @@ first
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`first <io_realm_OrderedRealmCollection_first>` (
-       |  **E (?)** defaultValue
+   * - | public **E** :ref:`first <io_realm_OrderedRealmCollection_first>` (
+       |  **E** defaultValue
        | )
        
        
@@ -589,7 +590,7 @@ first
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`first <io_realm_OrderedRealmCollection_first>` ()
+   * - | public **E** :ref:`first <io_realm_OrderedRealmCollection_first>` ()
        | 
        
        
@@ -650,8 +651,8 @@ last
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`last <io_realm_OrderedRealmCollection_last>` (
-       |  **E (?)** defaultValue
+   * - | public **E** :ref:`last <io_realm_OrderedRealmCollection_last>` (
+       |  **E** defaultValue
        | )
        
        
@@ -679,7 +680,7 @@ last
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`last <io_realm_OrderedRealmCollection_last>` ()
+   * - | public **E** :ref:`last <io_realm_OrderedRealmCollection_last>` ()
        | 
        
        

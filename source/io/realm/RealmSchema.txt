@@ -76,16 +76,6 @@ Method Summary
        
        
    
-   * - public **void**
-     - | :ref:`createKeyPathMapping <io_realm_RealmSchema_createKeyPathMapping>` ()
-       | 
-       
-       
-       Create the underlying keypath mapping.
-       
-       
-       
-   
    * - public abstract :ref:`RealmObjectSchema <io_realm_RealmObjectSchema>` 
      - | :ref:`createWithPrimaryKeyField <io_realm_RealmSchema_createWithPrimaryKeyField>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  className, 
@@ -125,7 +115,7 @@ Method Summary
        
        
    
-   * - protected final **ColumnInfo (?)**
+   * - protected final **ColumnInfo**
      - | :ref:`getColumnInfo <io_realm_RealmSchema_getColumnInfo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  className
        | )
@@ -314,48 +304,6 @@ create
           
           
           
-       
-       
-       
-       
-       
-   
-   
-
-
-.. _createKeyPathMapping:
-
-.. _createKeyPathMapping__:
-
-.. _RealmSchema_createKeyPathMapping:
-
-.. _RealmSchema_createKeyPathMapping__:
-
-.. _io_realm_RealmSchema_createKeyPathMapping:
-
-.. _io_realm_RealmSchema_createKeyPathMapping__:
-
-
-
-createKeyPathMapping
---------------------
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public **void** :ref:`createKeyPathMapping <io_realm_RealmSchema_createKeyPathMapping>` ()
-       | 
-       
-       
-       
-   
-   * - Create the underlying keypath mapping. Should only be called by typed Realms.
-       
-       
-       
-       
-       
-       
        
        
        
@@ -893,7 +841,7 @@ getColumnInfo
 .. list-table::
    :header-rows: 1
    
-   * - | protected final **ColumnInfo (?)** :ref:`getColumnInfo <io_realm_RealmSchema_getColumnInfo>` (
+   * - | protected final **ColumnInfo** :ref:`getColumnInfo <io_realm_RealmSchema_getColumnInfo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  className
        | )
        

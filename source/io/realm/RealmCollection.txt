@@ -22,6 +22,7 @@ io.realm
 
 
 - `java.util.Collection <https://docs.oracle.com/javase/7/docs/api/java/util/Collection.html>`__ 
+- **io.realm.internal.ManageableObject**
 - `java.lang.Iterable <https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html>`__ 
 
 
@@ -73,6 +74,16 @@ Method Summary
        
        
        This deletes all objects in the collection from the underlying Realm as well as from the collection.
+       
+       
+       
+   
+   * - public :ref:`RealmCollection <io_realm_RealmCollection>` 
+     - | :ref:`freeze <io_realm_RealmCollection_freeze>` ()
+       | 
+       
+       
+       Returns a frozen snapshot of this collection.
        
        
        
@@ -410,6 +421,73 @@ deleteAllFromRealm
           
           
        - `java.lang.IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if the Realm has been closed or called from an incorrect thread.
+          
+          
+          
+       
+       
+       
+       
+       
+   
+   
+
+
+.. _freeze:
+
+.. _freeze__:
+
+.. _RealmCollection_freeze:
+
+.. _RealmCollection_freeze__:
+
+.. _io_realm_RealmCollection_freeze:
+
+.. _io_realm_RealmCollection_freeze__:
+
+
+
+freeze
+------
+
+.. list-table::
+   :header-rows: 1
+   
+   * - | public :ref:`RealmCollection <io_realm_RealmCollection>`  :ref:`freeze <io_realm_RealmCollection_freeze>` ()
+       | 
+       
+       
+       
+   
+   * - Returns a frozen snapshot of this collection. The frozen copy can be read and queried from any thread without throwing an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ .
+       
+       Freezing a collection also creates a Realm which has its own lifecycle, but if the live Realm that spawned the original collection is fully closed (i.e. all instances across all threads are closed), the frozen Realm and this collection will be closed as well.
+       
+       Frozen collections can be queried as normal, but trying to mutate it in any way or attempting to register a listener will throw an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ .
+       
+       
+       
+       Note: Keeping a large number of frozen collections with different versions alive can have a negative impact on the filesize of the Realm. In order to avoid such a situation, it is possible to set :ref:`RealmConfiguration.Builder.maxNumberOfActiveVersions(long) <io_realm_RealmConfiguration_Builder_maxNumberOfActiveVersions_long_>` .
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       **Returns**
+       
+       a frozen copy of this collection.
+       
+       
+       
+       
+       **Throws**
+       
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if this method is called from inside a write transaction.
           
           
           

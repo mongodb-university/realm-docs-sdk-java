@@ -144,7 +144,7 @@ Method Summary
    
    * - public :ref:`AppConfiguration.Builder <io_realm_mongodb_AppConfiguration_Builder>` 
      - | :ref:`codecRegistry <io_realm_mongodb_AppConfiguration_Builder_codecRegistry>` (
-       |  **CodecRegistry (?)** codecRegistry
+       |  **CodecRegistry** codecRegistry
        | )
        
        
@@ -655,7 +655,7 @@ authorizationHeaderName
        
        
    
-   * - Sets the name of the HTTP header used to send authorization data in when making requests to MongoDB Realm. The MongoDB server or firewall must have been configured to expect a custom authorization header.The default authorization header is named **DEFAULT_AUTHORIZATION_HEADER_NAME (?)**.
+   * - Sets the name of the HTTP header used to send authorization data in when making requests to MongoDB Realm. The MongoDB server or firewall must have been configured to expect a custom authorization header.The default authorization header is named **DEFAULT_AUTHORIZATION_HEADER_NAME**.
        
        
        
@@ -749,7 +749,7 @@ baseUrl
        
        
    
-   * - Sets the base url for the MongoDB Realm Application. The default value is **DEFAULT_BASE_URL (?)**.
+   * - Sets the base url for the MongoDB Realm Application. The default value is **DEFAULT_BASE_URL**.
        
        
        
@@ -859,7 +859,7 @@ codecRegistry
    :header-rows: 1
    
    * - | public :ref:`AppConfiguration.Builder <io_realm_mongodb_AppConfiguration_Builder>`  :ref:`codecRegistry <io_realm_mongodb_AppConfiguration_Builder_codecRegistry>` (
-       |  **CodecRegistry (?)** codecRegistry
+       |  **CodecRegistry** codecRegistry
        | )
        
        
@@ -867,7 +867,7 @@ codecRegistry
    
    * - Set the default codec registry used to encode and decode BSON arguments and results when calling remote Realm :ref:`io.realm.mongodb.functions.Functions <io_realm_mongodb_functions_Functions>`  and accessing a remote :ref:`io.realm.mongodb.mongo.MongoDatabase <io_realm_mongodb_mongo_MongoDatabase>` .
        
-       Will default to **DEFAULT_BSON_CODEC_REGISTRY (?)** if not specified.
+       Will default to **DEFAULT_BSON_CODEC_REGISTRY** if not specified.
        
        
        
@@ -896,11 +896,11 @@ codecRegistry
        
        
           
-          - **DEFAULT_BSON_CODEC_REGISTRY (?)**
+          - **DEFAULT_BSON_CODEC_REGISTRY**
              
              
              
-          - **Builder.getDefaultCodecRegistry() (?)**
+          - **Builder.getDefaultCodecRegistry()**
              
              
              

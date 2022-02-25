@@ -34,7 +34,7 @@ Constructors
    * - Constructor and Description
    
    * - | :ref:`Push <io_realm_mongodb_push_Push>` (
-       |  **OsPush (?)** osPush
+       |  **OsPush** osPush
        | )
        
        
@@ -127,7 +127,7 @@ Constructor Detail
    :header-rows: 1
    
    * - | public :ref:`Push <io_realm_mongodb_push_Push>` (
-       |  **OsPush (?)** osPush
+       |  **OsPush** osPush
        | )
        
        

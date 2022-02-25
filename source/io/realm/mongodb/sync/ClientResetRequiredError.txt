@@ -77,7 +77,7 @@ Method Summary
        | 
        
        
-       The configuration that can be used to open the backup Realm offline.
+       
        
        
        
@@ -241,9 +241,7 @@ getBackupRealmConfiguration
        
        
    
-   * - The configuration that can be used to open the backup Realm offline. This configuration can only be used in combination with a :ref:`DynamicRealm <io_realm_DynamicRealm>` .
-       
-       
+   * - 
        
        
        

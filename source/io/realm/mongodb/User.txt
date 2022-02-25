@@ -39,7 +39,7 @@ A *user* holds the user's meta data and tokens for accessing Realm App functiona
       
       
       
-   - **io.realm.mongodb.sync.SyncConfiguration.Builder.Builder(User, String) (?)**
+   - **io.realm.mongodb.sync.SyncConfiguration.Builder.Builder(User, String)**
       
       
       
@@ -117,7 +117,7 @@ Method Summary
        
        
    
-   * - public **Document (?)**
+   * - public **Document**
      - | :ref:`getCustomData <io_realm_mongodb_User_getCustomData>` ()
        | 
        
@@ -139,7 +139,7 @@ Method Summary
    
    * - public :ref:`Functions <io_realm_mongodb_functions_Functions>` 
      - | :ref:`getFunctions <io_realm_mongodb_User_getFunctions>` (
-       |  **CodecRegistry (?)** codecRegistry
+       |  **CodecRegistry** codecRegistry
        | )
        
        
@@ -321,33 +321,12 @@ Method Summary
        
        
    
-   * - public **Document (?)**
+   * - public **Document**
      - | :ref:`refreshCustomData <io_realm_mongodb_User_refreshCustomData>` ()
        | 
        
        
        Re-fetch custom user data from the Realm App.
-       
-       
-       
-   
-   * - public :ref:`User <io_realm_mongodb_User>` 
-     - | :ref:`remove <io_realm_mongodb_User_remove>` ()
-       | 
-       
-       
-       Calling this will remove the user and any Realms the user has from the device.
-       
-       
-       
-   
-   * - public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>` 
-     - | :ref:`removeAsync <io_realm_mongodb_User_removeAsync>` (
-       |  :ref:`io.realm.mongodb.App.Callback\<io.realm.mongodb.User> <io_realm_mongodb_App_Callback>`  callback
-       | )
-       
-       
-       Calling this will asynchronously remove the user and any Realms the user has from the device.
        
        
        
@@ -600,7 +579,7 @@ getCustomData
 .. list-table::
    :header-rows: 1
    
-   * - | public **Document (?)** :ref:`getCustomData <io_realm_mongodb_User_getCustomData>` ()
+   * - | public **Document** :ref:`getCustomData <io_realm_mongodb_User_getCustomData>` ()
        | 
        
        
@@ -705,7 +684,7 @@ getFunctions
    :header-rows: 1
    
    * - | public :ref:`Functions <io_realm_mongodb_functions_Functions>`  :ref:`getFunctions <io_realm_mongodb_User_getFunctions>` (
-       |  **CodecRegistry (?)** codecRegistry
+       |  **CodecRegistry** codecRegistry
        | )
        
        
@@ -1591,17 +1570,11 @@ logOut
        
        
    
-   * - Log the user out of the Realm App. This will unregister them on the device and stop any synchronization to and from the users' Realms. Any Realms owned by the user will not be deleted from the device before :ref:`User.remove() <io_realm_mongodb_User_remove__>`  is called.
-       
-       Once the Realm App has confirmed the logout any registered :ref:`AuthenticationListener <io_realm_mongodb_AuthenticationListener>`  will be notified and user credentials will be deleted from this device.
+   * - Log the user out of the Realm App. This will unregister them on the device, stop any synchronization to and from the users' Realms, and those Realms will be deleted next time the app restarts. Therefor logging out should not be done until all changes to Realms have been uploaded to the server.Once the Realm App has confirmed the logout any registered :ref:`AuthenticationListener <io_realm_mongodb_AuthenticationListener>`  will be notified and user credentials will be deleted from this device.
        
        
        
-       Logging out anonymous users will remove them immediately instead of marking them as :ref:`User.State.LOGGED_OUT <io_realm_mongodb_User_State_LOGGED_OUT>` .
-       
-       
-       
-       All other users will be marked as :ref:`User.State.LOGGED_OUT <io_realm_mongodb_User_State_LOGGED_OUT>`  and will still be returned by :ref:`App.allUsers() <io_realm_mongodb_App_allUsers__>` . They can be removed completely by calling :ref:`User.remove() <io_realm_mongodb_User_remove__>` .
+       Logging out anonymous users will remove them immediately instead of marking them as :ref:`User.State.LOGGED_OUT <io_realm_mongodb_User_State_LOGGED_OUT>` . All other users will be marked as :ref:`User.State.LOGGED_OUT <io_realm_mongodb_User_State_LOGGED_OUT>`  and will still be returned by :ref:`App.allUsers() <io_realm_mongodb_App_allUsers__>` . They can be removed completely by calling **App.removeUser(User** ()}.
        
        
        
@@ -1676,17 +1649,11 @@ logOutAsync
        
        
    
-   * - Log the user out of the Realm App asynchronously. This will unregister them on the device and stop any synchronization to and from the users' Realms. Any Realms owned by the user will not be deleted from the device before :ref:`User.remove() <io_realm_mongodb_User_remove__>`  is called.
-       
-       Once the Realm App has confirmed the logout any registered :ref:`AuthenticationListener <io_realm_mongodb_AuthenticationListener>`  will be notified and user credentials will be deleted from this device.
+   * - Log the user out of the Realm App asynchronously. This will unregister them on the device, stop any synchronization to and from the users' Realms, and those Realms will be deleted next time the app restarts. Therefor logging out should not be done until all changes to Realms have been uploaded to the server.Once the Realm App has confirmed the logout any registered :ref:`AuthenticationListener <io_realm_mongodb_AuthenticationListener>`  will be notified and user credentials will be deleted from this device.
        
        
        
-       Logging out anonymous users will remove them immediately instead of marking them as :ref:`User.State.LOGGED_OUT <io_realm_mongodb_User_State_LOGGED_OUT>` .
-       
-       
-       
-       All other users will be marked as :ref:`User.State.LOGGED_OUT <io_realm_mongodb_User_State_LOGGED_OUT>`  and will still be returned by :ref:`App.allUsers() <io_realm_mongodb_App_allUsers__>` . They can be removed completely by calling :ref:`User.remove() <io_realm_mongodb_User_remove__>` .
+       Logging out anonymous users will remove them immediately instead of marking them as :ref:`User.State.LOGGED_OUT <io_realm_mongodb_User_State_LOGGED_OUT>` . All other users will be marked as :ref:`User.State.LOGGED_OUT <io_realm_mongodb_User_State_LOGGED_OUT>`  and will still be returned by :ref:`App.allUsers() <io_realm_mongodb_App_allUsers__>` . They can be removed completely by calling :ref:`App.removeUser(User) <io_realm_mongodb_App_removeUser_User_>`  ()}.
        
        
        
@@ -1811,7 +1778,7 @@ refreshCustomData
 .. list-table::
    :header-rows: 1
    
-   * - | public **Document (?)** :ref:`refreshCustomData <io_realm_mongodb_User_refreshCustomData>` ()
+   * - | public **Document** :ref:`refreshCustomData <io_realm_mongodb_User_refreshCustomData>` ()
        | 
        
        
@@ -1834,140 +1801,6 @@ refreshCustomData
        **Throws**
        
        - :ref:`AppException <io_realm_mongodb_AppException>`  - if the request failed in some way.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
-.. _remove:
-
-.. _remove__:
-
-.. _User_remove:
-
-.. _User_remove__:
-
-.. _io_realm_mongodb_User_remove:
-
-.. _io_realm_mongodb_User_remove__:
-
-
-
-remove
-------
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`User <io_realm_mongodb_User>`  :ref:`remove <io_realm_mongodb_User_remove>` ()
-       | 
-       
-       
-       
-   
-   * - Calling this will remove the user and any Realms the user has from the device. No data is removed from the server. If the user is logged in when calling this method, the user is logged out before any data is deleted.
-       
-       
-       
-       
-       
-       
-       **Returns**
-       
-       the user that was removed.
-       
-       
-       
-       
-       **Throws**
-       
-       - :ref:`AppException <io_realm_mongodb_AppException>`  - if an error occurred while trying to remove the user.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
-.. _removeAsync:
-
-.. _removeAsync__:
-
-.. _User_removeAsync:
-
-.. _User_removeAsync__:
-
-.. _io_realm_mongodb_User_removeAsync:
-
-.. _io_realm_mongodb_User_removeAsync__:
-
-
-
-removeAsync
------------
-
-.. _io_realm_mongodb_User_removeAsync_io_realm_mongodb_App_Callback_:
-
-.. _io_realm_mongodb_User_removeAsync_Callback_:
-
-.. _io_realm_mongodb_User_removeAsync_App_Callback_:
-
-.. _removeAsync_io_realm_mongodb_App_Callback_:
-
-.. _removeAsync_Callback_:
-
-.. _removeAsync_App_Callback_:
-
-.. _User_removeAsync_io_realm_mongodb_App_Callback_:
-
-.. _User_removeAsync_Callback_:
-
-.. _User_removeAsync_App_Callback_:
-
-.. _io_realm_mongodb_User_removeAsync_App_Callback_User__:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`removeAsync <io_realm_mongodb_User_removeAsync>` (
-       |  :ref:`io.realm.mongodb.App.Callback\<io.realm.mongodb.User> <io_realm_mongodb_App_Callback>`  callback
-       | )
-       
-       
-       
-   
-   * - Calling this will asynchronously remove the user and any Realms the user has from the device. No data is removed from the server. If the user is logged in when calling this method, the user is logged out before any data is deleted.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``callback`` - callback when removing the user has completed or failed. The callback will always happen on the same thread as this method is called on.
-          
-          
-          
-       
-       
-       
-       
-       
-       
-       **Throws**
-       
-       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if called from a non-looper thread.
           
           
           

@@ -36,8 +36,8 @@ Method Summary
    
    * - public static :ref:`UpdateDescription <io_realm_mongodb_mongo_events_UpdateDescription>` 
      - | :ref:`diff <io_realm_mongodb_mongo_events_UpdateDescription_diff>` (
-       |  **BsonDocument (?)** beforeDocument, 
-       |  **BsonDocument (?)** afterDocument
+       |  **BsonDocument** beforeDocument, 
+       |  **BsonDocument** afterDocument
        | )
        
        
@@ -59,7 +59,7 @@ Method Summary
    
    * - public static :ref:`UpdateDescription <io_realm_mongodb_mongo_events_UpdateDescription>` 
      - | :ref:`fromBsonDocument <io_realm_mongodb_mongo_events_UpdateDescription_fromBsonDocument>` (
-       |  **BsonDocument (?)** document
+       |  **BsonDocument** document
        | )
        
        
@@ -80,12 +80,12 @@ Method Summary
        
        
    
-   * - public **BsonDocument (?)**
+   * - public **BsonDocument**
      - | :ref:`getUpdatedFields <io_realm_mongodb_mongo_events_UpdateDescription_getUpdatedFields>` ()
        | 
        
        
-       Returns a **BsonDocument (?)** containing keys and values representing (respectively) the fields that have changed in the corresponding update and their new values.
+       Returns a **BsonDocument** containing keys and values representing (respectively) the fields that have changed in the corresponding update and their new values.
        
        
        
@@ -123,7 +123,7 @@ Method Summary
        
        
    
-   * - public **BsonDocument (?)**
+   * - public **BsonDocument**
      - | :ref:`toBsonDocument <io_realm_mongodb_mongo_events_UpdateDescription_toBsonDocument>` ()
        | 
        
@@ -133,7 +133,7 @@ Method Summary
        
        
    
-   * - public **BsonDocument (?)**
+   * - public **BsonDocument**
      - | :ref:`toUpdateDocument <io_realm_mongodb_mongo_events_UpdateDescription_toUpdateDocument>` ()
        | 
        
@@ -192,8 +192,8 @@ diff
    :header-rows: 1
    
    * - | public static :ref:`UpdateDescription <io_realm_mongodb_mongo_events_UpdateDescription>`  :ref:`diff <io_realm_mongodb_mongo_events_UpdateDescription_diff>` (
-       |  **BsonDocument (?)** beforeDocument, 
-       |  **BsonDocument (?)** afterDocument
+       |  **BsonDocument** beforeDocument, 
+       |  **BsonDocument** afterDocument
        | )
        
        
@@ -320,7 +320,7 @@ fromBsonDocument
    :header-rows: 1
    
    * - | public static :ref:`UpdateDescription <io_realm_mongodb_mongo_events_UpdateDescription>`  :ref:`fromBsonDocument <io_realm_mongodb_mongo_events_UpdateDescription_fromBsonDocument>` (
-       |  **BsonDocument (?)** document
+       |  **BsonDocument** document
        | )
        
        
@@ -424,13 +424,13 @@ getUpdatedFields
 .. list-table::
    :header-rows: 1
    
-   * - | public **BsonDocument (?)** :ref:`getUpdatedFields <io_realm_mongodb_mongo_events_UpdateDescription_getUpdatedFields>` ()
+   * - | public **BsonDocument** :ref:`getUpdatedFields <io_realm_mongodb_mongo_events_UpdateDescription_getUpdatedFields>` ()
        | 
        
        
        
    
-   * - Returns a **BsonDocument (?)** containing keys and values representing (respectively) the fields that have changed in the corresponding update and their new values.
+   * - Returns a **BsonDocument** containing keys and values representing (respectively) the fields that have changed in the corresponding update and their new values.
        
        
        
@@ -634,7 +634,7 @@ toBsonDocument
 .. list-table::
    :header-rows: 1
    
-   * - | public **BsonDocument (?)** :ref:`toBsonDocument <io_realm_mongodb_mongo_events_UpdateDescription_toBsonDocument>` ()
+   * - | public **BsonDocument** :ref:`toBsonDocument <io_realm_mongodb_mongo_events_UpdateDescription_toBsonDocument>` ()
        | 
        
        
@@ -681,7 +681,7 @@ toUpdateDocument
 .. list-table::
    :header-rows: 1
    
-   * - | public **BsonDocument (?)** :ref:`toUpdateDocument <io_realm_mongodb_mongo_events_UpdateDescription_toUpdateDocument>` ()
+   * - | public **BsonDocument** :ref:`toUpdateDocument <io_realm_mongodb_mongo_events_UpdateDescription_toUpdateDocument>` ()
        | 
        
        

@@ -54,7 +54,7 @@ Method Summary
    * - Modifier and Type
      - Method and Description
    
-   * - public **Bson (?)**
+   * - public **Bson**
      - | :ref:`getProjection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getProjection>` ()
        | 
        
@@ -64,7 +64,7 @@ Method Summary
        
        
    
-   * - public **Bson (?)**
+   * - public **Bson**
      - | :ref:`getSort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getSort>` ()
        | 
        
@@ -96,7 +96,7 @@ Method Summary
    
    * - public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>` 
      - | :ref:`projection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_projection>` (
-       |  **Bson (?)** projection
+       |  **Bson** projection
        | )
        
        
@@ -118,7 +118,7 @@ Method Summary
    
    * - public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>` 
      - | :ref:`sort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_sort>` (
-       |  **Bson (?)** sort
+       |  **Bson** sort
        | )
        
        
@@ -218,7 +218,7 @@ getProjection
 .. list-table::
    :header-rows: 1
    
-   * - | public **Bson (?)** :ref:`getProjection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getProjection>` ()
+   * - | public **Bson** :ref:`getProjection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getProjection>` ()
        | 
        
        
@@ -265,7 +265,7 @@ getSort
 .. list-table::
    :header-rows: 1
    
-   * - | public **Bson (?)** :ref:`getSort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getSort>` ()
+   * - | public **Bson** :ref:`getSort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_getSort>` ()
        | 
        
        
@@ -413,7 +413,7 @@ projection
    :header-rows: 1
    
    * - | public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  :ref:`projection <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_projection>` (
-       |  **Bson (?)** projection
+       |  **Bson** projection
        | )
        
        
@@ -537,7 +537,7 @@ sort
    :header-rows: 1
    
    * - | public :ref:`FindOneAndModifyOptions <io_realm_mongodb_mongo_options_FindOneAndModifyOptions>`  :ref:`sort <io_realm_mongodb_mongo_options_FindOneAndModifyOptions_sort>` (
-       |  **Bson (?)** sort
+       |  **Bson** sort
        | )
        
        

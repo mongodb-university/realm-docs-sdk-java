@@ -27,6 +27,7 @@ io.realm
 
 
 - :ref:`io.realm.RealmModel <io_realm_RealmModel>` 
+- **io.realm.internal.ManageableObject**
 
 
 In Realm you define your RealmObject classes by sub-classing RealmObject and adding fields to be persisted. You then create your objects within a Realm, and use your custom subclasses instead of using the RealmObject class directly.An annotation processor will create a proxy class for your RealmObject subclass.
@@ -62,9 +63,6 @@ The following field data types are supported:
 - Date
    
    
-- UUID
-   
-   
 - org.bson.types.Decimal128
    
    
@@ -75,9 +73,6 @@ The following field data types are supported:
    
    
 - RealmList
-   
-   
-- RealmDictionary
    
    
 
@@ -147,8 +142,8 @@ Method Summary
      - Method and Description
    
    * - public static **void**
-     - | :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E (?)** >(
-       |  **E (?)** object, 
+     - | :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.RealmChangeListener\<E> <io_realm_RealmChangeListener>`  listener
        | )
        
@@ -159,8 +154,8 @@ Method Summary
        
    
    * - public static **void**
-     - | :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E (?)** >(
-       |  **E (?)** object, 
+     - | :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
        | )
        
@@ -171,7 +166,7 @@ Method Summary
        
    
    * - public final **void**
-     - | :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E (?)** >(
+     - | :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E** >(
        |  :ref:`io.realm.RealmChangeListener\<E> <io_realm_RealmChangeListener>`  listener
        | )
        
@@ -182,7 +177,7 @@ Method Summary
        
    
    * - public final **void**
-     - | :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E (?)** >(
+     - | :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E** >(
        |  :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
        | )
        
@@ -192,9 +187,9 @@ Method Summary
        
        
    
-   * - public static **<any> (?)**
-     - | :ref:`asChangesetObservable <io_realm_RealmObject_asChangesetObservable>` <**E (?)** >(
-       |  **E (?)** object
+   * - public static **<any>**
+     - | :ref:`asChangesetObservable <io_realm_RealmObject_asChangesetObservable>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -203,8 +198,8 @@ Method Summary
        
        
    
-   * - public final **<any> (?)**
-     - | :ref:`asChangesetObservable <io_realm_RealmObject_asChangesetObservable>` <**E (?)** >()
+   * - public final **<any>**
+     - | :ref:`asChangesetObservable <io_realm_RealmObject_asChangesetObservable>` <**E** >()
        | 
        
        
@@ -213,9 +208,9 @@ Method Summary
        
        
    
-   * - public static **<any> (?)**
-     - | :ref:`asFlowable <io_realm_RealmObject_asFlowable>` <**E (?)** >(
-       |  **E (?)** object
+   * - public static **<any>**
+     - | :ref:`asFlowable <io_realm_RealmObject_asFlowable>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -224,8 +219,8 @@ Method Summary
        
        
    
-   * - public final **<any> (?)**
-     - | :ref:`asFlowable <io_realm_RealmObject_asFlowable>` <**E (?)** >()
+   * - public final **<any>**
+     - | :ref:`asFlowable <io_realm_RealmObject_asFlowable>` <**E** >()
        | 
        
        
@@ -235,8 +230,8 @@ Method Summary
        
    
    * - public static **void**
-     - | :ref:`deleteFromRealm <io_realm_RealmObject_deleteFromRealm>` <**E (?)** >(
-       |  **E (?)** object
+     - | :ref:`deleteFromRealm <io_realm_RealmObject_deleteFromRealm>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -255,9 +250,9 @@ Method Summary
        
        
    
-   * - public static **E (?)**
-     - | :ref:`freeze <io_realm_RealmObject_freeze>` <**E (?)** >(
-       |  **E (?)** object
+   * - public static **E**
+     - | :ref:`freeze <io_realm_RealmObject_freeze>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -266,8 +261,8 @@ Method Summary
        
        
    
-   * - public final **E (?)**
-     - | :ref:`freeze <io_realm_RealmObject_freeze>` <**E (?)** >()
+   * - public final **E**
+     - | :ref:`freeze <io_realm_RealmObject_freeze>` <**E** >()
        | 
        
        
@@ -302,8 +297,8 @@ Method Summary
        
    
    * - public static **boolean**
-     - | :ref:`isFrozen <io_realm_RealmObject_isFrozen>` <**E (?)** >(
-       |  **E (?)** object
+     - | :ref:`isFrozen <io_realm_RealmObject_isFrozen>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -323,8 +318,8 @@ Method Summary
        
    
    * - public static **boolean**
-     - | :ref:`isLoaded <io_realm_RealmObject_isLoaded>` <**E (?)** >(
-       |  **E (?)** object
+     - | :ref:`isLoaded <io_realm_RealmObject_isLoaded>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -344,8 +339,8 @@ Method Summary
        
    
    * - public static **boolean**
-     - | :ref:`isManaged <io_realm_RealmObject_isManaged>` <**E (?)** >(
-       |  **E (?)** object
+     - | :ref:`isManaged <io_realm_RealmObject_isManaged>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -365,8 +360,8 @@ Method Summary
        
    
    * - public static **boolean**
-     - | :ref:`isValid <io_realm_RealmObject_isValid>` <**E (?)** >(
-       |  **E (?)** object
+     - | :ref:`isValid <io_realm_RealmObject_isValid>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -390,8 +385,8 @@ Method Summary
        
    
    * - public static **boolean**
-     - | :ref:`load <io_realm_RealmObject_load>` <**E (?)** >(
-       |  **E (?)** object
+     - | :ref:`load <io_realm_RealmObject_load>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -411,8 +406,8 @@ Method Summary
        
    
    * - public static **void**
-     - | :ref:`removeAllChangeListeners <io_realm_RealmObject_removeAllChangeListeners>` <**E (?)** >(
-       |  **E (?)** object
+     - | :ref:`removeAllChangeListeners <io_realm_RealmObject_removeAllChangeListeners>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -432,8 +427,8 @@ Method Summary
        
    
    * - public static **void**
-     - | :ref:`removeChangeListener <io_realm_RealmObject_removeChangeListener>` <**E (?)** >(
-       |  **E (?)** object, 
+     - | :ref:`removeChangeListener <io_realm_RealmObject_removeChangeListener>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.RealmChangeListener\<E> <io_realm_RealmChangeListener>`  listener
        | )
        
@@ -444,8 +439,8 @@ Method Summary
        
    
    * - public static **void**
-     - | :ref:`removeChangeListener <io_realm_RealmObject_removeChangeListener>` <**E (?)** >(
-       |  **E (?)** object, 
+     - | :ref:`removeChangeListener <io_realm_RealmObject_removeChangeListener>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.RealmObjectChangeListener <io_realm_RealmObjectChangeListener>`  listener
        | )
        
@@ -597,8 +592,8 @@ addChangeListener
 .. list-table::
    :header-rows: 1
    
-   * - | public static **void** :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E (?)** >(
-       |  **E (?)** object, 
+   * - | public static **void** :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.RealmChangeListener\<E> <io_realm_RealmChangeListener>`  listener
        | )
        
@@ -732,8 +727,8 @@ addChangeListener
 .. list-table::
    :header-rows: 1
    
-   * - | public static **void** :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E (?)** >(
-       |  **E (?)** object, 
+   * - | public static **void** :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
        | )
        
@@ -831,7 +826,7 @@ addChangeListener
 .. list-table::
    :header-rows: 1
    
-   * - | public final **void** :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E (?)** >(
+   * - | public final **void** :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E** >(
        |  :ref:`io.realm.RealmChangeListener\<E> <io_realm_RealmChangeListener>`  listener
        | )
        
@@ -925,7 +920,7 @@ addChangeListener
 .. list-table::
    :header-rows: 1
    
-   * - | public final **void** :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E (?)** >(
+   * - | public final **void** :ref:`addChangeListener <io_realm_RealmObject_addChangeListener>` <**E** >(
        |  :ref:`io.realm.RealmObjectChangeListener\<E> <io_realm_RealmObjectChangeListener>`  listener
        | )
        
@@ -1036,8 +1031,8 @@ asChangesetObservable
 .. list-table::
    :header-rows: 1
    
-   * - | public static **<any> (?)** :ref:`asChangesetObservable <io_realm_RealmObject_asChangesetObservable>` <**E (?)** >(
-       |  **E (?)** object
+   * - | public static **<any>** :ref:`asChangesetObservable <io_realm_RealmObject_asChangesetObservable>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -1129,7 +1124,7 @@ asChangesetObservable
 .. list-table::
    :header-rows: 1
    
-   * - | public final **<any> (?)** :ref:`asChangesetObservable <io_realm_RealmObject_asChangesetObservable>` <**E (?)** >()
+   * - | public final **<any>** :ref:`asChangesetObservable <io_realm_RealmObject_asChangesetObservable>` <**E** >()
        | 
        
        
@@ -1244,8 +1239,8 @@ asFlowable
 .. list-table::
    :header-rows: 1
    
-   * - | public static **<any> (?)** :ref:`asFlowable <io_realm_RealmObject_asFlowable>` <**E (?)** >(
-       |  **E (?)** object
+   * - | public static **<any>** :ref:`asFlowable <io_realm_RealmObject_asFlowable>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -1355,7 +1350,7 @@ asFlowable
 .. list-table::
    :header-rows: 1
    
-   * - | public final **<any> (?)** :ref:`asFlowable <io_realm_RealmObject_asFlowable>` <**E (?)** >()
+   * - | public final **<any>** :ref:`asFlowable <io_realm_RealmObject_asFlowable>` <**E** >()
        | 
        
        
@@ -1496,8 +1491,8 @@ deleteFromRealm
 .. list-table::
    :header-rows: 1
    
-   * - | public static **void** :ref:`deleteFromRealm <io_realm_RealmObject_deleteFromRealm>` <**E (?)** >(
-       |  **E (?)** object
+   * - | public static **void** :ref:`deleteFromRealm <io_realm_RealmObject_deleteFromRealm>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -1622,8 +1617,8 @@ freeze
 .. list-table::
    :header-rows: 1
    
-   * - | public static **E (?)** :ref:`freeze <io_realm_RealmObject_freeze>` <**E (?)** >(
-       |  **E (?)** object
+   * - | public static **E** :ref:`freeze <io_realm_RealmObject_freeze>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -1671,7 +1666,7 @@ freeze
 .. list-table::
    :header-rows: 1
    
-   * - | public final **E (?)** :ref:`freeze <io_realm_RealmObject_freeze>` <**E (?)** >()
+   * - | public final **E** :ref:`freeze <io_realm_RealmObject_freeze>` <**E** >()
        | 
        
        
@@ -1759,7 +1754,7 @@ getRealm
    
    * - returns :ref:`Realm <io_realm_Realm>`  instance where the ``model``  belongs.
        
-       You **must not** call **Realm.close() (?)** against returned instance.
+       You **must not** call **Realm.close()** against returned instance.
        
        
        
@@ -1821,7 +1816,7 @@ getRealm
    
    * - Returns :ref:`Realm <io_realm_Realm>`  instance where this :ref:`RealmObject <io_realm_RealmObject>`  belongs.
        
-       You **must not** call **Realm.close() (?)** against returned instance.
+       You **must not** call **Realm.close()** against returned instance.
        
        
        
@@ -1890,8 +1885,8 @@ isFrozen
 .. list-table::
    :header-rows: 1
    
-   * - | public static **boolean** :ref:`isFrozen <io_realm_RealmObject_isFrozen>` <**E (?)** >(
-       |  **E (?)** object
+   * - | public static **boolean** :ref:`isFrozen <io_realm_RealmObject_isFrozen>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -2010,8 +2005,8 @@ isLoaded
 .. list-table::
    :header-rows: 1
    
-   * - | public static **boolean** :ref:`isLoaded <io_realm_RealmObject_isLoaded>` <**E (?)** >(
-       |  **E (?)** object
+   * - | public static **boolean** :ref:`isLoaded <io_realm_RealmObject_isLoaded>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -2212,8 +2207,8 @@ isManaged
 .. list-table::
    :header-rows: 1
    
-   * - | public static **boolean** :ref:`isManaged <io_realm_RealmObject_isManaged>` <**E (?)** >(
-       |  **E (?)** object
+   * - | public static **boolean** :ref:`isManaged <io_realm_RealmObject_isManaged>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -2324,8 +2319,8 @@ isValid
 .. list-table::
    :header-rows: 1
    
-   * - | public static **boolean** :ref:`isValid <io_realm_RealmObject_isValid>` <**E (?)** >(
-       |  **E (?)** object
+   * - | public static **boolean** :ref:`isValid <io_realm_RealmObject_isValid>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -2460,8 +2455,8 @@ load
 .. list-table::
    :header-rows: 1
    
-   * - | public static **boolean** :ref:`load <io_realm_RealmObject_load>` <**E (?)** >(
-       |  **E (?)** object
+   * - | public static **boolean** :ref:`load <io_realm_RealmObject_load>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -2568,8 +2563,8 @@ removeAllChangeListeners
 .. list-table::
    :header-rows: 1
    
-   * - | public static **void** :ref:`removeAllChangeListeners <io_realm_RealmObject_removeAllChangeListeners>` <**E (?)** >(
-       |  **E (?)** object
+   * - | public static **void** :ref:`removeAllChangeListeners <io_realm_RealmObject_removeAllChangeListeners>` <**E** >(
+       |  **E** object
        | )
        
        
@@ -2702,8 +2697,8 @@ removeChangeListener
 .. list-table::
    :header-rows: 1
    
-   * - | public static **void** :ref:`removeChangeListener <io_realm_RealmObject_removeChangeListener>` <**E (?)** >(
-       |  **E (?)** object, 
+   * - | public static **void** :ref:`removeChangeListener <io_realm_RealmObject_removeChangeListener>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.RealmChangeListener\<E> <io_realm_RealmChangeListener>`  listener
        | )
        
@@ -2805,8 +2800,8 @@ removeChangeListener
 .. list-table::
    :header-rows: 1
    
-   * - | public static **void** :ref:`removeChangeListener <io_realm_RealmObject_removeChangeListener>` <**E (?)** >(
-       |  **E (?)** object, 
+   * - | public static **void** :ref:`removeChangeListener <io_realm_RealmObject_removeChangeListener>` <**E** >(
+       |  **E** object, 
        |  :ref:`io.realm.RealmObjectChangeListener <io_realm_RealmObjectChangeListener>`  listener
        | )
        

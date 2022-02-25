@@ -27,6 +27,7 @@ io.realm
 
 
 - `java.lang.Comparable <https://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html>`__ 
+- **io.realm.internal.ManageableObject**
 
 
 A ``MutableRealmInteger``  is a mutable, `Long <https://docs.oracle.com/javase/7/docs/api/java/lang/Long.html>`__ -like numeric quantity. It behaves almost exactly as a reference to a `Long <https://docs.oracle.com/javase/7/docs/api/java/lang/Long.html>`__ . More specifically:

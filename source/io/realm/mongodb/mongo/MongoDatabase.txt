@@ -22,7 +22,7 @@ io.realm.mongodb.mongo
  | 		io.realm.mongodb.mongo.MongoDatabase
 
 
-The RemoteMongoDatabase provides access to its **Document (?)** :ref:`MongoCollection <io_realm_mongodb_mongo_MongoCollection>` s.
+The RemoteMongoDatabase provides access to its **Document** :ref:`MongoCollection <io_realm_mongodb_mongo_MongoCollection>` s.
 
 
 
@@ -37,7 +37,7 @@ Method Summary
      - Method and Description
    
    * - public :ref:`MongoCollection <io_realm_mongodb_mongo_MongoCollection>` 
-     - | :ref:`getCollection <io_realm_mongodb_mongo_MongoDatabase_getCollection>` <**DocumentT (?)** >(
+     - | :ref:`getCollection <io_realm_mongodb_mongo_MongoDatabase_getCollection>` <**DocumentT** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  collectionName, 
        |  `java.lang.Class\<DocumentT> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  documentClass
        | )
@@ -155,7 +155,7 @@ getCollection
 .. list-table::
    :header-rows: 1
    
-   * - | public :ref:`MongoCollection <io_realm_mongodb_mongo_MongoCollection>`  :ref:`getCollection <io_realm_mongodb_mongo_MongoDatabase_getCollection>` <**DocumentT (?)** >(
+   * - | public :ref:`MongoCollection <io_realm_mongodb_mongo_MongoCollection>`  :ref:`getCollection <io_realm_mongodb_mongo_MongoDatabase_getCollection>` <**DocumentT** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  collectionName, 
        |  `java.lang.Class\<DocumentT> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  documentClass
        | )

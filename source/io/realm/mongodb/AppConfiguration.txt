@@ -74,7 +74,7 @@ Field Summary
        The default url for MongoDB Realm applications.
        
    
-   * - public static final **CodecRegistry (?)**
+   * - public static final **CodecRegistry**
        
        
      - :ref:`DEFAULT_BSON_CODEC_REGISTRY <io_realm_mongodb_AppConfiguration_DEFAULT_BSON_CODEC_REGISTRY>` 
@@ -201,7 +201,7 @@ Method Summary
        
        
    
-   * - public **CodecRegistry (?)**
+   * - public **CodecRegistry**
      - | :ref:`getDefaultCodecRegistry <io_realm_mongodb_AppConfiguration_getDefaultCodecRegistry>` ()
        | 
        
@@ -351,23 +351,23 @@ Default BSON codec registry for encoding/decoding arguments and results to/from 
       
       
       
-   - **ValueCodecProvider (?)**
+   - **ValueCodecProvider**
       
       
       
-   - **BsonValueCodecProvider (?)**
+   - **BsonValueCodecProvider**
       
       
       
-   - **IterableCodecProvider (?)**
+   - **IterableCodecProvider**
       
       
       
-   - **MapCodecProvider (?)**
+   - **MapCodecProvider**
       
       
       
-   - **DocumentCodecProvider (?)**
+   - **DocumentCodecProvider**
       
       
       
@@ -425,23 +425,23 @@ This map's keys represent the different login identity providers which can be us
       
       
       
-   - **RegexPatternObfuscator (?)**
+   - **RegexPatternObfuscator**
       
       
       
-   - **ApiKeyObfuscator (?)**
+   - **ApiKeyObfuscator**
       
       
       
-   - **TokenObfuscator (?)**
+   - **TokenObfuscator**
       
       
       
-   - **CustomFunctionObfuscator (?)**
+   - **CustomFunctionObfuscator**
       
       
       
-   - **EmailPasswordObfuscator (?)**
+   - **EmailPasswordObfuscator**
       
       
       
@@ -872,7 +872,7 @@ getDefaultCodecRegistry
 .. list-table::
    :header-rows: 1
    
-   * - | public **CodecRegistry (?)** :ref:`getDefaultCodecRegistry <io_realm_mongodb_AppConfiguration_getDefaultCodecRegistry>` ()
+   * - | public **CodecRegistry** :ref:`getDefaultCodecRegistry <io_realm_mongodb_AppConfiguration_getDefaultCodecRegistry>` ()
        | 
        
        
@@ -906,7 +906,7 @@ getDefaultCodecRegistry
              
              
              
-          - **Builder.getDefaultCodecRegistry() (?)**
+          - **Builder.getDefaultCodecRegistry()**
              
              
              

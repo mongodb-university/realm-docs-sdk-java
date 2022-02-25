@@ -22,6 +22,13 @@ io.realm
  | 		io.realm.ProxyState
 
 
+**Implemented interfaces:**
+
+
+
+- **io.realm.internal.PendingRow.FrontEnd**
+
+
 This implements ``RealmObjectProxy``  interface, to eliminate copying logic between :ref:`RealmObject <io_realm_RealmObject>`  and :ref:`DynamicRealmObject <io_realm_DynamicRealmObject>` .
 
 
@@ -45,7 +52,7 @@ Constructors
        
    
    * - | :ref:`ProxyState <io_realm_ProxyState>` (
-       |  **E (?)** model
+       |  **E** model
        | )
        
        
@@ -108,7 +115,7 @@ Method Summary
        
        
    
-   * - public **BaseRealm (?)**
+   * - public **BaseRealm**
      - | :ref:`getRealm$realm <io_realm_ProxyState_getRealm_realm>` ()
        | 
        
@@ -118,7 +125,7 @@ Method Summary
        
        
    
-   * - public **Row (?)**
+   * - public **Row**
      - | :ref:`getRow$realm <io_realm_ProxyState_getRow_realm>` ()
        | 
        
@@ -160,7 +167,7 @@ Method Summary
    
    * - public **void**
      - | :ref:`onQueryFinished <io_realm_ProxyState_onQueryFinished>` (
-       |  **Row (?)** row
+       |  **Row** row
        | )
        
        
@@ -224,7 +231,7 @@ Method Summary
    
    * - public **void**
      - | :ref:`setRealm$realm <io_realm_ProxyState_setRealm_realm>` (
-       |  **BaseRealm (?)** realm
+       |  **BaseRealm** realm
        | )
        
        
@@ -235,7 +242,7 @@ Method Summary
    
    * - public **void**
      - | :ref:`setRow$realm <io_realm_ProxyState_setRow_realm>` (
-       |  **Row (?)** row
+       |  **Row** row
        | )
        
        
@@ -301,7 +308,7 @@ Constructor Detail
    :header-rows: 1
    
    * - | public :ref:`ProxyState <io_realm_ProxyState>` (
-       |  **E (?)** model
+       |  **E** model
        | )
        
        
@@ -548,7 +555,7 @@ getRealm$realm
 .. list-table::
    :header-rows: 1
    
-   * - | public **BaseRealm (?)** :ref:`getRealm$realm <io_realm_ProxyState_getRealm_realm>` ()
+   * - | public **BaseRealm** :ref:`getRealm$realm <io_realm_ProxyState_getRealm_realm>` ()
        | 
        
        
@@ -590,7 +597,7 @@ getRow$realm
 .. list-table::
    :header-rows: 1
    
-   * - | public **Row (?)** :ref:`getRow$realm <io_realm_ProxyState_getRow_realm>` ()
+   * - | public **Row** :ref:`getRow$realm <io_realm_ProxyState_getRow_realm>` ()
        | 
        
        
@@ -755,9 +762,15 @@ load
 onQueryFinished
 ---------------
 
+.. _io_realm_ProxyState_onQueryFinished_io_realm_internal_Row_:
+
 .. _io_realm_ProxyState_onQueryFinished_Row_:
 
+.. _onQueryFinished_io_realm_internal_Row_:
+
 .. _onQueryFinished_Row_:
+
+.. _ProxyState_onQueryFinished_io_realm_internal_Row_:
 
 .. _ProxyState_onQueryFinished_Row_:
 
@@ -765,7 +778,7 @@ onQueryFinished
    :header-rows: 1
    
    * - | public **void** :ref:`onQueryFinished <io_realm_ProxyState_onQueryFinished>` (
-       |  **Row (?)** row
+       |  **Row** row
        | )
        
        
@@ -1067,7 +1080,7 @@ setRealm$realm
    :header-rows: 1
    
    * - | public **void** :ref:`setRealm$realm <io_realm_ProxyState_setRealm_realm>` (
-       |  **BaseRealm (?)** realm
+       |  **BaseRealm** realm
        | )
        
        
@@ -1106,9 +1119,15 @@ setRealm$realm
 setRow$realm
 ------------
 
+.. _io_realm_ProxyState_setRow_realm_io_realm_internal_Row_:
+
 .. _io_realm_ProxyState_setRow_realm_Row_:
 
+.. _setRow_realm_io_realm_internal_Row_:
+
 .. _setRow_realm_Row_:
+
+.. _ProxyState_setRow_realm_io_realm_internal_Row_:
 
 .. _ProxyState_setRow_realm_Row_:
 
@@ -1116,7 +1135,7 @@ setRow$realm
    :header-rows: 1
    
    * - | public **void** :ref:`setRow$realm <io_realm_ProxyState_setRow_realm>` (
-       |  **Row (?)** row
+       |  **Row** row
        | )
        
        

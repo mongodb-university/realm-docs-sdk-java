@@ -19,7 +19,7 @@ io.realm
 
 RealmChangeListener can be registered with a :ref:`Realm <io_realm_Realm>` , :ref:`RealmResults <io_realm_RealmResults>`  or :ref:`RealmObject <io_realm_RealmObject>`  to receive a notification about updates.
 
-When registered against a ``Realm``  you'll get notified when a Realm instance has been updated. Register against a ``RealmResults`` , ``RealmList`` , ``RealmDictionary``  or ``RealmObject``  to only get notified about changes to them.
+When registered against a ``Realm``  you'll get notified when a Realm instance has been updated. Register against a ``RealmResults``  or ``RealmObject``  to only get notified about changes to them.
 
 
 
@@ -27,7 +27,7 @@ Realm instances on a thread without an `android.os.Looper <https://developer.and
 
 
 
-All :ref:`io.realm.RealmObject <io_realm_RealmObject>`  and :ref:`io.realm.RealmResults <io_realm_RealmResults>`  will automatically contain their new values when the **onChange(Object) (?)** method is called. Normally this means that it isn't necessary to query again for those objects, but just invalidate any UI elements that are using them. If there is a chance that a object has been been deleted, it can be verified by using :ref:`RealmObject.isValid() <io_realm_RealmObject_isValid__>` .
+All :ref:`io.realm.RealmObject <io_realm_RealmObject>`  and :ref:`io.realm.RealmResults <io_realm_RealmResults>`  will automatically contain their new values when the **onChange(Object)** method is called. Normally this means that it isn't necessary to query again for those objects, but just invalidate any UI elements that are using them. If there is a chance that a object has been been deleted, it can be verified by using :ref:`RealmObject.isValid() <io_realm_RealmObject_isValid__>` .
 
 
 
@@ -67,7 +67,7 @@ Method Summary
    
    * - public **void**
      - | :ref:`onChange <io_realm_RealmChangeListener_onChange>` (
-       |  **T (?)** t
+       |  **T** t
        | )
        
        
@@ -109,7 +109,7 @@ onChange
    :header-rows: 1
    
    * - | public **void** :ref:`onChange <io_realm_RealmChangeListener_onChange>` (
-       |  **T (?)** t
+       |  **T** t
        | )
        
        
