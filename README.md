@@ -29,3 +29,4 @@ cd path/to/realm-java/
 
 find ./realm-annotations ./realm/realm-library/src/main -iname "*.java" | xargs javadoc -d test -docletpath ~/projects/yokedox/plugins/JsonDocletJava8/build/libs/JsonDocletJava8-all.jar -sourcepath android.sourceSets.objectServer.java.srcDirs -classpath ~/Library/Android/sdk/platforms/android-29/android.jar:~/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar -doclet com.yokedox.JsonDoclet8 -quiet -source 8 io.realm
 ```
+
