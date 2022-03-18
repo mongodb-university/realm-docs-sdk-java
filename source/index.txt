@@ -1,0 +1,8 @@
+Index
+^^^^^
+
+.. toctree::
+   :titlesonly:
+   :hidden:
+
+   Realm </realm>

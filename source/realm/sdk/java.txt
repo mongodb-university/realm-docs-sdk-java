@@ -1,0 +1,8 @@
+Java
+^^^^
+
+.. toctree::
+   :titlesonly:
+   :hidden:
+
+   API </realm/sdk/java/api>
