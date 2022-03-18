@@ -38,7 +38,7 @@ Method Summary
      - | :ref:`call <io_realm_mongodb_auth_ApiKeyAuth_call>` (
        |  **int** functionType, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  arg, 
-       |  **OsJavaNetworkTransport.NetworkTransportJNIResultCallback (?)** callback
+       |  **OsJavaNetworkTransport.NetworkTransportJNIResultCallback** callback
        | )
        
        
@@ -72,7 +72,7 @@ Method Summary
    
    * - public **void**
      - | :ref:`delete <io_realm_mongodb_auth_ApiKeyAuth_delete>` (
-       |  **ObjectId (?)** id
+       |  **ObjectId** id
        | )
        
        
@@ -83,7 +83,7 @@ Method Summary
    
    * - public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>` 
      - | :ref:`deleteAsync <io_realm_mongodb_auth_ApiKeyAuth_deleteAsync>` (
-       |  **ObjectId (?)** id, 
+       |  **ObjectId** id, 
        |  :ref:`io.realm.mongodb.App.Callback\<java.lang.Void> <io_realm_mongodb_App_Callback>`  callback
        | )
        
@@ -95,7 +95,7 @@ Method Summary
    
    * - public **void**
      - | :ref:`disable <io_realm_mongodb_auth_ApiKeyAuth_disable>` (
-       |  **ObjectId (?)** id
+       |  **ObjectId** id
        | )
        
        
@@ -106,7 +106,7 @@ Method Summary
    
    * - public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>` 
      - | :ref:`disableAsync <io_realm_mongodb_auth_ApiKeyAuth_disableAsync>` (
-       |  **ObjectId (?)** id, 
+       |  **ObjectId** id, 
        |  :ref:`io.realm.mongodb.App.Callback\<java.lang.Void> <io_realm_mongodb_App_Callback>`  callback
        | )
        
@@ -118,7 +118,7 @@ Method Summary
    
    * - public **void**
      - | :ref:`enable <io_realm_mongodb_auth_ApiKeyAuth_enable>` (
-       |  **ObjectId (?)** id
+       |  **ObjectId** id
        | )
        
        
@@ -129,7 +129,7 @@ Method Summary
    
    * - public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>` 
      - | :ref:`enableAsync <io_realm_mongodb_auth_ApiKeyAuth_enableAsync>` (
-       |  **ObjectId (?)** id, 
+       |  **ObjectId** id, 
        |  :ref:`io.realm.mongodb.App.Callback\<java.lang.Void> <io_realm_mongodb_App_Callback>`  callback
        | )
        
@@ -152,7 +152,7 @@ Method Summary
    
    * - public :ref:`ApiKey <io_realm_mongodb_auth_ApiKey>` 
      - | :ref:`fetch <io_realm_mongodb_auth_ApiKeyAuth_fetch>` (
-       |  **ObjectId (?)** id
+       |  **ObjectId** id
        | )
        
        
@@ -184,7 +184,7 @@ Method Summary
    
    * - public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>` 
      - | :ref:`fetchAsync <io_realm_mongodb_auth_ApiKeyAuth_fetchAsync>` (
-       |  **ObjectId (?)** id, 
+       |  **ObjectId** id, 
        |  :ref:`io.realm.mongodb.App.Callback\<io.realm.mongodb.auth.ApiKey> <io_realm_mongodb_App_Callback>`  callback
        | )
        
@@ -271,25 +271,73 @@ Method Detail
 call
 ----
 
+.. _io_realm_mongodb_auth_ApiKeyAuth_call_int_java_lang_String_io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _io_realm_mongodb_auth_ApiKeyAuth_call_int__java_lang_String__io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _io_realm_mongodb_auth_ApiKeyAuth_call_int_java_lang_String_NetworkTransportJNIResultCallback_:
+
+.. _io_realm_mongodb_auth_ApiKeyAuth_call_int__java_lang_String__NetworkTransportJNIResultCallback_:
+
 .. _io_realm_mongodb_auth_ApiKeyAuth_call_int_java_lang_String_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
 
 .. _io_realm_mongodb_auth_ApiKeyAuth_call_int__java_lang_String__OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _io_realm_mongodb_auth_ApiKeyAuth_call_int_String_io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _io_realm_mongodb_auth_ApiKeyAuth_call_int__String__io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _io_realm_mongodb_auth_ApiKeyAuth_call_int_String_NetworkTransportJNIResultCallback_:
+
+.. _io_realm_mongodb_auth_ApiKeyAuth_call_int__String__NetworkTransportJNIResultCallback_:
 
 .. _io_realm_mongodb_auth_ApiKeyAuth_call_int_String_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
 
 .. _io_realm_mongodb_auth_ApiKeyAuth_call_int__String__OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
 
+.. _call_int_java_lang_String_io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _call_int__java_lang_String__io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _call_int_java_lang_String_NetworkTransportJNIResultCallback_:
+
+.. _call_int__java_lang_String__NetworkTransportJNIResultCallback_:
+
 .. _call_int_java_lang_String_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
 
 .. _call_int__java_lang_String__OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _call_int_String_io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _call_int__String__io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _call_int_String_NetworkTransportJNIResultCallback_:
+
+.. _call_int__String__NetworkTransportJNIResultCallback_:
 
 .. _call_int_String_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
 
 .. _call_int__String__OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
 
+.. _ApiKeyAuth_call_int_java_lang_String_io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _ApiKeyAuth_call_int__java_lang_String__io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _ApiKeyAuth_call_int_java_lang_String_NetworkTransportJNIResultCallback_:
+
+.. _ApiKeyAuth_call_int__java_lang_String__NetworkTransportJNIResultCallback_:
+
 .. _ApiKeyAuth_call_int_java_lang_String_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
 
 .. _ApiKeyAuth_call_int__java_lang_String__OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _ApiKeyAuth_call_int_String_io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _ApiKeyAuth_call_int__String__io_realm_internal_objectstore_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
+
+.. _ApiKeyAuth_call_int_String_NetworkTransportJNIResultCallback_:
+
+.. _ApiKeyAuth_call_int__String__NetworkTransportJNIResultCallback_:
 
 .. _ApiKeyAuth_call_int_String_OsJavaNetworkTransport_NetworkTransportJNIResultCallback_:
 
@@ -301,7 +349,7 @@ call
    * - | protected abstract **void** :ref:`call <io_realm_mongodb_auth_ApiKeyAuth_call>` (
        |  **int** functionType, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  arg, 
-       |  **OsJavaNetworkTransport.NetworkTransportJNIResultCallback (?)** callback
+       |  **OsJavaNetworkTransport.NetworkTransportJNIResultCallback** callback
        | )
        
        
@@ -576,7 +624,7 @@ delete
    :header-rows: 1
    
    * - | public **void** :ref:`delete <io_realm_mongodb_auth_ApiKeyAuth_delete>` (
-       |  **ObjectId (?)** id
+       |  **ObjectId** id
        | )
        
        
@@ -673,7 +721,7 @@ deleteAsync
    :header-rows: 1
    
    * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`deleteAsync <io_realm_mongodb_auth_ApiKeyAuth_deleteAsync>` (
-       |  **ObjectId (?)** id, 
+       |  **ObjectId** id, 
        |  :ref:`io.realm.mongodb.App.Callback\<java.lang.Void> <io_realm_mongodb_App_Callback>`  callback
        | )
        
@@ -743,7 +791,7 @@ disable
    :header-rows: 1
    
    * - | public **void** :ref:`disable <io_realm_mongodb_auth_ApiKeyAuth_disable>` (
-       |  **ObjectId (?)** id
+       |  **ObjectId** id
        | )
        
        
@@ -840,7 +888,7 @@ disableAsync
    :header-rows: 1
    
    * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`disableAsync <io_realm_mongodb_auth_ApiKeyAuth_disableAsync>` (
-       |  **ObjectId (?)** id, 
+       |  **ObjectId** id, 
        |  :ref:`io.realm.mongodb.App.Callback\<java.lang.Void> <io_realm_mongodb_App_Callback>`  callback
        | )
        
@@ -910,7 +958,7 @@ enable
    :header-rows: 1
    
    * - | public **void** :ref:`enable <io_realm_mongodb_auth_ApiKeyAuth_enable>` (
-       |  **ObjectId (?)** id
+       |  **ObjectId** id
        | )
        
        
@@ -1007,7 +1055,7 @@ enableAsync
    :header-rows: 1
    
    * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`enableAsync <io_realm_mongodb_auth_ApiKeyAuth_enableAsync>` (
-       |  **ObjectId (?)** id, 
+       |  **ObjectId** id, 
        |  :ref:`io.realm.mongodb.App.Callback\<java.lang.Void> <io_realm_mongodb_App_Callback>`  callback
        | )
        
@@ -1136,7 +1184,7 @@ fetch
    :header-rows: 1
    
    * - | public :ref:`ApiKey <io_realm_mongodb_auth_ApiKey>`  :ref:`fetch <io_realm_mongodb_auth_ApiKeyAuth_fetch>` (
-       |  **ObjectId (?)** id
+       |  **ObjectId** id
        | )
        
        
@@ -1343,7 +1391,7 @@ fetchAsync
    :header-rows: 1
    
    * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`fetchAsync <io_realm_mongodb_auth_ApiKeyAuth_fetchAsync>` (
-       |  **ObjectId (?)** id, 
+       |  **ObjectId** id, 
        |  :ref:`io.realm.mongodb.App.Callback\<io.realm.mongodb.auth.ApiKey> <io_realm_mongodb_App_Callback>`  callback
        | )
        

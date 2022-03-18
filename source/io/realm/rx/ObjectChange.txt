@@ -40,7 +40,7 @@ Constructors
    * - Constructor and Description
    
    * - | :ref:`ObjectChange <io_realm_rx_ObjectChange>` (
-       |  **E (?)** object, 
+       |  **E** object, 
        |  :ref:`ObjectChangeSet <io_realm_ObjectChangeSet>`  changeset
        | )
        
@@ -83,7 +83,7 @@ Method Summary
        
        
    
-   * - public **E (?)**
+   * - public **E**
      - | :ref:`getObject <io_realm_rx_ObjectChange_getObject>` ()
        | 
        
@@ -141,7 +141,7 @@ Constructor Detail
    :header-rows: 1
    
    * - | public :ref:`ObjectChange <io_realm_rx_ObjectChange>` (
-       |  **E (?)** object, 
+       |  **E** object, 
        |  :ref:`ObjectChangeSet <io_realm_ObjectChangeSet>`  changeset
        | )
        
@@ -325,7 +325,7 @@ getObject
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`getObject <io_realm_rx_ObjectChange_getObject>` ()
+   * - | public **E** :ref:`getObject <io_realm_rx_ObjectChange_getObject>` ()
        | 
        
        

@@ -32,7 +32,7 @@ Function interface, used when traversing all objects of the current class and ap
 
 
    
-   - **transform(Function) (?)**
+   - **transform(Function)**
       
       
       

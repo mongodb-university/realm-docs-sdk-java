@@ -112,19 +112,8 @@ Method Summary
        
        
    
-   * - public **Decimal128 (?)**
+   * - public **Decimal128**
      - | :ref:`averageDecimal128 <io_realm_RealmQuery_averageDecimal128>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
-       | )
-       
-       
-       Returns the average of a given field.
-       
-       
-       
-   
-   * - public **Decimal128 (?)**
-     - | :ref:`averageRealmAny <io_realm_RealmQuery_averageRealmAny>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
        | )
        
@@ -147,37 +136,12 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`beginsWith <io_realm_RealmQuery_beginsWith>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       Condition that the value of field begins with the specified substring.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`beginsWith <io_realm_RealmQuery_beginsWith>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  value, 
        |  :ref:`Case <io_realm_Case>`  casing
        | )
        
        
        Condition that the value of field begins with the specified substring.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`beginsWith <io_realm_RealmQuery_beginsWith>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       Condition that the value of field begins with the specified string.
        
        
        
@@ -197,21 +161,8 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`between <io_realm_RealmQuery_between>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** from, 
-       |  **Decimal128 (?)** to
-       | )
-       
-       
-       Between condition.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`between <io_realm_RealmQuery_between>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** from, 
-       |  **RealmAny (?)** to
+       |  **Decimal128** from, 
+       |  **Decimal128** to
        | )
        
        
@@ -288,19 +239,6 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`contains <io_realm_RealmQuery_contains>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       Condition that value of field contains the specified substring.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`contains <io_realm_RealmQuery_contains>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  value, 
        |  :ref:`Case <io_realm_Case>`  casing
        | )
@@ -314,203 +252,11 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`contains <io_realm_RealmQuery_contains>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       Condition that value of field contains the specified substring.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`contains <io_realm_RealmQuery_contains>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  value
        | )
        
        
        Condition that value of field contains the specified substring.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsEntry <io_realm_RealmQuery_containsEntry>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `java.util.Map.Entry\<java.lang.String, ?> <https://docs.oracle.com/javase/7/docs/api/java/util/Map/Entry.html>`__  entry
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified entry.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsKey <io_realm_RealmQuery_containsKey>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  key
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified key.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Date <https://docs.oracle.com/javase/7/docs/api/java/util/Date.html>`__  value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **byte[]** value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Float <https://docs.oracle.com/javase/7/docs/api/java/lang/Float.html>`__  value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Double <https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html>`__  value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Long <https://docs.oracle.com/javase/7/docs/api/java/lang/Long.html>`__  value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Integer <https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html>`__  value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Short <https://docs.oracle.com/javase/7/docs/api/java/lang/Short.html>`__  value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Byte <https://docs.oracle.com/javase/7/docs/api/java/lang/Byte.html>`__  value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Boolean <https://docs.oracle.com/javase/7/docs/api/java/lang/Boolean.html>`__  value
-       | )
-       
-       
-       Condition that value, if a dictionary field, contains the specified value.
        
        
        
@@ -538,6 +284,17 @@ Method Summary
        
    
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
+     - | :ref:`distinct <io_realm_RealmQuery_distinct>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
+       | )
+       
+       
+       Selects a distinct set of objects of a specific class.
+       
+       
+       
+   
+   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`endGroup <io_realm_RealmQuery_endGroup>` ()
        | 
        
@@ -545,19 +302,6 @@ Method Summary
        End grouping of conditions ("right parenthesis") which was opened by a call to ``beginGroup()`` .
        
        
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`endsWith <io_realm_RealmQuery_endsWith>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       Condition that the value of field ends with the specified substring.
        
        
        
@@ -578,18 +322,6 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`endsWith <io_realm_RealmQuery_endsWith>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       Condition that the value of field ends with the specified string.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`endsWith <io_realm_RealmQuery_endsWith>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  value
        | )
        
@@ -602,7 +334,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`equalTo <io_realm_RealmQuery_equalTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -614,32 +346,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`equalTo <io_realm_RealmQuery_equalTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
-       | )
-       
-       
-       Equal-to comparison.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`equalTo <io_realm_RealmQuery_equalTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
-       | )
-       
-       
-       Equal-to comparison.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`equalTo <io_realm_RealmQuery_equalTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
+       |  **Decimal128** value
        | )
        
        
@@ -693,7 +400,7 @@ Method Summary
        
        
    
-   * - public **E (?)**
+   * - public **E**
      - | :ref:`findFirst <io_realm_RealmQuery_findFirst>` ()
        | 
        
@@ -703,7 +410,7 @@ Method Summary
        
        
    
-   * - public **E (?)**
+   * - public **E**
      - | :ref:`findFirstAsync <io_realm_RealmQuery_findFirstAsync>` ()
        | 
        
@@ -750,7 +457,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`greaterThan <io_realm_RealmQuery_greaterThan>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -762,19 +469,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`greaterThan <io_realm_RealmQuery_greaterThan>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
-       | )
-       
-       
-       Greater-than comparison.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`greaterThan <io_realm_RealmQuery_greaterThan>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -846,7 +541,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`greaterThanOrEqualTo <io_realm_RealmQuery_greaterThanOrEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -858,19 +553,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`greaterThanOrEqualTo <io_realm_RealmQuery_greaterThanOrEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
-       | )
-       
-       
-       Greater-than-or-equal-to comparison.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`greaterThanOrEqualTo <io_realm_RealmQuery_greaterThanOrEqualTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -935,18 +618,6 @@ Method Summary
        
        
        Greater-than-or-equal-to comparison.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`in <io_realm_RealmQuery_in>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny[] (?)** values
-       | )
-       
-       
-       In comparison.
        
        
        
@@ -1135,7 +806,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`lessThan <io_realm_RealmQuery_lessThan>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -1147,19 +818,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`lessThan <io_realm_RealmQuery_lessThan>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
-       | )
-       
-       
-       Less-than comparison.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`lessThan <io_realm_RealmQuery_lessThan>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -1195,7 +854,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`lessThanOrEqualTo <io_realm_RealmQuery_lessThanOrEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -1207,19 +866,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`lessThanOrEqualTo <io_realm_RealmQuery_lessThanOrEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
-       | )
-       
-       
-       Less-than-or-equal-to comparison.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`lessThanOrEqualTo <io_realm_RealmQuery_lessThanOrEqualTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -1248,29 +895,6 @@ Method Summary
        
        
        Less-than-or-equal-to comparison.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`like <io_realm_RealmQuery_like>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       Condition that the value of field matches with the specified substring, with wildcards:
-       
-       - '\*' matches [0, n] unicode chars
-          
-          
-       - '?' matches a single unicode char.
-          
-          
-       
-       
-       
        
        
        
@@ -1280,28 +904,6 @@ Method Summary
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  value, 
        |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       Condition that the value of field matches with the specified substring, with wildcards:
-       
-       - '\*' matches [0, n] unicode chars
-          
-          
-       - '?' matches a single unicode char.
-          
-          
-       
-       
-       
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`like <io_realm_RealmQuery_like>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
        | )
        
        
@@ -1364,19 +966,6 @@ Method Summary
        
        
    
-   * - public **RealmAny (?)**
-     - | :ref:`maxRealmAny <io_realm_RealmQuery_maxRealmAny>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
-       | )
-       
-       
-       Finds the maximum value of a **RealmAny (?)** field.
-       
-       
-       
-       
-       
-   
    * - public `Date <https://docs.oracle.com/javase/7/docs/api/java/util/Date.html>`__ 
      - | :ref:`maximumDate <io_realm_RealmQuery_maximumDate>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
@@ -1395,19 +984,6 @@ Method Summary
        
        
        Finds the minimum value of a field.
-       
-       
-       
-   
-   * - public **RealmAny (?)**
-     - | :ref:`minRealmAny <io_realm_RealmQuery_minRealmAny>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
-       | )
-       
-       
-       Finds the minimum value of a **RealmAny (?)** field.
-       
-       
        
        
        
@@ -1436,7 +1012,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`notEqualTo <io_realm_RealmQuery_notEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -1448,32 +1024,7 @@ Method Summary
    * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
      - | :ref:`notEqualTo <io_realm_RealmQuery_notEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
-       | )
-       
-       
-       Not-equal-to comparison.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`notEqualTo <io_realm_RealmQuery_notEqualTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
-       | )
-       
-       
-       Not-equal-to comparison.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`notEqualTo <io_realm_RealmQuery_notEqualTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
+       |  **Decimal128** value
        | )
        
        
@@ -1513,18 +1064,6 @@ Method Summary
        
        
        Logical-or two conditions.
-       
-       
-       
-   
-   * - public :ref:`RealmQuery <io_realm_RealmQuery>` 
-     - | :ref:`rawPredicate <io_realm_RealmQuery_rawPredicate>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  predicate, 
-       |  `java.lang.Object[] <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  arguments
-       | )
-       
-       
-       Create a text-based predicate using the Realm Query Language.
        
        
        
@@ -1852,7 +1391,7 @@ averageDecimal128
 .. list-table::
    :header-rows: 1
    
-   * - | public **Decimal128 (?)** :ref:`averageDecimal128 <io_realm_RealmQuery_averageDecimal128>` (
+   * - | public **Decimal128** :ref:`averageDecimal128 <io_realm_RealmQuery_averageDecimal128>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
        | )
        
@@ -1888,92 +1427,6 @@ averageDecimal128
        **Throws**
        
        - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field is not a Decimal128 type.
-          
-          
-          
-       - :ref:`RealmException <io_realm_exceptions_RealmException>`  - if called from the UI thread after opting out via :ref:`RealmConfiguration.Builder.allowQueriesOnUiThread(boolean) <io_realm_RealmConfiguration_Builder_allowQueriesOnUiThread_boolean_>` .
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
-.. _averageRealmAny:
-
-.. _averageRealmAny__:
-
-.. _RealmQuery_averageRealmAny:
-
-.. _RealmQuery_averageRealmAny__:
-
-.. _io_realm_RealmQuery_averageRealmAny:
-
-.. _io_realm_RealmQuery_averageRealmAny__:
-
-
-
-averageRealmAny
----------------
-
-.. _io_realm_RealmQuery_averageRealmAny_java_lang_String_:
-
-.. _io_realm_RealmQuery_averageRealmAny_String_:
-
-.. _averageRealmAny_java_lang_String_:
-
-.. _averageRealmAny_String_:
-
-.. _RealmQuery_averageRealmAny_java_lang_String_:
-
-.. _RealmQuery_averageRealmAny_String_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public **Decimal128 (?)** :ref:`averageRealmAny <io_realm_RealmQuery_averageRealmAny>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
-       | )
-       
-       
-       
-   
-   * - Returns the average of a given field. Does not support dotted field notation.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to calculate average on. Only RealmAny fields are supported. For other types consider using :ref:`average(String) <io_realm_RealmQuery_average_String_>` .
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the average for the given field amongst objects in query results. This will be of type Decimal128. If no objects exist or they all have ``null``  as the value for the given field ``0``  will be returned. When computing the average, objects with ``null``  values are ignored.
-       
-       
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field is not a RealmAny type.
           
           
           
@@ -2072,111 +1525,6 @@ beginGroup
 beginsWith
 ----------
 
-.. _io_realm_RealmQuery_beginsWith_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_beginsWith_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_beginsWith_java_lang_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_beginsWith_java_lang_String__RealmAny__Case_:
-
-.. _io_realm_RealmQuery_beginsWith_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_beginsWith_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_beginsWith_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_beginsWith_String__RealmAny__Case_:
-
-.. _beginsWith_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _beginsWith_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _beginsWith_java_lang_String_RealmAny_Case_:
-
-.. _beginsWith_java_lang_String__RealmAny__Case_:
-
-.. _beginsWith_String_RealmAny_io_realm_Case_:
-
-.. _beginsWith_String__RealmAny__io_realm_Case_:
-
-.. _beginsWith_String_RealmAny_Case_:
-
-.. _beginsWith_String__RealmAny__Case_:
-
-.. _RealmQuery_beginsWith_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_beginsWith_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_beginsWith_java_lang_String_RealmAny_Case_:
-
-.. _RealmQuery_beginsWith_java_lang_String__RealmAny__Case_:
-
-.. _RealmQuery_beginsWith_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_beginsWith_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_beginsWith_String_RealmAny_Case_:
-
-.. _RealmQuery_beginsWith_String__RealmAny__Case_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`beginsWith <io_realm_RealmQuery_beginsWith>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       
-   
-   * - Condition that the value of field begins with the specified substring.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the substring.
-          
-          
-          
-       - ``casing`` - how to handle casing. Setting this to :ref:`Case.INSENSITIVE <io_realm_Case_INSENSITIVE>`  only works for Latin-1 characters.
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_beginsWith_java_lang_String_java_lang_String_io_realm_Case_:
 
 .. _io_realm_RealmQuery_beginsWith_java_lang_String__java_lang_String__io_realm_Case_:
@@ -2313,80 +1661,6 @@ beginsWith
        **Returns**
        
        the query object
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_beginsWith_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_beginsWith_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_beginsWith_String_RealmAny_:
-
-.. _io_realm_RealmQuery_beginsWith_String__RealmAny_:
-
-.. _beginsWith_java_lang_String_RealmAny_:
-
-.. _beginsWith_java_lang_String__RealmAny_:
-
-.. _beginsWith_String_RealmAny_:
-
-.. _beginsWith_String__RealmAny_:
-
-.. _RealmQuery_beginsWith_java_lang_String_RealmAny_:
-
-.. _RealmQuery_beginsWith_java_lang_String__RealmAny_:
-
-.. _RealmQuery_beginsWith_String_RealmAny_:
-
-.. _RealmQuery_beginsWith_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`beginsWith <io_realm_RealmQuery_beginsWith>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       
-   
-   * - Condition that the value of field begins with the specified string.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the string.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
        
        
        
@@ -2550,87 +1824,8 @@ between
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`between <io_realm_RealmQuery_between>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** from, 
-       |  **Decimal128 (?)** to
-       | )
-       
-       
-       
-   
-   * - Between condition.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``from`` - lowest value (inclusive).
-          
-          
-          
-       - ``to`` - highest value (inclusive).
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_between_java_lang_String_RealmAny_RealmAny_:
-
-.. _io_realm_RealmQuery_between_java_lang_String__RealmAny__RealmAny_:
-
-.. _io_realm_RealmQuery_between_String_RealmAny_RealmAny_:
-
-.. _io_realm_RealmQuery_between_String__RealmAny__RealmAny_:
-
-.. _between_java_lang_String_RealmAny_RealmAny_:
-
-.. _between_java_lang_String__RealmAny__RealmAny_:
-
-.. _between_String_RealmAny_RealmAny_:
-
-.. _between_String__RealmAny__RealmAny_:
-
-.. _RealmQuery_between_java_lang_String_RealmAny_RealmAny_:
-
-.. _RealmQuery_between_java_lang_String__RealmAny__RealmAny_:
-
-.. _RealmQuery_between_String_RealmAny_RealmAny_:
-
-.. _RealmQuery_between_String__RealmAny__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`between <io_realm_RealmQuery_between>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** from, 
-       |  **RealmAny (?)** to
+       |  **Decimal128** from, 
+       |  **Decimal128** to
        | )
        
        
@@ -3165,111 +2360,6 @@ between
 contains
 --------
 
-.. _io_realm_RealmQuery_contains_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_contains_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_contains_java_lang_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_contains_java_lang_String__RealmAny__Case_:
-
-.. _io_realm_RealmQuery_contains_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_contains_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_contains_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_contains_String__RealmAny__Case_:
-
-.. _contains_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _contains_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _contains_java_lang_String_RealmAny_Case_:
-
-.. _contains_java_lang_String__RealmAny__Case_:
-
-.. _contains_String_RealmAny_io_realm_Case_:
-
-.. _contains_String__RealmAny__io_realm_Case_:
-
-.. _contains_String_RealmAny_Case_:
-
-.. _contains_String__RealmAny__Case_:
-
-.. _RealmQuery_contains_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_contains_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_contains_java_lang_String_RealmAny_Case_:
-
-.. _RealmQuery_contains_java_lang_String__RealmAny__Case_:
-
-.. _RealmQuery_contains_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_contains_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_contains_String_RealmAny_Case_:
-
-.. _RealmQuery_contains_String__RealmAny__Case_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`contains <io_realm_RealmQuery_contains>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       
-   
-   * - Condition that value of field contains the specified substring.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the substring.
-          
-          
-          
-       - ``casing`` - how to handle casing. Setting this to :ref:`Case.INSENSITIVE <io_realm_Case_INSENSITIVE>`  only works for Latin-1 characters.
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       The query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_contains_java_lang_String_java_lang_String_io_realm_Case_:
 
 .. _io_realm_RealmQuery_contains_java_lang_String__java_lang_String__io_realm_Case_:
@@ -3423,80 +2513,6 @@ contains
        
    
    
-.. _io_realm_RealmQuery_contains_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_contains_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_contains_String_RealmAny_:
-
-.. _io_realm_RealmQuery_contains_String__RealmAny_:
-
-.. _contains_java_lang_String_RealmAny_:
-
-.. _contains_java_lang_String__RealmAny_:
-
-.. _contains_String_RealmAny_:
-
-.. _contains_String__RealmAny_:
-
-.. _RealmQuery_contains_java_lang_String_RealmAny_:
-
-.. _RealmQuery_contains_java_lang_String__RealmAny_:
-
-.. _RealmQuery_contains_String_RealmAny_:
-
-.. _RealmQuery_contains_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`contains <io_realm_RealmQuery_contains>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       
-   
-   * - Condition that value of field contains the specified substring.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the substring.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_contains_java_lang_String_java_lang_String_:
 
 .. _io_realm_RealmQuery_contains_java_lang_String__java_lang_String_:
@@ -3585,1489 +2601,6 @@ contains
        **Throws**
        
        - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
-.. _containsEntry:
-
-.. _containsEntry__:
-
-.. _RealmQuery_containsEntry:
-
-.. _RealmQuery_containsEntry__:
-
-.. _io_realm_RealmQuery_containsEntry:
-
-.. _io_realm_RealmQuery_containsEntry__:
-
-
-
-containsEntry
--------------
-
-.. _io_realm_RealmQuery_containsEntry_java_lang_String_java_util_Map_Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_java_lang_String__java_util_Map_Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_java_lang_String_Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_java_lang_String__Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_java_lang_String_Map_Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_java_lang_String__Map_Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_String_java_util_Map_Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_String__java_util_Map_Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_String_Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_String__Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_String_Map_Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_String__Map_Entry_:
-
-.. _containsEntry_java_lang_String_java_util_Map_Entry_:
-
-.. _containsEntry_java_lang_String__java_util_Map_Entry_:
-
-.. _containsEntry_java_lang_String_Entry_:
-
-.. _containsEntry_java_lang_String__Entry_:
-
-.. _containsEntry_java_lang_String_Map_Entry_:
-
-.. _containsEntry_java_lang_String__Map_Entry_:
-
-.. _containsEntry_String_java_util_Map_Entry_:
-
-.. _containsEntry_String__java_util_Map_Entry_:
-
-.. _containsEntry_String_Entry_:
-
-.. _containsEntry_String__Entry_:
-
-.. _containsEntry_String_Map_Entry_:
-
-.. _containsEntry_String__Map_Entry_:
-
-.. _RealmQuery_containsEntry_java_lang_String_java_util_Map_Entry_:
-
-.. _RealmQuery_containsEntry_java_lang_String__java_util_Map_Entry_:
-
-.. _RealmQuery_containsEntry_java_lang_String_Entry_:
-
-.. _RealmQuery_containsEntry_java_lang_String__Entry_:
-
-.. _RealmQuery_containsEntry_java_lang_String_Map_Entry_:
-
-.. _RealmQuery_containsEntry_java_lang_String__Map_Entry_:
-
-.. _RealmQuery_containsEntry_String_java_util_Map_Entry_:
-
-.. _RealmQuery_containsEntry_String__java_util_Map_Entry_:
-
-.. _RealmQuery_containsEntry_String_Entry_:
-
-.. _RealmQuery_containsEntry_String__Entry_:
-
-.. _RealmQuery_containsEntry_String_Map_Entry_:
-
-.. _RealmQuery_containsEntry_String__Map_Entry_:
-
-.. _io_realm_RealmQuery_containsEntry_String__Map_Entry_String_____:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsEntry <io_realm_RealmQuery_containsEntry>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `java.util.Map.Entry\<java.lang.String, ?> <https://docs.oracle.com/javase/7/docs/api/java/util/Map/Entry.html>`__  entry
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified entry.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``entry`` - the entry to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
-.. _containsKey:
-
-.. _containsKey__:
-
-.. _RealmQuery_containsKey:
-
-.. _RealmQuery_containsKey__:
-
-.. _io_realm_RealmQuery_containsKey:
-
-.. _io_realm_RealmQuery_containsKey__:
-
-
-
-containsKey
------------
-
-.. _io_realm_RealmQuery_containsKey_java_lang_String_java_lang_String_:
-
-.. _io_realm_RealmQuery_containsKey_java_lang_String__java_lang_String_:
-
-.. _io_realm_RealmQuery_containsKey_java_lang_String_String_:
-
-.. _io_realm_RealmQuery_containsKey_java_lang_String__String_:
-
-.. _io_realm_RealmQuery_containsKey_String_java_lang_String_:
-
-.. _io_realm_RealmQuery_containsKey_String__java_lang_String_:
-
-.. _io_realm_RealmQuery_containsKey_String_String_:
-
-.. _io_realm_RealmQuery_containsKey_String__String_:
-
-.. _containsKey_java_lang_String_java_lang_String_:
-
-.. _containsKey_java_lang_String__java_lang_String_:
-
-.. _containsKey_java_lang_String_String_:
-
-.. _containsKey_java_lang_String__String_:
-
-.. _containsKey_String_java_lang_String_:
-
-.. _containsKey_String__java_lang_String_:
-
-.. _containsKey_String_String_:
-
-.. _containsKey_String__String_:
-
-.. _RealmQuery_containsKey_java_lang_String_java_lang_String_:
-
-.. _RealmQuery_containsKey_java_lang_String__java_lang_String_:
-
-.. _RealmQuery_containsKey_java_lang_String_String_:
-
-.. _RealmQuery_containsKey_java_lang_String__String_:
-
-.. _RealmQuery_containsKey_String_java_lang_String_:
-
-.. _RealmQuery_containsKey_String__java_lang_String_:
-
-.. _RealmQuery_containsKey_String_String_:
-
-.. _RealmQuery_containsKey_String__String_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsKey <io_realm_RealmQuery_containsKey>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  key
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified key.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``key`` - the key to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
-.. _containsValue:
-
-.. _containsValue__:
-
-.. _RealmQuery_containsValue:
-
-.. _RealmQuery_containsValue__:
-
-.. _io_realm_RealmQuery_containsValue:
-
-.. _io_realm_RealmQuery_containsValue__:
-
-
-
-containsValue
--------------
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_containsValue_String_RealmAny_:
-
-.. _io_realm_RealmQuery_containsValue_String__RealmAny_:
-
-.. _containsValue_java_lang_String_RealmAny_:
-
-.. _containsValue_java_lang_String__RealmAny_:
-
-.. _containsValue_String_RealmAny_:
-
-.. _containsValue_String__RealmAny_:
-
-.. _RealmQuery_containsValue_java_lang_String_RealmAny_:
-
-.. _RealmQuery_containsValue_java_lang_String__RealmAny_:
-
-.. _RealmQuery_containsValue_String_RealmAny_:
-
-.. _RealmQuery_containsValue_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_ObjectId_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__ObjectId_:
-
-.. _io_realm_RealmQuery_containsValue_String_ObjectId_:
-
-.. _io_realm_RealmQuery_containsValue_String__ObjectId_:
-
-.. _containsValue_java_lang_String_ObjectId_:
-
-.. _containsValue_java_lang_String__ObjectId_:
-
-.. _containsValue_String_ObjectId_:
-
-.. _containsValue_String__ObjectId_:
-
-.. _RealmQuery_containsValue_java_lang_String_ObjectId_:
-
-.. _RealmQuery_containsValue_java_lang_String__ObjectId_:
-
-.. _RealmQuery_containsValue_String_ObjectId_:
-
-.. _RealmQuery_containsValue_String__ObjectId_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_Decimal128_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__Decimal128_:
-
-.. _io_realm_RealmQuery_containsValue_String_Decimal128_:
-
-.. _io_realm_RealmQuery_containsValue_String__Decimal128_:
-
-.. _containsValue_java_lang_String_Decimal128_:
-
-.. _containsValue_java_lang_String__Decimal128_:
-
-.. _containsValue_String_Decimal128_:
-
-.. _containsValue_String__Decimal128_:
-
-.. _RealmQuery_containsValue_java_lang_String_Decimal128_:
-
-.. _RealmQuery_containsValue_java_lang_String__Decimal128_:
-
-.. _RealmQuery_containsValue_String_Decimal128_:
-
-.. _RealmQuery_containsValue_String__Decimal128_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_java_util_Date_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__java_util_Date_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_Date_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__Date_:
-
-.. _io_realm_RealmQuery_containsValue_String_java_util_Date_:
-
-.. _io_realm_RealmQuery_containsValue_String__java_util_Date_:
-
-.. _io_realm_RealmQuery_containsValue_String_Date_:
-
-.. _io_realm_RealmQuery_containsValue_String__Date_:
-
-.. _containsValue_java_lang_String_java_util_Date_:
-
-.. _containsValue_java_lang_String__java_util_Date_:
-
-.. _containsValue_java_lang_String_Date_:
-
-.. _containsValue_java_lang_String__Date_:
-
-.. _containsValue_String_java_util_Date_:
-
-.. _containsValue_String__java_util_Date_:
-
-.. _containsValue_String_Date_:
-
-.. _containsValue_String__Date_:
-
-.. _RealmQuery_containsValue_java_lang_String_java_util_Date_:
-
-.. _RealmQuery_containsValue_java_lang_String__java_util_Date_:
-
-.. _RealmQuery_containsValue_java_lang_String_Date_:
-
-.. _RealmQuery_containsValue_java_lang_String__Date_:
-
-.. _RealmQuery_containsValue_String_java_util_Date_:
-
-.. _RealmQuery_containsValue_String__java_util_Date_:
-
-.. _RealmQuery_containsValue_String_Date_:
-
-.. _RealmQuery_containsValue_String__Date_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Date <https://docs.oracle.com/javase/7/docs/api/java/util/Date.html>`__  value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_byte_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__byte_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_byte____:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__byte____:
-
-.. _io_realm_RealmQuery_containsValue_String_byte_:
-
-.. _io_realm_RealmQuery_containsValue_String__byte_:
-
-.. _io_realm_RealmQuery_containsValue_String_byte____:
-
-.. _io_realm_RealmQuery_containsValue_String__byte____:
-
-.. _containsValue_java_lang_String_byte_:
-
-.. _containsValue_java_lang_String__byte_:
-
-.. _containsValue_java_lang_String_byte____:
-
-.. _containsValue_java_lang_String__byte____:
-
-.. _containsValue_String_byte_:
-
-.. _containsValue_String__byte_:
-
-.. _containsValue_String_byte____:
-
-.. _containsValue_String__byte____:
-
-.. _RealmQuery_containsValue_java_lang_String_byte_:
-
-.. _RealmQuery_containsValue_java_lang_String__byte_:
-
-.. _RealmQuery_containsValue_java_lang_String_byte____:
-
-.. _RealmQuery_containsValue_java_lang_String__byte____:
-
-.. _RealmQuery_containsValue_String_byte_:
-
-.. _RealmQuery_containsValue_String__byte_:
-
-.. _RealmQuery_containsValue_String_byte____:
-
-.. _RealmQuery_containsValue_String__byte____:
-
-.. _io_realm_RealmQuery_containsValue_String__byte[]_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **byte[]** value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_java_lang_String_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__java_lang_String_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_String_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__String_:
-
-.. _io_realm_RealmQuery_containsValue_String_java_lang_String_:
-
-.. _io_realm_RealmQuery_containsValue_String__java_lang_String_:
-
-.. _io_realm_RealmQuery_containsValue_String_String_:
-
-.. _io_realm_RealmQuery_containsValue_String__String_:
-
-.. _containsValue_java_lang_String_java_lang_String_:
-
-.. _containsValue_java_lang_String__java_lang_String_:
-
-.. _containsValue_java_lang_String_String_:
-
-.. _containsValue_java_lang_String__String_:
-
-.. _containsValue_String_java_lang_String_:
-
-.. _containsValue_String__java_lang_String_:
-
-.. _containsValue_String_String_:
-
-.. _containsValue_String__String_:
-
-.. _RealmQuery_containsValue_java_lang_String_java_lang_String_:
-
-.. _RealmQuery_containsValue_java_lang_String__java_lang_String_:
-
-.. _RealmQuery_containsValue_java_lang_String_String_:
-
-.. _RealmQuery_containsValue_java_lang_String__String_:
-
-.. _RealmQuery_containsValue_String_java_lang_String_:
-
-.. _RealmQuery_containsValue_String__java_lang_String_:
-
-.. _RealmQuery_containsValue_String_String_:
-
-.. _RealmQuery_containsValue_String__String_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_java_lang_Float_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__java_lang_Float_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_Float_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__Float_:
-
-.. _io_realm_RealmQuery_containsValue_String_java_lang_Float_:
-
-.. _io_realm_RealmQuery_containsValue_String__java_lang_Float_:
-
-.. _io_realm_RealmQuery_containsValue_String_Float_:
-
-.. _io_realm_RealmQuery_containsValue_String__Float_:
-
-.. _containsValue_java_lang_String_java_lang_Float_:
-
-.. _containsValue_java_lang_String__java_lang_Float_:
-
-.. _containsValue_java_lang_String_Float_:
-
-.. _containsValue_java_lang_String__Float_:
-
-.. _containsValue_String_java_lang_Float_:
-
-.. _containsValue_String__java_lang_Float_:
-
-.. _containsValue_String_Float_:
-
-.. _containsValue_String__Float_:
-
-.. _RealmQuery_containsValue_java_lang_String_java_lang_Float_:
-
-.. _RealmQuery_containsValue_java_lang_String__java_lang_Float_:
-
-.. _RealmQuery_containsValue_java_lang_String_Float_:
-
-.. _RealmQuery_containsValue_java_lang_String__Float_:
-
-.. _RealmQuery_containsValue_String_java_lang_Float_:
-
-.. _RealmQuery_containsValue_String__java_lang_Float_:
-
-.. _RealmQuery_containsValue_String_Float_:
-
-.. _RealmQuery_containsValue_String__Float_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Float <https://docs.oracle.com/javase/7/docs/api/java/lang/Float.html>`__  value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_java_lang_Double_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__java_lang_Double_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_Double_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__Double_:
-
-.. _io_realm_RealmQuery_containsValue_String_java_lang_Double_:
-
-.. _io_realm_RealmQuery_containsValue_String__java_lang_Double_:
-
-.. _io_realm_RealmQuery_containsValue_String_Double_:
-
-.. _io_realm_RealmQuery_containsValue_String__Double_:
-
-.. _containsValue_java_lang_String_java_lang_Double_:
-
-.. _containsValue_java_lang_String__java_lang_Double_:
-
-.. _containsValue_java_lang_String_Double_:
-
-.. _containsValue_java_lang_String__Double_:
-
-.. _containsValue_String_java_lang_Double_:
-
-.. _containsValue_String__java_lang_Double_:
-
-.. _containsValue_String_Double_:
-
-.. _containsValue_String__Double_:
-
-.. _RealmQuery_containsValue_java_lang_String_java_lang_Double_:
-
-.. _RealmQuery_containsValue_java_lang_String__java_lang_Double_:
-
-.. _RealmQuery_containsValue_java_lang_String_Double_:
-
-.. _RealmQuery_containsValue_java_lang_String__Double_:
-
-.. _RealmQuery_containsValue_String_java_lang_Double_:
-
-.. _RealmQuery_containsValue_String__java_lang_Double_:
-
-.. _RealmQuery_containsValue_String_Double_:
-
-.. _RealmQuery_containsValue_String__Double_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Double <https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html>`__  value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_java_lang_Long_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__java_lang_Long_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_Long_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__Long_:
-
-.. _io_realm_RealmQuery_containsValue_String_java_lang_Long_:
-
-.. _io_realm_RealmQuery_containsValue_String__java_lang_Long_:
-
-.. _io_realm_RealmQuery_containsValue_String_Long_:
-
-.. _io_realm_RealmQuery_containsValue_String__Long_:
-
-.. _containsValue_java_lang_String_java_lang_Long_:
-
-.. _containsValue_java_lang_String__java_lang_Long_:
-
-.. _containsValue_java_lang_String_Long_:
-
-.. _containsValue_java_lang_String__Long_:
-
-.. _containsValue_String_java_lang_Long_:
-
-.. _containsValue_String__java_lang_Long_:
-
-.. _containsValue_String_Long_:
-
-.. _containsValue_String__Long_:
-
-.. _RealmQuery_containsValue_java_lang_String_java_lang_Long_:
-
-.. _RealmQuery_containsValue_java_lang_String__java_lang_Long_:
-
-.. _RealmQuery_containsValue_java_lang_String_Long_:
-
-.. _RealmQuery_containsValue_java_lang_String__Long_:
-
-.. _RealmQuery_containsValue_String_java_lang_Long_:
-
-.. _RealmQuery_containsValue_String__java_lang_Long_:
-
-.. _RealmQuery_containsValue_String_Long_:
-
-.. _RealmQuery_containsValue_String__Long_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Long <https://docs.oracle.com/javase/7/docs/api/java/lang/Long.html>`__  value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_java_lang_Integer_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__java_lang_Integer_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_Integer_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__Integer_:
-
-.. _io_realm_RealmQuery_containsValue_String_java_lang_Integer_:
-
-.. _io_realm_RealmQuery_containsValue_String__java_lang_Integer_:
-
-.. _io_realm_RealmQuery_containsValue_String_Integer_:
-
-.. _io_realm_RealmQuery_containsValue_String__Integer_:
-
-.. _containsValue_java_lang_String_java_lang_Integer_:
-
-.. _containsValue_java_lang_String__java_lang_Integer_:
-
-.. _containsValue_java_lang_String_Integer_:
-
-.. _containsValue_java_lang_String__Integer_:
-
-.. _containsValue_String_java_lang_Integer_:
-
-.. _containsValue_String__java_lang_Integer_:
-
-.. _containsValue_String_Integer_:
-
-.. _containsValue_String__Integer_:
-
-.. _RealmQuery_containsValue_java_lang_String_java_lang_Integer_:
-
-.. _RealmQuery_containsValue_java_lang_String__java_lang_Integer_:
-
-.. _RealmQuery_containsValue_java_lang_String_Integer_:
-
-.. _RealmQuery_containsValue_java_lang_String__Integer_:
-
-.. _RealmQuery_containsValue_String_java_lang_Integer_:
-
-.. _RealmQuery_containsValue_String__java_lang_Integer_:
-
-.. _RealmQuery_containsValue_String_Integer_:
-
-.. _RealmQuery_containsValue_String__Integer_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Integer <https://docs.oracle.com/javase/7/docs/api/java/lang/Integer.html>`__  value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_java_lang_Short_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__java_lang_Short_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_Short_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__Short_:
-
-.. _io_realm_RealmQuery_containsValue_String_java_lang_Short_:
-
-.. _io_realm_RealmQuery_containsValue_String__java_lang_Short_:
-
-.. _io_realm_RealmQuery_containsValue_String_Short_:
-
-.. _io_realm_RealmQuery_containsValue_String__Short_:
-
-.. _containsValue_java_lang_String_java_lang_Short_:
-
-.. _containsValue_java_lang_String__java_lang_Short_:
-
-.. _containsValue_java_lang_String_Short_:
-
-.. _containsValue_java_lang_String__Short_:
-
-.. _containsValue_String_java_lang_Short_:
-
-.. _containsValue_String__java_lang_Short_:
-
-.. _containsValue_String_Short_:
-
-.. _containsValue_String__Short_:
-
-.. _RealmQuery_containsValue_java_lang_String_java_lang_Short_:
-
-.. _RealmQuery_containsValue_java_lang_String__java_lang_Short_:
-
-.. _RealmQuery_containsValue_java_lang_String_Short_:
-
-.. _RealmQuery_containsValue_java_lang_String__Short_:
-
-.. _RealmQuery_containsValue_String_java_lang_Short_:
-
-.. _RealmQuery_containsValue_String__java_lang_Short_:
-
-.. _RealmQuery_containsValue_String_Short_:
-
-.. _RealmQuery_containsValue_String__Short_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Short <https://docs.oracle.com/javase/7/docs/api/java/lang/Short.html>`__  value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_java_lang_Byte_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__java_lang_Byte_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_Byte_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__Byte_:
-
-.. _io_realm_RealmQuery_containsValue_String_java_lang_Byte_:
-
-.. _io_realm_RealmQuery_containsValue_String__java_lang_Byte_:
-
-.. _io_realm_RealmQuery_containsValue_String_Byte_:
-
-.. _io_realm_RealmQuery_containsValue_String__Byte_:
-
-.. _containsValue_java_lang_String_java_lang_Byte_:
-
-.. _containsValue_java_lang_String__java_lang_Byte_:
-
-.. _containsValue_java_lang_String_Byte_:
-
-.. _containsValue_java_lang_String__Byte_:
-
-.. _containsValue_String_java_lang_Byte_:
-
-.. _containsValue_String__java_lang_Byte_:
-
-.. _containsValue_String_Byte_:
-
-.. _containsValue_String__Byte_:
-
-.. _RealmQuery_containsValue_java_lang_String_java_lang_Byte_:
-
-.. _RealmQuery_containsValue_java_lang_String__java_lang_Byte_:
-
-.. _RealmQuery_containsValue_java_lang_String_Byte_:
-
-.. _RealmQuery_containsValue_java_lang_String__Byte_:
-
-.. _RealmQuery_containsValue_String_java_lang_Byte_:
-
-.. _RealmQuery_containsValue_String__java_lang_Byte_:
-
-.. _RealmQuery_containsValue_String_Byte_:
-
-.. _RealmQuery_containsValue_String__Byte_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Byte <https://docs.oracle.com/javase/7/docs/api/java/lang/Byte.html>`__  value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_containsValue_java_lang_String_java_lang_Boolean_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__java_lang_Boolean_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String_Boolean_:
-
-.. _io_realm_RealmQuery_containsValue_java_lang_String__Boolean_:
-
-.. _io_realm_RealmQuery_containsValue_String_java_lang_Boolean_:
-
-.. _io_realm_RealmQuery_containsValue_String__java_lang_Boolean_:
-
-.. _io_realm_RealmQuery_containsValue_String_Boolean_:
-
-.. _io_realm_RealmQuery_containsValue_String__Boolean_:
-
-.. _containsValue_java_lang_String_java_lang_Boolean_:
-
-.. _containsValue_java_lang_String__java_lang_Boolean_:
-
-.. _containsValue_java_lang_String_Boolean_:
-
-.. _containsValue_java_lang_String__Boolean_:
-
-.. _containsValue_String_java_lang_Boolean_:
-
-.. _containsValue_String__java_lang_Boolean_:
-
-.. _containsValue_String_Boolean_:
-
-.. _containsValue_String__Boolean_:
-
-.. _RealmQuery_containsValue_java_lang_String_java_lang_Boolean_:
-
-.. _RealmQuery_containsValue_java_lang_String__java_lang_Boolean_:
-
-.. _RealmQuery_containsValue_java_lang_String_Boolean_:
-
-.. _RealmQuery_containsValue_java_lang_String__Boolean_:
-
-.. _RealmQuery_containsValue_String_java_lang_Boolean_:
-
-.. _RealmQuery_containsValue_String__java_lang_Boolean_:
-
-.. _RealmQuery_containsValue_String_Boolean_:
-
-.. _RealmQuery_containsValue_String__Boolean_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`containsValue <io_realm_RealmQuery_containsValue>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `Boolean <https://docs.oracle.com/javase/7/docs/api/java/lang/Boolean.html>`__  value
-       | )
-       
-       
-       
-   
-   * - Condition that value, if a dictionary field, contains the specified value.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to search for.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field name isn't valid.
           
           
           
@@ -5281,6 +2814,68 @@ distinct
        
    
    
+.. _io_realm_RealmQuery_distinct_java_lang_String_:
+
+.. _io_realm_RealmQuery_distinct_String_:
+
+.. _distinct_java_lang_String_:
+
+.. _distinct_String_:
+
+.. _RealmQuery_distinct_java_lang_String_:
+
+.. _RealmQuery_distinct_String_:
+
+.. list-table::
+   :header-rows: 1
+   
+   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`distinct <io_realm_RealmQuery_distinct>` (
+       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
+       | )
+       
+       
+       
+   
+   * - Selects a distinct set of objects of a specific class. If the result is sorted, the first object will be returned in case of multiple occurrences, otherwise it is undefined which object is returned.Adding :ref:`io.realm.annotations.Index <io_realm_annotations_Index>`  to the corresponding field will make this operation much faster.
+       
+       
+       
+       
+       
+       
+       
+       
+       **Parameters**
+       
+       - ``fieldName`` - the field name.
+          
+          
+          
+       
+       
+       
+       
+       
+       
+       **Throws**
+       
+       - `IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if a field is ``null`` , does not exist, is an unsupported type, or points to linked fields.
+          
+          
+          
+          
+          
+       - `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__  - if distinct field names were already defined.
+          
+          
+          
+       
+       
+       
+       
+       
+   
+   
 
 
 .. _endGroup:
@@ -5363,111 +2958,6 @@ endGroup
 endsWith
 --------
 
-.. _io_realm_RealmQuery_endsWith_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_endsWith_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_endsWith_java_lang_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_endsWith_java_lang_String__RealmAny__Case_:
-
-.. _io_realm_RealmQuery_endsWith_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_endsWith_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_endsWith_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_endsWith_String__RealmAny__Case_:
-
-.. _endsWith_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _endsWith_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _endsWith_java_lang_String_RealmAny_Case_:
-
-.. _endsWith_java_lang_String__RealmAny__Case_:
-
-.. _endsWith_String_RealmAny_io_realm_Case_:
-
-.. _endsWith_String__RealmAny__io_realm_Case_:
-
-.. _endsWith_String_RealmAny_Case_:
-
-.. _endsWith_String__RealmAny__Case_:
-
-.. _RealmQuery_endsWith_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_endsWith_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_endsWith_java_lang_String_RealmAny_Case_:
-
-.. _RealmQuery_endsWith_java_lang_String__RealmAny__Case_:
-
-.. _RealmQuery_endsWith_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_endsWith_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_endsWith_String_RealmAny_Case_:
-
-.. _RealmQuery_endsWith_String__RealmAny__Case_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`endsWith <io_realm_RealmQuery_endsWith>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       
-   
-   * - Condition that the value of field ends with the specified substring.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the substring.
-          
-          
-          
-       - ``casing`` - how to handle casing. Setting this to :ref:`Case.INSENSITIVE <io_realm_Case_INSENSITIVE>`  only works for Latin-1 characters.
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_endsWith_java_lang_String_java_lang_String_io_realm_Case_:
 
 .. _io_realm_RealmQuery_endsWith_java_lang_String__java_lang_String__io_realm_Case_:
@@ -5621,80 +3111,6 @@ endsWith
        
    
    
-.. _io_realm_RealmQuery_endsWith_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_endsWith_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_endsWith_String_RealmAny_:
-
-.. _io_realm_RealmQuery_endsWith_String__RealmAny_:
-
-.. _endsWith_java_lang_String_RealmAny_:
-
-.. _endsWith_java_lang_String__RealmAny_:
-
-.. _endsWith_String_RealmAny_:
-
-.. _endsWith_String__RealmAny_:
-
-.. _RealmQuery_endsWith_java_lang_String_RealmAny_:
-
-.. _RealmQuery_endsWith_java_lang_String__RealmAny_:
-
-.. _RealmQuery_endsWith_String_RealmAny_:
-
-.. _RealmQuery_endsWith_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`endsWith <io_realm_RealmQuery_endsWith>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       
-   
-   * - Condition that the value of field ends with the specified string.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the string.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_endsWith_java_lang_String_java_lang_String_:
 
 .. _io_realm_RealmQuery_endsWith_java_lang_String__java_lang_String_:
@@ -5812,80 +3228,6 @@ endsWith
 equalTo
 -------
 
-.. _io_realm_RealmQuery_equalTo_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_equalTo_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_equalTo_String_RealmAny_:
-
-.. _io_realm_RealmQuery_equalTo_String__RealmAny_:
-
-.. _equalTo_java_lang_String_RealmAny_:
-
-.. _equalTo_java_lang_String__RealmAny_:
-
-.. _equalTo_String_RealmAny_:
-
-.. _equalTo_String__RealmAny_:
-
-.. _RealmQuery_equalTo_java_lang_String_RealmAny_:
-
-.. _RealmQuery_equalTo_java_lang_String__RealmAny_:
-
-.. _RealmQuery_equalTo_String_RealmAny_:
-
-.. _RealmQuery_equalTo_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`equalTo <io_realm_RealmQuery_equalTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       
-   
-   * - Equal-to comparison.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to compare with.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_equalTo_java_lang_String_ObjectId_:
 
 .. _io_realm_RealmQuery_equalTo_java_lang_String__ObjectId_:
@@ -5915,7 +3257,7 @@ equalTo
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`equalTo <io_realm_RealmQuery_equalTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -5989,7 +3331,7 @@ equalTo
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`equalTo <io_realm_RealmQuery_equalTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -6007,111 +3349,6 @@ equalTo
           
           
        - ``value`` - the value to compare with.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_equalTo_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_equalTo_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_equalTo_java_lang_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_equalTo_java_lang_String__RealmAny__Case_:
-
-.. _io_realm_RealmQuery_equalTo_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_equalTo_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_equalTo_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_equalTo_String__RealmAny__Case_:
-
-.. _equalTo_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _equalTo_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _equalTo_java_lang_String_RealmAny_Case_:
-
-.. _equalTo_java_lang_String__RealmAny__Case_:
-
-.. _equalTo_String_RealmAny_io_realm_Case_:
-
-.. _equalTo_String__RealmAny__io_realm_Case_:
-
-.. _equalTo_String_RealmAny_Case_:
-
-.. _equalTo_String__RealmAny__Case_:
-
-.. _RealmQuery_equalTo_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_equalTo_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_equalTo_java_lang_String_RealmAny_Case_:
-
-.. _RealmQuery_equalTo_java_lang_String__RealmAny__Case_:
-
-.. _RealmQuery_equalTo_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_equalTo_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_equalTo_String_RealmAny_Case_:
-
-.. _RealmQuery_equalTo_String__RealmAny__Case_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`equalTo <io_realm_RealmQuery_equalTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       
-   
-   * - Equal-to comparison.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to compare with.
-          
-          
-          
-       - ``casing`` - how to handle casing. Setting this to :ref:`Case.INSENSITIVE <io_realm_Case_INSENSITIVE>`  only works for Latin-1 characters.
-          
-          
           
           
           
@@ -6552,7 +3789,7 @@ findFirst
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`findFirst <io_realm_RealmQuery_findFirst>` ()
+   * - | public **E** :ref:`findFirst <io_realm_RealmQuery_findFirst>` ()
        | 
        
        
@@ -6629,7 +3866,7 @@ findFirstAsync
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`findFirstAsync <io_realm_RealmQuery_findFirstAsync>` ()
+   * - | public **E** :ref:`findFirstAsync <io_realm_RealmQuery_findFirstAsync>` ()
        | 
        
        
@@ -6743,7 +3980,7 @@ getRealm
    
    * - Returns the :ref:`Realm <io_realm_Realm>`  instance to which this query belongs.
        
-       Calling **Realm.close() (?)** on the returned instance is discouraged as it is the same as calling it on the original Realm instance which may cause the Realm to fully close invalidating the query.
+       Calling **Realm.close()** on the returned instance is discouraged as it is the same as calling it on the original Realm instance which may cause the Realm to fully close invalidating the query.
        
        
        
@@ -6873,7 +4110,7 @@ greaterThan
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`greaterThan <io_realm_RealmQuery_greaterThan>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -6947,81 +4184,7 @@ greaterThan
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`greaterThan <io_realm_RealmQuery_greaterThan>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
-       | )
-       
-       
-       
-   
-   * - Greater-than comparison.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to compare with.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_greaterThan_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_greaterThan_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_greaterThan_String_RealmAny_:
-
-.. _io_realm_RealmQuery_greaterThan_String__RealmAny_:
-
-.. _greaterThan_java_lang_String_RealmAny_:
-
-.. _greaterThan_java_lang_String__RealmAny_:
-
-.. _greaterThan_String_RealmAny_:
-
-.. _greaterThan_String__RealmAny_:
-
-.. _RealmQuery_greaterThan_java_lang_String_RealmAny_:
-
-.. _RealmQuery_greaterThan_java_lang_String__RealmAny_:
-
-.. _RealmQuery_greaterThan_String_RealmAny_:
-
-.. _RealmQuery_greaterThan_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`greaterThan <io_realm_RealmQuery_greaterThan>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -7479,80 +4642,6 @@ greaterThan
 greaterThanOrEqualTo
 --------------------
 
-.. _io_realm_RealmQuery_greaterThanOrEqualTo_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_greaterThanOrEqualTo_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_greaterThanOrEqualTo_String_RealmAny_:
-
-.. _io_realm_RealmQuery_greaterThanOrEqualTo_String__RealmAny_:
-
-.. _greaterThanOrEqualTo_java_lang_String_RealmAny_:
-
-.. _greaterThanOrEqualTo_java_lang_String__RealmAny_:
-
-.. _greaterThanOrEqualTo_String_RealmAny_:
-
-.. _greaterThanOrEqualTo_String__RealmAny_:
-
-.. _RealmQuery_greaterThanOrEqualTo_java_lang_String_RealmAny_:
-
-.. _RealmQuery_greaterThanOrEqualTo_java_lang_String__RealmAny_:
-
-.. _RealmQuery_greaterThanOrEqualTo_String_RealmAny_:
-
-.. _RealmQuery_greaterThanOrEqualTo_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`greaterThanOrEqualTo <io_realm_RealmQuery_greaterThanOrEqualTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       
-   
-   * - Greater-than-or-equal-to comparison.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to compare with.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_greaterThanOrEqualTo_java_lang_String_ObjectId_:
 
 .. _io_realm_RealmQuery_greaterThanOrEqualTo_java_lang_String__ObjectId_:
@@ -7582,7 +4671,7 @@ greaterThanOrEqualTo
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`greaterThanOrEqualTo <io_realm_RealmQuery_greaterThanOrEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -7656,7 +4745,7 @@ greaterThanOrEqualTo
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`greaterThanOrEqualTo <io_realm_RealmQuery_greaterThanOrEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -8114,108 +5203,6 @@ greaterThanOrEqualTo
 in
 ----
 
-.. _io_realm_RealmQuery_in_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_in_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_in_java_lang_String_RealmAny____:
-
-.. _io_realm_RealmQuery_in_java_lang_String__RealmAny____:
-
-.. _io_realm_RealmQuery_in_String_RealmAny_:
-
-.. _io_realm_RealmQuery_in_String__RealmAny_:
-
-.. _io_realm_RealmQuery_in_String_RealmAny____:
-
-.. _io_realm_RealmQuery_in_String__RealmAny____:
-
-.. _in_java_lang_String_RealmAny_:
-
-.. _in_java_lang_String__RealmAny_:
-
-.. _in_java_lang_String_RealmAny____:
-
-.. _in_java_lang_String__RealmAny____:
-
-.. _in_String_RealmAny_:
-
-.. _in_String__RealmAny_:
-
-.. _in_String_RealmAny____:
-
-.. _in_String__RealmAny____:
-
-.. _RealmQuery_in_java_lang_String_RealmAny_:
-
-.. _RealmQuery_in_java_lang_String__RealmAny_:
-
-.. _RealmQuery_in_java_lang_String_RealmAny____:
-
-.. _RealmQuery_in_java_lang_String__RealmAny____:
-
-.. _RealmQuery_in_String_RealmAny_:
-
-.. _RealmQuery_in_String__RealmAny_:
-
-.. _RealmQuery_in_String_RealmAny____:
-
-.. _RealmQuery_in_String__RealmAny____:
-
-.. _io_realm_RealmQuery_in_String__RealmAny[]_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`in <io_realm_RealmQuery_in>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny[] (?)** values
-       | )
-       
-       
-       
-   
-   * - In comparison. This allows you to test if objects match any value in an array of values.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``values`` - array of values to compare with. If ``null``  or the empty array is provided the query will never match any results.
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if the field isn't a Date field.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_in_java_lang_String_java_util_Date_:
 
 .. _io_realm_RealmQuery_in_java_lang_String__java_util_Date_:
@@ -9965,80 +6952,6 @@ isValid
 lessThan
 --------
 
-.. _io_realm_RealmQuery_lessThan_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_lessThan_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_lessThan_String_RealmAny_:
-
-.. _io_realm_RealmQuery_lessThan_String__RealmAny_:
-
-.. _lessThan_java_lang_String_RealmAny_:
-
-.. _lessThan_java_lang_String__RealmAny_:
-
-.. _lessThan_String_RealmAny_:
-
-.. _lessThan_String__RealmAny_:
-
-.. _RealmQuery_lessThan_java_lang_String_RealmAny_:
-
-.. _RealmQuery_lessThan_java_lang_String__RealmAny_:
-
-.. _RealmQuery_lessThan_String_RealmAny_:
-
-.. _RealmQuery_lessThan_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`lessThan <io_realm_RealmQuery_lessThan>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       
-   
-   * - Less-than comparison.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to compare with.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_lessThan_java_lang_String_ObjectId_:
 
 .. _io_realm_RealmQuery_lessThan_java_lang_String__ObjectId_:
@@ -10068,7 +6981,7 @@ lessThan
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`lessThan <io_realm_RealmQuery_lessThan>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -10142,7 +7055,7 @@ lessThan
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`lessThan <io_realm_RealmQuery_lessThan>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -10354,80 +7267,6 @@ lessThan
 lessThanOrEqualTo
 -----------------
 
-.. _io_realm_RealmQuery_lessThanOrEqualTo_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_lessThanOrEqualTo_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_lessThanOrEqualTo_String_RealmAny_:
-
-.. _io_realm_RealmQuery_lessThanOrEqualTo_String__RealmAny_:
-
-.. _lessThanOrEqualTo_java_lang_String_RealmAny_:
-
-.. _lessThanOrEqualTo_java_lang_String__RealmAny_:
-
-.. _lessThanOrEqualTo_String_RealmAny_:
-
-.. _lessThanOrEqualTo_String__RealmAny_:
-
-.. _RealmQuery_lessThanOrEqualTo_java_lang_String_RealmAny_:
-
-.. _RealmQuery_lessThanOrEqualTo_java_lang_String__RealmAny_:
-
-.. _RealmQuery_lessThanOrEqualTo_String_RealmAny_:
-
-.. _RealmQuery_lessThanOrEqualTo_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`lessThanOrEqualTo <io_realm_RealmQuery_lessThanOrEqualTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       
-   
-   * - Less-than-or-equal-to comparison.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to compare with.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_lessThanOrEqualTo_java_lang_String_ObjectId_:
 
 .. _io_realm_RealmQuery_lessThanOrEqualTo_java_lang_String__ObjectId_:
@@ -10457,7 +7296,7 @@ lessThanOrEqualTo
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`lessThanOrEqualTo <io_realm_RealmQuery_lessThanOrEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -10531,7 +7370,7 @@ lessThanOrEqualTo
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`lessThanOrEqualTo <io_realm_RealmQuery_lessThanOrEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -10743,121 +7582,6 @@ lessThanOrEqualTo
 like
 ----
 
-.. _io_realm_RealmQuery_like_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_like_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_like_java_lang_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_like_java_lang_String__RealmAny__Case_:
-
-.. _io_realm_RealmQuery_like_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_like_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_like_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_like_String__RealmAny__Case_:
-
-.. _like_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _like_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _like_java_lang_String_RealmAny_Case_:
-
-.. _like_java_lang_String__RealmAny__Case_:
-
-.. _like_String_RealmAny_io_realm_Case_:
-
-.. _like_String__RealmAny__io_realm_Case_:
-
-.. _like_String_RealmAny_Case_:
-
-.. _like_String__RealmAny__Case_:
-
-.. _RealmQuery_like_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_like_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_like_java_lang_String_RealmAny_Case_:
-
-.. _RealmQuery_like_java_lang_String__RealmAny__Case_:
-
-.. _RealmQuery_like_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_like_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_like_String_RealmAny_Case_:
-
-.. _RealmQuery_like_String__RealmAny__Case_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`like <io_realm_RealmQuery_like>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       
-   
-   * - Condition that the value of field matches with the specified substring, with wildcards:
-       
-       - '\*' matches [0, n] unicode chars
-          
-          
-       - '?' matches a single unicode char.
-          
-          
-       
-       
-       
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the wildcard string.
-          
-          
-          
-       - ``casing`` - how to handle casing. Setting this to :ref:`Case.INSENSITIVE <io_realm_Case_INSENSITIVE>`  only works for Latin-1 characters.
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_like_java_lang_String_java_lang_String_io_realm_Case_:
 
 .. _io_realm_RealmQuery_like_java_lang_String__java_lang_String__io_realm_Case_:
@@ -10994,90 +7718,6 @@ like
        - ``casing`` - how to handle casing. Setting this to :ref:`Case.INSENSITIVE <io_realm_Case_INSENSITIVE>`  only works for Latin-1 characters.
           
           
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_like_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_like_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_like_String_RealmAny_:
-
-.. _io_realm_RealmQuery_like_String__RealmAny_:
-
-.. _like_java_lang_String_RealmAny_:
-
-.. _like_java_lang_String__RealmAny_:
-
-.. _like_String_RealmAny_:
-
-.. _like_String__RealmAny_:
-
-.. _RealmQuery_like_java_lang_String_RealmAny_:
-
-.. _RealmQuery_like_java_lang_String__RealmAny_:
-
-.. _RealmQuery_like_String_RealmAny_:
-
-.. _RealmQuery_like_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`like <io_realm_RealmQuery_like>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       
-   
-   * - Condition that the value of field matches with the specified substring, with wildcards:
-       
-       - '\*' matches [0, n] unicode chars
-          
-          
-       - '?' matches a single unicode char.
-          
-          
-       
-       
-       
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the wildcard string.
           
           
           
@@ -11248,7 +7888,7 @@ limit
        
        
    
-   * - Limits the number of objects returned in case the query matched more objects.Note that when using this method in combination with :ref:`sort(String) <io_realm_RealmQuery_sort_String_>`  and :ref:`distinct(String, String...) <io_realm_RealmQuery_distinct_String__String____>`  they will be executed in the order they where added which can affect the end result.
+   * - Limits the number of objects returned in case the query matched more objects.Note that when using this method in combination with :ref:`sort(String) <io_realm_RealmQuery_sort_String_>`  and :ref:`distinct(String) <io_realm_RealmQuery_distinct_String_>`  they will be executed in the order they where added which can affect the end result.
        
        
        
@@ -11360,86 +8000,6 @@ max
        - :ref:`RealmException <io_realm_exceptions_RealmException>`  - if called from the UI thread after opting out via :ref:`RealmConfiguration.Builder.allowQueriesOnUiThread(boolean) <io_realm_RealmConfiguration_Builder_allowQueriesOnUiThread_boolean_>` .
           
           
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
-.. _maxRealmAny:
-
-.. _maxRealmAny__:
-
-.. _RealmQuery_maxRealmAny:
-
-.. _RealmQuery_maxRealmAny__:
-
-.. _io_realm_RealmQuery_maxRealmAny:
-
-.. _io_realm_RealmQuery_maxRealmAny__:
-
-
-
-maxRealmAny
------------
-
-.. _io_realm_RealmQuery_maxRealmAny_java_lang_String_:
-
-.. _io_realm_RealmQuery_maxRealmAny_String_:
-
-.. _maxRealmAny_java_lang_String_:
-
-.. _maxRealmAny_String_:
-
-.. _RealmQuery_maxRealmAny_java_lang_String_:
-
-.. _RealmQuery_maxRealmAny_String_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public **RealmAny (?)** :ref:`maxRealmAny <io_realm_RealmQuery_maxRealmAny>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
-       | )
-       
-       
-       
-   
-   * - Finds the maximum value of a **RealmAny (?)** field.
-       
-       
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field containing a RealmAny value.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given RealmAny field, **RealmAny.Type.NULL (?)** will be returned. Otherwise the maximum RealmAny is returned. When determining the maximum RealmAny, objects with ``null``  values are ignored. See the **RealmAny (?)** documentation for more details on how RealmAny values are compared.
-       
-       
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the query is not valid ("syntax error").
           
           
           
@@ -11614,92 +8174,6 @@ min
    
 
 
-.. _minRealmAny:
-
-.. _minRealmAny__:
-
-.. _RealmQuery_minRealmAny:
-
-.. _RealmQuery_minRealmAny__:
-
-.. _io_realm_RealmQuery_minRealmAny:
-
-.. _io_realm_RealmQuery_minRealmAny__:
-
-
-
-minRealmAny
------------
-
-.. _io_realm_RealmQuery_minRealmAny_java_lang_String_:
-
-.. _io_realm_RealmQuery_minRealmAny_String_:
-
-.. _minRealmAny_java_lang_String_:
-
-.. _minRealmAny_String_:
-
-.. _RealmQuery_minRealmAny_java_lang_String_:
-
-.. _RealmQuery_minRealmAny_String_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public **RealmAny (?)** :ref:`minRealmAny <io_realm_RealmQuery_minRealmAny>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName
-       | )
-       
-       
-       
-   
-   * - Finds the minimum value of a **RealmAny (?)** field.
-       
-       
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field containing a RealmAny value.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       if no objects exist or they all have ``null``  as the value for the given RealmAny field, **RealmAny.Type.NULL (?)** will be returned. Otherwise the minimum RealmAny is returned. When determining the minimum RealmAny, objects with ``null``  values are ignored. See the **RealmAny (?)** documentation for more details on how RealmAny values are compared.
-       
-       
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.UnsupportedOperationException <https://docs.oracle.com/javase/7/docs/api/java/lang/UnsupportedOperationException.html>`__  - if the query is not valid ("syntax error").
-          
-          
-          
-       - :ref:`RealmException <io_realm_exceptions_RealmException>`  - if called from the UI thread after opting out via :ref:`RealmConfiguration.Builder.allowQueriesOnUiThread(boolean) <io_realm_RealmConfiguration_Builder_allowQueriesOnUiThread_boolean_>` .
-          
-          
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
 .. _minimumDate:
 
 .. _minimumDate__:
@@ -11848,80 +8322,6 @@ not
 notEqualTo
 ----------
 
-.. _io_realm_RealmQuery_notEqualTo_java_lang_String_RealmAny_:
-
-.. _io_realm_RealmQuery_notEqualTo_java_lang_String__RealmAny_:
-
-.. _io_realm_RealmQuery_notEqualTo_String_RealmAny_:
-
-.. _io_realm_RealmQuery_notEqualTo_String__RealmAny_:
-
-.. _notEqualTo_java_lang_String_RealmAny_:
-
-.. _notEqualTo_java_lang_String__RealmAny_:
-
-.. _notEqualTo_String_RealmAny_:
-
-.. _notEqualTo_String__RealmAny_:
-
-.. _RealmQuery_notEqualTo_java_lang_String_RealmAny_:
-
-.. _RealmQuery_notEqualTo_java_lang_String__RealmAny_:
-
-.. _RealmQuery_notEqualTo_String_RealmAny_:
-
-.. _RealmQuery_notEqualTo_String__RealmAny_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`notEqualTo <io_realm_RealmQuery_notEqualTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value
-       | )
-       
-       
-       
-   
-   * - Not-equal-to comparison.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to compare with.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
 .. _io_realm_RealmQuery_notEqualTo_java_lang_String_ObjectId_:
 
 .. _io_realm_RealmQuery_notEqualTo_java_lang_String__ObjectId_:
@@ -11951,7 +8351,7 @@ notEqualTo
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`notEqualTo <io_realm_RealmQuery_notEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -12025,7 +8425,7 @@ notEqualTo
    
    * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`notEqualTo <io_realm_RealmQuery_notEqualTo>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -12043,111 +8443,6 @@ notEqualTo
           
           
        - ``value`` - the value to compare with.
-          
-          
-          
-       
-       
-       
-       
-       **Returns**
-       
-       the query object.
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if one or more arguments do not match class or field type.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-.. _io_realm_RealmQuery_notEqualTo_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_notEqualTo_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_notEqualTo_java_lang_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_notEqualTo_java_lang_String__RealmAny__Case_:
-
-.. _io_realm_RealmQuery_notEqualTo_String_RealmAny_io_realm_Case_:
-
-.. _io_realm_RealmQuery_notEqualTo_String__RealmAny__io_realm_Case_:
-
-.. _io_realm_RealmQuery_notEqualTo_String_RealmAny_Case_:
-
-.. _io_realm_RealmQuery_notEqualTo_String__RealmAny__Case_:
-
-.. _notEqualTo_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _notEqualTo_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _notEqualTo_java_lang_String_RealmAny_Case_:
-
-.. _notEqualTo_java_lang_String__RealmAny__Case_:
-
-.. _notEqualTo_String_RealmAny_io_realm_Case_:
-
-.. _notEqualTo_String__RealmAny__io_realm_Case_:
-
-.. _notEqualTo_String_RealmAny_Case_:
-
-.. _notEqualTo_String__RealmAny__Case_:
-
-.. _RealmQuery_notEqualTo_java_lang_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_notEqualTo_java_lang_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_notEqualTo_java_lang_String_RealmAny_Case_:
-
-.. _RealmQuery_notEqualTo_java_lang_String__RealmAny__Case_:
-
-.. _RealmQuery_notEqualTo_String_RealmAny_io_realm_Case_:
-
-.. _RealmQuery_notEqualTo_String__RealmAny__io_realm_Case_:
-
-.. _RealmQuery_notEqualTo_String_RealmAny_Case_:
-
-.. _RealmQuery_notEqualTo_String__RealmAny__Case_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`notEqualTo <io_realm_RealmQuery_notEqualTo>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **RealmAny (?)** value, 
-       |  :ref:`Case <io_realm_Case>`  casing
-       | )
-       
-       
-       
-   
-   * - Not-equal-to comparison.
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - the field to compare.
-          
-          
-          
-       - ``value`` - the value to compare with.
-          
-          
-          
-       - ``casing`` - how casing is handled. :ref:`Case.INSENSITIVE <io_realm_Case_INSENSITIVE>`  works only for the Latin-1 characters.
-          
-          
           
           
           
@@ -12466,182 +8761,6 @@ or
        the query object.
        
        
-       
-       
-       
-       
-       
-   
-   
-
-
-.. _rawPredicate:
-
-.. _rawPredicate__:
-
-.. _RealmQuery_rawPredicate:
-
-.. _RealmQuery_rawPredicate__:
-
-.. _io_realm_RealmQuery_rawPredicate:
-
-.. _io_realm_RealmQuery_rawPredicate__:
-
-
-
-rawPredicate
-------------
-
-.. _io_realm_RealmQuery_rawPredicate_java_lang_String_java_lang_Object_:
-
-.. _io_realm_RealmQuery_rawPredicate_java_lang_String__java_lang_Object_:
-
-.. _io_realm_RealmQuery_rawPredicate_java_lang_String_Object_:
-
-.. _io_realm_RealmQuery_rawPredicate_java_lang_String__Object_:
-
-.. _io_realm_RealmQuery_rawPredicate_java_lang_String_Object____:
-
-.. _io_realm_RealmQuery_rawPredicate_java_lang_String__Object____:
-
-.. _io_realm_RealmQuery_rawPredicate_String_java_lang_Object_:
-
-.. _io_realm_RealmQuery_rawPredicate_String__java_lang_Object_:
-
-.. _io_realm_RealmQuery_rawPredicate_String_Object_:
-
-.. _io_realm_RealmQuery_rawPredicate_String__Object_:
-
-.. _io_realm_RealmQuery_rawPredicate_String_Object____:
-
-.. _io_realm_RealmQuery_rawPredicate_String__Object____:
-
-.. _rawPredicate_java_lang_String_java_lang_Object_:
-
-.. _rawPredicate_java_lang_String__java_lang_Object_:
-
-.. _rawPredicate_java_lang_String_Object_:
-
-.. _rawPredicate_java_lang_String__Object_:
-
-.. _rawPredicate_java_lang_String_Object____:
-
-.. _rawPredicate_java_lang_String__Object____:
-
-.. _rawPredicate_String_java_lang_Object_:
-
-.. _rawPredicate_String__java_lang_Object_:
-
-.. _rawPredicate_String_Object_:
-
-.. _rawPredicate_String__Object_:
-
-.. _rawPredicate_String_Object____:
-
-.. _rawPredicate_String__Object____:
-
-.. _RealmQuery_rawPredicate_java_lang_String_java_lang_Object_:
-
-.. _RealmQuery_rawPredicate_java_lang_String__java_lang_Object_:
-
-.. _RealmQuery_rawPredicate_java_lang_String_Object_:
-
-.. _RealmQuery_rawPredicate_java_lang_String__Object_:
-
-.. _RealmQuery_rawPredicate_java_lang_String_Object____:
-
-.. _RealmQuery_rawPredicate_java_lang_String__Object____:
-
-.. _RealmQuery_rawPredicate_String_java_lang_Object_:
-
-.. _RealmQuery_rawPredicate_String__java_lang_Object_:
-
-.. _RealmQuery_rawPredicate_String_Object_:
-
-.. _RealmQuery_rawPredicate_String__Object_:
-
-.. _RealmQuery_rawPredicate_String_Object____:
-
-.. _RealmQuery_rawPredicate_String__Object____:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public :ref:`RealmQuery <io_realm_RealmQuery>`  :ref:`rawPredicate <io_realm_RealmQuery_rawPredicate>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  predicate, 
-       |  `java.lang.Object[] <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__  arguments
-       | )
-       
-       
-       
-   
-   * - Create a text-based predicate using the Realm Query Language. This predicate can be combined with other raw or type safe predicates, it accepts Realm values as arguments.Class and property names used in the raw predicate can be either the names defined in the Realm Model classes or the internal names defined using the :ref:`io.realm.annotations.RealmClass <io_realm_annotations_RealmClass>`  or :ref:`io.realm.annotations.RealmField <io_realm_annotations_RealmField>`  annotations. If a class or property name contains spaces those must be escaped.
-       
-       
-       
-       Arguments are defined in the string predicate as $argument_index, where $argument_index is a decimal integer that specifies the position of the argument in the argument list. The first argument is referenced by $0, the second by $1, etc.See `these docs <https://docs.mongodb.com/realm-sdks/js/latest/tutorial-query-language.html>`__  for a more detailed description of the Realm Query Language.
-       
-        Examples:
-        
-       
-       .. code-block:: java
-       
-          
-           RealmQuery<Person> query = realm.where(Person.class);
-          
-           // Simple query
-           query.rawPredicate("name = 'Jane'");
-          
-           // Spaces in property name
-           query.rawPredicate("my\ property = 'Jane'");
-          
-           // Multiple predicates
-           query.rawPredicate("name = 'Jane' OR name = 'John'")
-          
-           // Collection queries
-           query.rawPredicate("children.@count > 3")
-           query.rawPredicate("ALL children.age > 18")
-          
-           // Sub queries
-           query.rawPredicate("SUBQUERY(children, $child, $child.age > 21 AND $child.gender = 'male').@count > 0");
-          
-           // Sort, Distinct, Limit
-           query.rawPredicate("name = 'Jane' SORT(lastName ASC) DISTINCT(city) LIMIT(5)");
-          
-           // Arguments
-           query.rawPredicate("name = $0 AND age > $1", "Jane", 18);
-           
-       
-       
-        
-       
-       
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``predicate`` - a Realm Query Language predicate.
-          
-          
-          
-       - ``arguments`` - Realm values for the predicate.
-          
-          
-          
-       
-       
-       
-       
-       
-       
-       **Throws**
-       
-       - `java.lang.IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if there is an syntax error.
-          
-          
-          
        
        
        
@@ -13289,7 +9408,7 @@ sum
        
        **Parameters**
        
-       - ``fieldName`` - the field to sum. Only number and RealmAny fields are supported.
+       - ``fieldName`` - the field to sum. Only number fields are supported.
           
           
           
@@ -13299,7 +9418,7 @@ sum
        
        **Returns**
        
-       the sum of fields of the matching objects. If no objects exist or they all have ``null``  as the value for the given field, ``0``  will be returned. When computing the sum, objects with ``null``  values are ignored. When applied to a RealmAny field, only numeric values will be summed up (Byte/Integer/Integer/Long/Float/Double/Decimal128) and the returning type will be ``Decimal128`` .
+       the sum of fields of the matching objects. If no objects exist or they all have ``null``  as the value for the given field, ``0``  will be returned. When computing the sum, objects with ``null``  values are ignored.
        
        
        

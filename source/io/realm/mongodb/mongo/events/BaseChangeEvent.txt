@@ -50,7 +50,7 @@ Method Summary
    * - Modifier and Type
      - Method and Description
    
-   * - public **BsonDocument (?)**
+   * - public **BsonDocument**
      - | :ref:`getDocumentKey <io_realm_mongodb_mongo_events_BaseChangeEvent_getDocumentKey>` ()
        | 
        
@@ -60,7 +60,7 @@ Method Summary
        
        
    
-   * - public **DocumentT (?)**
+   * - public **DocumentT**
      - | :ref:`getFullDocument <io_realm_mongodb_mongo_events_BaseChangeEvent_getFullDocument>` ()
        | 
        
@@ -100,7 +100,7 @@ Method Summary
        
        
    
-   * - public abstract **BsonDocument (?)**
+   * - public abstract **BsonDocument**
      - | :ref:`toBsonDocument <io_realm_mongodb_mongo_events_BaseChangeEvent_toBsonDocument>` ()
        | 
        
@@ -146,7 +146,7 @@ getDocumentKey
 .. list-table::
    :header-rows: 1
    
-   * - | public **BsonDocument (?)** :ref:`getDocumentKey <io_realm_mongodb_mongo_events_BaseChangeEvent_getDocumentKey>` ()
+   * - | public **BsonDocument** :ref:`getDocumentKey <io_realm_mongodb_mongo_events_BaseChangeEvent_getDocumentKey>` ()
        | 
        
        
@@ -193,7 +193,7 @@ getFullDocument
 .. list-table::
    :header-rows: 1
    
-   * - | public **DocumentT (?)** :ref:`getFullDocument <io_realm_mongodb_mongo_events_BaseChangeEvent_getFullDocument>` ()
+   * - | public **DocumentT** :ref:`getFullDocument <io_realm_mongodb_mongo_events_BaseChangeEvent_getFullDocument>` ()
        | 
        
        
@@ -381,7 +381,7 @@ toBsonDocument
 .. list-table::
    :header-rows: 1
    
-   * - | public abstract **BsonDocument (?)** :ref:`toBsonDocument <io_realm_mongodb_mongo_events_BaseChangeEvent_toBsonDocument>` ()
+   * - | public abstract **BsonDocument** :ref:`toBsonDocument <io_realm_mongodb_mongo_events_BaseChangeEvent_toBsonDocument>` ()
        | 
        
        

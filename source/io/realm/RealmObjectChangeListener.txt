@@ -61,7 +61,7 @@ Method Summary
    
    * - public **void**
      - | :ref:`onChange <io_realm_RealmObjectChangeListener_onChange>` (
-       |  **T (?)** t, 
+       |  **T** t, 
        |  :ref:`ObjectChangeSet <io_realm_ObjectChangeSet>`  changeSet
        | )
        
@@ -148,7 +148,7 @@ onChange
    :header-rows: 1
    
    * - | public **void** :ref:`onChange <io_realm_RealmObjectChangeListener_onChange>` (
-       |  **T (?)** t, 
+       |  **T** t, 
        |  :ref:`ObjectChangeSet <io_realm_ObjectChangeSet>`  changeSet
        | )
        

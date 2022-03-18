@@ -26,7 +26,7 @@ An *App* is the main client-side entry point for interacting with a *MongoDB Rea
 
 
 
-- Register uses and perform various user-related operations through authentication providers (:ref:`io.realm.mongodb.auth.ApiKeyAuth <io_realm_mongodb_auth_ApiKeyAuth>` , **EmailPasswordAuthImpl (?)**)
+- Register uses and perform various user-related operations through authentication providers (:ref:`io.realm.mongodb.auth.ApiKeyAuth <io_realm_mongodb_auth_ApiKeyAuth>` , **EmailPasswordAuthImpl**)
    
    
    
@@ -317,7 +317,7 @@ Method Summary
    * - public :ref:`Functions <io_realm_mongodb_functions_Functions>` 
      - | :ref:`getFunctions <io_realm_mongodb_App_getFunctions>` (
        |  :ref:`User <io_realm_mongodb_User>`  user, 
-       |  **CodecRegistry (?)** codecRegistry
+       |  **CodecRegistry** codecRegistry
        | )
        
        
@@ -404,7 +404,7 @@ Method Summary
    
    * - protected **void**
      - | :ref:`setNetworkTransport <io_realm_mongodb_App_setNetworkTransport>` (
-       |  **OsJavaNetworkTransport (?)** transport
+       |  **OsJavaNetworkTransport** transport
        | )
        
        
@@ -928,7 +928,7 @@ getFunctions
    
    * - | public :ref:`Functions <io_realm_mongodb_functions_Functions>`  :ref:`getFunctions <io_realm_mongodb_App_getFunctions>` (
        |  :ref:`User <io_realm_mongodb_User>`  user, 
-       |  **CodecRegistry (?)** codecRegistry
+       |  **CodecRegistry** codecRegistry
        | )
        
        
@@ -1505,9 +1505,15 @@ removeUser
 setNetworkTransport
 -------------------
 
+.. _io_realm_mongodb_App_setNetworkTransport_io_realm_internal_objectstore_OsJavaNetworkTransport_:
+
 .. _io_realm_mongodb_App_setNetworkTransport_OsJavaNetworkTransport_:
 
+.. _setNetworkTransport_io_realm_internal_objectstore_OsJavaNetworkTransport_:
+
 .. _setNetworkTransport_OsJavaNetworkTransport_:
+
+.. _App_setNetworkTransport_io_realm_internal_objectstore_OsJavaNetworkTransport_:
 
 .. _App_setNetworkTransport_OsJavaNetworkTransport_:
 
@@ -1515,7 +1521,7 @@ setNetworkTransport
    :header-rows: 1
    
    * - | protected **void** :ref:`setNetworkTransport <io_realm_mongodb_App_setNetworkTransport>` (
-       |  **OsJavaNetworkTransport (?)** transport
+       |  **OsJavaNetworkTransport** transport
        | )
        
        

@@ -54,7 +54,7 @@ Constructors
    
    * - | :ref:`Builder <io_realm_mongodb_sync_SyncConfiguration_Builder>` (
        |  :ref:`User <io_realm_mongodb_User>`  user, 
-       |  **ObjectId (?)** partitionValue
+       |  **ObjectId** partitionValue
        | )
        
        
@@ -395,7 +395,7 @@ Constructor Detail
    
    * - | public :ref:`Builder <io_realm_mongodb_sync_SyncConfiguration_Builder>` (
        |  :ref:`User <io_realm_mongodb_User>`  user, 
-       |  **ObjectId (?)** partitionValue
+       |  **ObjectId** partitionValue
        | )
        
        
@@ -1679,7 +1679,7 @@ schemaVersion
        
        
    
-   * - Sets the schema version of the Realm.Synced Realms only support additive schema changes which can be applied without requiring a manual migration. The schema version will only be used as an indication to the underlying storage layer to remove or add indexes. These will be recalculated if the provided schema version differ from the version in the Realm file. **WARNING:** There is no guarantee that the value inserted here is the same returned by **Realm.getVersion() (?)**. Due to the nature of synced Realms, the value can both be higher and lower.
+   * - Sets the schema version of the Realm.Synced Realms only support additive schema changes which can be applied without requiring a manual migration. The schema version will only be used as an indication to the underlying storage layer to remove or add indexes. These will be recalculated if the provided schema version differ from the version in the Realm file. **WARNING:** There is no guarantee that the value inserted here is the same returned by **Realm.getVersion()**. Due to the nature of synced Realms, the value can both be higher and lower.
        
        
        

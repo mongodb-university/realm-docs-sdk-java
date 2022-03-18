@@ -38,8 +38,8 @@ Constructors
    
    * - | :ref:`AggregateIterable <io_realm_mongodb_mongo_iterable_AggregateIterable>` (
        |  `ThreadPoolExecutor <https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ThreadPoolExecutor.html>`__  threadPoolExecutor, 
-       |  **<any> (?)** osMongoCollection, 
-       |  **CodecRegistry (?)** codecRegistry, 
+       |  **io.realm.internal.objectstore.OsMongoCollection<?>** osMongoCollection, 
+       |  **CodecRegistry** codecRegistry, 
        |  `java.lang.Class\<ResultT> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass, 
        |  `java.util.List\<? extends Bson> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  pipeline
        | )
@@ -80,8 +80,8 @@ Constructor Detail
    
    * - | public :ref:`AggregateIterable <io_realm_mongodb_mongo_iterable_AggregateIterable>` (
        |  `ThreadPoolExecutor <https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ThreadPoolExecutor.html>`__  threadPoolExecutor, 
-       |  **<any> (?)** osMongoCollection, 
-       |  **CodecRegistry (?)** codecRegistry, 
+       |  **io.realm.internal.objectstore.OsMongoCollection<?>** osMongoCollection, 
+       |  **CodecRegistry** codecRegistry, 
        |  `java.lang.Class\<ResultT> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass, 
        |  `java.util.List\<? extends Bson> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  pipeline
        | )

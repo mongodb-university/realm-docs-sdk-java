@@ -5,6 +5,11 @@
    :depth: 2
    :class: singlecol
 
+
+
+Realm Java API
+^^^^^^^^^^^^^^
+
 .. toctree::
    :titlesonly:
    :hidden:
@@ -37,27 +42,27 @@ Quick start
 
 
 - **:ref:`io.realm.Realm <io_realm_Realm>` **
-   | The Realm database. The storage and transactional manager of your object persistent store. It is in charge of creating and removing instances of your RealmObjects, querying, and performing transactions. `Read more <https://docs.mongodb.com/realm/sdk/android/fundamentals/realms/>`__ .
+   | The Realm database. The storage and transactional manager of your object persistent store. It is in charge of creating and removing instances of your RealmObjects, querying, and performing transactions. `Read more <https://realm.io/docs/java/latest/#realms>`__ .
    
    
 - **:ref:`io.realm.RealmConfiguration <io_realm_RealmConfiguration>` **
-   | A configuration object that is used to setup a specific Realm instance. `Read more <https://docs.mongodb.com/realm/sdk/android/examples/open-and-close-a-local-realm/>`__ .
+   | A configuration object that is used to setup a specific Realm instance. `Read more <https://realm.io/docs/java/latest/#configuring-a-realm>`__ .
    
    
 - **:ref:`io.realm.RealmObject <io_realm_RealmObject>` **
-   | The super class of all objects (models) that are to be stored in Realm. A Java object must extend :ref:`io.realm.RealmObject <io_realm_RealmObject>`  in order to be considered a *RealmObject*. `Read more <https://docs.mongodb.com/realm/sdk/android/fundamentals/object-models-and-schemas/>`__ .
+   | The super class of all objects (models) that are to be stored in Realm. A Java object must extend :ref:`io.realm.RealmObject <io_realm_RealmObject>`  in order to be considered a *RealmObject*. `Read more <https://realm.io/docs/java/latest/#models>`__ .
    
    
 - **:ref:`io.realm.RealmList <io_realm_RealmList>` **
-   | A `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  that is used in *RealmObject*s to model one-to-many relationships with other *RealmObject*s. `Read more <https://docs.mongodb.com/realm/sdk/android/data-types/collections/#list-collections>`__ .
+   | A `List <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  that is used in *RealmObject*s to model one-to-many relationships with other *RealmObject*s. `Read more <https://realm.io/docs/java/latest/#many-to-many>`__ .
    
    
 - **:ref:`io.realm.RealmQuery <io_realm_RealmQuery>` **
-   | An object that encapsulates a query as defined through Realms fluent query interface. Queries are executed using either the :ref:`io.realm.RealmQuery.findAll <io_realm_RealmQuery_findAll>` , :ref:`io.realm.RealmQuery.findFirst <io_realm_RealmQuery_findFirst>`  or their variants. `Read more <https://docs.mongodb.com/realm/sdk/android/fundamentals/live-queries/>`__ .
+   | An object that encapsulates a query as defined through Realms fluent query interface. Queries are executed using either the :ref:`io.realm.RealmQuery.findAll <io_realm_RealmQuery_findAll>` , :ref:`io.realm.RealmQuery.findFirst <io_realm_RealmQuery_findFirst>`  or their variants. `Read more <https://realm.io/docs/java/latest/#queries>`__ .
    
    
 - **:ref:`io.realm.RealmResults <io_realm_RealmResults>` **
-   | The result set of an executed *RealmQuery* for a given Realm. *RealmResults* are live, `auto-updating <https://docs.mongodb.com/realm/sdk/android/data-types/collections/#collections-are-live>`__  views into the underlying data, which means results never have to be re-fetched. `Read more <https://docs.mongodb.com/realm/sdk/android/data-types/collections/#results-collections>`__ .
+   | The result set of an executed *RealmQuery* for a given Realm. *RealmResults* are live, `auto-updating <https://realm.io/docs/java/latest/#auto-updating-results>`__  views into the underlying data, which means results never have to be re-fetched. `Read more <https://realm.io/docs/java/latest/#queries>`__ .
    
    
 

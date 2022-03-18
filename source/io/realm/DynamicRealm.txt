@@ -19,7 +19,7 @@ io.realm
 
 
  | `java.lang.Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__ 
- | 		**io.realm.BaseRealm (?)**
+ | 		**io.realm.BaseRealm**
  | 					io.realm.DynamicRealm
 
 
@@ -98,7 +98,7 @@ Method Summary
        
        
    
-   * - public **<any> (?)**
+   * - public **<any>**
      - | :ref:`asFlowable <io_realm_DynamicRealm_asFlowable>` ()
        | 
        
@@ -322,7 +322,7 @@ Inherited Methods
 
 
 - Methods inherited from class `java.lang.Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__ : ``getClass`` , ``hashCode`` , ``equals`` , ``clone`` , ``toString`` , ``notify`` , ``notifyAll`` , ``wait`` , ``wait`` , ``wait`` , ``finalize`` 
-- Methods inherited from class **io.realm.BaseRealm (?)**: ``setAutoRefresh`` , ``isAutoRefresh`` , ``refresh`` , ``isInTransaction`` , ``addListener`` , ``removeListener`` , ``asFlowable`` , ``removeAllListeners`` , ``writeCopyTo`` , ``writeEncryptedCopyTo`` , ``waitForChange`` , ``stopWaitForChange`` , ``beginTransaction`` , ``commitTransaction`` , ``cancelTransaction`` , ``freeze`` , ``isFrozen`` , ``getNumberOfActiveVersions`` , ``checkIfValid`` , ``checkAllowQueriesOnUiThread`` , ``checkAllowWritesOnUiThread`` , ``checkIfInTransaction`` , ``checkIfValidAndInTransaction`` , ``getPath`` , ``getConfiguration`` , ``getVersion`` , ``close`` , ``isClosed`` , ``isEmpty`` , ``getSchema`` , ``deleteAll`` , ``migrateRealm`` , ``finalize`` 
+- Methods inherited from class **io.realm.BaseRealm**: ``setAutoRefresh`` , ``isAutoRefresh`` , ``refresh`` , ``isInTransaction`` , ``addListener`` , ``removeListener`` , ``asFlowable`` , ``removeAllListeners`` , ``writeCopyTo`` , ``writeEncryptedCopyTo`` , ``waitForChange`` , ``stopWaitForChange`` , ``beginTransaction`` , ``commitTransaction`` , ``cancelTransaction`` , ``freeze`` , ``isFrozen`` , ``getNumberOfActiveVersions`` , ``checkIfValid`` , ``checkAllowQueriesOnUiThread`` , ``checkAllowWritesOnUiThread`` , ``checkIfInTransaction`` , ``checkIfValidAndInTransaction`` , ``getPath`` , ``getConfiguration`` , ``getVersion`` , ``close`` , ``isClosed`` , ``isEmpty`` , ``getSchema`` , ``deleteAll`` , ``migrateRealm`` , ``finalize`` 
 
 
 
@@ -424,7 +424,7 @@ addChangeListener
              
              
              
-          - **refresh() (?)**
+          - **refresh()**
              
              
              
@@ -457,7 +457,7 @@ asFlowable
 .. list-table::
    :header-rows: 1
    
-   * - | public **<any> (?)** :ref:`asFlowable <io_realm_DynamicRealm_asFlowable>` ()
+   * - | public **<any>** :ref:`asFlowable <io_realm_DynamicRealm_asFlowable>` ()
        | 
        
        
@@ -465,7 +465,7 @@ asFlowable
    
    * - Returns an RxJava Flowable that monitors changes to this Realm. It will emit the current state when subscribed to. Items will continually be emitted as the Realm is updated - ``onComplete``  will never be called.
        
-       Items emitted from Realm Flowables are frozen (See **freeze() (?)**. This means that they are immutable and can be read on any thread.
+       Items emitted from Realm Flowables are frozen (See **freeze()**. This means that they are immutable and can be read on any thread.
        
        
        
@@ -521,7 +521,7 @@ asFlowable
        
        **Overrides**
        
-       ``asFlowable`` in class **BaseRealm (?)**
+       ``asFlowable`` in class **BaseRealm**
        
        
    
@@ -1006,7 +1006,7 @@ executeTransaction
        
        
    
-   * - Executes a given transaction on the DynamicRealm. **beginTransaction() (?)** and **commitTransaction() (?)** will be called automatically. If any exception is thrown during the transaction **cancelTransaction() (?)** will be called instead of **commitTransaction() (?)**.
+   * - Executes a given transaction on the DynamicRealm. **beginTransaction()** and **commitTransaction()** will be called automatically. If any exception is thrown during the transaction **cancelTransaction()** will be called instead of **commitTransaction()**.
        
        Calling this method from the UI thread will throw a :ref:`RealmException <io_realm_exceptions_RealmException>` . Doing so may result in a drop of frames or even ANRs. We recommend calling this method from a non-UI thread or using :ref:`executeTransactionAsync(Transaction) <io_realm_DynamicRealm_executeTransactionAsync_Transaction_>`  instead.
        
@@ -1889,7 +1889,7 @@ freeze
        
        
    
-   * - Returns a frozen snapshot of the current Realm. This Realm can be read and queried from any thread without throwing an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ . A frozen Realm has its own lifecycle and can be closed by calling **close() (?)**, but fully closing the Realm that spawned the frozen copy will also close the frozen Realm.
+   * - Returns a frozen snapshot of the current Realm. This Realm can be read and queried from any thread without throwing an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ . A frozen Realm has its own lifecycle and can be closed by calling **close()**, but fully closing the Realm that spawned the frozen copy will also close the frozen Realm.
        
        Frozen data can be queried as normal, but trying to mutate it in any way or attempting to register any listener will throw an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ .
        
@@ -1917,7 +1917,7 @@ freeze
        
        **Overrides**
        
-       ``freeze`` in class **BaseRealm (?)**
+       ``freeze`` in class **BaseRealm**
        
        
    
@@ -2229,7 +2229,7 @@ getSchema
        
        **Overrides**
        
-       ``getSchema`` in class **BaseRealm (?)**
+       ``getSchema`` in class **BaseRealm**
        
        
    
@@ -2284,7 +2284,7 @@ isEmpty
        
        **Overrides**
        
-       ``isEmpty`` in class **BaseRealm (?)**
+       ``isEmpty`` in class **BaseRealm**
        
        
    

@@ -21,13 +21,13 @@ io.realm
  | `java.lang.Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__ 
  | 		`java.util.AbstractCollection <https://docs.oracle.com/javase/7/docs/api/java/util/AbstractCollection.html>`__ 
  | 					`java.util.AbstractList <https://docs.oracle.com/javase/7/docs/api/java/util/AbstractList.html>`__ 
- | 								**io.realm.OrderedRealmCollectionImpl (?)**
+ | 								**io.realm.OrderedRealmCollectionImpl**
  | 											io.realm.RealmResults
 
 
 This class holds all the matches of a :ref:`RealmQuery <io_realm_RealmQuery>`  for a given Realm. The objects are not copied from the Realm to the RealmResults list, but are just referenced from the RealmResult instead. This saves memory and increases speed.
 
-RealmResults are live views, which means that if it is on an `Looper <https://developer.android.com/reference/android/os/Looper>`__  thread, it will automatically update its query results after a transaction has been committed. If on a non-looper thread, **Realm.refresh() (?)** must be called to update the results.
+RealmResults are live views, which means that if it is on an `Looper <https://developer.android.com/reference/android/os/Looper>`__  thread, it will automatically update its query results after a transaction has been committed. If on a non-looper thread, **Realm.refresh()** must be called to update the results.
 
 
 
@@ -35,7 +35,7 @@ Updates to RealmObjects from a RealmResults list must be done from within a tran
 
 A RealmResults object cannot be passed between different threads.
 
-Notice that a RealmResults is never ``null``  not even in the case where it contains no objects. You should always use the **RealmResults.size() (?)** method to check if a RealmResults is empty or not.
+Notice that a RealmResults is never ``null``  not even in the case where it contains no objects. You should always use the **RealmResults.size()** method to check if a RealmResults is empty or not.
 
 
 
@@ -103,7 +103,7 @@ Method Summary
        
        
    
-   * - public **<any> (?)**
+   * - public **<any>**
      - | :ref:`asChangesetObservable <io_realm_RealmResults_asChangesetObservable>` ()
        | 
        
@@ -113,7 +113,7 @@ Method Summary
        
        
    
-   * - public **<any> (?)**
+   * - public **<any>**
      - | :ref:`asFlowable <io_realm_RealmResults_asFlowable>` ()
        | 
        
@@ -140,9 +140,7 @@ Method Summary
        | 
        
        
-       
-       
-       
+       Returns a frozen snapshot of this collection.
        
        
        
@@ -152,9 +150,7 @@ Method Summary
        | 
        
        
-       
-       
-       
+       Returns whether or not this object is frozen.
        
        
        
@@ -270,7 +266,7 @@ Method Summary
    * - public **void**
      - | :ref:`setDecimal128 <io_realm_RealmResults_setDecimal128>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -324,7 +320,7 @@ Method Summary
        
    
    * - public **void**
-     - | :ref:`setList <io_realm_RealmResults_setList>` <**T (?)** >(
+     - | :ref:`setList <io_realm_RealmResults_setList>` <**T** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
        |  :ref:`io.realm.RealmList\<T> <io_realm_RealmList>`  list
        | )
@@ -377,7 +373,7 @@ Method Summary
    * - public **void**
      - | :ref:`setObjectId <io_realm_RealmResults_setObjectId>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -410,20 +406,6 @@ Method Summary
        
        
        Sets the ``String``  value of the given field in all of the objects in the collection.
-       
-       
-       
-       
-       
-   
-   * - public **void**
-     - | :ref:`setUUID <io_realm_RealmResults_setUUID>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `UUID <https://docs.oracle.com/javase/7/docs/api/java/util/UUID.html>`__  value
-       | )
-       
-       
-       Sets the ``UUID``  value of the given field in all of the objects in the collection.
        
        
        
@@ -481,7 +463,7 @@ Inherited Methods
 - Methods inherited from class `java.lang.Object <https://docs.oracle.com/javase/7/docs/api/java/lang/Object.html>`__ : ``getClass`` , ``hashCode`` , ``equals`` , ``clone`` , ``toString`` , ``notify`` , ``notifyAll`` , ``wait`` , ``wait`` , ``wait`` , ``finalize`` 
 - Methods inherited from class `java.util.AbstractCollection <https://docs.oracle.com/javase/7/docs/api/java/util/AbstractCollection.html>`__ : ``iterator`` , ``size`` , ``isEmpty`` , ``contains`` , ``toArray`` , ``toArray`` , ``add`` , ``remove`` , ``containsAll`` , ``addAll`` , ``removeAll`` , ``retainAll`` , ``clear`` , ``toString`` 
 - Methods inherited from class `java.util.AbstractList <https://docs.oracle.com/javase/7/docs/api/java/util/AbstractList.html>`__ : ``add`` , ``get`` , ``set`` , ``add`` , ``remove`` , ``indexOf`` , ``lastIndexOf`` , ``clear`` , ``addAll`` , ``iterator`` , ``listIterator`` , ``listIterator`` , ``subList`` , ``equals`` , ``hashCode`` , ``removeRange`` 
-- Methods inherited from class **io.realm.OrderedRealmCollectionImpl (?)**: ``isValid`` , ``isManaged`` , ``contains`` , ``get`` , ``first`` , ``first`` , ``last`` , ``last`` , ``deleteFromRealm`` , ``deleteAllFromRealm`` , ``iterator`` , ``listIterator`` , ``listIterator`` , ``sort`` , ``sort`` , ``sort`` , ``sort`` , ``size`` , ``min`` , ``minDate`` , ``max`` , ``maxDate`` , ``sum`` , ``average`` , ``remove`` , ``remove`` , ``removeAll`` , ``set`` , ``retainAll`` , ``deleteLastFromRealm`` , ``deleteFirstFromRealm`` , ``clear`` , ``add`` , ``add`` , ``addAll`` , ``addAll`` , ``createSnapshot`` , ``getRealm`` , ``getCollectionOperator`` 
+- Methods inherited from class **io.realm.OrderedRealmCollectionImpl**: ``isValid`` , ``isManaged`` , ``contains`` , ``get`` , ``first`` , ``first`` , ``last`` , ``last`` , ``deleteFromRealm`` , ``deleteAllFromRealm`` , ``iterator`` , ``listIterator`` , ``listIterator`` , ``sort`` , ``sort`` , ``sort`` , ``sort`` , ``size`` , ``min`` , ``minDate`` , ``max`` , ``maxDate`` , ``sum`` , ``average`` , ``remove`` , ``remove`` , ``removeAll`` , ``set`` , ``retainAll`` , ``deleteLastFromRealm`` , ``deleteFirstFromRealm`` , ``clear`` , ``add`` , ``add`` , ``addAll`` , ``addAll`` , ``createSnapshot`` , ``getRealm`` 
 
 
 
@@ -712,7 +694,7 @@ asChangesetObservable
 .. list-table::
    :header-rows: 1
    
-   * - | public **<any> (?)** :ref:`asChangesetObservable <io_realm_RealmResults_asChangesetObservable>` ()
+   * - | public **<any>** :ref:`asChangesetObservable <io_realm_RealmResults_asChangesetObservable>` ()
        | 
        
        
@@ -815,7 +797,7 @@ asFlowable
 .. list-table::
    :header-rows: 1
    
-   * - | public **<any> (?)** :ref:`asFlowable <io_realm_RealmResults_asFlowable>` ()
+   * - | public **<any>** :ref:`asFlowable <io_realm_RealmResults_asFlowable>` ()
        | 
        
        
@@ -989,13 +971,28 @@ freeze
        
        
    
-   * - 
+   * - Returns a frozen snapshot of this collection. The frozen copy can be read and queried from any thread without throwing an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ .
+       
+       Freezing a collection also creates a Realm which has its own lifecycle, but if the live Realm that spawned the original collection is fully closed (i.e. all instances across all threads are closed), the frozen Realm and this collection will be closed as well.
+       
+       Frozen collections can be queried as normal, but trying to mutate it in any way or attempting to register a listener will throw an `IllegalStateException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalStateException.html>`__ .
+       
+       
+       
+       Note: Keeping a large number of frozen collections with different versions alive can have a negative impact on the filesize of the Realm. In order to avoid such a situation, it is possible to set :ref:`RealmConfiguration.Builder.maxNumberOfActiveVersions(long) <io_realm_RealmConfiguration_Builder_maxNumberOfActiveVersions_long_>` .
        
        
        
        
        
        
+       
+       
+       
+       
+       **Returns**
+       
+       a frozen copy of this collection.
        
        
        
@@ -1033,11 +1030,16 @@ isFrozen
        
        
    
-   * - 
+   * - Returns whether or not this object is frozen.
        
        
        
        
+       
+       
+       **Returns**
+       
+       ``true``  if the object is frozen, ``false``  if it is not.
        
        
        
@@ -1840,7 +1842,7 @@ setDecimal128
    
    * - | public **void** :ref:`setDecimal128 <io_realm_RealmResults_setDecimal128>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **Decimal128 (?)** value
+       |  **Decimal128** value
        | )
        
        
@@ -2226,7 +2228,7 @@ setList
 .. list-table::
    :header-rows: 1
    
-   * - | public **void** :ref:`setList <io_realm_RealmResults_setList>` <**T (?)** >(
+   * - | public **void** :ref:`setList <io_realm_RealmResults_setList>` <**T** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
        |  :ref:`io.realm.RealmList\<T> <io_realm_RealmList>`  list
        | )
@@ -2597,7 +2599,7 @@ setObjectId
    
    * - | public **void** :ref:`setObjectId <io_realm_RealmResults_setObjectId>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  **ObjectId (?)** value
+       |  **ObjectId** value
        | )
        
        
@@ -2835,122 +2837,6 @@ setString
        **Throws**
        
        - `IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if field name doesn't exist, is a primary key property or isn't a String field.
-          
-          
-          
-       
-       
-       
-       
-       
-   
-   
-
-
-.. _setUUID:
-
-.. _setUUID__:
-
-.. _RealmResults_setUUID:
-
-.. _RealmResults_setUUID__:
-
-.. _io_realm_RealmResults_setUUID:
-
-.. _io_realm_RealmResults_setUUID__:
-
-
-
-setUUID
--------
-
-.. _io_realm_RealmResults_setUUID_java_lang_String_java_util_UUID_:
-
-.. _io_realm_RealmResults_setUUID_java_lang_String__java_util_UUID_:
-
-.. _io_realm_RealmResults_setUUID_java_lang_String_UUID_:
-
-.. _io_realm_RealmResults_setUUID_java_lang_String__UUID_:
-
-.. _io_realm_RealmResults_setUUID_String_java_util_UUID_:
-
-.. _io_realm_RealmResults_setUUID_String__java_util_UUID_:
-
-.. _io_realm_RealmResults_setUUID_String_UUID_:
-
-.. _io_realm_RealmResults_setUUID_String__UUID_:
-
-.. _setUUID_java_lang_String_java_util_UUID_:
-
-.. _setUUID_java_lang_String__java_util_UUID_:
-
-.. _setUUID_java_lang_String_UUID_:
-
-.. _setUUID_java_lang_String__UUID_:
-
-.. _setUUID_String_java_util_UUID_:
-
-.. _setUUID_String__java_util_UUID_:
-
-.. _setUUID_String_UUID_:
-
-.. _setUUID_String__UUID_:
-
-.. _RealmResults_setUUID_java_lang_String_java_util_UUID_:
-
-.. _RealmResults_setUUID_java_lang_String__java_util_UUID_:
-
-.. _RealmResults_setUUID_java_lang_String_UUID_:
-
-.. _RealmResults_setUUID_java_lang_String__UUID_:
-
-.. _RealmResults_setUUID_String_java_util_UUID_:
-
-.. _RealmResults_setUUID_String__java_util_UUID_:
-
-.. _RealmResults_setUUID_String_UUID_:
-
-.. _RealmResults_setUUID_String__UUID_:
-
-.. list-table::
-   :header-rows: 1
-   
-   * - | public **void** :ref:`setUUID <io_realm_RealmResults_setUUID>` (
-       |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  fieldName, 
-       |  `UUID <https://docs.oracle.com/javase/7/docs/api/java/util/UUID.html>`__  value
-       | )
-       
-       
-       
-   
-   * - Sets the ``UUID``  value of the given field in all of the objects in the collection.
-       
-       
-       
-       
-       
-       
-       **Parameters**
-       
-       - ``fieldName`` - name of the field to update.
-          
-          
-          
-       - ``value`` - new value for the field.
-          
-          
-          
-       
-       
-       
-       
-       
-       
-       **Throws**
-       
-       - `IllegalArgumentException <https://docs.oracle.com/javase/7/docs/api/java/lang/IllegalArgumentException.html>`__  - if field name doesn't exist, is a primary key property or isn't a ``UUID``  field.
-          
-          
           
           
           
@@ -3327,7 +3213,7 @@ sort
        
        **Overrides**
        
-       ``sort`` in class **OrderedRealmCollectionImpl (?)**
+       ``sort`` in class **OrderedRealmCollectionImpl**
        
        
    

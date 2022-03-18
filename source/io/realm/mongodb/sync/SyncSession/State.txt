@@ -33,7 +33,7 @@ io.realm.mongodb.sync
 
 Enum describing the states a SyncSession can be in. The initial state is :ref:`State.INACTIVE <io_realm_mongodb_sync_SyncSession_State_INACTIVE>` .
 
-A Realm will automatically synchronize data with the server if the session is either :ref:`State.ACTIVE <io_realm_mongodb_sync_SyncSession_State_ACTIVE>`  or :ref:`State.DYING <io_realm_mongodb_sync_SyncSession_State_DYING>`  and **isConnected() (?)** returns ``true`` .
+A Realm will automatically synchronize data with the server if the session is either :ref:`State.ACTIVE <io_realm_mongodb_sync_SyncSession_State_ACTIVE>`  or :ref:`State.DYING <io_realm_mongodb_sync_SyncSession_State_DYING>`  and **isConnected()** returns ``true`` .
 
 
 
@@ -67,13 +67,6 @@ Enum Constant Summary
    * - :ref:`INACTIVE <io_realm_mongodb_sync_SyncSession_State_INACTIVE>` 
        
        This is the initial state.
-       
-       
-       
-   
-   * - :ref:`WAITING_FOR_ACCESS_TOKEN <io_realm_mongodb_sync_SyncSession_State_WAITING_FOR_ACCESS_TOKEN>` 
-       
-       The user is attempting to synchronize data but needs a valid access token to do so.
        
        
        
@@ -179,27 +172,6 @@ The Realm was closed, but still contains data that needs to be synchronized to t
 public static final :ref:`SyncSession.State <io_realm_mongodb_sync_SyncSession_State>` 
 
 This is the initial state. The session is closed. No data is being synchronized. The session will automatically transition to :ref:`ACTIVE <io_realm_mongodb_sync_SyncSession_State_ACTIVE>`  when a Realm is opened.
-
-
-
-
-
-.. _io_realm_mongodb_sync_SyncSession_State_WAITING_FOR_ACCESS_TOKEN:
-
-.. _SyncSession_State_WAITING_FOR_ACCESS_TOKEN:
-
-
-
-``WAITING_FOR_ACCESS_TOKEN`` 
------------------------------
-
-public static final :ref:`SyncSession.State <io_realm_mongodb_sync_SyncSession_State>` 
-
-The user is attempting to synchronize data but needs a valid access token to do so. Realm will either use a cached token or automatically try to acquire one based on the current users login. This requires a network connection.Data cannot be synchronized in this state.
-
-Once a valid token is acquired, the session will transition to :ref:`ACTIVE <io_realm_mongodb_sync_SyncSession_State_ACTIVE>` .
-
-
 
 
 

@@ -55,7 +55,7 @@ A *Functions* manager to call remote Realm functions for the associated Realm Ap
       
       
       
-   - **CodecRegistry (?)**
+   - **CodecRegistry**
       
       
       
@@ -74,11 +74,11 @@ Method Summary
    * - Modifier and Type
      - Method and Description
    
-   * - public **ResultT (?)**
-     - | :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT (?)** >(
+   * - public **ResultT**
+     - | :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
-       |  **<any> (?)** resultDecoder
+       |  **<any>** resultDecoder
        | )
        
        
@@ -87,8 +87,8 @@ Method Summary
        
        
    
-   * - public **ResultT (?)**
-     - | :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT (?)** >(
+   * - public **ResultT**
+     - | :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
        |  `java.lang.Class\<ResultT> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass
@@ -100,12 +100,12 @@ Method Summary
        
        
    
-   * - public **ResultT (?)**
-     - | :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT (?)** >(
+   * - public **ResultT**
+     - | :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
        |  `java.lang.Class\<ResultT> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass, 
-       |  **CodecRegistry (?)** codecRegistry
+       |  **CodecRegistry** codecRegistry
        | )
        
        
@@ -115,10 +115,10 @@ Method Summary
        
    
    * - public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>` 
-     - | :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T (?)** >(
+     - | :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
-       |  **<any> (?)** resultDecoder, 
+       |  **<any>** resultDecoder, 
        |  :ref:`io.realm.mongodb.App.Callback\<T> <io_realm_mongodb_App_Callback>`  callback
        | )
        
@@ -129,7 +129,7 @@ Method Summary
        
    
    * - public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>` 
-     - | :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T (?)** >(
+     - | :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
        |  `java.lang.Class\<T> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass, 
@@ -143,11 +143,11 @@ Method Summary
        
    
    * - public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>` 
-     - | :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T (?)** >(
+     - | :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
        |  `java.lang.Class\<T> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass, 
-       |  **CodecRegistry (?)** codecRegistry, 
+       |  **CodecRegistry** codecRegistry, 
        |  :ref:`io.realm.mongodb.App.Callback\<T> <io_realm_mongodb_App_Callback>`  callback
        | )
        
@@ -169,7 +169,7 @@ Method Summary
        
        
    
-   * - public **CodecRegistry (?)**
+   * - public **CodecRegistry**
      - | :ref:`getDefaultCodecRegistry <io_realm_mongodb_functions_Functions_getDefaultCodecRegistry>` ()
        | 
        
@@ -191,12 +191,12 @@ Method Summary
        
        
    
-   * - protected abstract **T (?)**
-     - | :ref:`invoke <io_realm_mongodb_functions_Functions_invoke>` <**T (?)** >(
+   * - protected abstract **T**
+     - | :ref:`invoke <io_realm_mongodb_functions_Functions_invoke>` <**T** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
-       |  **CodecRegistry (?)** codecRegistry, 
-       |  **<any> (?)** resultDecoder
+       |  **CodecRegistry** codecRegistry, 
+       |  **<any>** resultDecoder
        | )
        
        
@@ -291,10 +291,10 @@ callFunction
 .. list-table::
    :header-rows: 1
    
-   * - | public **ResultT (?)** :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT (?)** >(
+   * - | public **ResultT** :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
-       |  **<any> (?)** resultDecoder
+       |  **<any>** resultDecoder
        | )
        
        
@@ -474,7 +474,7 @@ callFunction
 .. list-table::
    :header-rows: 1
    
-   * - | public **ResultT (?)** :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT (?)** >(
+   * - | public **ResultT** :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
        |  `java.lang.Class\<ResultT> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass
@@ -653,11 +653,11 @@ callFunction
 .. list-table::
    :header-rows: 1
    
-   * - | public **ResultT (?)** :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT (?)** >(
+   * - | public **ResultT** :ref:`callFunction <io_realm_mongodb_functions_Functions_callFunction>` <**ResultT** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
        |  `java.lang.Class\<ResultT> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass, 
-       |  **CodecRegistry (?)** codecRegistry
+       |  **CodecRegistry** codecRegistry
        | )
        
        
@@ -906,17 +906,17 @@ callFunctionAsync
 .. list-table::
    :header-rows: 1
    
-   * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T (?)** >(
+   * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
-       |  **<any> (?)** resultDecoder, 
+       |  **<any>** resultDecoder, 
        |  :ref:`io.realm.mongodb.App.Callback\<T> <io_realm_mongodb_App_Callback>`  callback
        | )
        
        
        
    
-   * - Call a MongoDB Realm function asynchronously with custom result decoder.This is the asynchronous equivalent of **callFunction(String, List, Decoder) (?)**.
+   * - Call a MongoDB Realm function asynchronously with custom result decoder.This is the asynchronous equivalent of **callFunction(String, List, Decoder)**.
        
        
        
@@ -1292,7 +1292,7 @@ callFunctionAsync
 .. list-table::
    :header-rows: 1
    
-   * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T (?)** >(
+   * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
        |  `java.lang.Class\<T> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass, 
@@ -1676,11 +1676,11 @@ callFunctionAsync
 .. list-table::
    :header-rows: 1
    
-   * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T (?)** >(
+   * - | public :ref:`RealmAsyncTask <io_realm_RealmAsyncTask>`  :ref:`callFunctionAsync <io_realm_mongodb_functions_Functions_callFunctionAsync>` <**T** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
        |  `java.lang.Class\<T> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass, 
-       |  **CodecRegistry (?)** codecRegistry, 
+       |  **CodecRegistry** codecRegistry, 
        |  :ref:`io.realm.mongodb.App.Callback\<T> <io_realm_mongodb_App_Callback>`  callback
        | )
        
@@ -1845,7 +1845,7 @@ getDefaultCodecRegistry
 .. list-table::
    :header-rows: 1
    
-   * - | public **CodecRegistry (?)** :ref:`getDefaultCodecRegistry <io_realm_mongodb_functions_Functions_getDefaultCodecRegistry>` ()
+   * - | public **CodecRegistry** :ref:`getDefaultCodecRegistry <io_realm_mongodb_functions_Functions_getDefaultCodecRegistry>` ()
        | 
        
        
@@ -1993,11 +1993,11 @@ invoke
 .. list-table::
    :header-rows: 1
    
-   * - | protected abstract **T (?)** :ref:`invoke <io_realm_mongodb_functions_Functions_invoke>` <**T (?)** >(
+   * - | protected abstract **T** :ref:`invoke <io_realm_mongodb_functions_Functions_invoke>` <**T** >(
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  name, 
        |  `java.util.List\<?> <https://docs.oracle.com/javase/7/docs/api/java/util/List.html>`__  args, 
-       |  **CodecRegistry (?)** codecRegistry, 
-       |  **<any> (?)** resultDecoder
+       |  **CodecRegistry** codecRegistry, 
+       |  **<any>** resultDecoder
        | )
        
        

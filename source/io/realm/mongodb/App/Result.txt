@@ -56,7 +56,7 @@ Method Summary
    * - Modifier and Type
      - Method and Description
    
-   * - public **T (?)**
+   * - public **T**
      - | :ref:`get <io_realm_mongodb_App_Result_get>` ()
        | 
        
@@ -76,9 +76,9 @@ Method Summary
        
        
    
-   * - public **T (?)**
+   * - public **T**
      - | :ref:`getOrDefault <io_realm_mongodb_App_Result_getOrDefault>` (
-       |  **T (?)** defaultValue
+       |  **T** defaultValue
        | )
        
        
@@ -87,7 +87,7 @@ Method Summary
        
        
    
-   * - public **T (?)**
+   * - public **T**
      - | :ref:`getOrThrow <io_realm_mongodb_App_Result_getOrThrow>` ()
        | 
        
@@ -108,7 +108,7 @@ Method Summary
        
    
    * - public static :ref:`App.Result <io_realm_mongodb_App_Result>` 
-     - | :ref:`success <io_realm_mongodb_App_Result_success>` <**T (?)** >()
+     - | :ref:`success <io_realm_mongodb_App_Result_success>` <**T** >()
        | 
        
        
@@ -118,7 +118,7 @@ Method Summary
        
    
    * - public static :ref:`App.Result <io_realm_mongodb_App_Result>` 
-     - | :ref:`withError <io_realm_mongodb_App_Result_withError>` <**T (?)** >(
+     - | :ref:`withError <io_realm_mongodb_App_Result_withError>` <**T** >(
        |  :ref:`AppException <io_realm_mongodb_AppException>`  exception
        | )
        
@@ -129,8 +129,8 @@ Method Summary
        
    
    * - public static :ref:`App.Result <io_realm_mongodb_App_Result>` 
-     - | :ref:`withResult <io_realm_mongodb_App_Result_withResult>` <**T (?)** >(
-       |  **T (?)** result
+     - | :ref:`withResult <io_realm_mongodb_App_Result_withResult>` <**T** >(
+       |  **T** result
        | )
        
        
@@ -179,7 +179,7 @@ get
 .. list-table::
    :header-rows: 1
    
-   * - | public **T (?)** :ref:`get <io_realm_mongodb_App_Result_get>` ()
+   * - | public **T** :ref:`get <io_realm_mongodb_App_Result_get>` ()
        | 
        
        
@@ -289,8 +289,8 @@ getOrDefault
 .. list-table::
    :header-rows: 1
    
-   * - | public **T (?)** :ref:`getOrDefault <io_realm_mongodb_App_Result_getOrDefault>` (
-       |  **T (?)** defaultValue
+   * - | public **T** :ref:`getOrDefault <io_realm_mongodb_App_Result_getOrDefault>` (
+       |  **T** defaultValue
        | )
        
        
@@ -341,7 +341,7 @@ getOrThrow
 .. list-table::
    :header-rows: 1
    
-   * - | public **T (?)** :ref:`getOrThrow <io_realm_mongodb_App_Result_getOrThrow>` ()
+   * - | public **T** :ref:`getOrThrow <io_realm_mongodb_App_Result_getOrThrow>` ()
        | 
        
        
@@ -453,7 +453,7 @@ success
 .. list-table::
    :header-rows: 1
    
-   * - | public static :ref:`App.Result <io_realm_mongodb_App_Result>`  :ref:`success <io_realm_mongodb_App_Result_success>` <**T (?)** >()
+   * - | public static :ref:`App.Result <io_realm_mongodb_App_Result>`  :ref:`success <io_realm_mongodb_App_Result_success>` <**T** >()
        | 
        
        
@@ -511,7 +511,7 @@ withError
 .. list-table::
    :header-rows: 1
    
-   * - | public static :ref:`App.Result <io_realm_mongodb_App_Result>`  :ref:`withError <io_realm_mongodb_App_Result_withError>` <**T (?)** >(
+   * - | public static :ref:`App.Result <io_realm_mongodb_App_Result>`  :ref:`withError <io_realm_mongodb_App_Result_withError>` <**T** >(
        |  :ref:`AppException <io_realm_mongodb_AppException>`  exception
        | )
        
@@ -572,8 +572,8 @@ withResult
 .. list-table::
    :header-rows: 1
    
-   * - | public static :ref:`App.Result <io_realm_mongodb_App_Result>`  :ref:`withResult <io_realm_mongodb_App_Result_withResult>` <**T (?)** >(
-       |  **T (?)** result
+   * - | public static :ref:`App.Result <io_realm_mongodb_App_Result>`  :ref:`withResult <io_realm_mongodb_App_Result_withResult>` <**T** >(
+       |  **T** result
        | )
        
        

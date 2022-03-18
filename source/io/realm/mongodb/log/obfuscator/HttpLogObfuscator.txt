@@ -35,7 +35,7 @@ Constructors
    
    * - | :ref:`HttpLogObfuscator <io_realm_mongodb_log_obfuscator_HttpLogObfuscator>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  feature, 
-       |  `java.util.Map\<java.lang.String, RegexPatternObfuscator> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  patternObfuscatorMap
+       |  `java.util.Map\<java.lang.String, io.realm.internal.log.obfuscator.RegexPatternObfuscator> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  patternObfuscatorMap
        | )
        
        
@@ -118,7 +118,7 @@ Constructor Detail
    
    * - | public :ref:`HttpLogObfuscator <io_realm_mongodb_log_obfuscator_HttpLogObfuscator>` (
        |  `String <https://docs.oracle.com/javase/7/docs/api/java/lang/String.html>`__  feature, 
-       |  `java.util.Map\<java.lang.String, RegexPatternObfuscator> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  patternObfuscatorMap
+       |  `java.util.Map\<java.lang.String, io.realm.internal.log.obfuscator.RegexPatternObfuscator> <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  patternObfuscatorMap
        | )
        
        
@@ -131,13 +131,13 @@ Constructor Detail
        
        **Parameters**
        
-       - ``feature`` - the feature to obfuscate, e.g. "providers" for login requests - see **io.realm.internal.network.LoggingInterceptor (?)**.
+       - ``feature`` - the feature to obfuscate, e.g. "providers" for login requests - see **io.realm.internal.network.LoggingInterceptor**.
           
           
           
           
           
-       - ``patternObfuscatorMap`` - `Map <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  of keys subject to being obfuscated and **RegexPatternObfuscator (?)**s used to determine which obfuscator has to be used for the given feature.
+       - ``patternObfuscatorMap`` - `Map <https://docs.oracle.com/javase/7/docs/api/java/util/Map.html>`__  of keys subject to being obfuscated and **RegexPatternObfuscator**s used to determine which obfuscator has to be used for the given feature.
           
           
           

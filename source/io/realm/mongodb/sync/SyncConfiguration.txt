@@ -111,7 +111,7 @@ Method Summary
    * - public static :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>` 
      - | :ref:`defaultConfig <io_realm_mongodb_sync_SyncConfiguration_defaultConfig>` (
        |  :ref:`User <io_realm_mongodb_User>`  user, 
-       |  **ObjectId (?)** partitionValue
+       |  **ObjectId** partitionValue
        | )
        
        
@@ -236,7 +236,7 @@ Method Summary
        
        
    
-   * - public **BsonValue (?)**
+   * - public **BsonValue**
      - | :ref:`getPartitionValue <io_realm_mongodb_sync_SyncConfiguration_getPartitionValue>` ()
        | 
        
@@ -256,7 +256,7 @@ Method Summary
        
        
    
-   * - public **OsRealmConfig.SyncSessionStopPolicy (?)**
+   * - public **OsRealmConfig.SyncSessionStopPolicy**
      - | :ref:`getSessionStopPolicy <io_realm_mongodb_sync_SyncConfiguration_getSessionStopPolicy>` ()
        | 
        
@@ -413,7 +413,7 @@ defaultConfig
    
    * - | public static :ref:`SyncConfiguration <io_realm_mongodb_sync_SyncConfiguration>`  :ref:`defaultConfig <io_realm_mongodb_sync_SyncConfiguration_defaultConfig>` (
        |  :ref:`User <io_realm_mongodb_User>`  user, 
-       |  **ObjectId (?)** partitionValue
+       |  **ObjectId** partitionValue
        | )
        
        
@@ -1289,7 +1289,7 @@ getPartitionValue
 .. list-table::
    :header-rows: 1
    
-   * - | public **BsonValue (?)** :ref:`getPartitionValue <io_realm_mongodb_sync_SyncConfiguration_getPartitionValue>` ()
+   * - | public **BsonValue** :ref:`getPartitionValue <io_realm_mongodb_sync_SyncConfiguration_getPartitionValue>` ()
        | 
        
        
@@ -1385,7 +1385,7 @@ getSessionStopPolicy
 .. list-table::
    :header-rows: 1
    
-   * - | public **OsRealmConfig.SyncSessionStopPolicy (?)** :ref:`getSessionStopPolicy <io_realm_mongodb_sync_SyncConfiguration_getSessionStopPolicy>` ()
+   * - | public **OsRealmConfig.SyncSessionStopPolicy** :ref:`getSessionStopPolicy <io_realm_mongodb_sync_SyncConfiguration_getSessionStopPolicy>` ()
        | 
        
        

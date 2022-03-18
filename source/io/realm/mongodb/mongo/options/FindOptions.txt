@@ -64,7 +64,7 @@ Method Summary
        
        
    
-   * - public **Bson (?)**
+   * - public **Bson**
      - | :ref:`getProjection <io_realm_mongodb_mongo_options_FindOptions_getProjection>` ()
        | 
        
@@ -74,7 +74,7 @@ Method Summary
        
        
    
-   * - public **Bson (?)**
+   * - public **Bson**
      - | :ref:`getSort <io_realm_mongodb_mongo_options_FindOptions_getSort>` ()
        | 
        
@@ -97,7 +97,7 @@ Method Summary
    
    * - public :ref:`FindOptions <io_realm_mongodb_mongo_options_FindOptions>` 
      - | :ref:`projection <io_realm_mongodb_mongo_options_FindOptions_projection>` (
-       |  **Bson (?)** projection
+       |  **Bson** projection
        | )
        
        
@@ -108,7 +108,7 @@ Method Summary
    
    * - public :ref:`FindOptions <io_realm_mongodb_mongo_options_FindOptions>` 
      - | :ref:`sort <io_realm_mongodb_mongo_options_FindOptions_sort>` (
-       |  **Bson (?)** sort
+       |  **Bson** sort
        | )
        
        
@@ -244,7 +244,7 @@ getProjection
 .. list-table::
    :header-rows: 1
    
-   * - | public **Bson (?)** :ref:`getProjection <io_realm_mongodb_mongo_options_FindOptions_getProjection>` ()
+   * - | public **Bson** :ref:`getProjection <io_realm_mongodb_mongo_options_FindOptions_getProjection>` ()
        | 
        
        
@@ -291,7 +291,7 @@ getSort
 .. list-table::
    :header-rows: 1
    
-   * - | public **Bson (?)** :ref:`getSort <io_realm_mongodb_mongo_options_FindOptions_getSort>` ()
+   * - | public **Bson** :ref:`getSort <io_realm_mongodb_mongo_options_FindOptions_getSort>` ()
        | 
        
        
@@ -407,7 +407,7 @@ projection
    :header-rows: 1
    
    * - | public :ref:`FindOptions <io_realm_mongodb_mongo_options_FindOptions>`  :ref:`projection <io_realm_mongodb_mongo_options_FindOptions_projection>` (
-       |  **Bson (?)** projection
+       |  **Bson** projection
        | )
        
        
@@ -469,7 +469,7 @@ sort
    :header-rows: 1
    
    * - | public :ref:`FindOptions <io_realm_mongodb_mongo_options_FindOptions>`  :ref:`sort <io_realm_mongodb_mongo_options_FindOptions_sort>` (
-       |  **Bson (?)** sort
+       |  **Bson** sort
        | )
        
        

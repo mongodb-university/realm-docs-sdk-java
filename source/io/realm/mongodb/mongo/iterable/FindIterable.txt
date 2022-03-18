@@ -38,8 +38,8 @@ Constructors
    
    * - | :ref:`FindIterable <io_realm_mongodb_mongo_iterable_FindIterable>` (
        |  `ThreadPoolExecutor <https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ThreadPoolExecutor.html>`__  threadPoolExecutor, 
-       |  **<any> (?)** osMongoCollection, 
-       |  **CodecRegistry (?)** codecRegistry, 
+       |  **io.realm.internal.objectstore.OsMongoCollection<?>** osMongoCollection, 
+       |  **CodecRegistry** codecRegistry, 
        |  `java.lang.Class\<ResultT> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass
        | )
        
@@ -63,7 +63,7 @@ Method Summary
    
    * - public :ref:`FindIterable <io_realm_mongodb_mongo_iterable_FindIterable>` 
      - | :ref:`filter <io_realm_mongodb_mongo_iterable_FindIterable_filter>` (
-       |  **Bson (?)** filter
+       |  **Bson** filter
        | )
        
        
@@ -85,7 +85,7 @@ Method Summary
    
    * - public :ref:`FindIterable <io_realm_mongodb_mongo_iterable_FindIterable>` 
      - | :ref:`projection <io_realm_mongodb_mongo_iterable_FindIterable_projection>` (
-       |  **Bson (?)** projection
+       |  **Bson** projection
        | )
        
        
@@ -96,7 +96,7 @@ Method Summary
    
    * - public :ref:`FindIterable <io_realm_mongodb_mongo_iterable_FindIterable>` 
      - | :ref:`sort <io_realm_mongodb_mongo_iterable_FindIterable_sort>` (
-       |  **Bson (?)** sort
+       |  **Bson** sort
        | )
        
        
@@ -135,8 +135,8 @@ Constructor Detail
    
    * - | public :ref:`FindIterable <io_realm_mongodb_mongo_iterable_FindIterable>` (
        |  `ThreadPoolExecutor <https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ThreadPoolExecutor.html>`__  threadPoolExecutor, 
-       |  **<any> (?)** osMongoCollection, 
-       |  **CodecRegistry (?)** codecRegistry, 
+       |  **io.realm.internal.objectstore.OsMongoCollection<?>** osMongoCollection, 
+       |  **CodecRegistry** codecRegistry, 
        |  `java.lang.Class\<ResultT> <https://docs.oracle.com/javase/7/docs/api/java/lang/Class.html>`__  resultClass
        | )
        
@@ -187,7 +187,7 @@ filter
    :header-rows: 1
    
    * - | public :ref:`FindIterable <io_realm_mongodb_mongo_iterable_FindIterable>`  :ref:`filter <io_realm_mongodb_mongo_iterable_FindIterable_filter>` (
-       |  **Bson (?)** filter
+       |  **Bson** filter
        | )
        
        
@@ -311,7 +311,7 @@ projection
    :header-rows: 1
    
    * - | public :ref:`FindIterable <io_realm_mongodb_mongo_iterable_FindIterable>`  :ref:`projection <io_realm_mongodb_mongo_iterable_FindIterable_projection>` (
-       |  **Bson (?)** projection
+       |  **Bson** projection
        | )
        
        
@@ -373,7 +373,7 @@ sort
    :header-rows: 1
    
    * - | public :ref:`FindIterable <io_realm_mongodb_mongo_iterable_FindIterable>`  :ref:`sort <io_realm_mongodb_mongo_iterable_FindIterable_sort>` (
-       |  **Bson (?)** sort
+       |  **Bson** sort
        | )
        
        

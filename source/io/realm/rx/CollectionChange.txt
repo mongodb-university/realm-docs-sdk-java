@@ -40,7 +40,7 @@ Constructors
    * - Constructor and Description
    
    * - | :ref:`CollectionChange <io_realm_rx_CollectionChange>` (
-       |  **E (?)** collection, 
+       |  **E** collection, 
        |  :ref:`OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>`  changeset
        | )
        
@@ -83,7 +83,7 @@ Method Summary
        
        
    
-   * - public **E (?)**
+   * - public **E**
      - | :ref:`getCollection <io_realm_rx_CollectionChange_getCollection>` ()
        | 
        
@@ -131,7 +131,7 @@ Constructor Detail
    :header-rows: 1
    
    * - | public :ref:`CollectionChange <io_realm_rx_CollectionChange>` (
-       |  **E (?)** collection, 
+       |  **E** collection, 
        |  :ref:`OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>`  changeset
        | )
        
@@ -315,7 +315,7 @@ getCollection
 .. list-table::
    :header-rows: 1
    
-   * - | public **E (?)** :ref:`getCollection <io_realm_rx_CollectionChange_getCollection>` ()
+   * - | public **E** :ref:`getCollection <io_realm_rx_CollectionChange_getCollection>` ()
        | 
        
        

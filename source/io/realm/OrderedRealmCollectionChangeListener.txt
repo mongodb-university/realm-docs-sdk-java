@@ -17,7 +17,7 @@ Interface OrderedRealmCollectionChangeListener
 io.realm
 ========
 
-:ref:`OrderedRealmCollectionChangeListener <io_realm_OrderedRealmCollectionChangeListener>`  can be registered with a :ref:`RealmResults <io_realm_RealmResults>`  to receive a notification with a :ref:`OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>`  to describe the details of what have been changed in the collection since last time.
+:ref:`OrderedRealmCollectionChangeListener <io_realm_OrderedRealmCollectionChangeListener>`  can be registered with a :ref:`RealmResults <io_realm_RealmResults>`  to receive a notification with a :ref:`OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>`  to describe the details of what have been changed in the collection from last time.
 
 Realm instances on a thread without an `android.os.Looper <https://developer.android.com/reference/android/os/Looper>`__  cannot register a :ref:`OrderedRealmCollectionChangeListener <io_realm_OrderedRealmCollectionChangeListener>` .
 
@@ -51,7 +51,7 @@ Method Summary
    
    * - public **void**
      - | :ref:`onChange <io_realm_OrderedRealmCollectionChangeListener_onChange>` (
-       |  **T (?)** t, 
+       |  **T** t, 
        |  :ref:`OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>`  changeSet
        | )
        
@@ -112,7 +112,7 @@ onChange
    :header-rows: 1
    
    * - | public **void** :ref:`onChange <io_realm_OrderedRealmCollectionChangeListener_onChange>` (
-       |  **T (?)** t, 
+       |  **T** t, 
        |  :ref:`OrderedCollectionChangeSet <io_realm_OrderedCollectionChangeSet>`  changeSet
        | )
        
