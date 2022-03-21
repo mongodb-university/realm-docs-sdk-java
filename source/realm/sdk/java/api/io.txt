@@ -15,23 +15,23 @@ Realm Java API
    :hidden:
 
 
-   io.realm <io/realm>
-   io.realm.annotations <io/realm/annotations>
-   io.realm.coroutines <io/realm/coroutines>
-   io.realm.exceptions <io/realm/exceptions>
-   io.realm.log <io/realm/log>
-   io.realm.mongodb <io/realm/mongodb>
-   io.realm.mongodb.auth <io/realm/mongodb/auth>
-   io.realm.mongodb.functions <io/realm/mongodb/functions>
-   io.realm.mongodb.log.obfuscator <io/realm/mongodb/log/obfuscator>
-   io.realm.mongodb.mongo <io/realm/mongodb/mongo>
-   io.realm.mongodb.mongo.events <io/realm/mongodb/mongo/events>
-   io.realm.mongodb.mongo.iterable <io/realm/mongodb/mongo/iterable>
-   io.realm.mongodb.mongo.options <io/realm/mongodb/mongo/options>
-   io.realm.mongodb.mongo.result <io/realm/mongodb/mongo/result>
-   io.realm.mongodb.push <io/realm/mongodb/push>
-   io.realm.mongodb.sync <io/realm/mongodb/sync>
-   io.realm.rx <io/realm/rx>
+   io.realm </realm/sdk/java/api/io/realm>
+   io.realm.annotations </realm/sdk/java/api/io/realm/annotations>
+   io.realm.coroutines </realm/sdk/java/api/io/realm/coroutines>
+   io.realm.exceptions </realm/sdk/java/api/io/realm/exceptions>
+   io.realm.log </realm/sdk/java/api/io/realm/log>
+   io.realm.mongodb </realm/sdk/java/api/io/realm/mongodb>
+   io.realm.mongodb.auth </realm/sdk/java/api/io/realm/mongodb/auth>
+   io.realm.mongodb.functions </realm/sdk/java/api/io/realm/mongodb/functions>
+   io.realm.mongodb.log.obfuscator </realm/sdk/java/api/io/realm/mongodb/log/obfuscator>
+   io.realm.mongodb.mongo </realm/sdk/java/api/io/realm/mongodb/mongo>
+   io.realm.mongodb.mongo.events </realm/sdk/java/api/io/realm/mongodb/mongo/events>
+   io.realm.mongodb.mongo.iterable </realm/sdk/java/api/io/realm/mongodb/mongo/iterable>
+   io.realm.mongodb.mongo.options </realm/sdk/java/api/io/realm/mongodb/mongo/options>
+   io.realm.mongodb.mongo.result </realm/sdk/java/api/io/realm/mongodb/mongo/result>
+   io.realm.mongodb.push </realm/sdk/java/api/io/realm/mongodb/push>
+   io.realm.mongodb.sync </realm/sdk/java/api/io/realm/mongodb/sync>
+   io.realm.rx </realm/sdk/java/api/io/realm/rx>
    
 
 
