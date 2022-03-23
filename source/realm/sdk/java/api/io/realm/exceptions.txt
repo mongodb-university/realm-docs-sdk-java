@@ -1,0 +1,39 @@
+
+.. contents:: On this page
+   :local:
+   :backlinks: none
+   :depth: 2
+   :class: singlecol
+
+
+
+io.realm.exceptions
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :titlesonly:
+   :hidden:
+
+
+   RealmFileException.Kind </realm/sdk/java/api/io/realm/exceptions/RealmFileException/Kind>
+   DownloadingRealmInterruptedException </realm/sdk/java/api/io/realm/exceptions/DownloadingRealmInterruptedException>
+   RealmException </realm/sdk/java/api/io/realm/exceptions/RealmException>
+   RealmFileException </realm/sdk/java/api/io/realm/exceptions/RealmFileException>
+   RealmMigrationNeededException </realm/sdk/java/api/io/realm/exceptions/RealmMigrationNeededException>
+   RealmPrimaryKeyConstraintException </realm/sdk/java/api/io/realm/exceptions/RealmPrimaryKeyConstraintException>
+   RealmError </realm/sdk/java/api/io/realm/exceptions/RealmError>
+   
+
+
+| 
+
+- :ref:`io.realm.exceptions.RealmFileException.Kind <io_realm_exceptions_RealmFileException_Kind>` 
+- :ref:`io.realm.exceptions.DownloadingRealmInterruptedException <io_realm_exceptions_DownloadingRealmInterruptedException>` 
+- :ref:`io.realm.exceptions.RealmException <io_realm_exceptions_RealmException>` 
+- :ref:`io.realm.exceptions.RealmFileException <io_realm_exceptions_RealmFileException>` 
+- :ref:`io.realm.exceptions.RealmMigrationNeededException <io_realm_exceptions_RealmMigrationNeededException>` 
+- :ref:`io.realm.exceptions.RealmPrimaryKeyConstraintException <io_realm_exceptions_RealmPrimaryKeyConstraintException>` 
+- :ref:`io.realm.exceptions.RealmError <io_realm_exceptions_RealmError>` 
+
+
+

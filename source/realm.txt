@@ -1,8 +1,8 @@
-Index
+Realm
 ^^^^^
 
 .. toctree::
    :titlesonly:
    :hidden:
 
-   Realm </realm>
+   SDK </realm/sdk>

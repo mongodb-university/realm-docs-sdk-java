@@ -1,8 +1,8 @@
-Index
-^^^^^
+API
+^^^
 
 .. toctree::
    :titlesonly:
    :hidden:
 
-   Realm </realm>
+   io </realm/sdk/java/api/io>
