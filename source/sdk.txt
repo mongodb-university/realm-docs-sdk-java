@@ -5,4 +5,4 @@ SDK
    :titlesonly:
    :hidden:
 
-   Java </realm/sdk/java>
+   Java </sdk/java>

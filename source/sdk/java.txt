@@ -5,4 +5,4 @@ Java
    :titlesonly:
    :hidden:
 
-   API </realm/sdk/java/api>
+   API </sdk/java/api>
