@@ -15,8 +15,8 @@ io.realm.coroutines
    :hidden:
 
 
-   FlowFactory </realm/sdk/java/api/io/realm/coroutines/FlowFactory>
-   RealmFlowFactory </realm/sdk/java/api/io/realm/coroutines/RealmFlowFactory>
+   FlowFactory </sdk/java/api/io/realm/coroutines/FlowFactory>
+   RealmFlowFactory </sdk/java/api/io/realm/coroutines/RealmFlowFactory>
    
 
 

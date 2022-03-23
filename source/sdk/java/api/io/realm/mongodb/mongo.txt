@@ -15,10 +15,10 @@ io.realm.mongodb.mongo
    :hidden:
 
 
-   MongoClient </realm/sdk/java/api/io/realm/mongodb/mongo/MongoClient>
-   MongoCollection </realm/sdk/java/api/io/realm/mongodb/mongo/MongoCollection>
-   MongoDatabase </realm/sdk/java/api/io/realm/mongodb/mongo/MongoDatabase>
-   MongoNamespace </realm/sdk/java/api/io/realm/mongodb/mongo/MongoNamespace>
+   MongoClient </sdk/java/api/io/realm/mongodb/mongo/MongoClient>
+   MongoCollection </sdk/java/api/io/realm/mongodb/mongo/MongoCollection>
+   MongoDatabase </sdk/java/api/io/realm/mongodb/mongo/MongoDatabase>
+   MongoNamespace </sdk/java/api/io/realm/mongodb/mongo/MongoNamespace>
    
 
 

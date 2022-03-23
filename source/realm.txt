@@ -1,8 +1,0 @@
-Realm
-^^^^^
-
-.. toctree::
-   :titlesonly:
-   :hidden:
-
-   SDK </realm/sdk>

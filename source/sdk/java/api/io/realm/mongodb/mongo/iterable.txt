@@ -15,10 +15,10 @@ io.realm.mongodb.mongo.iterable
    :hidden:
 
 
-   AggregateIterable </realm/sdk/java/api/io/realm/mongodb/mongo/iterable/AggregateIterable>
-   FindIterable </realm/sdk/java/api/io/realm/mongodb/mongo/iterable/FindIterable>
-   MongoCursor </realm/sdk/java/api/io/realm/mongodb/mongo/iterable/MongoCursor>
-   MongoIterable </realm/sdk/java/api/io/realm/mongodb/mongo/iterable/MongoIterable>
+   AggregateIterable </sdk/java/api/io/realm/mongodb/mongo/iterable/AggregateIterable>
+   FindIterable </sdk/java/api/io/realm/mongodb/mongo/iterable/FindIterable>
+   MongoCursor </sdk/java/api/io/realm/mongodb/mongo/iterable/MongoCursor>
+   MongoIterable </sdk/java/api/io/realm/mongodb/mongo/iterable/MongoIterable>
    
 
 

@@ -15,7 +15,7 @@ io.realm.mongodb.push
    :hidden:
 
 
-   Push </realm/sdk/java/api/io/realm/mongodb/push/Push>
+   Push </sdk/java/api/io/realm/mongodb/push/Push>
    
 
 

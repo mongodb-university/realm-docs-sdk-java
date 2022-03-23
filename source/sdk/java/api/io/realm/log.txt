@@ -15,9 +15,9 @@ io.realm.log
    :hidden:
 
 
-   LogLevel </realm/sdk/java/api/io/realm/log/LogLevel>
-   RealmLog </realm/sdk/java/api/io/realm/log/RealmLog>
-   RealmLogger </realm/sdk/java/api/io/realm/log/RealmLogger>
+   LogLevel </sdk/java/api/io/realm/log/LogLevel>
+   RealmLog </sdk/java/api/io/realm/log/RealmLog>
+   RealmLogger </sdk/java/api/io/realm/log/RealmLogger>
    
 
 

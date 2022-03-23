@@ -15,9 +15,9 @@ io.realm.mongodb.auth
    :hidden:
 
 
-   ApiKey </realm/sdk/java/api/io/realm/mongodb/auth/ApiKey>
-   ApiKeyAuth </realm/sdk/java/api/io/realm/mongodb/auth/ApiKeyAuth>
-   EmailPasswordAuth </realm/sdk/java/api/io/realm/mongodb/auth/EmailPasswordAuth>
+   ApiKey </sdk/java/api/io/realm/mongodb/auth/ApiKey>
+   ApiKeyAuth </sdk/java/api/io/realm/mongodb/auth/ApiKeyAuth>
+   EmailPasswordAuth </sdk/java/api/io/realm/mongodb/auth/EmailPasswordAuth>
    
 
 
