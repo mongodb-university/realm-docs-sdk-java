@@ -15,13 +15,13 @@ io.realm.exceptions
    :hidden:
 
 
-   RealmFileException.Kind </realm/sdk/java/api/io/realm/exceptions/RealmFileException/Kind>
-   DownloadingRealmInterruptedException </realm/sdk/java/api/io/realm/exceptions/DownloadingRealmInterruptedException>
-   RealmException </realm/sdk/java/api/io/realm/exceptions/RealmException>
-   RealmFileException </realm/sdk/java/api/io/realm/exceptions/RealmFileException>
-   RealmMigrationNeededException </realm/sdk/java/api/io/realm/exceptions/RealmMigrationNeededException>
-   RealmPrimaryKeyConstraintException </realm/sdk/java/api/io/realm/exceptions/RealmPrimaryKeyConstraintException>
-   RealmError </realm/sdk/java/api/io/realm/exceptions/RealmError>
+   RealmFileException.Kind </sdk/java/api/io/realm/exceptions/RealmFileException/Kind>
+   DownloadingRealmInterruptedException </sdk/java/api/io/realm/exceptions/DownloadingRealmInterruptedException>
+   RealmException </sdk/java/api/io/realm/exceptions/RealmException>
+   RealmFileException </sdk/java/api/io/realm/exceptions/RealmFileException>
+   RealmMigrationNeededException </sdk/java/api/io/realm/exceptions/RealmMigrationNeededException>
+   RealmPrimaryKeyConstraintException </sdk/java/api/io/realm/exceptions/RealmPrimaryKeyConstraintException>
+   RealmError </sdk/java/api/io/realm/exceptions/RealmError>
    
 
 

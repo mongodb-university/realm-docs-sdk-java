@@ -15,9 +15,9 @@ io.realm.mongodb.mongo.events
    :hidden:
 
 
-   BaseChangeEvent </realm/sdk/java/api/io/realm/mongodb/mongo/events/BaseChangeEvent>
-   BaseChangeEvent.OperationType </realm/sdk/java/api/io/realm/mongodb/mongo/events/BaseChangeEvent/OperationType>
-   UpdateDescription </realm/sdk/java/api/io/realm/mongodb/mongo/events/UpdateDescription>
+   BaseChangeEvent </sdk/java/api/io/realm/mongodb/mongo/events/BaseChangeEvent>
+   BaseChangeEvent.OperationType </sdk/java/api/io/realm/mongodb/mongo/events/BaseChangeEvent/OperationType>
+   UpdateDescription </sdk/java/api/io/realm/mongodb/mongo/events/UpdateDescription>
    
 
 

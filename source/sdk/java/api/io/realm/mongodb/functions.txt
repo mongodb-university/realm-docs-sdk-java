@@ -15,7 +15,7 @@ io.realm.mongodb.functions
    :hidden:
 
 
-   Functions </realm/sdk/java/api/io/realm/mongodb/functions/Functions>
+   Functions </sdk/java/api/io/realm/mongodb/functions/Functions>
    
 
 

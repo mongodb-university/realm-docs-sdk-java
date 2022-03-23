@@ -5,4 +5,4 @@ API
    :titlesonly:
    :hidden:
 
-   io </realm/sdk/java/api/io>
+   io </sdk/java/api/io>

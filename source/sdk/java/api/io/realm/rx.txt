@@ -15,10 +15,10 @@ io.realm.rx
    :hidden:
 
 
-   CollectionChange </realm/sdk/java/api/io/realm/rx/CollectionChange>
-   ObjectChange </realm/sdk/java/api/io/realm/rx/ObjectChange>
-   RealmObservableFactory </realm/sdk/java/api/io/realm/rx/RealmObservableFactory>
-   RxObservableFactory </realm/sdk/java/api/io/realm/rx/RxObservableFactory>
+   CollectionChange </sdk/java/api/io/realm/rx/CollectionChange>
+   ObjectChange </sdk/java/api/io/realm/rx/ObjectChange>
+   RealmObservableFactory </sdk/java/api/io/realm/rx/RealmObservableFactory>
+   RxObservableFactory </sdk/java/api/io/realm/rx/RxObservableFactory>
    
 
 

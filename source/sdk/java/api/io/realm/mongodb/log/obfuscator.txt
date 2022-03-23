@@ -15,7 +15,7 @@ io.realm.mongodb.log.obfuscator
    :hidden:
 
 
-   HttpLogObfuscator </realm/sdk/java/api/io/realm/mongodb/log/obfuscator/HttpLogObfuscator>
+   HttpLogObfuscator </sdk/java/api/io/realm/mongodb/log/obfuscator/HttpLogObfuscator>
    
 
 
